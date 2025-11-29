@@ -1,0 +1,527 @@
+[
+  {
+    "question": "To accomplish {{ACTION 1}}, does {{SAAS 1}} provide any configuration between {{PRICE 1}} and {{PRICE 2}} that includes {{FEATURE 1}}?",
+    "plan": {
+      "actions": [
+        {
+          "name": "subscriptions",
+          "filters": {
+            "minPrice": "{{PRICE 1}}",
+            "maxPrice": "{{PRICE 2}}",
+            "features": [
+              "{{FEATURE 1}}"
+            ]
+          },
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "origin": "AI"
+  },
+  {
+    "question": "If our maximum budget is {{PRICE 1}} per month, which configurations of {{SAAS 1}} allow us to achieve {{ACTION 1}} without incurring overage fees?",
+    "plan": {
+      "actions": [
+        {
+          "name": "subscriptions",
+          "filters": {
+            "maxPrice": "{{PRICE 1}}"
+          },
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "origin": "AI"
+  },
+  {
+    "question": "Considering a timeframe spanning {{YEAR 1}} and {{YEAR 2}}, what is the total cost difference between remaining on {{CONFIGURATION 1}} versus upgrading to {{CONFIGURATION 2}} for {{SAAS 1}}?",
+    "plan": {
+      "actions": [
+        {
+          "name": "subscriptions",
+          "pricing_url": "uploaded://pricing/1"
+        },
+        {
+          "name": "subscriptions",
+          "pricing_url": "uploaded://pricing/2"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "origin": "AI"
+  },
+  {
+    "question": "Which configurations of {{SAAS 1}} provide access to {{FEATURE 1}} and {{FEATURE 2}} while maintaining a price point lower than {{PRICE 1}}?",
+    "plan": {
+      "actions": [
+        {
+          "name": "subscriptions",
+          "filters": {
+            "maxPrice": "{{PRICE 1}}",
+            "features": [
+              "{{FEATURE 1}}",
+              "{{FEATURE 2}}"
+            ]
+          },
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "origin": "AI"
+  },
+  {
+    "question": "For a team that needs to {{ACTION 1}} on a daily basis, is {{SAAS 1}} (using {{CONFIGURATION 1}}) more cost-effective than {{SAAS 2}} (using {{CONFIGURATION 2}})?",
+    "plan": {
+      "actions": [],
+      "use_pricing2yaml_spec": false
+    },
+    "origin": "AI"
+  },
+  {
+    "question": "Does {{CONFIGURATION 1}} of {{SAAS 1}} impose a strict limit regarding {{USAGE LIMIT 1}}, and what is the cost per unit if that limit is exceeded?",
+    "plan": {
+      "actions": [],
+      "use_pricing2yaml_spec": false
+    },
+    "origin": "AI"
+  },
+  {
+    "question": "How has the subscription cost for {{CONFIGURATION 1}} of {{SAAS 1}} changed between {{YEAR 1}} and {{YEAR 2}}, and were any new features added to justify the change?",
+    "plan": {
+      "actions": [],
+      "use_pricing2yaml_spec": false
+    },
+    "origin": "AI"
+  },
+  {
+    "question": "Is it cheaper to purchase {{CONFIGURATION 1}} of {{SAAS 1}} and pay for {{FEATURE 1}} as an add-on, or is the all-inclusive {{CONFIGURATION 2}} a better deal?",
+    "plan": {
+      "actions": [
+        {
+          "name": "subscriptions",
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "origin": "AI"
+  },
+  {
+    "question": "Compare the total cost of ownership for {{ACTION 1}} between {{SAAS 1}} and {{SAAS 2}} when constrained to a budget range of {{PRICE 1}} to {{PRICE 2}} annually.",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "filters": {
+            "minPrice": "{{PRICE 1}}",
+            "maxPrice": "{{PRICE 2}}"
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/1"
+        },
+        {
+          "name": "optimal",
+          "filters": {
+            "minPrice": "{{PRICE 1}}",
+            "maxPrice": "{{PRICE 2}}"
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/2"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "origin": "AI"
+  },
+  {
+    "question": "For a startup prioritizing {{ACTION 1}}, which SaaS provider\u2014{{SAAS 1}} or {{SAAS 2}}\u2014offers the best path within a {{PRICE 1}} initial budget?",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "filters": {
+            "maxPrice": "{{PRICE 1}}"
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/1"
+        },
+        {
+          "name": "optimal",
+          "filters": {
+            "maxPrice": "{{PRICE 1}}"
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/2"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "origin": "AI"
+  },
+  {
+    "question": "When {{FEATURE 1}} is mandatory, which option\u2014{{SAAS 1}} or {{SAAS 2}}\u2014minimizes cost-per-user below {{PRICE 1}}?",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "filters": {
+            "maxPrice": "{{PRICE 1}}",
+            "features": [
+              "{{FEATURE 1}}"
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/1"
+        },
+        {
+          "name": "optimal",
+          "filters": {
+            "maxPrice": "{{PRICE 1}}",
+            "features": [
+              "{{FEATURE 1}}"
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/2"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "origin": "AI"
+  },
+  {
+    "question": "Can I have more than one account on the {{CONFIGURATION 1}}?",
+    "plan": {
+      "actions": [],
+      "use_pricing2yaml_spec": false
+    },
+    "origin": "Human"
+  },
+  {
+    "question": "Can the limit of {{USAGE LIMIT 1}} from {{CONFIGURATION 1}} be increased without changing the current plan?",
+    "plan": {
+      "actions": [
+        {
+          "name": "subscriptions",
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "origin": "Human"
+  },
+  {
+    "question": "What is the most cost-effective configuration for {{YEAR 1}} and {{YEAR 2}} if I require {{FEATURE 1}} and {{FEATURE 2}}?",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "filters": {
+            "features": [
+              "{{FEATURE 1}}",
+              "{{FEATURE 2}}"
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/1"
+        },
+        {
+          "name": "optimal",
+          "filters": {
+            "features": [
+              "{{FEATURE 1}}",
+              "{{FEATURE 2}}"
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/2"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "origin": "Human"
+  },
+  {
+    "question": "If I want to do {{ACTION 1}} with a budget of {{PRICE 1}}, what is the most economical option between {{SAAS 1}} and {{SAAS 2}}?",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "filters": {
+            "maxPrice": "{{PRICE 1}}"
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/1"
+        },
+        {
+          "name": "optimal",
+          "filters": {
+            "maxPrice": "{{PRICE 1}}"
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/2"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "origin": "Human"
+  },
+  {
+    "question": "In {{SAAS 1}}, would it be possible to find all the configurations that include {{FEATURE 1}} but keep price within the range between {{PRICE 1}} and {{PRICE 2}}?",
+    "plan": {
+      "actions": [
+        {
+          "name": "subscriptions",
+          "filters": {
+            "features": [
+              "{{FEATURE 1}}"
+            ],
+            "minPrice": "{{PRICE 1}}",
+            "maxPrice": "{{PRICE 2}}"
+          },
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "origin": "Human"
+  },
+  {
+    "question": "My company has a budget of {{PRICE 1}} and needs {{FEATURE 1}} with at least a usage limit of {{USAGE LIMIT 1}}. Which is the best configuration of {{SAAS 1}} that can offer this without exceeding the budget?",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "filters": {
+            "maxPrice": "{{PRICE 1}}",
+            "features": [
+              "{{FEATURE 1}}"
+            ],
+            "usageLimits": [
+              {
+                "{{USAGE LIMIT 1}}": 1
+              }
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "origin": "Human"
+  },
+  {
+    "question": "Does the configuration {{CONFIGURATION 1}} of {{SAAS 1}} include {{FEATURE 1}}?",
+    "plan": {
+      "actions": [
+        {
+          "name": "subscriptions",
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "origin": "Human"
+  },
+  {
+    "question": "In {{SAAS 1}} there is {{FEATURE 1}}; is there a similar one in {{SAAS 2}}?",
+    "plan": {
+      "actions": [],
+      "use_pricing2yaml_spec": false
+    },
+    "origin": "Human"
+  },
+  {
+    "question": "What is the maximum cost that {{SAAS 1}} can generate through a single subscription?",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "objective": "maximize",
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "origin": "Human"
+  },
+  {
+    "question": "Is it worth switching my current configuration {{CONFIGURATION 1}} of {{SAAS 1}} if my budget has gone from {{PRICE 1}} to {{PRICE 2}} and I need {{ACTION 1}}?",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "filters": {
+            "maxPrice": "{{PRICE 2}}"
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "origin": "Human"
+  },
+  {
+    "question": "Which configuration of {{SAAS 1}} is more worthwhile for me if my budget is {{PRICE 1}} and I need a usage limit higher than {{USAGE LIMIT 1}}?",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "filters": {
+            "maxPrice": "{{PRICE 1}}",
+            "usageLimits": [
+              {
+                "{{USAGE LIMIT 1}}": 1
+              }
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "origin": "Human"
+  },
+  {
+    "question": "Between {{YEAR 1}} and {{YEAR 2}}, has {{SAAS 1}} introduced configuration changes that help users with a lower budget?",
+    "plan": {
+      "actions": [
+        {
+          "name": "subscriptions",
+          "pricing_url": "uploaded://pricing/1"
+        },
+        {
+          "name": "subscriptions",
+          "pricing_url": "uploaded://pricing/2"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "origin": "Human"
+  },
+  {
+    "question": "For {{ACTION 1}}, is the {{USAGE LIMIT 1}} of {{CONFIGURATION 1}} of {{SAAS 1}} sufficient?",
+    "plan": {
+      "actions": [
+        {
+          "name": "subscriptions",
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "origin": "Human"
+  },
+  {
+    "question": "Which SaaS products offer {{FEATURE 1}}, {{FEATURE 2}} and {{FEATURE 3}}?",
+    "plan": {
+      "actions": [],
+      "use_pricing2yaml_spec": false
+    },
+    "origin": "Human"
+  },
+  {
+    "question": "What is the best configuration among all these SaaS products for {{ACTION 1}}?",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "filters": {},
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/1"
+        },
+        {
+          "name": "optimal",
+          "filters": {},
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/2"
+        },
+        {
+          "name": "optimal",
+          "filters": {},
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/3"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "origin": "Human"
+  },
+  {
+    "question": "For a team that needs the features {{FEATURE 1}} and {{FEATURE 2}} and with a a size of {{USAGE LIMIT 1}}, which configuration offers the best price?",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "filters": {
+            "features": [
+              "{{FEATURE 1}}",
+              "{{FEATURE 2}}"
+            ],
+            "usageLimits": [
+              {
+                "{{USAGE LIMIT 1}}": 1
+              }
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "origin": "Human"
+  },
+  {
+    "question": "I have a maximum budget of {{PRICE 1}} per month. Which configuration provides the best features without exceeding this limit?",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "filters": {
+            "maxPrice": "{{PRICE 1}}"
+          },
+          "objective": "maximize",
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "origin": "Human"
+  },
+  {
+    "question": "I need to perform {{ACTION 1}}. Compare the prices of {{SAAS 1}} and {{SAAS 2}} to determine which is cheaper for this specific use.",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "filters": {},
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/1"
+        },
+        {
+          "name": "optimal",
+          "filters": {},
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/2"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "origin": "Human"
+  },
+  {
+    "question": "What has been the price increase (in percentage or absolute terms) of {{CONFIGURATION 1}} from {{SAAS 1}} over the past 5 years ({{YEAR 1}}, {{YEAR 2}}, {{YEAR 3}}, {{YEAR 4}} and {{YEAR 5}})?",
+    "plan": {
+      "actions": [],
+      "use_pricing2yaml_spec": false
+    },
+    "origin": "Human"
+  }
+]

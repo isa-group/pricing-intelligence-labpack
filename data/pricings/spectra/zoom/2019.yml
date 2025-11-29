@@ -1,0 +1,686 @@
+syntaxVersion: '2.1'
+saasName: Zoom
+createdAt: '2019-11-17'
+version: '2019'
+billing:
+  monthly: 1.0
+currency: USD
+url: https://web.archive.org/web/20191117042902/https://zoom.us/pricing
+tags:
+  - Video Conferencing Features
+  - Web Conferencing Features
+  - Group Collaboration Features
+  - Security
+features:
+  meetings:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  groupMeetings:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  onlineSupport:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: SUPPORT
+  hdVideo:
+    description: "Up to 720p HD video"
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Video Conferencing Features
+  hdVoice:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Video Conferencing Features
+  activeSpeakerView:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Video Conferencing Features
+  fullScreenView:
+    description: "Show up to 25 video feeds per screen."
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Video Conferencing Features
+  galleryView:
+    description: "Show up to 25 video feeds per screen."
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Video Conferencing Features
+  simultaneousScreenShare:
+    description: "Hosts using the Zoom desktop client can choose to allow multiple participants to share their screens simultaneously during a meeting."
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Video Conferencing Features
+  joinByTelephoneCallIn:
+    description: "Join a Zoom meeting via teleconferencing/audio conferencing (using a traditional telephone)."
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: EXTERNAL_DEVICE
+    tag: Video Conferencing Features
+  virtualBackground:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Video Conferencing Features
+  desktopSharing:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Web Conferencing Features
+  applicationSharing:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Web Conferencing Features
+  personalRoomId:
+    description: "Create your own permanent online meeting room. You can start this meeting at anytime or schedule it for a future use."
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Web Conferencing Features
+  personalMeetingId:
+    description: "Create your own permanent online meeting room. You can start this meeting at anytime or schedule it for a future use."
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Web Conferencing Features
+  instantMeetings:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Web Conferencing Features
+  scheduledMeetings:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Web Conferencing Features
+  chromePlugin:
+    description: "With the Zoom Chrome Extension, you can schedule Zoom meetings directly from Google Calendar, start an instant meeting or schedule a future meeting."
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: EXTENSION
+    tag: Web Conferencing Features
+  outlookPlugin:
+    description: "With the Zoom Microsoft Outlook Plugin you can schedule and start instant Zoom meetings, turn existing events into Zoom meetings and sync free/busy times to the Zoom Client based on your Outlook Calendar."
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: EXTENSION
+    tag: Web Conferencing Features
+  schedulingWithChromeExtension:
+    description: "The Zoom Chrome Extension allows hosts to schedule Zoom cloud meetings directly from Google Calendar."
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: EXTENSION
+    tag: Web Conferencing Features
+  mp4LocalRecording:
+    description: "Zoom local recording saves your meeting recordings in MP4 (video), M4A (audio) and txt (chat) formats."
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Web Conferencing Features
+  m4aLocalRecording:
+    description: "Zoom local recording saves your meeting recordings in MP4 (video), M4A (audio) and txt (chat) formats."
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Web Conferencing Features
+  privateChat:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Web Conferencing Features
+  groupChat:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Web Conferencing Features
+  hostControls:
+    description: "The meeting Host can control the Participant's audio, video and screen sharing options."
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Web Conferencing Features
+  raiseHand:
+    description: "Participants can alert the Host that they have a question when they are muted."
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Web Conferencing Features
+  breakoutRooms:
+    description: "Video Breakout Rooms allow you to split your Zoom meeting into as many as 50 separate sessions for discussion, projects and more."
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Group Collaboration Features
+  macApp:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: EXTERNAL_DEVICE
+    tag: Group Collaboration Features
+  windowsApp:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: EXTERNAL_DEVICE
+    tag: Group Collaboration Features
+  linuxApp:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: EXTERNAL_DEVICE
+    tag: Group Collaboration Features
+  iosApp:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: EXTERNAL_DEVICE
+    tag: Group Collaboration Features
+  androidApp:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: EXTERNAL_DEVICE
+    tag: Group Collaboration Features
+  groupMessaging:
+    description: "Group messaging (Group Chat) allows you to easily send group text, files, screen captures, and images. Presence displays whether chat participants are active on desktop or mobile devices, or busy in meetings."
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Group Collaboration Features
+  groupPresence:
+    description: "Group messaging (Group Chat) allows you to easily send group text, files, screen captures, and images. Presence displays whether chat participants are active on desktop or mobile devices, or busy in meetings."
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Group Collaboration Features
+  screenShareIpadApp:
+    description: "Zoom allows hosts and participants to screen share and co-annotate during meetings from their desktop, tablet and mobile devices running Zoom."
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: EXTERNAL_DEVICE
+    tag: Group Collaboration Features
+  screenShareIphoneApp:
+    description: "Zoom allows hosts and participants to screen share and co-annotate during meetings from their desktop, tablet and mobile devices running Zoom."
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: EXTERNAL_DEVICE
+    tag: Group Collaboration Features
+  coAnnotationScreen:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Group Collaboration Features
+  sharedScreen:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Group Collaboration Features
+  keyboardControl:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Group Collaboration Features
+  mouseControl:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Group Collaboration Features
+  whiteboarding:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Group Collaboration Features
+  multiShare:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Group Collaboration Features
+  secureSocketLayerEncryption:
+    description: "SSL provides communication security and privacy over the Internet for applications such as web, email, instant messaging (IM) and some virtual private networks (VPNs)."
+    valueType: BOOLEAN
+    defaultValue: true
+    type: GUARANTEE
+    tag: Security
+  aes256BitsEncryption:
+    description: "End to end security is an added layer of application security. Zoom can encrypt all presentation content at the application layer using the Advanced Encryption Standard (AES) 256-bit algorithm"
+    valueType: BOOLEAN
+    defaultValue: true
+    type: GUARANTEE
+    tag: Security
+  userManagement:
+    description: "User management allows account Owners and Admins to manage their users, such as add, delete and assign roles and add-on features."
+    valueType: BOOLEAN
+    defaultValue: false
+    type: MANAGEMENT
+  adminFeatureControls:
+    description: "As the account administrator or owner, you have advanced meeting controls, such as enabling and disabling recording, encryption, chat and notifications."
+    valueType: BOOLEAN
+    defaultValue: false
+    type: MANAGEMENT
+  reporting:
+    description: "Run usage reports to learn how many meetings are taking place in your organization, which days, number of participants, number of meeting minutes and more."
+    valueType: BOOLEAN
+    defaultValue: false
+    type: INFORMATION
+  customPersonalMeetingId:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  assignScheduler:
+    description: "Allows you to assign someone else to set up your meetings for you. Assignee must also have a Pro plan."
+    valueType: BOOLEAN
+    defaultValue: false
+    type: MANAGEMENT
+  cloudRecording:
+    description: "Record meetings in the Zoom Cloud, where the file can then be downloaded and/or streamed from a browser. Available formats include MP4 (video), M4A (audio) and txt (chat)."
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  restApi:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: INTEGRATION
+    integrationType: API
+  skypeForBusinessInteroperability:
+    description: "Allows Lync users 2010, 2013 and Skype for Business users to initiate a Zoom meeting from the Lync contact list."
+    valueType: BOOLEAN
+    defaultValue: false
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+  h323SipRoomConnector:
+    description: "Enable H.323/SIP room systems to communicate with desktop, tablet and mobile devices. Learn More. *Add-On Plan: In order to purchase a H.323/SIP Room Connector Plan, you must have at least one Pro Host License. Buy Now."
+    valueType: BOOLEAN
+    defaultValue: false
+    type: INTEGRATION
+    integrationType: EXTERNAL_DEVICE
+  zoomRooms:
+    description: "Software-Defined Video Conferencing system for any sized conference room."
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  tollFreeDialingOrCallMe:
+    description: "Give your attendees more audio-join options."
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  videoWebinars:
+    description: "Up to 100 interactive video participants and up to 10,000 view-only attendees"
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  dedicatedPhoneSupport:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: SUPPORT
+  adminDashboard:
+    description: "The Zoom Dashboard allows administrators on the account to view information ranging from overall usage to live in-meeting data."
+    valueType: BOOLEAN
+    defaultValue: false
+    type: MANAGEMENT
+  vanityUrl:
+    description: "Create your own customized URL (yourcompany.zoom.us)."
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  optionForOnPremiseDeployment:
+    description: "Allows video, voice and content sharing data to be on your private cloud. On-Premise virtual machines (VM) can be installed on any virtualization infrastructure."
+    valueType: BOOLEAN
+    defaultValue: false
+    type: INTEGRATION
+    integrationType: EXTERNAL_DEVICE
+  managedDomains:
+    description: "Use your company/university email address domain to add users to your account automatically."
+    valueType: BOOLEAN
+    defaultValue: false
+    type: MANAGEMENT
+  singleSignOn:
+    description: "Allows you to login using your company credentials. Zoom single sign-on (SSO) is based on SAML 2.0. Zoom can also work with other Service Providers such as PingOne, Okta, Centrify, Shibboleth, Gluu, OneLogin, Fugen, Symplified and Azure AD (including support for user provisioning)."
+    valueType: BOOLEAN
+    defaultValue: false
+    type: INTEGRATION
+    integrationType: IDENTITY_PROVIDER
+  companyBranding:
+    description: "Add your company's branding to your own customized page where your users can join a meeting."
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  customEmails:
+    description: "Create a branded email template to send invites to attendees."
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  ltiIntegration:
+    description: "Easily schedule a meeting with any course activity and invite the right students from your learning management system (works with Moodle, Canvas, Desire2Learn and Blackboard)."
+    valueType: BOOLEAN
+    defaultValue: false
+    type: INTEGRATION
+    integrationType: MARKETPLACE
+  cloudRecordingTranscripts:
+    description: "Auto-generated cloud transcripts included with Business plan and above"
+    valueType: BOOLEAN
+    defaultValue: false
+    type: AUTOMATION
+    automationType: BOT
+  dedicatedCustomerSuccessManager:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: SUPPORT
+  executiveBusinessReviews:
+    description: "Detailed trending adoption analysis, ROI tracking, product roadmap discussions."
+    valueType: BOOLEAN
+    defaultValue: false
+    type: INFORMATION
+  discountsOnWebinarsAndZoomRooms:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+usageLimits:
+  maxParticipants:
+    description: 'A Participant is an invitee in a meeting scheduled by someone with a Host license. Participants can join your meeting for free from their phone, desktop, mobile and tablet devices. A participant does not require a Zoom account in order to join a meeting.'
+    valueType: NUMERIC
+    defaultValue: 100
+    unit: participant
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - meetings
+  maxMeetingDuration:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 40
+    unit: min
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - meetings
+  groupMeetingsLimit:
+    description: 'Zoom offers a full-featured Basic Plan for free with unlimited meetings. Try Zoom for as long as you like - there is no trial period. Your Basic plan has a 40 minutes time limit on meetings with three or more total participants. Need your group meetings to last longer than 40 minutes? Sign up for a Pro Account here.'
+    valueType: NUMERIC
+    defaultValue: 40
+    unit: min
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - groupMeetings
+  maxBreakoutRooms:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 50
+    unit: room
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - breakoutRooms
+  maxCloudRecordingSize:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 0
+    unit: GB
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - cloudRecording
+  videoWebinarsParticipants:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 0
+    unit: participant
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - videoWebinars
+  videoWebinarViewOnlyParticipants:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 0
+    unit: participant
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - videoWebinars
+plans:
+  FREE:
+    description: Personal Meeting
+    price: 0
+    unit: /month
+    features: null
+    usageLimits: null
+  PRO:
+    description: Great for small teams
+    price: 14.99
+    unit: host/month
+    features:
+      userManagement:
+        value: true
+      adminFeatureControls:
+        value: true
+      reporting:
+        value: true
+      customPersonalMeetingId:
+        value: true
+      assignScheduler:
+        value: true
+      cloudRecording:
+        value: true
+      restApi:
+        value: true
+      skypeForBusinessInteroperability:
+        value: true
+    usageLimits:
+      maxParticipants:
+        value: 100
+      maxMeetingDuration:
+        value: 1440
+      groupMeetingsLimit:
+        value: 1440
+      maxCloudRecordingSize:
+        value: 1
+  BUSINESS:
+    description: Small and medium businesses
+    price: 19.99
+    unit: host/month
+    features:
+      userManagement:
+        value: true
+      adminFeatureControls:
+        value: true
+      reporting:
+        value: true
+      customPersonalMeetingId:
+        value: true
+      assignScheduler:
+        value: true
+      cloudRecording:
+        value: true
+      restApi:
+        value: true
+      skypeForBusinessInteroperability:
+        value: true
+      dedicatedPhoneSupport:
+        value: true
+      adminDashboard:
+        value: true
+      vanityUrl:
+        value: true
+      optionForOnPremiseDeployment:
+        value: true
+      managedDomains:
+        value: true
+      singleSignOn:
+        value: true
+      companyBranding:
+        value: true
+      customEmails:
+        value: true
+      ltiIntegration:
+        value: true
+      cloudRecordingTranscripts:
+        value: true
+    usageLimits:
+      maxParticipants:
+        value: 300
+      maxMeetingDuration:
+        value: 1440
+      groupMeetingsLimit:
+        value: 1440
+      maxCloudRecordingSize:
+        value: 1
+  ENTERPRISE:
+    description: Large enterprise-ready
+    price: "Contact us"
+    unit: host/month
+    features:
+      userManagement:
+        value: true
+      adminFeatureControls:
+        value: true
+      reporting:
+        value: true
+      customPersonalMeetingId:
+        value: true
+      assignScheduler:
+        value: true
+      cloudRecording:
+        value: true
+      restApi:
+        value: true
+      skypeForBusinessInteroperability:
+        value: true
+      dedicatedPhoneSupport:
+        value: true
+      adminDashboard:
+        value: true
+      vanityUrl:
+        value: true
+      optionForOnPremiseDeployment:
+        value: true
+      managedDomains:
+        value: true
+      singleSignOn:
+        value: true
+      companyBranding:
+        value: true
+      customEmails:
+        value: true
+      ltiIntegration:
+        value: true
+      cloudRecordingTranscripts:
+        value: true
+      dedicatedCustomerSuccessManager:
+        value: true
+      executiveBusinessReviews:
+        value: true
+      discountsOnWebinarsAndZoomRooms:
+        value: true
+    usageLimits:
+      maxParticipants:
+        value: 500
+      maxMeetingDuration:
+        value: 1440
+      groupMeetingsLimit:
+        value: 1440
+      maxCloudRecordingSize:
+        value: .inf
+addOns:
+  extraCloudRecordingStorage:
+    description: ""
+    availableFor:
+      - PRO
+      - BUSINESS
+    price: 40
+    unit: /month
+    usageLimitsExtensions:
+      maxCloudRecordingSize:
+        value: 1
+  h323SipRoomConnector:
+    description: ""
+    availableFor:
+      - PRO
+      - BUSINESS
+      - ENTERPRISE
+    price: 49
+    unit: /month
+    features:
+      h323SipRoomConnector:
+        value: true
+  zoomRooms:
+    description: ""
+    availableFor:
+      - PRO
+      - BUSINESS
+      - ENTERPRISE
+    price: 49
+    unit: /month
+    features:
+      zoomRooms:
+        value: true
+  audioPlan:
+    description: ""
+    availableFor:
+      - PRO
+    price: 100
+    unit: /month
+    features:
+      tollFreeDialingOrCallMe:
+        value: true
+  tollFreeDialingOrCallMeByUser:
+    description: ""
+    availableFor:
+      - BUSINESS
+      - ENTERPRISE
+    price: 100
+    unit: /month
+    features:
+      tollFreeDialingOrCallMe:
+        value: true
+  addVideoWebinars:
+    description: ""
+    availableFor:
+      - PRO
+      - BUSINESS
+      - ENTERPRISE
+    price: 40
+    unit: /month
+    features:
+      videoWebinars:
+        value: true
+    usageLimits:
+      videoWebinarsParticipants:
+        value: 100
+      videoWebinarViewOnlyParticipants:
+        value: 10000

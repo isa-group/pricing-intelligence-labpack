@@ -1,0 +1,214 @@
+syntaxVersion: '2.1'
+saasName: Jira
+createdAt: '2019-10-30'
+version: '2019-10-30'
+billing:
+  monthly: 1.0
+currency: USD
+url: https://web.archive.org/web/20191030002727/https://www.atlassian.com/software/jira/pricing
+features:
+  advancedPermissions:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: MANAGEMENT
+  scrumAndKanbanBoards:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  backlog:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  agileReporting:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INFORMATION
+  customizableWorkflows:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  roadmaps:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  appsAndIntegrations:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: MARKETPLACE
+  anonymousAccess:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: MANAGEMENT
+  auditLogs:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: INFORMATION
+  uptimeSLA:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: GUARANTEE
+  storage:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  communitySupport:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: SUPPORT
+  localBusinessHoursSupport:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: SUPPORT
+  24x7Support:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: SUPPORT
+  samlSingleSignOn:
+    description: Secure user authentication using SAML. Built-in for self-managed
+      deployments.
+    valueType: BOOLEAN
+    type: INTEGRATION
+    integrationType: IDENTITY_PROVIDER
+    defaultValue: false
+  automatedUserProvisioning:
+    description: Automates the process of creating and managing user accounts.
+    valueType: BOOLEAN
+    type: MANAGEMENT
+    defaultValue: false
+  twoStepVerification:
+    description: Adds an extra layer of security requiring a second form of verification
+      during login.
+    valueType: BOOLEAN
+    type: MANAGEMENT
+    defaultValue: false
+  passwordPolicies:
+    description: Enforce specific rules and requirements for user passwords to enhance
+      security.
+    valueType: BOOLEAN
+    type: MANAGEMENT
+    defaultValue: false
+usageLimits:
+  usersLimit:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 10
+    unit: user/site
+    type: NON_RENEWABLE
+  storageLimit:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 2
+    unit: GB
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - storage
+  users:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 10
+    unit: user
+    type: NON_RENEWABLE
+plans:
+  FREE:
+    description: ''
+    price: 0
+    unit: user/month
+    features: null
+    usageLimits: null
+  STANDARD:
+    description: ''
+    price: 7
+    unit: user/month
+    features:
+      advancedPermissions:
+        value: true
+      anonymousAccess:
+        value: true
+      auditLogs:
+        value: true
+      localBusinessHoursSupport:
+        value: true
+    usageLimits:
+      usersLimit:
+        value: 20000
+      storageLimit:
+        value: 250
+      users:
+        value: 1
+  PREMIUM:
+    description: ''
+    price: 14
+    unit: user/month
+    features:
+      advancedPermissions:
+        value: true
+      anonymousAccess:
+        value: true
+      auditLogs:
+        value: true
+      uptimeSLA:
+        value: true
+      localBusinessHoursSupport:
+        value: true
+      24x7Support:
+        value: true
+    usageLimits:
+      usersLimit:
+        value: 20000
+      storageLimit:
+        value: .inf
+      users:
+        value: 1
+addOns:
+  atlassianAccess:
+    description: Enhances cloud security and user management across all Atlassian
+      cloud products. It provides SAML single sign-on, automated user provisioning,
+      two-step verification, and password policies. Requires a separate subscription.
+    price: Contact Sales
+    unit: user
+    features:
+      samlSingleSignOn:
+        value: true
+      automatedUserProvisioning:
+        value: true
+      twoStepVerification:
+        value: true
+      passwordPolicies:
+        value: true
+    usageLimits: null
+    availableFor:
+    - FREE
+    - STANDARD
+    - PREMIUM
+    dependsOn: []
+    excludes: []
+    usageLimitsExtensions: null
+  extraUser:
+    description: ''
+    price: 7
+    unit: user/month
+    features: null
+    usageLimits: null
+    availableFor:
+    - STANDARD
+    - PREMIUM
+    dependsOn: []
+    excludes: []
+    usageLimitsExtensions:
+      usersLimit:
+        value: 1

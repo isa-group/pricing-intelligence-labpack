@@ -1,0 +1,216 @@
+syntaxVersion: '2.1'
+saasName: Zenhub
+createdAt: '2021-11-27'
+version: '2021'
+billing:
+  monthly: 1.0
+  annual: 0.8
+currency: USD
+url: https://web.archive.org/web/20211127085817/https://www.zenhub.com/pricing
+tags:
+  - Code Management
+  - Support
+  - Project Management
+  - Productivity
+  - Reporting
+features:
+  unlimitedPublicRepositories:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Code Management
+  unlimitedPrivateRepositories:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+    tag: Code Management
+  selfServerKnowledgeBase:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: SUPPORT
+    tag: Support
+  slackUserCommunity24-7:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: SUPPORT
+    tag: Support
+  dedicatedCustomerSuccessManager:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: SUPPORT
+    tag: Support
+  licenseManagement:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: SUPPORT
+    tag: Support
+  taskBoards:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Project Management
+  taskFilters:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: AUTOMATION
+    automationType: FILTERING
+    tag: Project Management
+  customizableTaskBoards:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Project Management
+  multipleIssueAssignees:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Project Management
+  customIssueTemplates:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Project Management
+  issueDependencies:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Project Management
+  issuePriority:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Project Management
+  multiRepoSupport:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Project Management
+  epics:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Project Management
+  estimates:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Project Management
+  sprints:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Project Management
+  roadmaps:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Project Management
+  workflowAutomation:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: AUTOMATION
+    automationType: TASK_AUTOMATION
+    tag: Productivity
+  automatedSprintPlanning:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: AUTOMATION
+    automationType: TASK_AUTOMATION
+    tag: Productivity
+  prIssueLinking:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+    pricingUrls:
+      - https://github.com/pricing
+    tag: Productivity
+  zenhubExtension:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: EXTENSION
+    tag: Productivity
+  burndownChart:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INFORMATION
+    tag: Reporting
+  controlPointChart:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INFORMATION
+    tag: Reporting
+  velocityChart:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INFORMATION
+    tag: Reporting
+  cumulativeFlowDiagrams:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INFORMATION
+    tag: Reporting
+  releaseReport:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INFORMATION
+    tag: Reporting
+usageLimits: null
+plans:
+  FREE:
+    description: ""
+    price: 0
+    unit: /month
+    features: null
+    usageLimits: null
+  GROWTH:
+    description: ""
+    price: 10
+    unit: user/month
+    features:
+      unlimitedPrivateRepositories:
+        value: true
+      licenseManagement:
+        value: true
+    usageLimits: null
+  ENTERPRISE:
+    description: ""
+    price: 12.5
+    unit: 'user/month'
+    features:
+      unlimitedPrivateRepositories:
+        value: true
+      dedicatedCustomerSuccessManager:
+        value: true
+      licenseManagement:
+        value: true
+    usageLimits: null
+addOns: null

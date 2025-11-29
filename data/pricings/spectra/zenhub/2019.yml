@@ -1,0 +1,112 @@
+syntaxVersion: '2.1'
+saasName: Zenhub
+createdAt: '2019-07-30'
+version: '2019'
+billing:
+  monthly: 1.0
+currency: USD
+url: https://web.archive.org/web/20190730121843/https://www.zenhub.com/pricing
+features:
+  apiAccess:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: API
+  burnDownCharts:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  estimates:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  epics:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  unlimitedRepositories:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  multiRepoBoard:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  slackIntegration:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+  cloudHosted:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  onPremisesHostingOnAwsServers:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+  24-5TechSupport:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: SUPPORT
+  unlimitedReposAccrossGithubOrgs:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+usageLimits:
+  onlyForPublicRepos:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: NON_RENEWABLE
+    linkedFeatures:
+      - apiAccess
+      - burnDownCharts
+      - estimates
+      - epics
+      - unlimitedRepositories
+      - multiRepoBoard
+      - slackIntegration
+      - cloudHosted
+plans:
+  FREE:
+    description: ""
+    price: 0
+    unit: /month
+    features: null
+    usageLimits: null
+  GROWTH:
+    description: ""
+    price: 5
+    unit: user/month
+    features: null
+    usageLimits:
+      onlyForPublicRepos:
+        value: false
+  ENTERPRISE:
+    description: ""
+    price: 12.5
+    unit: 'user/month'
+    features:
+      onPremisesHostingOnAwsServers:
+        value: true
+      24-5TechSupport:
+        value: true
+      unlimitedReposAccrossGithubOrgs:
+        value: true
+    usageLimits:
+      onlyForPublicRepos:
+        value: false
+addOns: null

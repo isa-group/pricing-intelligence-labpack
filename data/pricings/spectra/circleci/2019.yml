@@ -1,0 +1,468 @@
+syntaxVersion: '2.1'
+saasName: CircleCI
+createdAt: '2019-11-01'
+version: '2019'
+billing:
+  monthly: 1.0
+currency: USD
+url: https://web.archive.org/web/20191101031017/https://circleci.com/pricing/
+features:
+  parallelJobRuns:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  smallLinux:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  mediumLinux:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  mediumPlusLinux:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  largeLinux:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  xLargeLinux:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  2xLargeLinux:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  2xLargePlusLinux:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  mediumWindows:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  mediumMacOs:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  largeMacOs:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  smallGpu:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  mediumGpu:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  largeGpu:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  dockerLayerCatching:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  flexibleBillingOptions:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: PAYMENT
+  communitySupport:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: SUPPORT
+  supportPortal:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: SUPPORT
+  ticketBasedGlobalSupport:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: SUPPORT
+  8x5SLA:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: SUPPORT
+  24x5SLA:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: SUPPORT
+  24x7SLA:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: SUPPORT
+  dedicatedAccountManager:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: SUPPORT
+  dedicatedSuccessManager:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: SUPPORT
+  dedicatedSuccessEngineer:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: SUPPORT
+  checklistProjectPlanning:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: SUPPORT
+  standardProjectPlanning:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: SUPPORT
+  tailoredProjectPlanning:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: SUPPORT
+  documentedResourcesTraining:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: SUPPORT
+  cseLedTraining:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: SUPPORT
+  emailSupport:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: SUPPORT
+  regularRecurringMeetingsWithYourSuccessTeam:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: SUPPORT
+  goldLevelCommunications:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: SUPPORT
+  dedicatedSlackChannel:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: SUPPORT
+  valueAddedServices:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: SUPPORT
+  urgentSeverityLevel:
+    description: ""
+    valueType: TEXT
+    defaultValue: ""
+    type: SUPPORT
+  highSeverityLevel:
+    description: ""
+    valueType: TEXT
+    defaultValue: ""
+    type: SUPPORT
+  normalSeverityLevel:
+    description: ""
+    valueType: TEXT
+    defaultValue: ""
+    type: SUPPORT
+  lowSeverityLevel:
+    description: ""
+    valueType: TEXT
+    defaultValue: ""
+    type: SUPPORT
+usageLimits:
+  maxUsers:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 1
+    unit: user
+    type: NON_RENEWABLE
+  renewableCredits:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 2500
+    unit: credit/week
+    type: RENEWABLE
+  nonRenewableCredits:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 0
+    unit: credit/week
+    type: NON_RENEWABLE
+  parallelJobRunsLimit:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 1
+    unit: job
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - parallelJobRuns
+  amountOfValueAddedServices:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 0
+    unit: service
+    type: RENEWABLE
+    linkedFeatures:
+    - valueAddedServices
+plans:
+  FREE:
+    description: ""
+    price: 0
+    unit: /month
+    features: null
+    usageLimits: null
+  PERFORMANCE:
+    description: ""
+    price: 15
+    unit: /month
+    features:
+      mediumPlusLinux:
+        value: true
+      largeLinux:
+        value: true
+      xLargeLinux:
+        value: true
+      mediumMacOs:
+        value: true
+      dockerLayerCatching:
+        value: true
+      ticketBasedGlobalSupport:
+        value: true
+    usageLimits:
+      maxUsers:
+        value: 3
+      nonRenewableCredits:
+        value: 25000
+      parallelJobRunsLimit:
+        value: .inf
+  CUSTOM:
+    description: ""
+    price: "Contact us"
+    unit: /month
+    features:
+      mediumPlusLinux:
+        value: true
+      largeLinux:
+        value: true
+      xLargeLinux:
+        value: true
+      2xLargeLinux:
+        value: true
+      2xLargePlusLinux:
+        value: true
+      mediumMacOs:
+        value: true
+      largeMacOs:
+        value: true
+      smallGpu:
+        value: true
+      mediumGpu:
+        value: true
+      largeGpu:
+        value: true
+      dockerLayerCatching:
+        value: true
+      flexibleBillingOptions:
+        value: true
+      ticketBasedGlobalSupport:
+        value: true
+    usageLimits:
+      maxUsers:
+        value: .inf
+      nonRenewableCredits:
+        value: .inf
+      parallelJobRunsLimit:
+        value: .inf
+addOns:
+  extraUsers:
+    description: ""
+    availableFor:
+      - PERFORMANCE
+    price: 15
+    unit: /month
+    usageLimitsExtensions:
+      maxUsers:
+        value: 1
+  extraCredits:
+    description: ""
+    availableFor:
+      - PERFORMANCE
+    price: 15
+    unit: /month
+    usageLimitsExtensions:
+      nonRenewableCredits:
+        value: 25000
+  silverPremiumSupport:
+    description: "https://web.archive.org/web/20191101031017/https://circleci.com/support/premium-support/"
+    excludes:
+      - goldPremiumSupport
+      - platinumPremiumSupport
+    availableFor:
+      - PERFORMANCE
+      - CUSTOM
+    price: "Contact us"
+    unit: /month
+    features:
+      communitySupport:
+        value: true
+      supportPortal:
+        value: true
+      ticketBasedGlobalSupport:
+        value: true
+      8x5SLA:
+        value: true
+      dedicatedAccountManager:
+        value: true
+      dedicatedSuccessManager:
+        value: true
+      checklistProjectPlanning:
+        value: true
+      documentedResourcesTraining:
+        value: true
+      emailSupport:
+        value: true
+      urgentSeverityLevel:
+        value: "2 business hours"
+      highSeverityLevel:
+        value: "4 business hours"
+      normalSeverityLevel:
+        value: "1 business day"
+      lowSeverityLevel:
+        value: "Prompt response"
+  goldPremiumSupport:
+    description: "https://web.archive.org/web/20191101031017/https://circleci.com/support/premium-support/"
+    excludes:
+      - silverPremiumSupport
+      - platinumPremiumSupport
+    availableFor:
+      - CUSTOM
+    price: "Contact us"
+    unit: /month
+    features:
+      communitySupport:
+        value: true
+      supportPortal:
+        value: true
+      ticketBasedGlobalSupport:
+        value: true
+      24x5SLA:
+        value: true
+      dedicatedAccountManager:
+        value: true
+      dedicatedSuccessManager:
+        value: true
+      dedicatedSuccessEngineer:
+        value: true
+      checklistProjectPlanning:
+        value: true
+      standardProjectPlanning:
+        value: true
+      documentedResourcesTraining:
+        value: true
+      cseLedTraining:
+        value: true
+      regularRecurringMeetingsWithYourSuccessTeam:
+        value: true
+      valueAddedServices:
+        value: true
+      emailSupport:
+        value: true
+      urgentSeverityLevel:
+        value: "1 hour 24x5"
+      highSeverityLevel:
+        value: "2 hours 24x5"
+      normalSeverityLevel:
+        value: "8 hours 24x5"
+      lowSeverityLevel:
+        value: "Prompt response"
+    usageLimits:
+      amountOfValueAddedServices:
+        value: 3
+  platinumPremiumSupport:
+    description: "https://web.archive.org/web/20191101031017/https://circleci.com/support/premium-support/"
+    excludes:
+      - silverPremiumSupport
+      - goldPremiumSupport
+    availableFor:
+      - CUSTOM
+    price: "Contact us"
+    unit: /month
+    features:
+      communitySupport:
+        value: true
+      supportPortal:
+        value: true
+      ticketBasedGlobalSupport:
+        value: true
+      24x7SLA:
+        value: true
+      dedicatedAccountManager:
+        value: true
+      dedicatedSuccessManager:
+        value: true
+      dedicatedSuccessEngineer:
+        value: true
+      checklistProjectPlanning:
+        value: true
+      standardProjectPlanning:
+        value: true
+      tailoredProjectPlanning:
+        value: true
+      documentedResourcesTraining:
+        value: true
+      cseLedTraining:
+        value: true
+      regularRecurringMeetingsWithYourSuccessTeam:
+        value: true
+      goldLevelCommunications:
+        value: true
+      dedicatedSlackChannel:
+        value: true
+      valueAddedServices:
+        value: true
+      emailSupport:
+        value: true
+      urgentSeverityLevel:
+        value: "30 minutes 24x5"
+      highSeverityLevel:
+        value: "1 hours 24x5"
+      normalSeverityLevel:
+        value: "2 hours 24x5"
+      lowSeverityLevel:
+        value: "Prompt response"
+    usageLimits:
+      amountOfValueAddedServices:
+        value: 5

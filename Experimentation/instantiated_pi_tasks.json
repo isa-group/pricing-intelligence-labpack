@@ -1,0 +1,3451 @@
+[
+  {
+    "template": "To accomplish {{ACTION 1}}, does {{SAAS 1}} provide any configuration between {{PRICE 1}} and {{PRICE 2}} that includes {{FEATURE 1}}?",
+    "question": "To accomplish managing site roles, content ownership, and user permissions, does Tableau provide any configuration between $40 and $91 that includes create new data flows?",
+    "plan": {
+      "actions": [
+        {
+          "name": "subscriptions",
+          "filters": {
+            "minPrice": 40,
+            "maxPrice": 91,
+            "features": [
+              "createNewDataFlows",
+              "manageUserPermissions"
+            ]
+          },
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/tableau/2021.yml"
+    ]
+  },
+  {
+    "template": "To accomplish {{ACTION 1}}, does {{SAAS 1}} provide any configuration between {{PRICE 1}} and {{PRICE 2}} that includes {{FEATURE 1}}?",
+    "question": "To accomplish contacting customer support via chat, does Pumble provide any configuration between $36 and $175 that includes voice messages?",
+    "plan": {
+      "actions": [
+        {
+          "name": "subscriptions",
+          "filters": {
+            "minPrice": 36,
+            "maxPrice": 175,
+            "features": [
+              "voiceMessages",
+              "chatSupport"
+            ]
+          },
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/pumble/2025.yml"
+    ]
+  },
+  {
+    "template": "To accomplish {{ACTION 1}}, does {{SAAS 1}} provide any configuration between {{PRICE 1}} and {{PRICE 2}} that includes {{FEATURE 1}}?",
+    "question": "To accomplish third party integrations, does Figma provide any configuration between $152 and $169 that includes vscode extension?",
+    "plan": {
+      "actions": [
+        {
+          "name": "subscriptions",
+          "filters": {
+            "minPrice": 152,
+            "maxPrice": 169,
+            "features": [
+              "vscodeExtension",
+              "thirdPartyIntegrations"
+            ]
+          },
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/figma/2025.yml"
+    ]
+  },
+  {
+    "template": "To accomplish {{ACTION 1}}, does {{SAAS 1}} provide any configuration between {{PRICE 1}} and {{PRICE 2}} that includes {{FEATURE 1}}?",
+    "question": "To accomplish managing site roles, content ownership, and user permissions, does Tableau provide any configuration between $150 and $197 that includes create new workbooks based on pre built dashboard starters?",
+    "plan": {
+      "actions": [
+        {
+          "name": "subscriptions",
+          "filters": {
+            "minPrice": 150,
+            "maxPrice": 197,
+            "features": [
+              "createNewWorkbooksBasedOnPreBuiltDashboardStarters",
+              "manageUserPermissions"
+            ]
+          },
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/tableau/2023.yml"
+    ]
+  },
+  {
+    "template": "To accomplish {{ACTION 1}}, does {{SAAS 1}} provide any configuration between {{PRICE 1}} and {{PRICE 2}} that includes {{FEATURE 1}}?",
+    "question": "To accomplish customization of reports, does Buffer provide any configuration between $71 and $122 that includes channels?",
+    "plan": {
+      "actions": [
+        {
+          "name": "subscriptions",
+          "filters": {
+            "minPrice": 71,
+            "maxPrice": 122,
+            "features": [
+              "channels",
+              "customReports"
+            ]
+          },
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/buffer/2024.yml"
+    ]
+  },
+  {
+    "template": "If our maximum budget is {{PRICE 1}} per month, which configurations of {{SAAS 1}} allow us to achieve {{ACTION 1}} without incurring overage fees?",
+    "question": "If our maximum budget is $30 per month, which configurations of Jira allow us to achieve more than 2000 automations without incurring overage fees?",
+    "plan": {
+      "actions": [
+        {
+          "name": "subscriptions",
+          "filters": {
+            "maxPrice": 30,
+            "usageLimits": [
+              {
+                "totalAutomationLimit": 2001
+              }
+            ]
+          },
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/jira/2024.yml"
+    ]
+  },
+  {
+    "template": "If our maximum budget is {{PRICE 1}} per month, which configurations of {{SAAS 1}} allow us to achieve {{ACTION 1}} without incurring overage fees?",
+    "question": "If our maximum budget is $83 per month, which configurations of ClickUp allow us to achieve the use of 2 email accounts per workspace without incurring overage fees?",
+    "plan": {
+      "actions": [
+        {
+          "name": "subscriptions",
+          "filters": {
+            "maxPrice": 83,
+            "usageLimits": [
+              {
+                "useEmailAccountsInClickUp": 2
+              }
+            ]
+          },
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/clickup/2025.yml"
+    ]
+  },
+  {
+    "template": "If our maximum budget is {{PRICE 1}} per month, which configurations of {{SAAS 1}} allow us to achieve {{ACTION 1}} without incurring overage fees?",
+    "question": "If our maximum budget is $125 per month, which configurations of Trustmary - Collect allow us to achieve the ability to send surveys with more than 30 responses without incurring overage fees?",
+    "plan": {
+      "actions": [
+        {
+          "name": "subscriptions",
+          "filters": {
+            "maxPrice": 125,
+            "usageLimits": [
+              {
+                "surveyResponsesLimit": 31
+              }
+            ]
+          },
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/trustmary/2024.yml"
+    ]
+  },
+  {
+    "template": "If our maximum budget is {{PRICE 1}} per month, which configurations of {{SAAS 1}} allow us to achieve {{ACTION 1}} without incurring overage fees?",
+    "question": "If our maximum budget is $12 per month, which configurations of Microsoft - Office 365 For Business allow us to achieve online meetings of at least 250 participants without incurring overage fees?",
+    "plan": {
+      "actions": [
+        {
+          "name": "subscriptions",
+          "filters": {
+            "maxPrice": 12,
+            "usageLimits": [
+              {
+                "onlineMeetingCapacity": 250
+              }
+            ]
+          },
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/microsoft365Business/2019.yml"
+    ]
+  },
+  {
+    "template": "If our maximum budget is {{PRICE 1}} per month, which configurations of {{SAAS 1}} allow us to achieve {{ACTION 1}} without incurring overage fees?",
+    "question": "If our maximum budget is $185 per month, which configurations of Trello allow us to achieve collaborating with more than 100 team members without incurring overage fees?",
+    "plan": {
+      "actions": [
+        {
+          "name": "subscriptions",
+          "filters": {
+            "maxPrice": 185,
+            "usageLimits": [
+              {
+                "workspaceCollaboratorsLimit": 101
+              }
+            ]
+          },
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/trello/2025.yml"
+    ]
+  },
+  {
+    "template": "Considering a timeframe spanning {{YEAR 1}} and {{YEAR 2}}, what is the total cost difference between remaining on {{CONFIGURATION 1}} versus upgrading to {{CONFIGURATION 2}} for {{SAAS 1}}?",
+    "question": "Considering a timeframe spanning 2021 and 2024, what is the total cost difference between remaining on Pro plan versus upgrading to Business plan for HyperContext?",
+    "plan": {
+      "actions": [
+        {
+          "name": "subscriptions",
+          "pricing_url": "uploaded://pricing/1"
+        },
+        {
+          "name": "subscriptions",
+          "pricing_url": "uploaded://pricing/2"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/hypercontext/2021.yml",
+      "data/pricings/spectra/hypercontext/2024.yml"
+    ]
+  },
+  {
+    "template": "Considering a timeframe spanning {{YEAR 1}} and {{YEAR 2}}, what is the total cost difference between remaining on {{CONFIGURATION 1}} versus upgrading to {{CONFIGURATION 2}} for {{SAAS 1}}?",
+    "question": "Considering a timeframe spanning 2019 and 2023, what is the total cost difference between remaining on Ecommerce standard plan versus upgrading to Ecommerce plus plan for Webflow?",
+    "plan": {
+      "actions": [
+        {
+          "name": "subscriptions",
+          "pricing_url": "uploaded://pricing/1"
+        },
+        {
+          "name": "subscriptions",
+          "pricing_url": "uploaded://pricing/2"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/webflow/2019.yml",
+      "data/pricings/spectra/webflow/2023.yml"
+    ]
+  },
+  {
+    "template": "Considering a timeframe spanning {{YEAR 1}} and {{YEAR 2}}, what is the total cost difference between remaining on {{CONFIGURATION 1}} versus upgrading to {{CONFIGURATION 2}} for {{SAAS 1}}?",
+    "question": "Considering a timeframe spanning 2019 and 2021, what is the total cost difference between remaining on Explorer plan versus upgrading to Creator plan for Tableau?",
+    "plan": {
+      "actions": [
+        {
+          "name": "subscriptions",
+          "pricing_url": "uploaded://pricing/1"
+        },
+        {
+          "name": "subscriptions",
+          "pricing_url": "uploaded://pricing/2"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/tableau/2019.yml",
+      "data/pricings/spectra/tableau/2021.yml"
+    ]
+  },
+  {
+    "template": "Considering a timeframe spanning {{YEAR 1}} and {{YEAR 2}}, what is the total cost difference between remaining on {{CONFIGURATION 1}} versus upgrading to {{CONFIGURATION 2}} for {{SAAS 1}}?",
+    "question": "Considering a timeframe spanning 2019 and 2024, what is the total cost difference between remaining on Standard plan versus upgrading to Premium plan for MailChimp?",
+    "plan": {
+      "actions": [
+        {
+          "name": "subscriptions",
+          "pricing_url": "uploaded://pricing/1"
+        },
+        {
+          "name": "subscriptions",
+          "pricing_url": "uploaded://pricing/2"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/mailchimp/2019.yml",
+      "data/pricings/spectra/mailchimp/2024.yml"
+    ]
+  },
+  {
+    "template": "Considering a timeframe spanning {{YEAR 1}} and {{YEAR 2}}, what is the total cost difference between remaining on {{CONFIGURATION 1}} versus upgrading to {{CONFIGURATION 2}} for {{SAAS 1}}?",
+    "question": "Considering a timeframe spanning 2021 and 2023, what is the total cost difference between remaining on Basic plan versus upgrading to Business plan for HyperContext?",
+    "plan": {
+      "actions": [
+        {
+          "name": "subscriptions",
+          "pricing_url": "uploaded://pricing/1"
+        },
+        {
+          "name": "subscriptions",
+          "pricing_url": "uploaded://pricing/2"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/hypercontext/2021.yml",
+      "data/pricings/spectra/hypercontext/2023.yml"
+    ]
+  },
+  {
+    "template": "Which configurations of {{SAAS 1}} provide access to {{FEATURE 1}} and {{FEATURE 2}} while maintaining a price point lower than {{PRICE 1}}?",
+    "question": "Which configurations of Shopify provide access to fast checkout and usps priority mail cubic pricing while maintaining a price point lower than $173?",
+    "plan": {
+      "actions": [
+        {
+          "name": "subscriptions",
+          "filters": {
+            "maxPrice": 172.99,
+            "features": [
+              "fastCheckout",
+              "uspsPriorityMailCubicPricing"
+            ]
+          },
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/shopify/2020.yml"
+    ]
+  },
+  {
+    "template": "Which configurations of {{SAAS 1}} provide access to {{FEATURE 1}} and {{FEATURE 2}} while maintaining a price point lower than {{PRICE 1}}?",
+    "question": "Which configurations of Overleaf provide access to templates and git integration while maintaining a price point lower than $97?",
+    "plan": {
+      "actions": [
+        {
+          "name": "subscriptions",
+          "filters": {
+            "maxPrice": 96.99,
+            "features": [
+              "templates",
+              "gitIntegration"
+            ]
+          },
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/overleaf/2021.yml"
+    ]
+  },
+  {
+    "template": "Which configurations of {{SAAS 1}} provide access to {{FEATURE 1}} and {{FEATURE 2}} while maintaining a price point lower than {{PRICE 1}}?",
+    "question": "Which configurations of Clockify provide access to targets and reminders and integrations while maintaining a price point lower than $83?",
+    "plan": {
+      "actions": [
+        {
+          "name": "subscriptions",
+          "filters": {
+            "maxPrice": 82.99,
+            "features": [
+              "targetsAndReminders",
+              "integrations"
+            ]
+          },
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/clockify/2020.yml"
+    ]
+  },
+  {
+    "template": "Which configurations of {{SAAS 1}} provide access to {{FEATURE 1}} and {{FEATURE 2}} while maintaining a price point lower than {{PRICE 1}}?",
+    "question": "Which configurations of slack provide access to priority support and slack ai while maintaining a price point lower than $175?",
+    "plan": {
+      "actions": [
+        {
+          "name": "subscriptions",
+          "filters": {
+            "maxPrice": 174.99,
+            "features": [
+              "prioritySupport",
+              "slackAI"
+            ]
+          },
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/slack/2025.yml"
+    ]
+  },
+  {
+    "template": "Which configurations of {{SAAS 1}} provide access to {{FEATURE 1}} and {{FEATURE 2}} while maintaining a price point lower than {{PRICE 1}}?",
+    "question": "Which configurations of Figma provide access to private projects and figma editor while maintaining a price point lower than $157?",
+    "plan": {
+      "actions": [
+        {
+          "name": "subscriptions",
+          "filters": {
+            "maxPrice": 156.99,
+            "features": [
+              "privateProjects",
+              "figmaEditor"
+            ]
+          },
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/figma/2022.yml"
+    ]
+  },
+  {
+    "template": "For a team that needs to {{ACTION 1}} on a daily basis, is {{SAAS 1}} (using {{CONFIGURATION 1}}) more cost-effective than {{SAAS 2}} (using {{CONFIGURATION 2}})?",
+    "question": "For a team that needs to managing team tasks on a daily basis, is Trello (using Enterprise plan) more cost-effective than Wrike (using Business plan)?",
+    "plan": {
+      "actions": [],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/trello/2019.yml",
+      "data/pricings/spectra/wrike/2019.yml"
+    ]
+  },
+  {
+    "template": "For a team that needs to {{ACTION 1}} on a daily basis, is {{SAAS 1}} (using {{CONFIGURATION 1}}) more cost-effective than {{SAAS 2}} (using {{CONFIGURATION 2}})?",
+    "question": "For a team that needs to managing complex tasks on a daily basis, is HyperContext (using Pro plan) more cost-effective than ClickUp (using Business plus plan)?",
+    "plan": {
+      "actions": [],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/hypercontext/2021.yml",
+      "data/pricings/spectra/clickup/2021.yml"
+    ]
+  },
+  {
+    "template": "For a team that needs to {{ACTION 1}} on a daily basis, is {{SAAS 1}} (using {{CONFIGURATION 1}}) more cost-effective than {{SAAS 2}} (using {{CONFIGURATION 2}})?",
+    "question": "For a team that needs to facilitating remote work on a daily basis, is ClickUp (using Enterprise plan) more cost-effective than Trello (using Enterprise plan)?",
+    "plan": {
+      "actions": [],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/clickup/2019.yml",
+      "data/pricings/spectra/trello/2019.yml"
+    ]
+  },
+  {
+    "template": "For a team that needs to {{ACTION 1}} on a daily basis, is {{SAAS 1}} (using {{CONFIGURATION 1}}) more cost-effective than {{SAAS 2}} (using {{CONFIGURATION 2}})?",
+    "question": "For a team that needs to launching marketing campaigns on a daily basis, is MailChimp (using Premium plan) more cost-effective than Trustmary - Full (using Light plan)?",
+    "plan": {
+      "actions": [],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/mailchimp/2020.yml",
+      "data/pricings/spectra/trustmary/2020.yml"
+    ]
+  },
+  {
+    "template": "For a team that needs to {{ACTION 1}} on a daily basis, is {{SAAS 1}} (using {{CONFIGURATION 1}}) more cost-effective than {{SAAS 2}} (using {{CONFIGURATION 2}})?",
+    "question": "For a team that needs to managing code repositories on a daily basis, is Jira (using Enterprise plan) more cost-effective than Wrike (using Enterprise plan)?",
+    "plan": {
+      "actions": [],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/jira/2020.yml",
+      "data/pricings/spectra/wrike/2020.yml"
+    ]
+  },
+  {
+    "template": "Does {{CONFIGURATION 1}} of {{SAAS 1}} impose a strict limit regarding {{USAGE LIMIT 1}}, and what is the cost per unit if that limit is exceeded?",
+    "question": "Does Business plan of ClickUp impose a strict limit regarding use email in click up, and what is the cost per unit if that limit is exceeded?",
+    "plan": {
+      "actions": [],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/clickup/2024.yml"
+    ]
+  },
+  {
+    "template": "Does {{CONFIGURATION 1}} of {{SAAS 1}} impose a strict limit regarding {{USAGE LIMIT 1}}, and what is the cost per unit if that limit is exceeded?",
+    "question": "Does Enterprise plan of Clockify impose a strict limit regarding reports limit, and what is the cost per unit if that limit is exceeded?",
+    "plan": {
+      "actions": [],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/clockify/2019.yml"
+    ]
+  },
+  {
+    "template": "Does {{CONFIGURATION 1}} of {{SAAS 1}} impose a strict limit regarding {{USAGE LIMIT 1}}, and what is the cost per unit if that limit is exceeded?",
+    "question": "Does Business plan of Hypercontext impose a strict limit regarding meeting search, and what is the cost per unit if that limit is exceeded?",
+    "plan": {
+      "actions": [],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/hypercontext/2022.yml"
+    ]
+  },
+  {
+    "template": "Does {{CONFIGURATION 1}} of {{SAAS 1}} impose a strict limit regarding {{USAGE LIMIT 1}}, and what is the cost per unit if that limit is exceeded?",
+    "question": "Does Medium business plan of Buffer - Publish impose a strict limit regarding users limit, and what is the cost per unit if that limit is exceeded?",
+    "plan": {
+      "actions": [],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/buffer/2020.yml"
+    ]
+  },
+  {
+    "template": "Does {{CONFIGURATION 1}} of {{SAAS 1}} impose a strict limit regarding {{USAGE LIMIT 1}}, and what is the cost per unit if that limit is exceeded?",
+    "question": "Does Basic plan of Shopify impose a strict limit regarding api rate limits, and what is the cost per unit if that limit is exceeded?",
+    "plan": {
+      "actions": [],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/shopify/2025.yml"
+    ]
+  },
+  {
+    "template": "How has the subscription cost for {{CONFIGURATION 1}} of {{SAAS 1}} changed between {{YEAR 1}} and {{YEAR 2}}, and were any new features added to justify the change?",
+    "question": "How has the subscription cost for Free plan of CircleCI - Cloud changed between 2022 and 2025, and were any new features added to justify the change?",
+    "plan": {
+      "actions": [],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/circleci/2022.yml",
+      "data/pricings/spectra/circleci/2025.yml"
+    ]
+  },
+  {
+    "template": "How has the subscription cost for {{CONFIGURATION 1}} of {{SAAS 1}} changed between {{YEAR 1}} and {{YEAR 2}}, and were any new features added to justify the change?",
+    "question": "How has the subscription cost for Starter plan of Trustmary - Collect changed between 2023 and 2024, and were any new features added to justify the change?",
+    "plan": {
+      "actions": [],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/trustmary/2023.yml",
+      "data/pricings/spectra/trustmary/2024.yml"
+    ]
+  },
+  {
+    "template": "How has the subscription cost for {{CONFIGURATION 1}} of {{SAAS 1}} changed between {{YEAR 1}} and {{YEAR 2}}, and were any new features added to justify the change?",
+    "question": "How has the subscription cost for Free plan of Pumble changed between 2021 and 2022, and were any new features added to justify the change?",
+    "plan": {
+      "actions": [],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/pumble/2021.yml",
+      "data/pricings/spectra/pumble/2022.yml"
+    ]
+  },
+  {
+    "template": "How has the subscription cost for {{CONFIGURATION 1}} of {{SAAS 1}} changed between {{YEAR 1}} and {{YEAR 2}}, and were any new features added to justify the change?",
+    "question": "How has the subscription cost for Enterprise plan of Trello changed between 2019 and 2020, and were any new features added to justify the change?",
+    "plan": {
+      "actions": [],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/trello/2019.yml",
+      "data/pricings/spectra/trello/2020.yml"
+    ]
+  },
+  {
+    "template": "How has the subscription cost for {{CONFIGURATION 1}} of {{SAAS 1}} changed between {{YEAR 1}} and {{YEAR 2}}, and were any new features added to justify the change?",
+    "question": "How has the subscription cost for Free plan of Planable changed between 2023 and 2024, and were any new features added to justify the change?",
+    "plan": {
+      "actions": [],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/planable/2023.yml",
+      "data/pricings/spectra/planable/2024.yml"
+    ]
+  },
+  {
+    "template": "Is it cheaper to purchase {{CONFIGURATION 1}} of {{SAAS 1}} and pay for {{FEATURE 1}} as an add-on, or is the all-inclusive {{CONFIGURATION 2}} a better deal?",
+    "question": "Is it cheaper to purchase Enterprise plan of Planable and pay for feed view as an add-on, or is the all-inclusive Enterprise plan a better deal?",
+    "plan": {
+      "actions": [
+        {
+          "name": "subscriptions",
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/planable/2022.yml"
+    ]
+  },
+  {
+    "template": "Is it cheaper to purchase {{CONFIGURATION 1}} of {{SAAS 1}} and pay for {{FEATURE 1}} as an add-on, or is the all-inclusive {{CONFIGURATION 2}} a better deal?",
+    "question": "Is it cheaper to purchase Free plan of Jira and pay for Atlassian Access as an add-on, or is the all-inclusive Enterprise plan a better deal?",
+    "plan": {
+      "actions": [
+        {
+          "name": "subscriptions",
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/jira/2020.yml"
+    ]
+  },
+  {
+    "template": "Is it cheaper to purchase {{CONFIGURATION 1}} of {{SAAS 1}} and pay for {{FEATURE 1}} as an add-on, or is the all-inclusive {{CONFIGURATION 2}} a better deal?",
+    "question": "Is it cheaper to purchase Performance plan of CircleCI - Cloud and pay for silver premium support as an add-on, or is the all-inclusive Scale plan a better deal?",
+    "plan": {
+      "actions": [
+        {
+          "name": "subscriptions",
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/circleci/2020.yml"
+    ]
+  },
+  {
+    "template": "Is it cheaper to purchase {{CONFIGURATION 1}} of {{SAAS 1}} and pay for {{FEATURE 1}} as an add-on, or is the all-inclusive {{CONFIGURATION 2}} a better deal?",
+    "question": "Is it cheaper to purchase Free plan of Jira and pay for Atlassian Guard as an add-on, or is the all-inclusive Enterprise plan a better deal?",
+    "plan": {
+      "actions": [
+        {
+          "name": "subscriptions",
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/jira/2024.yml"
+    ]
+  },
+  {
+    "template": "Is it cheaper to purchase {{CONFIGURATION 1}} of {{SAAS 1}} and pay for {{FEATURE 1}} as an add-on, or is the all-inclusive {{CONFIGURATION 2}} a better deal?",
+    "question": "Is it cheaper to purchase Enterprise plan of Box and pay for Box Zones as an add-on, or is the all-inclusive Enterprise plus plan a better deal?",
+    "plan": {
+      "actions": [
+        {
+          "name": "subscriptions",
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/box/2025.yml"
+    ]
+  },
+  {
+    "template": "Compare the total cost of ownership for {{ACTION 1}} between {{SAAS 1}} and {{SAAS 2}} when constrained to a budget range of {{PRICE 1}} to {{PRICE 2}} annually.",
+    "question": "Compare the total cost of ownership for sending 500 emails per month between Trustmary - Full Suite and MailChimp - Marketing when constrained to a budget range of $60 to $84 annually.",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "filters": {
+            "minPrice": 5,
+            "maxPrice": 7,
+            "usageLimits": [
+              {
+                "monthlyEmailRequestsLimit": 500
+              }
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/1"
+        },
+        {
+          "name": "optimal",
+          "filters": {
+            "minPrice": 5,
+            "maxPrice": 7,
+            "usageLimits": [
+              {
+                "monthlyEmailSends": 500
+              }
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/2"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/trustmary/2025.yml",
+      "data/pricings/spectra/mailchimp/2025.yml"
+    ]
+  },
+  {
+    "template": "Compare the total cost of ownership for {{ACTION 1}} between {{SAAS 1}} and {{SAAS 2}} when constrained to a budget range of {{PRICE 1}} to {{PRICE 2}} annually.",
+    "question": "Compare the total cost of ownership for using single sign-on between Trello and Wrike when constrained to a budget range of $144 to $312 annually.",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "filters": {
+            "minPrice": 12,
+            "maxPrice": 26,
+            "features": [
+              "singleSignOn"
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/1"
+        },
+        {
+          "name": "optimal",
+          "filters": {
+            "minPrice": 12,
+            "maxPrice": 26,
+            "features": [
+              "singleSignOn"
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/2"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/trello/2019.yml",
+      "data/pricings/spectra/wrike/2019.yml"
+    ]
+  },
+  {
+    "template": "Compare the total cost of ownership for {{ACTION 1}} between {{SAAS 1}} and {{SAAS 2}} when constrained to a budget range of {{PRICE 1}} to {{PRICE 2}} annually.",
+    "question": "Compare the total cost of ownership for using SAML single sign-on between ClickUp and Notion when constrained to a budget range of $72 to $180 annually.",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "filters": {
+            "minPrice": 6,
+            "maxPrice": 15,
+            "features": [
+              "customSamlSSO"
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/1"
+        },
+        {
+          "name": "optimal",
+          "filters": {
+            "minPrice": 6,
+            "maxPrice": 15,
+            "features": [
+              "samlSso"
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/2"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/clickup/2025.yml",
+      "data/pricings/spectra/notion/2025.yml"
+    ]
+  },
+  {
+    "template": "Compare the total cost of ownership for {{ACTION 1}} between {{SAAS 1}} and {{SAAS 2}} when constrained to a budget range of {{PRICE 1}} to {{PRICE 2}} annually.",
+    "question": "Compare the total cost of ownership for integrating with Zapier between Buffer and Crowdcast when constrained to a budget range of $120 to $144 annually.",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "filters": {
+            "minPrice": 10,
+            "maxPrice": 12,
+            "features": [
+              "thirdPartyIntegrations"
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/1"
+        },
+        {
+          "name": "optimal",
+          "filters": {
+            "minPrice": 10,
+            "maxPrice": 12,
+            "features": [
+              "zapierIntegration"
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/2"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/buffer/2021.yml",
+      "data/pricings/spectra/crowdcast/2021.yml"
+    ]
+  },
+  {
+    "template": "Compare the total cost of ownership for {{ACTION 1}} between {{SAAS 1}} and {{SAAS 2}} when constrained to a budget range of {{PRICE 1}} to {{PRICE 2}} annually.",
+    "question": "Compare the total cost of ownership for storaging 3000 GB of data between Box and Dropbox when constrained to a budget range of $84 to $108 annually.",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "filters": {
+            "minPrice": 7,
+            "maxPrice": 9,
+            "usageLimits": [
+              {
+                "storageLimit": 3000
+              }
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/1"
+        },
+        {
+          "name": "optimal",
+          "filters": {
+            "minPrice": 7,
+            "maxPrice": 9,
+            "usageLimits": [
+              {
+                "storageLimit": 3000
+              }
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/2"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/box/2022.yml",
+      "data/pricings/spectra/dropbox/2022.yml"
+    ]
+  },
+  {
+    "template": "For a startup prioritizing {{ACTION 1}}, which SaaS provider\u2014{{SAAS 1}} or {{SAAS 2}}\u2014offers the best path within a {{PRICE 1}} initial budget?",
+    "question": "For a startup prioritizing the access of more than 100 users, which SaaS provider\u2014ClickUp or Box\u2014offers the best path within a $187 initial budget?",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "filters": {
+            "maxPrice": 187,
+            "usageLimits": [
+              {
+                "useUsers": 101
+              }
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/1"
+        },
+        {
+          "name": "optimal",
+          "filters": {
+            "maxPrice": 187,
+            "usageLimits": [
+              {
+                "maxUsers": 101
+              }
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/2"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/clickup/2019.yml",
+      "data/pricings/spectra/box/2019.yml"
+    ]
+  },
+  {
+    "template": "For a startup prioritizing {{ACTION 1}}, which SaaS provider\u2014{{SAAS 1}} or {{SAAS 2}}\u2014offers the best path within a {{PRICE 1}} initial budget?",
+    "question": "For a startup prioritizing having single sign-on, which SaaS provider\u2014Trello or Wrike\u2014offers the best path within a $129 initial budget?",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "filters": {
+            "maxPrice": 129,
+            "usageLimits": [
+              {
+                "singleSignOn": true
+              }
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/1"
+        },
+        {
+          "name": "optimal",
+          "filters": {
+            "maxPrice": 129,
+            "usageLimits": [
+              {
+                "singleSignOn": true
+              }
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/2"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/trello/2021.yml",
+      "data/pricings/spectra/wrike/2021.yml"
+    ]
+  },
+  {
+    "template": "For a startup prioritizing {{ACTION 1}}, which SaaS provider\u2014{{SAAS 1}} or {{SAAS 2}}\u2014offers the best path within a {{PRICE 1}} initial budget?",
+    "question": "For a startup prioritizing commenting designs and canvases, which SaaS provider\u2014Figma or Canva\u2014offers the best path within a $137 initial budget?",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "filters": {
+            "maxPrice": 137,
+            "features": [
+              "onCanvasCommenting"
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/1"
+        },
+        {
+          "name": "optimal",
+          "filters": {
+            "maxPrice": 137,
+            "features": [
+              "addCommentsToDesigns"
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/2"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/figma/2020.yml",
+      "data/pricings/spectra/canva/2020.yml"
+    ]
+  },
+  {
+    "template": "For a startup prioritizing {{ACTION 1}}, which SaaS provider\u2014{{SAAS 1}} or {{SAAS 2}}\u2014offers the best path within a {{PRICE 1}} initial budget?",
+    "question": "For a startup prioritizing integrating AI in every aspect of their work to improve productivity and their content, which SaaS provider\u2014ClickUp or Deskera - ERP\u2014offers the best path within a $152 initial budget?",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "filters": {
+            "maxPrice": 152,
+            "features": [
+              "clickUpAI"
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/1"
+        },
+        {
+          "name": "optimal",
+          "filters": {
+            "maxPrice": 152,
+            "features": [
+              "aiAssistant"
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/2"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/clickup/2025.yml",
+      "data/pricings/spectra/buffer/2025.yml"
+    ]
+  },
+  {
+    "template": "For a startup prioritizing {{ACTION 1}}, which SaaS provider\u2014{{SAAS 1}} or {{SAAS 2}}\u2014offers the best path within a {{PRICE 1}} initial budget?",
+    "question": "For a startup prioritizing mobile access, which SaaS provider\u2014Box or Quip\u2014offers the best path within a $18 initial budget?",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "filters": {
+            "maxPrice": 18,
+            "features": [
+              "mobileAccess"
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/1"
+        },
+        {
+          "name": "optimal",
+          "filters": {
+            "maxPrice": 18,
+            "features": [
+              "mobileAccess"
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/2"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/box/2019.yml",
+      "data/pricings/spectra/quip/2019.yml"
+    ]
+  },
+  {
+    "template": "When {{FEATURE 1}} is mandatory, which option\u2014{{SAAS 1}} or {{SAAS 2}}\u2014minimizes cost-per-user below {{PRICE 1}}?",
+    "question": "When dedicated csm is mandatory, which option\u2014HyperContext or ClickUp\u2014minimizes cost-per-user below $91?",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "filters": {
+            "maxPrice": 91,
+            "features": [
+              "dedicatedCSM"
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/1"
+        },
+        {
+          "name": "optimal",
+          "filters": {
+            "maxPrice": 91,
+            "features": [
+              "dedicatedCustomerSuccessManager"
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/2"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/hypercontext/2021.yml",
+      "data/pricings/spectra/clickup/2021.yml"
+    ]
+  },
+  {
+    "template": "When {{FEATURE 1}} is mandatory, which option\u2014{{SAAS 1}} or {{SAAS 2}}\u2014minimizes cost-per-user below {{PRICE 1}}?",
+    "question": "When single sign on is mandatory, which option\u2014Quip or ClickUp\u2014minimizes cost-per-user below $186?",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "filters": {
+            "maxPrice": 186,
+            "features": [
+              "singleSignOn"
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/1"
+        },
+        {
+          "name": "optimal",
+          "filters": {
+            "maxPrice": 186,
+            "features": [
+              "googleSSO"
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/2"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/quip/2020.yml",
+      "data/pricings/spectra/clickup/2020.yml"
+    ]
+  },
+  {
+    "template": "When {{FEATURE 1}} is mandatory, which option\u2014{{SAAS 1}} or {{SAAS 2}}\u2014minimizes cost-per-user below {{PRICE 1}}?",
+    "question": "When integrating slack is mandatory, which option\u2014Notion or Box - Businesses\u2014minimizes cost-per-user below $56?",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "filters": {
+            "maxPrice": 56,
+            "features": [
+              "slackIntegration"
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/1"
+        },
+        {
+          "name": "optimal",
+          "filters": {
+            "maxPrice": 56,
+            "features": [
+              "slackIntegration"
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/2"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/notion/2025.yml",
+      "data/pricings/spectra/box/2025.yml"
+    ]
+  },
+  {
+    "template": "When {{FEATURE 1}} is mandatory, which option\u2014{{SAAS 1}} or {{SAAS 2}}\u2014minimizes cost-per-user below {{PRICE 1}}?",
+    "question": "When single sign on is mandatory, which option\u2014Evernote or Quip\u2014minimizes cost-per-user below $26?",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "filters": {
+            "maxPrice": 26,
+            "features": [
+              "singleSignOn"
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/1"
+        },
+        {
+          "name": "optimal",
+          "filters": {
+            "maxPrice": 26,
+            "features": [
+              "singleSignOn"
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/2"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/evernote/2020.yml",
+      "data/pricings/spectra/quip/2020.yml"
+    ]
+  },
+  {
+    "template": "When {{FEATURE 1}} is mandatory, which option\u2014{{SAAS 1}} or {{SAAS 2}}\u2014minimizes cost-per-user below {{PRICE 1}}?",
+    "question": "When builtin automation is mandatory, which option\u2014Trello or Deskera - ERP\u2014minimizes cost-per-user below $104?",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "filters": {
+            "maxPrice": 104,
+            "features": [
+              "builtinAutomation"
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/1"
+        },
+        {
+          "name": "optimal",
+          "filters": {
+            "maxPrice": 104,
+            "features": [
+              "builtinAutomation"
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/2"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/trello/2025.yml",
+      "data/pricings/spectra/deskera/2025.yml"
+    ]
+  },
+  {
+    "template": "Can I have more than one account on the {{CONFIGURATION 1}}?",
+    "question": "Can I have more than one account on the Pro plan?",
+    "plan": {
+      "actions": [],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/crowdcast/2025.yml"
+    ]
+  },
+  {
+    "template": "Can I have more than one account on the {{CONFIGURATION 1}}?",
+    "question": "Can I have more than one account on the Free plan?",
+    "plan": {
+      "actions": [],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/circleci/2020.yml"
+    ]
+  },
+  {
+    "template": "Can I have more than one account on the {{CONFIGURATION 1}}?",
+    "question": "Can I have more than one account on the Standard plan?",
+    "plan": {
+      "actions": [],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/overleaf/2022.yml"
+    ]
+  },
+  {
+    "template": "Can I have more than one account on the {{CONFIGURATION 1}}?",
+    "question": "Can I have more than one account on the free plan?",
+    "plan": {
+      "actions": [],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/canva/2019.yml"
+    ]
+  },
+  {
+    "template": "Can I have more than one account on the {{CONFIGURATION 1}}?",
+    "question": "Can I have more than one account on the Starter plan?",
+    "plan": {
+      "actions": [],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/quip/2020.yml"
+    ]
+  },
+  {
+    "template": "Can the limit of {{USAGE LIMIT 1}} from {{CONFIGURATION 1}} be increased without changing the current plan?",
+    "question": "Can the limit of only for public repos from Free plan be increased without changing the current plan?",
+    "plan": {
+      "actions": [
+        {
+          "name": "subscriptions",
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/zenhub/2020.yml"
+    ]
+  },
+  {
+    "template": "Can the limit of {{USAGE LIMIT 1}} from {{CONFIGURATION 1}} be increased without changing the current plan?",
+    "question": "Can the limit of unhosted sites limit from Workspaces inhouse core plan be increased without changing the current plan?",
+    "plan": {
+      "actions": [
+        {
+          "name": "subscriptions",
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/webflow/2022.yml"
+    ]
+  },
+  {
+    "template": "Can the limit of {{USAGE LIMIT 1}} from {{CONFIGURATION 1}} be increased without changing the current plan?",
+    "question": "Can the limit of yearly sales volume limit from Website cms plan be increased without changing the current plan?",
+    "plan": {
+      "actions": [
+        {
+          "name": "subscriptions",
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/webflow/2020.yml"
+    ]
+  },
+  {
+    "template": "Can the limit of {{USAGE LIMIT 1}} from {{CONFIGURATION 1}} be increased without changing the current plan?",
+    "question": "Can the limit of unlimited suveys from Starter plan be increased without changing the current plan?",
+    "plan": {
+      "actions": [
+        {
+          "name": "subscriptions",
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/trustmary/2024.yml"
+    ]
+  },
+  {
+    "template": "Can the limit of {{USAGE LIMIT 1}} from {{CONFIGURATION 1}} be increased without changing the current plan?",
+    "question": "Can the limit of max users from Apps for business plan be increased without changing the current plan?",
+    "plan": {
+      "actions": [
+        {
+          "name": "subscriptions",
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/microsoft365Business/2022.yml"
+    ]
+  },
+  {
+    "template": "What is the most cost-effective configuration for {{YEAR 1}} and {{YEAR 2}} if I require {{FEATURE 1}} and {{FEATURE 2}}?",
+    "question": "What is the most cost-effective configuration for 2020 and 2025 if I require encryption in transit and at rest and user counts?",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "filters": {
+            "features": [
+              "encryptionInTransitAndAtRest"
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/1"
+        },
+        {
+          "name": "optimal",
+          "filters": {
+            "features": [
+              "encryptionInTransitAndAtRest",
+              "userCounts"
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/2"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/jira/2020.yml",
+      "data/pricings/spectra/jira/2025.yml"
+    ]
+  },
+  {
+    "template": "What is the most cost-effective configuration for {{YEAR 1}} and {{YEAR 2}} if I require {{FEATURE 1}} and {{FEATURE 2}}?",
+    "question": "What is the most cost-effective configuration for 2019 and 2024 if I require premier support and super admin?",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "filters": {
+            "features": [
+              "premierSupport"
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/1"
+        },
+        {
+          "name": "optimal",
+          "filters": {
+            "features": [
+              "premierSupport",
+              "superAdmin"
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/2"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/zapier/2019.yml",
+      "data/pricings/spectra/zapier/2024.yml"
+    ]
+  },
+  {
+    "template": "What is the most cost-effective configuration for {{YEAR 1}} and {{YEAR 2}} if I require {{FEATURE 1}} and {{FEATURE 2}}?",
+    "question": "What is the most cost-effective configuration for 2023 and 2025 if I require secure storage and pci dss compliance?",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "filters": {
+            "features": [
+              "secureStorage",
+              "pciDssCompliance"
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/1"
+        },
+        {
+          "name": "optimal",
+          "filters": {
+            "features": [
+              "storage",
+              "sslEncryption",
+              "atRestEncryption",
+              "pciDssCompliance"
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/2"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/box/2023.yml",
+      "data/pricings/spectra/box/2025.yml"
+    ]
+  },
+  {
+    "template": "What is the most cost-effective configuration for {{YEAR 1}} and {{YEAR 2}} if I require {{FEATURE 1}} and {{FEATURE 2}}?",
+    "question": "What is the most cost-effective configuration for 2024 and 2025 if I require components release and concurrent job runs?",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "filters": {
+            "features": [
+              "componentsRelease",
+              "concurrentJobRuns"
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/1"
+        },
+        {
+          "name": "optimal",
+          "filters": {
+            "features": [
+              "releases",
+              "concurrentJobRuns"
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/2"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/circleci/2024.yml",
+      "data/pricings/spectra/circleci/2025.yml"
+    ]
+  },
+  {
+    "template": "What is the most cost-effective configuration for {{YEAR 1}} and {{YEAR 2}} if I require {{FEATURE 1}} and {{FEATURE 2}}?",
+    "question": "What is the most cost-effective configuration for 2019 and 2020 if I require github integration and centralized billing and management?",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "filters": {
+            "features": [
+              "githubIntegration",
+              "centralizedBillingAndManagement"
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/1"
+        },
+        {
+          "name": "optimal",
+          "filters": {
+            "features": [
+              "githubIntegration",
+              "centralizedBillingAndManagement"
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/2"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/overleaf/2019.yml",
+      "data/pricings/spectra/overleaf/2020.yml"
+    ]
+  },
+  {
+    "template": "If I want to do {{ACTION 1}} with a budget of {{PRICE 1}}, what is the most economical option between {{SAAS 1}} and {{SAAS 2}}?",
+    "question": "If I want to do live (in real time) customer support preferentially via chat with a budget of $186, what is the most economical option between Planable and MailChimp - Marketing?",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "filters": {
+            "maxPrice": 186,
+            "features": [
+              "realTimeSupport"
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/1"
+        },
+        {
+          "name": "optimal",
+          "filters": {
+            "maxPrice": 186,
+            "features": [
+              "liveChatSupport"
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/2"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/planable/2021.yml",
+      "data/pricings/spectra/mailchimp/2021.yml"
+    ]
+  },
+  {
+    "template": "If I want to do {{ACTION 1}} with a budget of {{PRICE 1}}, what is the most economical option between {{SAAS 1}} and {{SAAS 2}}?",
+    "question": "If I want to do some integrations through marketplace with a budget of $149, what is the most economical option between Buffer and MailChimp - Marketing?",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "filters": {
+            "maxPrice": 149,
+            "features": [
+              "thirdPartyIntegrations"
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/1"
+        },
+        {
+          "name": "optimal",
+          "filters": {
+            "maxPrice": 149,
+            "features": [
+              "integrations"
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/2"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/buffer/2024.yml",
+      "data/pricings/spectra/mailchimp/2024.yml"
+    ]
+  },
+  {
+    "template": "If I want to do {{ACTION 1}} with a budget of {{PRICE 1}}, what is the most economical option between {{SAAS 1}} and {{SAAS 2}}?",
+    "question": "If I want to do part of the SaaS functionalities through API calls with a budget of $131, what is the most economical option between Box and Quip?",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "filters": {
+            "maxPrice": 131,
+            "features": [
+              "boxApi"
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/1"
+        },
+        {
+          "name": "optimal",
+          "filters": {
+            "maxPrice": 131,
+            "features": [
+              "enterpriseAPI"
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/2"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/box/2019.yml",
+      "data/pricings/spectra/quip/2019.yml"
+    ]
+  },
+  {
+    "template": "If I want to do {{ACTION 1}} with a budget of {{PRICE 1}}, what is the most economical option between {{SAAS 1}} and {{SAAS 2}}?",
+    "question": "If I want to do priority support with a budget of $43, what is the most economical option between Zenhub and Trello?",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "filters": {
+            "maxPrice": 43,
+            "features": [
+              "prioritySupport"
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/1"
+        },
+        {
+          "name": "optimal",
+          "filters": {
+            "maxPrice": 43,
+            "features": [
+              "prioritySupport"
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/2"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/zenhub/2020.yml",
+      "data/pricings/spectra/trello/2020.yml"
+    ]
+  },
+  {
+    "template": "If I want to do {{ACTION 1}} with a budget of {{PRICE 1}}, what is the most economical option between {{SAAS 1}} and {{SAAS 2}}?",
+    "question": "If I want to do HIPAA compliance with a budget of $187, what is the most economical option between ClickUp and Box?",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "filters": {
+            "maxPrice": 187,
+            "features": [
+              "hipaaCompliance"
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/1"
+        },
+        {
+          "name": "optimal",
+          "filters": {
+            "maxPrice": 187,
+            "features": [
+              "hipaaCompliance"
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/2"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/clickup/2022.yml",
+      "data/pricings/spectra/box/2022.yml"
+    ]
+  },
+  {
+    "template": "In {{SAAS 1}}, would it be possible to find all the configurations that include {{FEATURE 1}} but keep price within the range between {{PRICE 1}} and {{PRICE 2}}?",
+    "question": "In Zenhub, would it be possible to find all the configurations that include miro but keep price within the range between $31 and $84?",
+    "plan": {
+      "actions": [
+        {
+          "name": "subscriptions",
+          "filters": {
+            "features": [
+              "miro"
+            ],
+            "minPrice": 31,
+            "maxPrice": 84
+          },
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/zenhub/2025.yml"
+    ]
+  },
+  {
+    "template": "In {{SAAS 1}}, would it be possible to find all the configurations that include {{FEATURE 1}} but keep price within the range between {{PRICE 1}} and {{PRICE 2}}?",
+    "question": "In Clockify, would it be possible to find all the configurations that include targets and reminders but keep price within the range between $50 and $181?",
+    "plan": {
+      "actions": [
+        {
+          "name": "subscriptions",
+          "filters": {
+            "features": [
+              "targetsAndReminders"
+            ],
+            "minPrice": 50,
+            "maxPrice": 181
+          },
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/clockify/2024.yml"
+    ]
+  },
+  {
+    "template": "In {{SAAS 1}}, would it be possible to find all the configurations that include {{FEATURE 1}} but keep price within the range between {{PRICE 1}} and {{PRICE 2}}?",
+    "question": "In Wrike, would it be possible to find all the configurations that include adobe creative cloud extension but keep price within the range between $88 and $160?",
+    "plan": {
+      "actions": [
+        {
+          "name": "subscriptions",
+          "filters": {
+            "features": [
+              "adobeCreativeCloudExtension"
+            ],
+            "minPrice": 88,
+            "maxPrice": 160
+          },
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/wrike/2024.yml"
+    ]
+  },
+  {
+    "template": "In {{SAAS 1}}, would it be possible to find all the configurations that include {{FEATURE 1}} but keep price within the range between {{PRICE 1}} and {{PRICE 2}}?",
+    "question": "In ClickUp, would it be possible to find all the configurations that include pulse live overview but keep price within the range between $109 and $115?",
+    "plan": {
+      "actions": [
+        {
+          "name": "subscriptions",
+          "filters": {
+            "features": [
+              "pulseLiveOverview"
+            ],
+            "minPrice": 109,
+            "maxPrice": 115
+          },
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/clickup/2020.yml"
+    ]
+  },
+  {
+    "template": "In {{SAAS 1}}, would it be possible to find all the configurations that include {{FEATURE 1}} but keep price within the range between {{PRICE 1}} and {{PRICE 2}}?",
+    "question": "In clockify, would it be possible to find all the configurations that include project access but keep price within the range between $60 and $143?",
+    "plan": {
+      "actions": [
+        {
+          "name": "subscriptions",
+          "filters": {
+            "features": [
+              "projectAccess"
+            ],
+            "minPrice": 60,
+            "maxPrice": 143
+          },
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/clockify/2023.yml"
+    ]
+  },
+  {
+    "template": "My company has a budget of {{PRICE 1}} and needs {{FEATURE 1}} with at least a usage limit of {{USAGE LIMIT 1}}. Which is the best configuration of {{SAAS 1}} that can offer this without exceeding the budget?",
+    "question": "My company has a budget of $13 and needs threads with at least a usage limit of 5 GB of file storage per user. Which is the best configuration of Pumble that can offer this without exceeding the budget?",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "filters": {
+            "maxPrice": 13,
+            "features": [
+              "threads"
+            ],
+            "usageLimits": [
+              {
+                "useFileStoragePerUser": 5
+              }
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/pumble/2023.yml"
+    ]
+  },
+  {
+    "template": "My company has a budget of {{PRICE 1}} and needs {{FEATURE 1}} with at least a usage limit of {{USAGE LIMIT 1}}. Which is the best configuration of {{SAAS 1}} that can offer this without exceeding the budget?",
+    "question": "My company has a budget of $28 and needs 24/7support with at least a usage limit of 80% shipping discount rate. Which is the best configuration of Shopify that can offer this without exceeding the budget?",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "filters": {
+            "maxPrice": 28,
+            "features": [
+              "24/7Support"
+            ],
+            "usageLimits": [
+              {
+                "shippingDiscountRate": 0.8
+              }
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/shopify/2022.yml"
+    ]
+  },
+  {
+    "template": "My company has a budget of {{PRICE 1}} and needs {{FEATURE 1}} with at least a usage limit of {{USAGE LIMIT 1}}. Which is the best configuration of {{SAAS 1}} that can offer this without exceeding the budget?",
+    "question": "My company has a budget of $175 and needs create and publish new data sources with at least a usage limit of 1 flow. Which is the best configuration of Tableau that can offer this without exceeding the budget?",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "filters": {
+            "maxPrice": 175,
+            "features": [
+              "createAndPublishNewDataSources"
+            ],
+            "usageLimits": [
+              {
+                "flowsLimit": 1
+              }
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/tableau/2020.yml"
+    ]
+  },
+  {
+    "template": "My company has a budget of {{PRICE 1}} and needs {{FEATURE 1}} with at least a usage limit of {{USAGE LIMIT 1}}. Which is the best configuration of {{SAAS 1}} that can offer this without exceeding the budget?",
+    "question": "My company has a budget of $16 and needs two factor authentication with at least a usage limit of 1500 ideas. Which is the best configuration of Buffer that can offer this without exceeding the budget?",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "filters": {
+            "maxPrice": 16,
+            "features": [
+              "twoFactorAuthentication"
+            ],
+            "usageLimits": [
+              {
+                "ideasLimit": 1500
+              }
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/buffer/2022.yml"
+    ]
+  },
+  {
+    "template": "My company has a budget of {{PRICE 1}} and needs {{FEATURE 1}} with at least a usage limit of {{USAGE LIMIT 1}}. Which is the best configuration of {{SAAS 1}} that can offer this without exceeding the budget?",
+    "question": "My company has a budget of $93 and needs custom templates with at least a usage limit of 5 users. Which is the best configuration of Box - Businesses that can offer this without exceeding the budget?",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "filters": {
+            "maxPrice": 93,
+            "features": [
+              "customTemplates"
+            ],
+            "usageLimits": [
+              {
+                "minUsers": 5
+              }
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/box/2025.yml"
+    ]
+  },
+  {
+    "template": "Does the configuration {{CONFIGURATION 1}} of {{SAAS 1}} include {{FEATURE 1}}?",
+    "question": "Does the configuration Student plan of Overleaf include centralized billing and management?",
+    "plan": {
+      "actions": [
+        {
+          "name": "subscriptions",
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/overleaf/2019.yml"
+    ]
+  },
+  {
+    "template": "Does the configuration {{CONFIGURATION 1}} of {{SAAS 1}} include {{FEATURE 1}}?",
+    "question": "Does the configuration Free plan of Overleaf - Individual include priority support?",
+    "plan": {
+      "actions": [
+        {
+          "name": "subscriptions",
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/overleaf/2025.yml"
+    ]
+  },
+  {
+    "template": "Does the configuration {{CONFIGURATION 1}} of {{SAAS 1}} include {{FEATURE 1}}?",
+    "question": "Does the configuration Ecommerce advanced plan of Webflow include billing permissions?",
+    "plan": {
+      "actions": [
+        {
+          "name": "subscriptions",
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/webflow/2022.yml"
+    ]
+  },
+  {
+    "template": "Does the configuration {{CONFIGURATION 1}} of {{SAAS 1}} include {{FEATURE 1}}?",
+    "question": "Does the configuration Pro plan of Pumble include share files and links?",
+    "plan": {
+      "actions": [
+        {
+          "name": "subscriptions",
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/pumble/2024.yml"
+    ]
+  },
+  {
+    "template": "Does the configuration {{CONFIGURATION 1}} of {{SAAS 1}} include {{FEATURE 1}}?",
+    "question": "Does the configuration Enterprise plan of Canva include onboarding incentives?",
+    "plan": {
+      "actions": [
+        {
+          "name": "subscriptions",
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/canva/2019.yml"
+    ]
+  },
+  {
+    "template": "In {{SAAS 1}} there is {{FEATURE 1}}; is there a similar one in {{SAAS 2}}?",
+    "question": "In HyperContext there is markdown editor; is there a similar one in Notion?",
+    "plan": {
+      "actions": [],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/hypercontext/2021.yml",
+      "data/pricings/spectra/notion/2021.yml"
+    ]
+  },
+  {
+    "template": "In {{SAAS 1}} there is {{FEATURE 1}}; is there a similar one in {{SAAS 2}}?",
+    "question": "In HyperContext there is admin reporting; is there a similar one in Trello?",
+    "plan": {
+      "actions": [],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/hypercontext/2022.yml",
+      "data/pricings/spectra/trello/2022.yml"
+    ]
+  },
+  {
+    "template": "In {{SAAS 1}} there is {{FEATURE 1}}; is there a similar one in {{SAAS 2}}?",
+    "question": "In Figma there is password protection required; is there a similar one in Canva?",
+    "plan": {
+      "actions": [],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/figma/2024.yml",
+      "data/pricings/spectra/canva/2024.yml"
+    ]
+  },
+  {
+    "template": "In {{SAAS 1}} there is {{FEATURE 1}}; is there a similar one in {{SAAS 2}}?",
+    "question": "In Jira there is advanced permissions; is there a similar one in Trello?",
+    "plan": {
+      "actions": [],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/jira/2023.yml",
+      "data/pricings/spectra/trello/2023.yml"
+    ]
+  },
+  {
+    "template": "In {{SAAS 1}} there is {{FEATURE 1}}; is there a similar one in {{SAAS 2}}?",
+    "question": "In MailChimp - Marketing there is next best action; is there a similar one in Buffer?",
+    "plan": {
+      "actions": [],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/mailchimp/2023.yml",
+      "data/pricings/spectra/buffer/2023.yml"
+    ]
+  },
+  {
+    "template": "What is the maximum cost that {{SAAS 1}} can generate through a single subscription?",
+    "question": "What is the maximum cost that Canva can generate through a single subscription?",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "objective": "maximize",
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/canva/2020.yml"
+    ]
+  },
+  {
+    "template": "What is the maximum cost that {{SAAS 1}} can generate through a single subscription?",
+    "question": "What is the maximum cost that Jira can generate through a single subscription?",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "objective": "maximize",
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/jira/2023.yml"
+    ]
+  },
+  {
+    "template": "What is the maximum cost that {{SAAS 1}} can generate through a single subscription?",
+    "question": "What is the maximum cost that Dropbox can generate through a single subscription?",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "objective": "maximize",
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/dropbox/2022.yml"
+    ]
+  },
+  {
+    "template": "What is the maximum cost that {{SAAS 1}} can generate through a single subscription?",
+    "question": "What is the maximum cost that Notion can generate through a single subscription?",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "objective": "maximize",
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/notion/2024.yml"
+    ]
+  },
+  {
+    "template": "What is the maximum cost that {{SAAS 1}} can generate through a single subscription?",
+    "question": "What is the maximum cost that Box can generate through a single subscription?",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "objective": "maximize",
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/box/2023.yml"
+    ]
+  },
+  {
+    "template": "Is it worth switching my current configuration {{CONFIGURATION 1}} of {{SAAS 1}} if my budget has gone from {{PRICE 1}} to {{PRICE 2}} and I need {{ACTION 1}}?",
+    "question": "Is it worth switching my current configuration Figma professional plan of Figma if my budget has gone from \u20ac15 to \u20ac183 and I need third party integrations?",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "filters": {
+            "maxPrice": 183,
+            "features": [
+              "thirdPartyIntegrations"
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/figma/2023.yml"
+    ]
+  },
+  {
+    "template": "Is it worth switching my current configuration {{CONFIGURATION 1}} of {{SAAS 1}} if my budget has gone from {{PRICE 1}} to {{PRICE 2}} and I need {{ACTION 1}}?",
+    "question": "Is it worth switching my current configuration Starter plan of Box if my budget has gone from $15 to $150 and I need 50k api calls per month?",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "filters": {
+            "maxPrice": 150,
+            "usageLimits": [
+              {
+                "apiCallsLimit": 50000
+              }
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/box/2019.yml"
+    ]
+  },
+  {
+    "template": "Is it worth switching my current configuration {{CONFIGURATION 1}} of {{SAAS 1}} if my budget has gone from {{PRICE 1}} to {{PRICE 2}} and I need {{ACTION 1}}?",
+    "question": "Is it worth switching my current configuration Personal plan of Notion if my budget has gone from $0 to $60 and I need a manager for dedicated customer support?",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "filters": {
+            "maxPrice": 60,
+            "features": [
+              "dedicatedCustomerManager"
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/notion/2022.yml"
+    ]
+  },
+  {
+    "template": "Is it worth switching my current configuration {{CONFIGURATION 1}} of {{SAAS 1}} if my budget has gone from {{PRICE 1}} to {{PRICE 2}} and I need {{ACTION 1}}?",
+    "question": "Is it worth switching my current configuration Free plan of MailChimp - Marketing if my budget has gone from $0 to $175 and I need to send transactional emails?",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "filters": {
+            "maxPrice": 175,
+            "features": [
+              "transactionalEmails"
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/mailchimp/2025.yml"
+    ]
+  },
+  {
+    "template": "Is it worth switching my current configuration {{CONFIGURATION 1}} of {{SAAS 1}} if my budget has gone from {{PRICE 1}} to {{PRICE 2}} and I need {{ACTION 1}}?",
+    "question": "Is it worth switching my current configuration Enterprise plan of Trello if my budget has gone from $20.83 to $22 and I need to deactivate employees who leave the company without deleting their data?",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "filters": {
+            "maxPrice": 22,
+            "features": [
+              "deactivateMembers"
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/trello/2019.yml"
+    ]
+  },
+  {
+    "template": "Which configuration of {{SAAS 1}} is more worthwhile for me if my budget is {{PRICE 1}} and I need a usage limit higher than {{USAGE LIMIT 1}}?",
+    "question": "Which configuration of Evernote is more worthwhile for me if my budget is $174 and I need a usage limit higher than 25 MB/note?",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "filters": {
+            "maxPrice": 174,
+            "usageLimits": [
+              {
+                "maximumNoteSize": 26
+              }
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/evernote/2020.yml"
+    ]
+  },
+  {
+    "template": "Which configuration of {{SAAS 1}} is more worthwhile for me if my budget is {{PRICE 1}} and I need a usage limit higher than {{USAGE LIMIT 1}}?",
+    "question": "Which configuration of Planable is more worthwhile for me if my budget is $133 and I need a usage limit higher than 3 user?",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "filters": {
+            "maxPrice": 133,
+            "usageLimits": [
+              {
+                "usersLimit": 4
+              }
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/planable/2019.yml"
+    ]
+  },
+  {
+    "template": "Which configuration of {{SAAS 1}} is more worthwhile for me if my budget is {{PRICE 1}} and I need a usage limit higher than {{USAGE LIMIT 1}}?",
+    "question": "Which configuration of Buffer is more worthwhile for me if my budget is $43 and I need a usage limit higher than 100 ideas?",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "filters": {
+            "maxPrice": 43,
+            "usageLimits": [
+              {
+                "ideasLimit": 101
+              }
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/buffer/2022.yml"
+    ]
+  },
+  {
+    "template": "Which configuration of {{SAAS 1}} is more worthwhile for me if my budget is {{PRICE 1}} and I need a usage limit higher than {{USAGE LIMIT 1}}?",
+    "question": "Which configuration of Zenhub is more worthwhile for me if my budget is $145 and I need a usage limit higher than 250 github issues?",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "filters": {
+            "maxPrice": 145,
+            "usageLimits": [
+              {
+                "maxGithubIssues": 251
+              }
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/zenhub/2025.yml"
+    ]
+  },
+  {
+    "template": "Which configuration of {{SAAS 1}} is more worthwhile for me if my budget is {{PRICE 1}} and I need a usage limit higher than {{USAGE LIMIT 1}}?",
+    "question": "Which configuration of Pumble is more worthwhile for me if my budget is $142 and I need a usage limit higher than 1 user in the same voicecall?",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "filters": {
+            "maxPrice": 142,
+            "usageLimits": [
+              {
+                "useVoiceCalls": 2
+              }
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/pumble/2023.yml"
+    ]
+  },
+  {
+    "template": "Between {{YEAR 1}} and {{YEAR 2}}, has {{SAAS 1}} introduced configuration changes that help users with a lower budget?",
+    "question": "Between 2020 and 2021, has Clockify introduced configuration changes that help users with a lower budget?",
+    "plan": {
+      "actions": [
+        {
+          "name": "subscriptions",
+          "pricing_url": "uploaded://pricing/1"
+        },
+        {
+          "name": "subscriptions",
+          "pricing_url": "uploaded://pricing/2"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/clockify/2020.yml",
+      "data/pricings/spectra/clockify/2021.yml"
+    ]
+  },
+  {
+    "template": "Between {{YEAR 1}} and {{YEAR 2}}, has {{SAAS 1}} introduced configuration changes that help users with a lower budget?",
+    "question": "Between 2022 and 2023, has Deskera introduced configuration changes that help users with a lower budget?",
+    "plan": {
+      "actions": [
+        {
+          "name": "subscriptions",
+          "pricing_url": "uploaded://pricing/1"
+        },
+        {
+          "name": "subscriptions",
+          "pricing_url": "uploaded://pricing/2"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/deskera/2022.yml",
+      "data/pricings/spectra/deskera/2023.yml"
+    ]
+  },
+  {
+    "template": "Between {{YEAR 1}} and {{YEAR 2}}, has {{SAAS 1}} introduced configuration changes that help users with a lower budget?",
+    "question": "Between 2022 and 2023, has CircleCI - Cloud introduced configuration changes that help users with a lower budget?",
+    "plan": {
+      "actions": [
+        {
+          "name": "subscriptions",
+          "pricing_url": "uploaded://pricing/1"
+        },
+        {
+          "name": "subscriptions",
+          "pricing_url": "uploaded://pricing/2"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/circleci/2022.yml",
+      "data/pricings/spectra/circleci/2023.yml"
+    ]
+  },
+  {
+    "template": "Between {{YEAR 1}} and {{YEAR 2}}, has {{SAAS 1}} introduced configuration changes that help users with a lower budget?",
+    "question": "Between 2019 and 2020, has ClickUp introduced configuration changes that help users with a lower budget?",
+    "plan": {
+      "actions": [
+        {
+          "name": "subscriptions",
+          "pricing_url": "uploaded://pricing/1"
+        },
+        {
+          "name": "subscriptions",
+          "pricing_url": "uploaded://pricing/2"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/clickup/2019.yml",
+      "data/pricings/spectra/clickup/2020.yml"
+    ]
+  },
+  {
+    "template": "Between {{YEAR 1}} and {{YEAR 2}}, has {{SAAS 1}} introduced configuration changes that help users with a lower budget?",
+    "question": "Between 2020 and 2021, has Shopify introduced configuration changes that help users with a lower budget?",
+    "plan": {
+      "actions": [
+        {
+          "name": "subscriptions",
+          "pricing_url": "uploaded://pricing/1"
+        },
+        {
+          "name": "subscriptions",
+          "pricing_url": "uploaded://pricing/2"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/shopify/2020.yml",
+      "data/pricings/spectra/shopify/2021.yml"
+    ]
+  },
+  {
+    "template": "For {{ACTION 1}}, is the {{USAGE LIMIT 1}} of {{CONFIGURATION 1}} of {{SAAS 1}} sufficient?",
+    "question": "For improving business efficiency, is the max collaborators per project of Student plan of Overleaf - Individual sufficient?",
+    "plan": {
+      "actions": [
+        {
+          "name": "subscriptions",
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/overleaf/2023.yml"
+    ]
+  },
+  {
+    "template": "For {{ACTION 1}}, is the {{USAGE LIMIT 1}} of {{CONFIGURATION 1}} of {{SAAS 1}} sufficient?",
+    "question": "For improving business efficiency, is the non renewable credits of Performance plan of CircleCI - Cloud sufficient?",
+    "plan": {
+      "actions": [
+        {
+          "name": "subscriptions",
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/circleci/2020.yml"
+    ]
+  },
+  {
+    "template": "For {{ACTION 1}}, is the {{USAGE LIMIT 1}} of {{CONFIGURATION 1}} of {{SAAS 1}} sufficient?",
+    "question": "For tracking agenda items, is the {{USAGE LIMIT 1}} of Enterprise plan of HyperContext sufficient?",
+    "plan": {
+      "actions": [
+        {
+          "name": "subscriptions",
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/hypercontext/2024.yml"
+    ]
+  },
+  {
+    "template": "For {{ACTION 1}}, is the {{USAGE LIMIT 1}} of {{CONFIGURATION 1}} of {{SAAS 1}} sufficient?",
+    "question": "For managing team tasks, is the min number of users of Enterprise plan of Wrike sufficient?",
+    "plan": {
+      "actions": [
+        {
+          "name": "subscriptions",
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/wrike/2020.yml"
+    ]
+  },
+  {
+    "template": "For {{ACTION 1}}, is the {{USAGE LIMIT 1}} of {{CONFIGURATION 1}} of {{SAAS 1}} sufficient?",
+    "question": "For optimizing supply chain, is the invoice and bills limit of Essential plan of Deskera sufficient?",
+    "plan": {
+      "actions": [
+        {
+          "name": "subscriptions",
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/deskera/2021.yml"
+    ]
+  },
+  {
+    "template": "Which SaaS products offer {{FEATURE 1}}, {{FEATURE 2}} and {{FEATURE 3}}?",
+    "question": "Which SaaS products offer message formatting, embedded media in meetings and create and publish new workbook from new data sources?",
+    "plan": {
+      "actions": [],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/pumble/2024.yml",
+      "data/pricings/spectra/hypercontext/2024.yml",
+      "data/pricings/spectra/tableau/2024.yml"
+    ]
+  },
+  {
+    "template": "Which SaaS products offer {{FEATURE 1}}, {{FEATURE 2}} and {{FEATURE 3}}?",
+    "question": "Which SaaS products offer microsoft excel mobile app, managed users dashboard and m1medium mac os vm?",
+    "plan": {
+      "actions": [],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/microsoft365Business/2024.yml",
+      "data/pricings/spectra/notion/2024.yml",
+      "data/pricings/spectra/circleci/2024.yml"
+    ]
+  },
+  {
+    "template": "Which SaaS products offer {{FEATURE 1}}, {{FEATURE 2}} and {{FEATURE 3}}?",
+    "question": "Which SaaS products offer comment on dashboard, reports spreadsheet and attachments?",
+    "plan": {
+      "actions": [],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/tableau/2025.yml",
+      "data/pricings/spectra/buffer/2025.yml",
+      "data/pricings/spectra/evernote/2025.yml"
+    ]
+  },
+  {
+    "template": "Which SaaS products offer {{FEATURE 1}}, {{FEATURE 2}} and {{FEATURE 3}}?",
+    "question": "Which SaaS products offer two factor authentication, crowdcast expert services and dedicated qbr?",
+    "plan": {
+      "actions": [],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/webflow/2023.yml",
+      "data/pricings/spectra/crowdcast/2023.yml",
+      "data/pricings/spectra/hypercontext/2023.yml"
+    ]
+  },
+  {
+    "template": "Which SaaS products offer {{FEATURE 1}}, {{FEATURE 2}} and {{FEATURE 3}}?",
+    "question": "Which SaaS products offer print shipping labels, agile reporting and google apps sign on?",
+    "plan": {
+      "actions": [],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/shopify/2019.yml",
+      "data/pricings/spectra/jira/2019.yml",
+      "data/pricings/spectra/trello/2019.yml"
+    ]
+  },
+  {
+    "template": "What is the best configuration among all these SaaS products for {{ACTION 1}}?",
+    "question": "What is the best configuration among all these SaaS products for customization of reports?",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "filters": {
+            "features": [
+              "customAnalytics",
+              "reportsSpreadsheet",
+              "reportsPDF",
+              "reportsImages",
+              "brandedReports"
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/1"
+        },
+        {
+          "name": "optimal",
+          "filters": {
+            "features": [
+              "customReports"
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/2"
+        },
+        {
+          "name": "optimal",
+          "filters": {
+            "features": [
+              "reportBuilder",
+              "customReports",
+              "customDashboards"
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/3"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/buffer/2025.yml",
+      "data/pricings/spectra/planable/2025.yml",
+      "data/pricings/spectra/deskera/2025.yml"
+    ]
+  },
+  {
+    "template": "What is the best configuration among all these SaaS products for {{ACTION 1}}?",
+    "question": "What is the best configuration among all these SaaS products for priority support?",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "filters": {
+            "features": [
+              "prioritySupport"
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/1"
+        },
+        {
+          "name": "optimal",
+          "filters": {
+            "features": [
+              "prioritySupport"
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/2"
+        },
+        {
+          "name": "optimal",
+          "filters": {
+            "features": [
+              "prioritySupport"
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/3"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/overleaf/2022.yml",
+      "data/pricings/spectra/clickup/2022.yml",
+      "data/pricings/spectra/notion/2022.yml"
+    ]
+  },
+  {
+    "template": "What is the best configuration among all these SaaS products for {{ACTION 1}}?",
+    "question": "What is the best configuration among all these SaaS products for using the SaaS via API?",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "filters": {
+            "features": [
+              "api"
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/1"
+        },
+        {
+          "name": "optimal",
+          "filters": {
+            "features": [
+              "restApis"
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/2"
+        },
+        {
+          "name": "optimal",
+          "filters": {
+            "features": [
+              "apiAccess"
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/3"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/clockify/2019.yml",
+      "data/pricings/spectra/figma/2019.yml",
+      "data/pricings/spectra/zenhub/2019.yml"
+    ]
+  },
+  {
+    "template": "What is the best configuration among all these SaaS products for {{ACTION 1}}?",
+    "question": "What is the best configuration among all these SaaS products for managing at least 100 users?",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "filters": {
+            "usageLimits": [
+              {
+                "maxUsers": 100
+              }
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/1"
+        },
+        {
+          "name": "optimal",
+          "filters": {
+            "usageLimits": [
+              {
+                "unlimitedTeamMembers": 100
+              }
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/2"
+        },
+        {
+          "name": "optimal",
+          "filters": {
+            "features": [
+              "unlimitedUsers"
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/3"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/circleci/2024.yml",
+      "data/pricings/spectra/trustmary/2024.yml",
+      "data/pricings/spectra/clockify/2024.yml"
+    ]
+  },
+  {
+    "template": "What is the best configuration among all these SaaS products for {{ACTION 1}}?",
+    "question": "What is the best configuration among all these SaaS products for having access to the app for iOS and Android?",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "filters": {
+            "features": [
+              "appForIOS",
+              "appForAndroid"
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/1"
+        },
+        {
+          "name": "optimal",
+          "filters": {
+            "features": [
+              "iosAndAndroidApps"
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/2"
+        },
+        {
+          "name": "optimal",
+          "filters": {
+            "features": [
+              "wrikeIOSAndAndroidApps"
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/3"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/evernote/2024.yml",
+      "data/pricings/spectra/jira/2024.yml",
+      "data/pricings/spectra/wrike/2024.yml"
+    ]
+  },
+  {
+    "template": "For a team that needs the features {{FEATURE 1}} and {{FEATURE 2}} and with a a size of {{USAGE LIMIT 1}}, which configuration offers the best price?",
+    "question": "For a team that needs the features shareable links and surveys and with a a size 300 surveys, which configuration offers the best price?",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "filters": {
+            "features": [
+              "shareableLinks",
+              "surveys"
+            ],
+            "usageLimits": [
+              {
+                "surveysLimit": 300
+              }
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/trustmary/2021.yml"
+    ]
+  },
+  {
+    "template": "For a team that needs the features {{FEATURE 1}} and {{FEATURE 2}} and with a a size of {{USAGE LIMIT 1}}, which configuration offers the best price?",
+    "question": "For a team that needs the features transfer analytics and pdf editing and with a a size of 10 templates, which configuration offers the best price?",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "filters": {
+            "features": [
+              "transferAnalytics",
+              "pdfEditing"
+            ],
+            "usageLimits": [
+              {
+                "templatesLimit": 10
+              }
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/dropbox/2025.yml"
+    ]
+  },
+  {
+    "template": "For a team that needs the features {{FEATURE 1}} and {{FEATURE 2}} and with a a size of {{USAGE LIMIT 1}}, which configuration offers the best price?",
+    "question": "For a team that needs the features no code editor and premium apps and with a a size of 10 zaps, which configuration offers the best price?",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "filters": {
+            "features": [
+              "noCodeEditor",
+              "premiumApps"
+            ],
+            "usageLimits": [
+              {
+                "zapsLimit": 10
+              }
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/zapier/2022.yml"
+    ]
+  },
+  {
+    "template": "For a team that needs the features {{FEATURE 1}} and {{FEATURE 2}} and with a a size of {{USAGE LIMIT 1}}, which configuration offers the best price?",
+    "question": "For a team that needs the features decimal format and unlimited projects and with a a size of 1000 reports, which configuration offers the best price?",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "filters": {
+            "features": [
+              "decimalFormat",
+              "unlimitedProjects"
+            ],
+            "usageLimits": [
+              {
+                "reportsLimit": 1000
+              }
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/clockify/2021.yml"
+    ]
+  },
+  {
+    "template": "For a team that needs the features {{FEATURE 1}} and {{FEATURE 2}} and with a a size of {{USAGE LIMIT 1}}, which configuration offers the best price?",
+    "question": "For a team that needs the features see data quality warnings and create new workbooks based on pre built dashboard starters and with a a size of 1 flow, which configuration offers the best price?",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "filters": {
+            "features": [
+              "seeDataQualityWarnings",
+              "createNewWorkbooksBasedOnPreBuiltDashboardStarters"
+            ],
+            "usageLimits": [
+              {
+                "flowsLimit": 1
+              }
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/tableau/2020.yml"
+    ]
+  },
+  {
+    "template": "I have a maximum budget of {{PRICE 1}} per month. Which configuration provides the best features without exceeding this limit?",
+    "question": "I have a maximum budget of $38 per month. Which configuration provides the best features without exceeding this limit?",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "filters": {
+            "maxPrice": 38
+          },
+          "objective": "maximize",
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/deskera/2022.yml"
+    ]
+  },
+  {
+    "template": "I have a maximum budget of {{PRICE 1}} per month. Which configuration provides the best features without exceeding this limit?",
+    "question": "I have a maximum budget of $168 per month. Which configuration provides the best features without exceeding this limit?",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "filters": {
+            "maxPrice": 168
+          },
+          "objective": "maximize",
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/dropbox/2022.yml"
+    ]
+  },
+  {
+    "template": "I have a maximum budget of {{PRICE 1}} per month. Which configuration provides the best features without exceeding this limit?",
+    "question": "I have a maximum budget of $193 per month. Which configuration provides the best features without exceeding this limit?",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "filters": {
+            "maxPrice": 193
+          },
+          "objective": "maximize",
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/trello/2021.yml"
+    ]
+  },
+  {
+    "template": "I have a maximum budget of {{PRICE 1}} per month. Which configuration provides the best features without exceeding this limit?",
+    "question": "I have a maximum budget of $81 per month. Which configuration provides the best features without exceeding this limit?",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "filters": {
+            "maxPrice": 81
+          },
+          "objective": "maximize",
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/slack/2020.yml"
+    ]
+  },
+  {
+    "template": "I have a maximum budget of {{PRICE 1}} per month. Which configuration provides the best features without exceeding this limit?",
+    "question": "I have a maximum budget of $152 per month. Which configuration provides the best features without exceeding this limit?",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "filters": {
+            "maxPrice": 152
+          },
+          "objective": "maximize",
+          "pricing_url": "uploaded://pricing"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/figma/2019.yml"
+    ]
+  },
+  {
+    "template": "I need to perform {{ACTION 1}}. Compare the prices of {{SAAS 1}} and {{SAAS 2}} to determine which is cheaper for this specific use.",
+    "question": "I need to perform contacting customer support via email. Compare the prices of Pumble and Crowdcast to determine which is cheaper for this specific use.",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "filters": {
+            "features": [
+              "emailSupport"
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/1"
+        },
+        {
+          "name": "optimal",
+          "filters": {
+            "features": [
+              "emailSupport"
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/2"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/pumble/2022.yml",
+      "data/pricings/spectra/crowdcast/2022.yml"
+    ]
+  },
+  {
+    "template": "I need to perform {{ACTION 1}}. Compare the prices of {{SAAS 1}} and {{SAAS 2}} to determine which is cheaper for this specific use.",
+    "question": "I need to perform the storage of 5 GB of data. Compare the prices of Jira and CircleCI - Cloud to determine which is cheaper for this specific use.",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "filters": {
+            "usageLimits": [
+              {
+                "storageLimit": 5
+              }
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/1"
+        },
+        {
+          "name": "optimal",
+          "filters": {
+            "usageLimits": [
+              {
+                "storageLimit": 5
+              }
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/2"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/jira/2021.yml",
+      "data/pricings/spectra/circleci/2021.yml"
+    ]
+  },
+  {
+    "template": "I need to perform {{ACTION 1}}. Compare the prices of {{SAAS 1}} and {{SAAS 2}} to determine which is cheaper for this specific use.",
+    "question": "I need to perform real time collaboration between team members. Compare the prices of Overleaf and Notion to determine which is cheaper for this specific use.",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "filters": {
+            "features": [
+              "realTimeCollaboration"
+            ],
+            "usageLimits": [
+              {
+                "maxCollaboratorsPerProject": 2
+              }
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/1"
+        },
+        {
+          "name": "optimal",
+          "filters": {
+            "features": [
+              "realTimeCollaboration",
+              "collaborativeWorkspace"
+            ],
+            "usageLimits": [
+              {
+                "membersLimit": 2
+              }
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/2"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/overleaf/2021.yml",
+      "data/pricings/spectra/notion/2021.yml"
+    ]
+  },
+  {
+    "template": "I need to perform {{ACTION 1}}. Compare the prices of {{SAAS 1}} and {{SAAS 2}} to determine which is cheaper for this specific use.",
+    "question": "I need to perform two factor authentication. Compare the prices of Wrike and Trello to determine which is cheaper for this specific use.",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "filters": {
+            "features": [
+              "twoFactorVerification"
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/1"
+        },
+        {
+          "name": "optimal",
+          "filters": {
+            "features": [
+              "2factorAuthentication"
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/2"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/wrike/2021.yml",
+      "data/pricings/spectra/trello/2021.yml"
+    ]
+  },
+  {
+    "template": "I need to perform {{ACTION 1}}. Compare the prices of {{SAAS 1}} and {{SAAS 2}} to determine which is cheaper for this specific use.",
+    "question": "I need to perform priority support for issues. Compare the prices of ClickUp and Trello to determine which is cheaper for this specific use.",
+    "plan": {
+      "actions": [
+        {
+          "name": "optimal",
+          "filters": {
+            "features": [
+              "prioritySupport"
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/1"
+        },
+        {
+          "name": "optimal",
+          "filters": {
+            "features": [
+              "prioritySupport"
+            ]
+          },
+          "objective": "minimize",
+          "pricing_url": "uploaded://pricing/2"
+        }
+      ],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/clickup/2022.yml",
+      "data/pricings/spectra/trello/2022.yml"
+    ]
+  },
+  {
+    "template": "What has been the price increase (in percentage or absolute terms) of {{CONFIGURATION 1}} from {{SAAS 1}} over the past 5 years ({{YEAR 1}}, {{YEAR 2}}, {{YEAR 3}}, {{YEAR 4}} and {{YEAR 5}})?",
+    "question": "What has been the price increase (in percentage or absolute terms) of Server plan from Pumble over the past 5 years (2021, 2022, 2023, 2024 and 2025)?",
+    "plan": {
+      "actions": [],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/pumble/2021.yml",
+      "data/pricings/spectra/pumble/2022.yml",
+      "data/pricings/spectra/pumble/2023.yml",
+      "data/pricings/spectra/pumble/2024.yml",
+      "data/pricings/spectra/pumble/2025.yml"
+    ]
+  },
+  {
+    "template": "What has been the price increase (in percentage or absolute terms) of {{CONFIGURATION 1}} from {{SAAS 1}} over the past 5 years ({{YEAR 1}}, {{YEAR 2}}, {{YEAR 3}}, {{YEAR 4}} and {{YEAR 5}})?",
+    "question": "What has been the price increase (in percentage or absolute terms) of Business plus plan from Box over the past 5 years (2019, 2020, 2021, 2022 and 2023)?",
+    "plan": {
+      "actions": [],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/box/2019.yml",
+      "data/pricings/spectra/box/2020.yml",
+      "data/pricings/spectra/box/2021.yml",
+      "data/pricings/spectra/box/2022.yml",
+      "data/pricings/spectra/box/2023.yml"
+    ]
+  },
+  {
+    "template": "What has been the price increase (in percentage or absolute terms) of {{CONFIGURATION 1}} from {{SAAS 1}} over the past 5 years ({{YEAR 1}}, {{YEAR 2}}, {{YEAR 3}}, {{YEAR 4}} and {{YEAR 5}})?",
+    "question": "What has been the price increase (in percentage or absolute terms) of Performance plan from CircleCI over the past 5 years (2019, 2020, 2021, 2022 and 2023)?",
+    "plan": {
+      "actions": [],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/circleci/2019.yml",
+      "data/pricings/spectra/circleci/2020.yml",
+      "data/pricings/spectra/circleci/2021.yml",
+      "data/pricings/spectra/circleci/2022.yml",
+      "data/pricings/spectra/circleci/2023.yml"
+    ]
+  },
+  {
+    "template": "What has been the price increase (in percentage or absolute terms) of {{CONFIGURATION 1}} from {{SAAS 1}} over the past 5 years ({{YEAR 1}}, {{YEAR 2}}, {{YEAR 3}}, {{YEAR 4}} and {{YEAR 5}})?",
+    "question": "What has been the price increase (in percentage or absolute terms) of Free plan from Canva over the past 5 years (2019, 2020, 2021, 2022 and 2023)?",
+    "plan": {
+      "actions": [],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/canva/2019.yml",
+      "data/pricings/spectra/canva/2020.yml",
+      "data/pricings/spectra/canva/2021.yml",
+      "data/pricings/spectra/canva/2022.yml",
+      "data/pricings/spectra/canva/2023.yml"
+    ]
+  },
+  {
+    "template": "What has been the price increase (in percentage or absolute terms) of {{CONFIGURATION 1}} from {{SAAS 1}} over the past 5 years ({{YEAR 1}}, {{YEAR 2}}, {{YEAR 3}}, {{YEAR 4}} and {{YEAR 5}})?",
+    "question": "What has been the price increase (in percentage or absolute terms) of Viewer plan from Tableau over the past 5 years (2021, 2022, 2023, 2024 and 2025)?",
+    "plan": {
+      "actions": [],
+      "use_pricing2yaml_spec": false
+    },
+    "pricing_paths": [
+      "data/pricings/spectra/tableau/2021.yml",
+      "data/pricings/spectra/tableau/2022.yml",
+      "data/pricings/spectra/tableau/2023.yml",
+      "data/pricings/spectra/tableau/2024.yml",
+      "data/pricings/spectra/tableau/2025.yml"
+    ]
+  }
+]

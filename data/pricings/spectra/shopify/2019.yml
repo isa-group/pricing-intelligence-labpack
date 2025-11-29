@@ -1,0 +1,257 @@
+syntaxVersion: '2.1'
+saasName: Shopify
+createdAt: '2019-11-20'
+version: '2019-11-20'
+currency: USD
+tags:
+  - Features
+  - Shopify Shipping
+  - Shopify Payments
+  - Point of Sale
+url: https://web.archive.org/web/20191120215452/https://www.shopify.com/pricing
+features:
+  onlineStore:
+    description: Includes ecommerce website and blog
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Features
+  products:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Features
+  staffAccounts:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Features
+  24/7Support:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: SUPPORT
+    tag: Features
+  salesChannels:
+    description: Sell on online marketplaces and social media. Channel availability varies by country
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Features
+  manualOrderCreation:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Features
+  discountCodes:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Features
+  freeSslCertificate:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Features
+  abandonedCartRecovery:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Features
+  giftCards:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+    tag: Features
+  professionalReports:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+    tag: Features
+  advancedReportBuilder:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+    tag: Features
+  thirdPartyCalculatedShippingRates:
+    description: Show calculated rates with your own account or third-party apps at checkout
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+    tag: Features
+  shippingDiscount:
+    description: Competitive shipping rates from USPS, UPS, or DHL Express
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Shopify Shipping
+  printShippingLabels:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Shopify Shipping
+  uspsPriorityMailCubicPricing:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+    tag: Shopify Shipping
+  fraudAnalysis:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Shopify Payments
+  onlineCreditCardRates:
+    valueType: TEXT
+    defaultValue: 2.9% + 30¢
+    type: DOMAIN
+    tag: Shopify Payments
+  inPersonCreditCardRates:
+    valueType: TEXT
+    defaultValue: 2.7% + 0¢
+    type: DOMAIN
+    tag: Shopify Payments
+  additionaFeesOtherThanShopifyPayments:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Shopify Payments
+  shopifyPosApp:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Point of Sale
+  registerShifts:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+    tag: Point of Sale
+  hardWarePeripheralSupport:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: SUPPORT
+    tag: Point of Sale
+  staffPosPins:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+    tag: Point of Sale
+  thirdPartyPosApps:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+    tag: Point of Sale
+  storeLocations:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+    tag: Point of Sale
+usageLimits:
+  staffAccountsLimit:
+    valueType: NUMERIC
+    defaultValue: 2
+    unit: account
+    type: NON_RENEWABLE
+    linkedFeatures:
+      - staffAccounts
+  shopifyDiscountRate:
+    valueType: NUMERIC
+    defaultValue: 0.64
+    type: NON_RENEWABLE
+    linkedFeatures:
+      - shippingDiscount
+  additionaFeesOtherThanShopifyPaymentsRate:
+    description: Additional fees using all payment providers other than Shopify Payments
+    valueType: NUMERIC
+    defaultValue: 0.02
+    type: NON_RENEWABLE
+    linkedFeatures:
+      - additionaFeesOtherThanShopifyPayments
+  staffPosPinsLimit:
+    valueType: NUMERIC
+    defaultValue: 0
+    unit: pin
+    type: NON_RENEWABLE
+    linkedFeatures:
+      - staffPosPins
+  storeLocationsLimit:
+    valueType: NUMERIC
+    defaultValue: 0
+    unit: location
+    type: NON_RENEWABLE
+    linkedFeatures:
+      - storeLocations
+plans:
+  BASIC_SHOPIFY:
+    description: All the basics for starting a new business
+    price: 29
+    unit: user/month
+    features: null
+    usageLimits: null
+  SHOPIFY:
+    description: Everything you need for a growing business
+    price: 79
+    unit: user/month
+    features:
+      giftCards:
+        value: true
+      professionalReports:
+        value: true
+      uspsPriorityMailCubicPricing:
+        value: true
+      onlineCreditCardRates:
+        value: 2.6% + 30¢
+      inPersonCreditCardRates:
+        value: 2.5% + 0¢
+      registerShifts:
+        value: true
+      staffPosPins:
+        value: true
+      storeLocations:
+        value: true
+    usageLimits:
+      staffAccountsLimit:
+        value: 5
+      shopifyDiscountRate:
+        value: 0.72
+      additionaFeesOtherThanShopifyPaymentsRate:
+        value: 0.01
+      staffPosPinsLimit:
+        value: .inf
+      storeLocationsLimit:
+        value: 5
+  ADVANCED_SHOPIFY:
+    description: Advanced features for scaling your business
+    price: 299
+    unit: user/month
+    features:
+      giftCards:
+        value: true
+      professionalReports:
+        value: true
+      advancedReportBuilder:
+        value: true
+      thirdPartyCalculatedShippingRates:
+        value: true
+      uspsPriorityMailCubicPricing:
+        value: true
+      onlineCreditCardRates:
+        value: 2.4% + 30¢
+      inPersonCreditCardRates:
+        value: 2.4% + 0¢
+      registerShifts:
+        value: true
+      staffPosPins:
+        value: true
+      storeLocations:
+        value: true
+    usageLimits:
+      staffAccountsLimit:
+        value: 15
+      shopifyDiscountRate:
+        value: 0.74
+      additionaFeesOtherThanShopifyPaymentsRate:
+        value: 0.005
+      staffPosPinsLimit:
+        value: .inf
+      storeLocationsLimit:
+        value: 8

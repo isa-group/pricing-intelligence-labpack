@@ -1,0 +1,213 @@
+syntaxVersion: '2.1'
+saasName: Overleaf
+createdAt: '2019-11-04'
+version: '2019-11-04'
+billing:
+  monthly: 1.0
+currency: USD
+url: https://web.archive.org/web/20191104132617/https://www.overleaf.com/user/subscription/plans
+features:
+  privateProjects:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  realTimeCollaboration:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  templates:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  latexEditor:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  realTimeTrackChanges:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  advancedReferenceSearch:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  referenceManagerSync:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: INTEGRATION
+    integrationType: MARKETPLACE
+  fullDocumentHistory:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  dropboxIntegration:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+    pricingUrls:
+    - https://www.dropbox.com/plans
+  githubIntegration:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+  prioritySupport:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: SUPPORT
+  groupLicenseManagement:
+    description: Feature for centrally managing multiple user licenses under a group
+      account.
+    valueType: BOOLEAN
+    type: MANAGEMENT
+    defaultValue: false
+  discountedPricingForMultipleLicenses:
+    description: Benefit of reduced per-license cost when purchasing multiple licenses
+      for a group.
+    valueType: BOOLEAN
+    type: MANAGEMENT
+    defaultValue: false
+  unlimitedSiteWideAccess:
+    description: Provides unlimited premium access for all users within a single organizational
+      site.
+    valueType: BOOLEAN
+    type: MANAGEMENT
+    defaultValue: false
+  centralizedBillingAndManagement:
+    description: Streamlined billing and administrative management for organizational
+      accounts, including site licenses.
+    valueType: BOOLEAN
+    type: MANAGEMENT
+    defaultValue: false
+usageLimits:
+  maxCollaboratorsPerProject:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 1
+    unit: collaborator
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - realTimeCollaboration
+plans:
+  PERSONAL:
+    description: ''
+    price: 0
+    unit: /month
+    features: null
+    usageLimits: null
+  COLLABORATOR:
+    description: ''
+    price: 15
+    unit: /month
+    features:
+      realTimeTrackChanges:
+        value: true
+      advancedReferenceSearch:
+        value: true
+      referenceManagerSync:
+        value: true
+      fullDocumentHistory:
+        value: true
+      dropboxIntegration:
+        value: true
+      githubIntegration:
+        value: true
+      prioritySupport:
+        value: true
+    usageLimits:
+      maxCollaboratorsPerProject:
+        value: 10
+  STUDENT:
+    description: ''
+    price: 8
+    unit: /month
+    features:
+      realTimeTrackChanges:
+        value: true
+      advancedReferenceSearch:
+        value: true
+      referenceManagerSync:
+        value: true
+      fullDocumentHistory:
+        value: true
+      dropboxIntegration:
+        value: true
+      githubIntegration:
+        value: true
+      prioritySupport:
+        value: true
+    usageLimits:
+      maxCollaboratorsPerProject:
+        value: 6
+  PROFESSIONAL:
+    description: ''
+    price: 30
+    unit: /month
+    features:
+      realTimeTrackChanges:
+        value: true
+      advancedReferenceSearch:
+        value: true
+      referenceManagerSync:
+        value: true
+      fullDocumentHistory:
+        value: true
+      dropboxIntegration:
+        value: true
+      githubIntegration:
+        value: true
+      prioritySupport:
+        value: true
+    usageLimits:
+      maxCollaboratorsPerProject:
+        value: .inf
+addOns:
+  groupAccount:
+    description: Provides discounted multiple licenses for colleagues, with centralized
+      management options.
+    price: Contact Sales
+    unit: license
+    features:
+      groupLicenseManagement:
+        value: true
+      discountedPricingForMultipleLicenses:
+        value: true
+    usageLimits: null
+    availableFor:
+    - COLLABORATOR
+    - PROFESSIONAL
+    dependsOn: []
+    excludes:
+    - siteLicense
+    usageLimitsExtensions: null
+  siteLicense:
+    description: Provides unlimited premium access for all users within an organization
+      or site.
+    price: Contact Sales
+    unit: site
+    features:
+      unlimitedSiteWideAccess:
+        value: true
+      centralizedBillingAndManagement:
+        value: true
+    usageLimits: null
+    availableFor:
+    - COLLABORATOR
+    - PROFESSIONAL
+    dependsOn: []
+    excludes:
+    - groupAccount
+    usageLimitsExtensions: null
+

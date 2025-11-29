@@ -1,0 +1,623 @@
+syntaxVersion: '2.1'
+saasName: UserGuiding
+createdAt: '2025-01-24'
+version: '2025'
+billing:
+  monthly: 1.0
+  annual: 0.7
+currency: USD
+url: https://web.archive.org/web/20250124105422/https://userguiding.com/pricing/
+tags:
+  - Product Adoption
+  - Reporting and Targeting
+  - Customization
+  - Services
+  - Account Details
+  - Integrations
+features:
+  guides:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Product Adoption
+  hotspots:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Product Adoption
+  checklists:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Product Adoption
+  resourceCenters:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Product Adoption
+  surveys:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Product Adoption
+  aiAssistant:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: AUTOMATION
+    automationType: BOT
+    tag: Product Adoption
+  nps:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Product Adoption
+  productUpdates:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INFORMATION
+    tag: Product Adoption
+  knowledgeBase:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: SUPPORT
+    tag: Product Adoption
+  materialEngagementAnalytics:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Reporting and Targeting
+  userDetails:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Reporting and Targeting
+  userActivityFeed:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Reporting and Targeting
+  goalTracking:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: AUTOMATION
+    automationType: TRACKING
+    tag: Reporting and Targeting
+  impactRecords:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+    tag: Reporting and Targeting
+  a/bTesting:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Reporting and Targeting
+  dailyPerformanceReports:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INFORMATION
+    tag: Reporting and Targeting
+  weeklyPerformanceReports:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INFORMATION
+    tag: Reporting and Targeting
+  userIdentification:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Reporting and Targeting
+  userTracking:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Reporting and Targeting
+  audienceSegmentation:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Reporting and Targeting
+  customAttributes:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Reporting and Targeting
+  customEvents:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Reporting and Targeting
+  dataManagement:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Reporting and Targeting
+  companyLevelData:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+    tag: Reporting and Targeting
+  customizableThemes:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Customization
+  dynamicMaterialPersonalization:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Customization
+  appearanceCustomization:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Customization
+  materialDisplayPrioritization:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Customization
+  onboardMaterialAccessibility:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Customization
+  cssCustomization:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+    tag: Customization
+  localization:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+    tag: Customization
+  removeUserGuidingBranding:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+    tag: Customization
+  materialScheduling:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  rateLimiting:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+    tag: Customization
+  troubleShooterAccess:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: SUPPORT
+    tag: Services
+  helpCenter:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: SUPPORT
+    tag: Services
+  userGuidingUniversity:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: SUPPORT
+    tag: Services
+  emailSupport:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: SUPPORT
+    tag: Services
+  liveChatSupport:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: SUPPORT
+    tag: Services
+  dedicatedCustomerSuccessManager:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: SUPPORT
+    tag: Services
+  euDataHosting:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+    tag: Services
+  serviceLevelAgreement:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: GUARANTEE
+    tag: Services
+  customInvoicing:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: PAYMENT
+    tag: Services
+  securityQuestionnaire:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: MANAGEMENT
+    tag: Services
+  teams:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Account Details
+  domains:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Account Details
+  twoFactorAuthentication:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: MANAGEMENT
+    tag: Account Details
+  roleManagement:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: MANAGEMENT
+    tag: Account Details
+  employeeOnboardingModule:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+    tag: Account Details
+  teamMemberActivityLog:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+    tag: Account Details
+  singleSignOn:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: INTEGRATION
+    integrationType: IDENTITY_PROVIDER
+    tag: Account Details
+  googleAnalytics:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+    pricingUrls:
+    - https://marketingplatform.google.com/about/analytics/
+    tag: Integrations
+  webhooks:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: API
+    tag: Integrations
+  segment:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+    pricingUrls:
+    - https://segment.com/pricing/
+    tag: Integrations
+  mixpanel:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+    pricingUrls:
+    - https://mixpanel.com/pricing/
+    tag: Integrations
+  amplitude:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: API
+    tag: Integrations
+  salesforce:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+    tag: Integrations
+  hubspot:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+    pricingUrls:
+    - https://www.hubspot.com/pricing/marketing/starter
+    tag: Integrations
+  intercom:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+    pricingUrls:
+    - https://www.intercom.com/pricing
+    tag: Integrations
+  slack:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+    pricingUrls:
+    - https://slack.com/pricing
+    tag: Integrations
+  woopra:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+    pricingUrls:
+    - https://www.woopra.com/pricing/
+    tag: Integrations
+  knowledBaseIntegrations:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: MARKETPLACE
+    tag: Integrations
+  liveChatSoftwareIntegrations:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: MARKETPLACE
+    tag: Integrations
+usageLimits:
+  activeGuidesLimit:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 20
+    unit: guide
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - guides
+  activeHotspotsLimit:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 20
+    unit: hotspot
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - hotspots
+  activeChecklistsLimit:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 2
+    unit: checklist
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - checklists
+  activeResourceCentersLimit:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 1
+    unit: resource center
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - resourceCenters
+  activeSurveysLimit:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 1
+    unit: survey
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - surveys
+  aiAssistantMessagesLimit:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 100
+    unit: message/month
+    type: RENEWABLE
+    linkedFeatures:
+    - aiAssistant
+  customizableThemesLimit:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 1
+    unit: theme
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - customizableThemes
+  teamMembersLimit:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 1
+    unit: member
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - teams
+  domainsLimit:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 2
+    unit: domain
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - domains
+plans:
+  BASIC:
+    description: Onboard new users and engage customers throughout their lifecycles.
+      Ideal for startups and SMBs.
+    price: 99
+    unit: /month
+    features: null
+    usageLimits: null
+  PROFESSIONAL:
+    description: Maximize activation, customer revenue, and retention. Ideal for rapidly
+      growing companies.
+    price: 299
+    unit: /month
+    features:
+      impactRecords:
+        value: true
+      companyLevelData:
+        value: true
+      cssCustomization:
+        value: true
+      localization:
+        value: true
+      removeUserGuidingBranding:
+        value: true
+      materialScheduling:
+        value: true
+      rateLimiting:
+        value: true
+      dedicatedCustomerSuccessManager:
+        value: true
+      euDataHosting:
+        value: true
+      customInvoicing:
+        value: true
+      roleManagement:
+        value: true
+      employeeOnboardingModule:
+        value: true
+      salesforce:
+        value: true
+    usageLimits:
+      activeGuidesLimit:
+        value: .inf
+      activeHotspotsLimit:
+        value: .inf
+      activeChecklistsLimit:
+        value: .inf
+      activeResourceCentersLimit:
+        value: .inf
+      activeSurveysLimit:
+        value: 3
+      customizableThemesLimit:
+        value: 5
+      teamMembersLimit:
+        value: 5
+      domainsLimit:
+        value: 5
+  CORPORATE:
+    description: Transform your product experience. Ideal for enterprises with multiple
+      products.
+    price: Let's Talk
+    unit: /month
+    features:
+      impactRecords:
+        value: true
+      companyLevelData:
+        value: true
+      cssCustomization:
+        value: true
+      localization:
+        value: true
+      removeUserGuidingBranding:
+        value: true
+      materialScheduling:
+        value: true
+      rateLimiting:
+        value: true
+      dedicatedCustomerSuccessManager:
+        value: true
+      euDataHosting:
+        value: true
+      serviceLevelAgreement:
+        value: true
+      customInvoicing:
+        value: true
+      securityQuestionnaire:
+        value: true
+      roleManagement:
+        value: true
+      employeeOnboardingModule:
+        value: true
+      teamMemberActivityLog:
+        value: true
+      singleSignOn:
+        value: true
+      salesforce:
+        value: true
+    usageLimits:
+      activeGuidesLimit:
+        value: .inf
+      activeHotspotsLimit:
+        value: .inf
+      activeChecklistsLimit:
+        value: .inf
+      activeResourceCentersLimit:
+        value: .inf
+      activeSurveysLimit:
+        value: 10
+      aiAssistantMessagesLimit:
+        value: .inf
+      customizableThemesLimit:
+        value: .inf
+      teamMembersLimit:
+        value: .inf
+      domainsLimit:
+        value: .inf
+addOns:
+  euDataHostingAddOn:
+    availableFor:
+    - BASIC
+    price: Contact Sales
+    unit: /month
+    features:
+      euDataHosting:
+        value: true
+    usageLimits: null
+    usageLimitsExtensions: null

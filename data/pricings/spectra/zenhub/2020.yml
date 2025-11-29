@@ -1,0 +1,139 @@
+syntaxVersion: '2.1'
+saasName: Zenhub
+createdAt: '2020-12-03'
+version: '2020'
+billing:
+  monthly: 1.0
+  annual: 0.8
+currency: USD
+url: https://web.archive.org/web/20201203043633/https://www.zenhub.com/pricing
+features:
+  apiAccess:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: API
+  burnDownCharts:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  estimates:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  epics:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  unlimitedRepositories:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  multiRepoBoard:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  slackIntegration:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+  cloudHosted:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  unlimitedPrivateRepos:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  onPremisesHosting:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+  prioritySupport:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: SUPPORT
+  billing:
+    description: ""
+    valueType: TEXT
+    defaultValue:
+      - CARD
+    type: PAYMENT
+  accessToBetaProgram:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  dedicatedCustomerSuccessManager:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: SUPPORT
+usageLimits:
+  onlyForPublicRepos:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: NON_RENEWABLE
+    linkedFeatures:
+      - apiAccess
+      - burnDownCharts
+      - estimates
+      - epics
+      - unlimitedRepositories
+      - multiRepoBoard
+      - slackIntegration
+      - cloudHosted
+plans:
+  FREE:
+    description: ""
+    price: 0
+    unit: /month
+    features: null
+    usageLimits: null
+  GROWTH:
+    description: ""
+    price: 10
+    unit: user/month
+    features:
+      unlimitedPrivateRepos:
+        value: true
+    usageLimits:
+      onlyForPublicRepos:
+        value: false
+  ENTERPRISE:
+    description: ""
+    price: 12.5
+    unit: 'user/month'
+    features:
+      unlimitedPrivateRepos:
+        value: true
+      onPremisesHosting:
+        value: true
+      prioritySupport:
+        value: true
+      billing:
+        value:
+          - CARD
+          - INVOICE
+      accessToBetaProgram:
+        value: true
+      dedicatedCustomerSuccessManager:
+        value: true
+    usageLimits:
+      onlyForPublicRepos:
+        value: false
+addOns: null

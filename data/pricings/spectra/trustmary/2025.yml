@@ -1,0 +1,676 @@
+syntaxVersion: '2.1'
+saasName: Trustmary - Collect
+createdAt: '2025-03-05'
+version: '2025'
+billing:
+  monthly: 1.0
+currency: USD
+url: https://web.archive.org/web/20250305183520/https://trustmary.com/pricing/
+features:
+  widgets:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: EXTENSION
+  domains:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  reviewProfilePage:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  customizeProfilePage:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  reviews:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  autoImportReviewsDaily:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: AUTOMATION
+    automationType: TASK_AUTOMATION
+  surveys:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  3in1Surveys:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  analytics:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: INFORMATION
+  reviewTranslations:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: AUTOMATION
+    automationType: BOT
+  removeTrustmaryBranding:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  addReviewsToAnyWebsite:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  reviewSchema.orgMarkup:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  socialMediaSharing:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  importReviewsFromSpreadsheet:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: EXTERNAL_DEVICE
+  addReviewsManually:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  manageReviews:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  tagReviews:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: MANAGEMENT
+  autotagReviews:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: AUTOMATION
+    automationType: TASK_AUTOMATION
+  reviewFiltering:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: AUTOMATION
+    automationType: FILTERING
+  reviewWidget:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: EXTENSION
+  formWidget:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: EXTENSION
+  badgeWidget:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: EXTENSION
+  popupWidget:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: EXTENSION
+  ctaWidget:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: EXTENSION
+  views:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  reviewPlatformConnections:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: MARKETPLACE
+  reviewImportCount:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  combinedReviewAndFeedbackCollection:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  quickPreview:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  surveyTemplateLibrary:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  emailNotificationsForNewResponses:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: AUTOMATION
+    automationType: TRACKING
+  brandedSurveyTheme:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  autoTranslatedSurveys:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: AUTOMATION
+    automationType: BOT
+  multilanguage:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  surveyLogic:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  surveyStatus:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: INFORMATION
+  progressBar:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: INFORMATION
+  100%CustomizableForms:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  anonymizedResponses:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  urlSharing:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  emailSharing:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  htmlEmbedsSharing:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  popupSurveySharing:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  emailSignatureSharing:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  qrCodeSharing:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  europeSMSRequests:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: INTEGRATION
+    integrationType: EXTERNAL_DEVICE
+  npsQuestions:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  csatQuestions:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  starRatingQuestions:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  videoQuestions:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  imageQuestions:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  commentQuestions:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  reviewFields:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  contentFields:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  emailFields:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  longTextareaFields:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  shortTextFields:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  multipleChoiceFields:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  singleChoiceFields:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  yesNoQuestions:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  multipleChoiceDropdownFields:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  singleChoiceDropdownFields:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  rangeQuestions:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  questionGroups:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  noOpinionOption:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  additionalInfoOption:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  zapierIntegration:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+  makeIntegration:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+  airbnbIntegration:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+  booking.comIntegration:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+  capterraIntegration:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+  facebookIntegration:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+  g2Integration:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+  googleIntegration:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+  tripadvisorIntegration:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+  trustedShopsIntegration:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+  yelpIntegration:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+  hubspotIntegration:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+  pipedriveIntegration:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+  chatSupport:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: SUPPORT
+  emailSupport:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: SUPPORT
+  phoneSupport:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: SUPPORT
+  dedicatedAccountManager:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: SUPPORT
+  onboardingPackage:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: SUPPORT
+usageLimits:
+  viewsLimit:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 500
+    unit: view/month
+    type: RENEWABLE
+    linkedFeatures:
+    - views
+  reviewPlatformConnectionsLimit:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 1
+    unit: platform
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - reviewPlatformConnections
+  reviewImportCountLimit:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 1000
+    unit: review
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - reviewImportCount
+  monthlySurveyResponsesLimit:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 5
+    unit: response/month
+    type: RENEWABLE
+    linkedFeatures:
+    - surveys
+  annualSurveyResponsesLimit:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 0
+    unit: response/year
+    type: RENEWABLE
+    linkedFeatures:
+    - surveys
+  monthlyEmailRequestsLimit:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 5
+    unit: request/month
+    type: RENEWABLE
+    linkedFeatures:
+    - emailSharing
+  annualEmailRequestsLimit:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 0
+    unit: request/year
+    type: RENEWABLE
+    linkedFeatures:
+    - emailSharing
+plans:
+  SOLO:
+    description: Essentials to get more reviews and feedback
+    price: 0
+    unit: /month
+    features: null
+    usageLimits: null
+  STARTER:
+    description: For smaller teams, more responses and automations
+    price: 16
+    unit: /month
+    features:
+      customizeProfilePage:
+        value: true
+      reviews:
+        value: true
+      autoImportReviewsDaily:
+        value: true
+      surveys:
+        value: true
+      multilanguage:
+        value: true
+      analytics:
+        value: true
+      surveyStatus:
+        value: true
+      progressBar:
+        value: true
+      100%CustomizableForms:
+        value: true
+      anonymizedResponses:
+        value: true
+      europeSMSRequests:
+        value: true
+      longTextareaFields:
+        value: true
+      shortTextFields:
+        value: true
+      multipleChoiceFields:
+        value: true
+      singleChoiceFields:
+        value: true
+      yesNoQuestions:
+        value: true
+      multipleChoiceDropdownFields:
+        value: true
+      singleChoiceDropdownFields:
+        value: true
+      rangeQuestions:
+        value: true
+      questionGroups:
+        value: true
+      noOpinionOption:
+        value: true
+      additionalInfoOption:
+        value: true
+    usageLimits:
+      viewsLimit:
+        value: 5000
+      reviewPlatformConnectionsLimit:
+        value: 3
+      reviewImportCountLimit:
+        value: .inf
+      monthlySurveyResponsesLimit:
+        value: 20
+      annualSurveyResponsesLimit:
+        value: 240
+      monthlyEmailRequestsLimit:
+        value: 200
+      annualEmailRequestsLimit:
+        value: 2400
+  BUSINESS:
+    description: The best Collect plan for growing companies
+    price: 49
+    unit: /month
+    features:
+      customizeProfilePage:
+        value: true
+      reviews:
+        value: true
+      autoImportReviewsDaily:
+        value: true
+      surveys:
+        value: true
+      reviewTranslations:
+        value: true
+      removeTrustmaryBranding:
+        value: true
+      multilanguage:
+        value: true
+      analytics:
+        value: true
+      surveyStatus:
+        value: true
+      progressBar:
+        value: true
+      100%CustomizableForms:
+        value: true
+      anonymizedResponses:
+        value: true
+      europeSMSRequests:
+        value: true
+      longTextareaFields:
+        value: true
+      shortTextFields:
+        value: true
+      multipleChoiceFields:
+        value: true
+      singleChoiceFields:
+        value: true
+      yesNoQuestions:
+        value: true
+      multipleChoiceDropdownFields:
+        value: true
+      singleChoiceDropdownFields:
+        value: true
+      rangeQuestions:
+        value: true
+      questionGroups:
+        value: true
+      noOpinionOption:
+        value: true
+      additionalInfoOption:
+        value: true
+      hubspotIntegration:
+        value: true
+      pipedriveIntegration:
+        value: true
+      phoneSupport:
+        value: true
+    usageLimits:
+      viewsLimit:
+        value: 25000
+      reviewPlatformConnectionsLimit:
+        value: 10
+      reviewImportCountLimit:
+        value: .inf
+      monthlySurveyResponsesLimit:
+        value: 50
+      annualSurveyResponsesLimit:
+        value: 600
+      monthlyEmailRequestsLimit:
+        value: 500
+      annualEmailRequestsLimit:
+        value: 6000
+  SCALE:
+    description: ''
+    price: 107
+    unit: /month
+    features:
+      customizeProfilePage:
+        value: true
+      reviews:
+        value: true
+      autoImportReviewsDaily:
+        value: true
+      surveys:
+        value: true
+      reviewTranslations:
+        value: true
+      removeTrustmaryBranding:
+        value: true
+      multilanguage:
+        value: true
+      analytics:
+        value: true
+      surveyStatus:
+        value: true
+      progressBar:
+        value: true
+      100%CustomizableForms:
+        value: true
+      anonymizedResponses:
+        value: true
+      europeSMSRequests:
+        value: true
+      longTextareaFields:
+        value: true
+      shortTextFields:
+        value: true
+      multipleChoiceFields:
+        value: true
+      singleChoiceFields:
+        value: true
+      yesNoQuestions:
+        value: true
+      multipleChoiceDropdownFields:
+        value: true
+      singleChoiceDropdownFields:
+        value: true
+      rangeQuestions:
+        value: true
+      questionGroups:
+        value: true
+      noOpinionOption:
+        value: true
+      additionalInfoOption:
+        value: true
+      hubspotIntegration:
+        value: true
+      pipedriveIntegration:
+        value: true
+      phoneSupport:
+        value: true
+    usageLimits:
+      viewsLimit:
+        value: 100000
+      reviewPlatformConnectionsLimit:
+        value: 25
+      reviewImportCountLimit:
+        value: .inf
+      monthlySurveyResponsesLimit:
+        value: 500
+      annualSurveyResponsesLimit:
+        value: 6000
+      monthlyEmailRequestsLimit:
+        value: 5000
+      annualEmailRequestsLimit:
+        value: 60000
+addOns:
+  dedicatedAccountManager:
+    availableFor:
+    - SOLO
+    - STARTER
+    - BUSINESS
+    - SCALE
+    price: "Contact us"
+    unit: /month
+    features:
+      dedicatedAccountManager:
+        value: true
+  onboardingPackageAddOn:
+    availableFor:
+    - SOLO
+    - STARTER
+    - BUSINESS
+    - SCALE
+    price: 990
+    unit: one time payment
+    features:
+      onboardingPackage:
+        value: true

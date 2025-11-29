@@ -1,0 +1,305 @@
+syntaxVersion: '2.1'
+saasName: Canva
+createdAt: '2021-03-18'
+version: '2021-03-18'
+billing:
+  monthly: 1.0
+currency: USD
+url: https://web.archive.org/web/20210319062841/https://www.canva.com/pricing/
+features:
+  freeTemplates:
+    description: Free templates.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  freeLogos:
+    description: Free Logos.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  freeFonts:
+    description: Free Fonts.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  freePhotos:
+    description: Free Photos.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  freeGraphics:
+    description: Free Graphics.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  premiumStockImages:
+    description: Premium stock images library.
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  createDesignsWithCustomDimesions:
+    description: Create designs with custom dimensions.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  exportDesignsAsPDF:
+    description: Export designs as PDF.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  exportDesignsAsPNG:
+    description: Export designs as PNG.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  exportDesignsAsJPG:
+    description: Export designs as JPG.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  builtInSocialSharing:
+    description: Built-in social sharing.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  presentationMode:
+    description: Presentation mode.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  canvaApp:
+    description: Canva App for designing on the run.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: EXTERNAL_DEVICE
+  oneClickDesignResizing:
+    description: One-click design Magic Resize.
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  oneClickPhotoBackgroundRemoval:
+    description: One-click photo background removal.
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  createCustomTemplates:
+    description: Create custom templates.
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  uploadYourPhotosAndFonts:
+    description: Upload your photos and fonts.
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  downloadDesignsWithTransparentBackground:
+    description: Download designs with transparent background.
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  customizeDownloadQuality:
+    description: Customize download quality.
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  exportDesignsAsAnimatedGIF:
+    description: Export designs as animated GIFs.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  exportDesignsAsMP4:
+    description: Export designs as MP4 videos.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  createAndPublishToSocialMediaFromCanva:
+    description: Create and publish social media content directly from the Canva Editor to 7 platforms.
+    valueType: BOOLEAN
+    defaultValue: false
+    type: INTEGRATION
+    integrationType: MARKETPLACE
+  publishToSocialMediaOnlyAllowedToAdmins:
+    description: Template and Admin users only allowed to Create and publish social media content directly from the Canva Editor to 7 platforms.
+    valueType: BOOLEAN
+    defaultValue: false
+    type: MANAGEMENT
+  teamSharing:
+    description: Team sharing.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  shareView:
+    description: Share view access to designs with people outside your team through a design link or with select people within your team.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  editAccessToDesigns:
+    description: Share edit access to designs with people outside your team through a design link or with select people within your team.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: MANAGEMENT
+  addCommentsToDesigns:
+    description: Add comments to designs.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  bluitInCommenting:
+    description: Add comments to designs.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: MANAGEMENT
+  approvalsWorkflow:
+    description: Built-in workflows to get approval on your designs.
+    valueType: BOOLEAN
+    defaultValue: false
+    type: MANAGEMENT
+  brandKit:
+    description: Establish your brand's visual identity across logos, colours and fonts with Brand Kits.
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  brandControls:
+    description: Set brand controls to ensure your team stays on brand
+    valueType: BOOLEAN
+    defaultValue: false
+    type: MANAGEMENT
+  advancedTemplateLocking:
+    description: Protect any part of your design from team edits with advanced template locking.
+    valueType: BOOLEAN
+    defaultValue: false
+    type: MANAGEMENT
+  cloudStorage:
+    description: Cloud storage
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  folders:
+    description: Folders
+    valueType: BOOLEAN
+    defaultValue: true
+    type: MANAGEMENT
+  24/7support:
+    description: Support
+    valueType: BOOLEAN
+    defaultValue: false
+    type: SUPPORT
+  twoFactorAuthentication:
+    description: Two factor authentication (2FA)
+    valueType: BOOLEAN
+    defaultValue: true
+    type: MANAGEMENT
+  singleSignOn:
+    description: Security with single sign-on and two-factor authentication
+    valueType: BOOLEAN
+    defaultValue: false
+    type: MANAGEMENT
+usageLimits:
+  brandKitUnits:
+    description: Brand Kits limit
+    valueType: NUMERIC
+    defaultValue: 0
+    unit: Brand Kit
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - brandKit
+  cloudStorageLimit:
+    description: Cloud storage limit
+    valueType: NUMERIC
+    defaultValue: 5
+    unit: GB
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - cloudStorage
+  foldersLimit:
+    description: Folders limit
+    valueType: NUMERIC
+    defaultValue: 2
+    unit: folder
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - folders
+plans:
+  FREE:
+    description: Everything you need to start designing
+    price: 0
+    unit: user/month
+    features: null
+    usageLimits: null
+  PRO:
+    description: Designing together just got better. Professional design made easy
+      with unlimited access to premium tools and content.
+    price: 12.99
+    unit: user/month
+    features:
+      premiumStockImages:
+        value: true
+      oneClickDesignResizing:
+        value: true
+      oneClickPhotoBackgroundRemoval:
+        value: true
+      createCustomTemplates:
+        value: true
+      uploadYourPhotosAndFonts:
+        value: true
+      downloadDesignsWithTransparentBackground:
+        value: true
+      customizeDownloadQuality:
+        value: true
+      createAndPublishToSocialMediaFromCanva:
+        value: true
+      brandKit:
+        value: true
+      24/7support:
+        value: true
+    usageLimits:
+      brandKitUnits:
+        value: 1
+      cloudStorageLimit:
+        value: 100
+      foldersLimit:
+        value: 1000000000
+  ENTERPRISE:
+    description: Empower your team, manage your brand, and scale your content all
+      in one place
+    price: Contact Sales
+    unit: user/month
+    features:
+      premiumStockImages:
+        value: true
+      oneClickDesignResizing:
+        value: true
+      oneClickPhotoBackgroundRemoval:
+        value: true
+      createCustomTemplates:
+        value: true
+      uploadYourPhotosAndFonts:
+        value: true
+      downloadDesignsWithTransparentBackground:
+        value: true
+      customizeDownloadQuality:
+        value: true
+      createAndPublishToSocialMediaFromCanva:
+        value: true
+      publishToSocialMediaOnlyAllowedToAdmins:
+        value: true
+      approvalsWorkflow:
+        value: true
+      brandKit:
+        value: true
+      brandControls:
+        value: true
+      advancedTemplateLocking:
+        value: true
+      24/7support:
+        value: true
+      singleSignOn:
+        value: true
+    usageLimits:
+      brandKitUnits:
+        value: 1000000000
+      cloudStorageLimit:
+        value: 1000000000
+      foldersLimit:
+        value: 1000000000
+addOns: null

@@ -1,0 +1,533 @@
+syntaxVersion: '2.1'
+saasName: CircleCI - Cloud
+createdAt: '2020-11-27'
+version: '2020'
+billing:
+  monthly: 1.0
+currency: USD
+url: https://web.archive.org/web/20201127055711/https://circleci.com/pricing/
+features:
+  smallDockerVM:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  mediumDockerVM:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  mediumPlusDockerVM:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  largeDockerVM:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  xLargeDockerVM:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  2xLargeDockerVM:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  smallLinuxVM:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  mediumLinuxVM:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  largeLinuxVM:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  xLargeLinuxVM:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  2xLargeLinuxVM:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  mediumMacOsVM:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  largeMacOsVM:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  mediumWindowsVM:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  largeWindowsVM:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  xLargeWindowsVM:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  2xLargeWindowsVM:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  smallGpuNvidia:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  mediumGpuNvidia:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  mediumWindowsGpuNvidia:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  concurrentJobRuns:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  concurrentJobRunsMacOs:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  selfHostedRunners:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  dockerLayerCatching:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  flexibleBillingOptions:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: PAYMENT
+  communitySupport:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: SUPPORT
+  supportPortal:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: SUPPORT
+  ticketBasedGlobalSupport:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: SUPPORT
+  8x5SLA:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: SUPPORT
+  24x5SLA:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: SUPPORT
+  24x7SLA:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: SUPPORT
+  dedicatedAccountManager:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: SUPPORT
+  dedicatedSuccessManager:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: SUPPORT
+  dedicatedSuccessEngineer:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: SUPPORT
+  checklistProjectPlanning:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: SUPPORT
+  standardProjectPlanning:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: SUPPORT
+  tailoredProjectPlanning:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: SUPPORT
+  documentedResourcesTraining:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: SUPPORT
+  cseLedTraining:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: SUPPORT
+  emailSupport:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: SUPPORT
+  regularRecurringMeetingsWithYourSuccessTeam:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: SUPPORT
+  goldLevelCommunications:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: SUPPORT
+  dedicatedSlackChannel:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: SUPPORT
+  valueAddedServices:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: SUPPORT
+  urgentSeverityLevel:
+    description: ""
+    valueType: TEXT
+    defaultValue: ""
+    type: SUPPORT
+  highSeverityLevel:
+    description: ""
+    valueType: TEXT
+    defaultValue: ""
+    type: SUPPORT
+  normalSeverityLevel:
+    description: ""
+    valueType: TEXT
+    defaultValue: ""
+    type: SUPPORT
+  lowSeverityLevel:
+    description: ""
+    valueType: TEXT
+    defaultValue: ""
+    type: SUPPORT
+usageLimits:
+  maxUsers:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 1
+    unit: user
+    type: NON_RENEWABLE
+  renewableCredits:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 2500
+    unit: credit/week
+    type: RENEWABLE
+  nonRenewableCredits:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 0
+    unit: credit/week
+    type: NON_RENEWABLE
+  concurrentJobRunsLimitNonMacOs:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 1
+    unit: job
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - concurrentJobRuns
+  concurrentJobRunsLimitMacOs:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 0
+    unit: job
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - concurrentJobRunsMacOs
+  amountOfValueAddedServices:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 0
+    unit: service
+    type: RENEWABLE
+    linkedFeatures:
+    - valueAddedServices
+plans:
+  FREE:
+    description: ""
+    price: 0
+    unit: /month
+    features: null
+    usageLimits: null
+  PERFORMANCE:
+    description: ""
+    price: 15
+    unit: /month
+    features:
+      mediumPlusDockerVM:
+        value: true
+      largeDockerVM:
+        value: true
+      xLargeDockerVM:
+        value: true
+      largeLinuxVM:
+        value: true
+      xLargeLinuxVM:
+        value: true
+      mediumMacOsVM:
+        value: true
+      largeWindowsVM:
+        value: true
+      xLargeWindowsVM:
+        value: true
+      concurrentJobRunsMacOs:
+        value: true
+      dockerLayerCatching:
+        value: true
+      ticketBasedGlobalSupport:
+        value: true
+    usageLimits:
+      maxUsers:
+        value: 3
+      nonRenewableCredits:
+        value: 25000
+      concurrentJobRunsLimitNonMacOs:
+        value: 80
+      concurrentJobRunsLimitMacOs:
+        value: 15
+  SCALE:
+    description: ""
+    price: "Contact us"
+    unit: /month
+    features:
+      mediumPlusDockerVM:
+        value: true
+      largeDockerVM:
+        value: true
+      xLargeDockerVM:
+        value: true
+      2xLargeDockerVM:
+        value: true
+      largeLinuxVM:
+        value: true
+      xLargeLinuxVM:
+        value: true
+      2xLargeLinuxVM:
+        value: true
+      mediumMacOsVM:
+        value: true
+      largeMacOsVM:
+        value: true
+      largeWindowsVM:
+        value: true
+      xLargeWindowsVM:
+        value: true
+      2xLargeWindowsVM:
+        value: true
+      smallGpuNvidia:
+        value: true
+      mediumGpuNvidia:
+        value: true
+      mediumWindowsGpuNvidia:
+        value: true
+      concurrentJobRunsMacOs:
+        value: true
+      selfHostedRunners:
+        value: true
+      dockerLayerCatching:
+        value: true
+      flexibleBillingOptions:
+        value: true
+      communitySupport:
+        value: true
+      supportPortal:
+        value: true
+      ticketBasedGlobalSupport:
+        value: true
+      24x5SLA:
+        value: true
+      dedicatedAccountManager:
+        value: true
+      dedicatedSuccessManager:
+        value: true
+      dedicatedSuccessEngineer:
+        value: true
+      checklistProjectPlanning:
+        value: true
+      standardProjectPlanning:
+        value: true
+      documentedResourcesTraining:
+        value: true
+      cseLedTraining:
+        value: true
+      regularRecurringMeetingsWithYourSuccessTeam:
+        value: true
+      valueAddedServices:
+        value: true
+      emailSupport:
+        value: true
+      urgentSeverityLevel:
+        value: "1 hour 24x5"
+      highSeverityLevel:
+        value: "2 hours 24x5"
+      normalSeverityLevel:
+        value: "8 hours 24x5"
+      lowSeverityLevel:
+        value: "Prompt response"
+    usageLimits:
+      maxUsers:
+        value: .inf
+      nonRenewableCredits:
+        value: .inf
+      concurrentJobRunsLimitNonMacOs:
+        value: .inf
+      concurrentJobRunsLimitMacOs:
+        value: .inf
+      amountOfValueAddedServices:
+        value: 3
+addOns:
+  extraUsers:
+    description: ""
+    availableFor:
+      - PERFORMANCE
+    price: 15
+    unit: /month
+    usageLimitsExtensions:
+      maxUsers:
+        value: 1
+  extraCredits:
+    description: ""
+    availableFor:
+      - PERFORMANCE
+    price: 15
+    unit: /month
+    usageLimitsExtensions:
+      nonRenewableCredits:
+        value: 25000
+  silverPremiumSupport:
+    description: "https://web.archive.org/web/20191101031017/https://circleci.com/support/premium-support/"
+    excludes:
+      - platinumPremiumSupport
+    availableFor:
+      - PERFORMANCE
+    price: 249
+    unit: /month
+    features:
+      communitySupport:
+        value: true
+      supportPortal:
+        value: true
+      ticketBasedGlobalSupport:
+        value: true
+      8x5SLA:
+        value: true
+      dedicatedAccountManager:
+        value: true
+      dedicatedSuccessManager:
+        value: true
+      checklistProjectPlanning:
+        value: true
+      documentedResourcesTraining:
+        value: true
+      emailSupport:
+        value: true
+      urgentSeverityLevel:
+        value: "2 business hours"
+      highSeverityLevel:
+        value: "4 business hours"
+      normalSeverityLevel:
+        value: "1 business day"
+      lowSeverityLevel:
+        value: "Prompt response"
+  platinumPremiumSupport:
+    description: "https://web.archive.org/web/20191101031017/https://circleci.com/support/premium-support/"
+    excludes:
+      - silverPremiumSupport
+    availableFor:
+      - SCALE
+    price: "Contact us"
+    unit: /month
+    features:
+      communitySupport:
+        value: true
+      supportPortal:
+        value: true
+      ticketBasedGlobalSupport:
+        value: true
+      24x7SLA:
+        value: true
+      dedicatedAccountManager:
+        value: true
+      dedicatedSuccessManager:
+        value: true
+      dedicatedSuccessEngineer:
+        value: true
+      checklistProjectPlanning:
+        value: true
+      standardProjectPlanning:
+        value: true
+      tailoredProjectPlanning:
+        value: true
+      documentedResourcesTraining:
+        value: true
+      cseLedTraining:
+        value: true
+      regularRecurringMeetingsWithYourSuccessTeam:
+        value: true
+      goldLevelCommunications:
+        value: true
+      dedicatedSlackChannel:
+        value: true
+      valueAddedServices:
+        value: true
+      emailSupport:
+        value: true
+      urgentSeverityLevel:
+        value: "30 minutes 24x5"
+      highSeverityLevel:
+        value: "1 hours 24x5"
+      normalSeverityLevel:
+        value: "2 hours 24x5"
+      lowSeverityLevel:
+        value: "Prompt response"
+    usageLimits:
+      amountOfValueAddedServices:
+        value: 5

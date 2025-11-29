@@ -1,0 +1,657 @@
+syntaxVersion: '2.1'
+saasName: OpenPhone
+createdAt: '2025-03-07'
+version: '2025'
+url: https://web.archive.org/web/20250307093649/https://www.openphone.com/pricing
+tags:
+- Core features
+- Productivity & collaboration
+- Integrations
+- Admin & security
+- Support
+billing:
+  monthly: 1.0
+currency: USD
+features:
+  usAndCanadaCalling:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Core features
+    type: DOMAIN
+  usAndCanadaMessaging:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Core features
+    type: DOMAIN
+  internationalCalling:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Core features
+    type: DOMAIN
+  internationalMessaging:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Core features
+    type: DOMAIN
+  phoneNumbers:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Core features
+    type: DOMAIN
+  portPhoneNumbersFromOtherCarriers:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Core features
+    type: DOMAIN
+  sharedPhoneNumbers:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Productivity & collaboration
+    type: DOMAIN
+  snippets:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Productivity & collaboration
+    type: DOMAIN
+  aiMessageResponses:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Productivity & collaboration
+    type: AUTOMATION
+    automationType: BOT
+  internalThreads:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Productivity & collaboration
+    type: DOMAIN
+  sharedContacts:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Productivity & collaboration
+    type: DOMAIN
+  contactNotes:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Productivity & collaboration
+    type: DOMAIN
+  businessHours:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Productivity & collaboration
+    type: DOMAIN
+  voicemailTranscripts:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Productivity & collaboration
+    type: DOMAIN
+  manualCallRecording:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Productivity & collaboration
+    type: DOMAIN
+  automaticCallRecording:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Productivity & collaboration
+    type: AUTOMATION
+    automationType: TASK_AUTOMATION
+  autoReplies:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Productivity & collaboration
+    type: AUTOMATION
+    automationType: TASK_AUTOMATION
+  scheduledMessages:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Productivity & collaboration
+    type: AUTOMATION
+    automationType: TASK_AUTOMATION
+  userGroups:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Productivity & collaboration
+    type: MANAGEMENT
+  groupMessaging:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Productivity & collaboration
+    type: DOMAIN
+  basicCallForwarding:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Productivity & collaboration
+    type: DOMAIN
+  callViews:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Productivity & collaboration
+    type: DOMAIN
+  advancedCallForwarding:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Productivity & collaboration
+    type: DOMAIN
+  phoneMenus:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Productivity & collaboration
+    type: DOMAIN
+  aiCallSummaries:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Productivity & collaboration
+    type: AUTOMATION
+    automationType: BOT
+  aiCallTranscripts:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Productivity & collaboration
+    type: AUTOMATION
+    automationType: BOT
+  groupCalling:
+    description: Coming Soon
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Productivity & collaboration
+    type: DOMAIN
+  callHold:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Productivity & collaboration
+    type: DOMAIN
+  callTransfers:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Productivity & collaboration
+    type: DOMAIN
+  ringOrder:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Productivity & collaboration
+    type: DOMAIN
+  conditionalCallRouting:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Productivity & collaboration
+    type: DOMAIN
+  aiCallTags:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Productivity & collaboration
+    type: DOMAIN
+  emailIntegration:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Integrations
+    type: INTEGRATION
+    integrationType: MARKETPLACE
+  slackIntegration:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Integrations
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+    pricingUrls:
+    - https://slack.com/pricing
+  zapierIntegration:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Integrations
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+    pricingUrls:
+    - https://zapier.com/pricing
+  makeIntegration:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Integrations
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+    pricingUrls:
+    - https://www.make.com/en/pricing
+  smsViaApi:
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Integrations
+    type: INTEGRATION
+    integrationType: API
+  smsViaZapierAndMake:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Integrations
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+    pricingUrls:
+    - https://zapier.com/pricing
+  googleContactsIntegration:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Integrations
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+    pricingUrls:
+    - https://workspace.google.com/pricing
+  webhooksIntegration:
+    description: Beta
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Integrations
+    type: INTEGRATION
+    integrationType: API
+  hubSpotCRMIntegration:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Integrations
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+    pricingUrls:
+    - https://www.hubspot.com/pricing
+  salesforceIntegration:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Integrations
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+    pricingUrls:
+    - https://www.salesforce.com/products/sales-cloud/pricing/
+  gongIntegration:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Integrations
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+    pricingUrls:
+    - https://www.gong.io/pricing/
+  userRoles:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Admin & security
+    type: MANAGEMENT
+  userManagement:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Admin & security
+    type: MANAGEMENT
+  analytics:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Admin & security
+    type: INFORMATION
+  reporting:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Admin & security
+    type: INFORMATION
+  auditLog:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Admin & security
+    type: INFORMATION
+  SOC2Report:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Admin & security
+    type: INFORMATION
+  standardSupport:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Support
+    type: SUPPORT
+  prioritySupport:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Support
+    type: SUPPORT
+  dedicatedAccountManager:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Support
+    type: SUPPORT
+usageLimits:
+  useCanadaMessagingFeePayed:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - usAndCanadaMessaging
+  phoneNumbersLimit:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 1
+    unit: phone number
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - phoneNumbers
+  sharedPhoneNumbersLimit:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 10
+    unit: user
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - sharedPhoneNumbers
+  smsViaApiAddOnLimit:
+    valueType: NUMERIC
+    defaultValue: 0
+    unit: message
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - smsViaApi
+  smsViaZapierAndMakeAddonLimit:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 0
+    unit: message
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - smsViaZapierAndMake
+plans:
+  STARTER:
+    description: The essentials to get you and your team up and running
+    price: 19
+    unit: user/month
+    features: null
+    usageLimits: null
+  BUSINESS:
+    description: For businesses looking for more call handling and automation features
+    price: 33
+    unit: user/month
+    features:
+      automaticCallRecording:
+        value: true
+      advancedCallForwarding:
+        value: true
+      phoneMenus:
+        value: true
+      aiCallSummaries:
+        value: true
+      aiCallTranscripts:
+        value: true
+      groupCalling:
+        value: true
+      callHold:
+        value: true
+      callTransfers:
+        value: true
+      ringOrder:
+        value: true
+      hubSpotCRMIntegration:
+        value: true
+      salesforceIntegration:
+        value: true
+      gongIntegration:
+        value: true
+      analytics:
+        value: true
+      reporting:
+        value: true
+    usageLimits:
+      sharedPhoneNumbersLimit:
+        value: .inf
+  SCALE:
+    description: Boost team efficiency with advanced automations and AI support
+    price: 47
+    unit: user/month
+    features:
+      automaticCallRecording:
+        value: true
+      advancedCallForwarding:
+        value: true
+      phoneMenus:
+        value: true
+      aiCallSummaries:
+        value: true
+      aiCallTranscripts:
+        value: true
+      groupCalling:
+        value: true
+      callHold:
+        value: true
+      callTransfers:
+        value: true
+      ringOrder:
+        value: true
+      conditionalCallRouting:
+        value: true
+      aiCallTags:
+        value: true
+      hubSpotCRMIntegration:
+        value: true
+      salesforceIntegration:
+        value: true
+      gongIntegration:
+        value: true
+      analytics:
+        value: true
+      reporting:
+        value: true
+      prioritySupport:
+        value: true
+    usageLimits:
+      sharedPhoneNumbersLimit:
+        value: .inf
+  ENTERPRISE:
+    description: For organizations with more complex requirements
+    price: Contact Sales
+    unit: user/month
+    features:
+      automaticCallRecording:
+        value: true
+      advancedCallForwarding:
+        value: true
+      phoneMenus:
+        value: true
+      aiCallSummaries:
+        value: true
+      aiCallTranscripts:
+        value: true
+      groupCalling:
+        value: true
+      callHold:
+        value: true
+      callTransfers:
+        value: true
+      ringOrder:
+        value: true
+      conditionalCallRouting:
+        value: true
+      aiCallTags:
+        value: true
+      hubSpotCRMIntegration:
+        value: true
+      salesforceIntegration:
+        value: true
+      gongIntegration:
+        value: true
+      analytics:
+        value: true
+      reporting:
+        value: true
+      auditLog:
+        value: true
+      prioritySupport:
+        value: true
+      dedicatedAccountManager:
+        value: true
+    usageLimits:
+      sharedPhoneNumbersLimit:
+        value: .inf
+addOns:
+  carrierReviewAndSetupFeesForUsCanadaMessaging:
+    availableFor:
+    - STARTER
+    - BUSINESS
+    - SCALE
+    - ENTERPRISE
+    price: 19
+    unit: one-time payment
+    features:
+      usAndCanadaMessaging:
+        value: true
+    usageLimits: null
+    usageLimitsExtensions: null
+  useCanadaMessagingFee:
+    availableFor:
+    - STARTER
+    - BUSINESS
+    - SCALE
+    - ENTERPRISE
+    price: 3
+    unit: /month
+    features: null
+    usageLimits:
+      useCanadaMessagingFeePayed:
+        value: true
+    usageLimitsExtensions: null
+  aditionalPhoneNumbers:
+    availableFor:
+    - STARTER
+    - BUSINESS
+    - SCALE
+    - ENTERPRISE
+    price: 5
+    unit: phoneNumber/month
+    features: null
+    usageLimits: null
+    usageLimitsExtensions:
+      phoneNumbersLimit:
+        value: 1
+  internationalCallingAndMessaging:
+    availableFor:
+    - STARTER
+    - BUSINESS
+    - SCALE
+    - ENTERPRISE
+    price: See Rates
+    unit: user/month
+    features:
+      internationalCalling:
+        value: true
+      internationalMessaging:
+        value: true
+    usageLimits: null
+    usageLimitsExtensions: null
+  smsViaApi:
+    availableFor:
+    - STARTER
+    - BUSINESS
+    - SCALE
+    - ENTERPRISE
+    price: 0.01
+    unit: message
+    features:
+      smsViaApi:
+        value: true
+    usageLimits: null
+    usageLimitsExtensions:
+      smsViaApiAddOnLimit:
+        value: 1
+  extraSmsViaApi:
+    availableFor:
+    - STARTER
+    - BUSINESS
+    - SCALE
+    - ENTERPRISE
+    dependsOn:
+    - smsViaApi
+    price: 0.01
+    unit: message
+    features: null
+    usageLimits: null
+    usageLimitsExtensions:
+      smsViaApiAddOnLimit:
+        value: 1
+  smsViaZapierAndMakeAddon:
+    availableFor:
+    - STARTER
+    - BUSINESS
+    - SCALE
+    - ENTERPRISE
+    price: 0.01
+    unit: message
+    features:
+      smsViaZapierAndMake:
+        value: true
+    usageLimits: null
+    usageLimitsExtensions:
+      smsViaZapierAndMakeAddonLimit:
+        value: 1
+  extrasmsViaZapierAndMake:
+    availableFor:
+    - STARTER
+    - BUSINESS
+    - SCALE
+    - ENTERPRISE
+    dependsOn:
+    - smsViaZapierAndMakeAddon
+    price: 0.01
+    unit: message
+    features: null
+    usageLimits: null
+    usageLimitsExtensions:
+      smsViaZapierAndMakeAddonLimit:
+        value: 1
+  soc2ReportAddOn:
+    availableFor:
+    - STARTER
+    - BUSINESS
+    - SCALE
+    - ENTERPRISE
+    price: Contact Sales
+    unit: /month
+    features:
+      SOC2Report:
+        value: true
+    usageLimits: null
+    usageLimitsExtensions: null

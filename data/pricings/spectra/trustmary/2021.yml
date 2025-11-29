@@ -1,0 +1,137 @@
+syntaxVersion: '2.1'
+saasName: Trustmary - Full Suite
+createdAt: '2021-11-29'
+version: '2021-11-29'
+billing:
+  monthly: 1.0
+currency: USD
+url: https://web.archive.org/web/20211130124431/https://trustmary.com/pricing/
+features:
+  surveys:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  testimonials:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  reviews:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  shareableLinks:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  feedbackRequestInEmail:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  abTesting:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  analytics:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  videoTestimonials:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  surveyEditor:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  feedbackRequestViaEmail:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+  feedbackRequestViaQR:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  feedbackRequestViaWebsite:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: EXTENSION
+  automations:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: AUTOMATION
+    automationType: TASK_AUTOMATION
+  integrations:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: MARKETPLACE
+usageLimits:
+  surveysLimit:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 200
+    unit: survey/month
+    type: RENEWABLE
+    linkedFeatures:
+    - surveys
+  testimonialsOrReviewsAtTheSameTime:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 25
+    unit: testimonial or review
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - testimonials
+    - reviews
+  feedbackRequestViaEmailLimit:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 3000
+    unit: email/month
+    type: RENEWABLE
+    linkedFeatures:
+    - feedbackRequestViaEmail
+plans:
+  STARTER:
+    description: ''
+    price: 290
+    unit: /month
+    features: null
+    usageLimits: null
+  BUSINESS:
+    description: ''
+    price: 390
+    unit: /month
+    features: null
+    usageLimits:
+      surveysLimit:
+        value: 400
+      testimonialsOrReviewsAtTheSameTime:
+        value: 100
+  PRO:
+    description: ''
+    price: 590
+    unit: /month
+    features: null
+    usageLimits:
+      surveysLimit:
+        value: 2000
+      testimonialsOrReviewsAtTheSameTime:
+        value: 1000
+addOns: null

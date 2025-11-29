@@ -1,0 +1,794 @@
+syntaxVersion: '2.1'
+saasName: Shopify
+createdAt: '2025-02-25'
+version: '2025-02-25'
+currency: USD
+billing:
+  monthly: 1
+  annual: 0.75
+tags:
+  - Core features
+  - Hosting and administration
+  - In-person selling
+  - Marketing
+  - Shopify Payments
+  - Shopify Shipping
+  - Shopify Marketplace Connect
+  - Customization
+  - International
+  - Shopify Tax
+  - Just for Plus
+url: https://web.archive.org/web/20250225101536/https://www.shopify.com/pricing
+features:
+  onlineStore:
+    description: Easily build an online store. Full features include
+        product collections, informational pages, and blogs.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Core features
+  checkout:
+    description: Equip your store with a world-class checkout that lets customers complete purchases with just one click.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Core features
+  products:
+    description: Sell as many products and services as you want.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Core features
+  additionalStaffAccounts:
+    description: Let staff help you run your store and control who has permission
+        to access info—from product pages to customer data.
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+    tag: Core features
+  collaboratorsAccounts:
+    description: Give 3rd party designers, developers, and marketing experts limited
+        access to your store. (Does not count toward staff account limits.)
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Core features
+  templates:
+    description: Easily create polished storefronts and customer messages with business-ready templates and themes.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Core features
+  themes:
+    description: Easily create polished storefronts and customer messages with business-ready templates and themes.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Core features
+  salesChannels:
+    description: "Promote and sell your products everywhere: on social media,
+        in online marketplaces, through customer chat, and more."
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Core features
+  inventoryLocations:
+    description: Track inventory, fulfill orders, and sell products across multiple
+        locations, including retail stores, warehouses, and pop-ups.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Core features
+  analytics:
+    description: Access 60+ reports to track your store performance or build
+        custom reporting with flexible, real-time analytics.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Core features
+  24/7support:
+    description: Get round-the-clock access to the Shopify support team.
+    valueType: TEXT
+    defaultValue: Live chat
+    type: SUPPORT
+    tag: Core features
+  taxPlatform:
+    description: Calculate accurate taxes on every order based on the most up-to-date tax rules.
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+    tag: Core features
+  webHosting:
+    description: Get fast load times and exceptional reliability for your store with unlimited bandwidth and storage.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Hosting and administration
+  customDomain:
+    description: Use your own existing domain, purchase one through Shopify, or use a free ".myshopify.com" domain.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Hosting and administration
+  freeSslCertificate:
+    description: Get a free site security certificate to encrypt your online store's content and publish it securely.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Hosting and administration
+  organizationSettings:
+    description: Manage administrative tasks like staff and billing across multiple Shopify stores.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: MANAGEMENT
+    tag: Hosting and administration
+  shopifyPosLite:
+    description: A lightweight solution for casual selling at pop-ups and markets.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: In-person selling
+  shopifyPosPro:
+    description: Everything POS Lite has to offer, plus faster workflows,
+        more control over staff permissions, and in-depth inventory reporting tools.
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+    tag: In-person selling
+  contacts:
+    description: Add unlimited contacts to your Shopify account.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Marketing
+  customerSegmentation:
+    description: Filter and group customers to find and reach exactly the right people.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: AUTOMATION
+    automationType: FILTERING
+    tag: Marketing
+  shopifyEmail:
+    description: Create emails from scratch or from templates, send campaigns, automate emails,
+        and report on results. First 10,000 emails are free each month, with volume discounts on
+        additional emails for higher plans.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: AUTOMATION
+    automationType: FILTERING
+    tag: Marketing
+  shopifyForms:
+    description: Attract, acquire, and convert new customers with our free lead capture solution.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Marketing
+  shopifyInbox:
+    description: Convert more customers through chat, including automated messages.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Marketing
+  marketingAutomation:
+    description: Engage customers at every stage of their journey with automated marketing flows.
+        Use pre-made templates or build custom flows that suit your unique business.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: AUTOMATION
+    automationType: TASK_AUTOMATION
+    tag: Marketing
+  abandonedCheckoutRecovery:
+    description: Automatically send emails to customers who leave your store without completing checkout.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: AUTOMATION
+    automationType: TASK_AUTOMATION
+    tag: Marketing
+  discountCodes:
+    description: Offer your customers a fixed value, percentage, or shipping discount on products or collections.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Marketing
+  giftCards:
+    description: Expand your current customer base and attract new customers by offering gift cards.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Marketing
+  shopCampaigns:
+    description: Acquire customers at a cost you control with risk-free campaigns. You only pay when a customer converts.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Marketing
+  onlineStandardCardRates:
+    description: Accept all major card brands automatically when your store launches.
+    valueType: TEXT
+    defaultValue: 2.9% + 30¢
+    type: DOMAIN
+    tag: Shopify Payments
+  onlinePremiumCardRates:
+    description: Premium includes commercial, corporate, and business cards and all cards issued by American Express.
+    valueType: TEXT
+    defaultValue: 3.5% + 30¢
+    type: DOMAIN
+    tag: Shopify Payments
+  onlineInternationalCardRates:
+    valueType: TEXT
+    defaultValue: +1%
+    type: DOMAIN
+    tag: Shopify Payments
+  inPersonCardRates:
+    valueType: TEXT
+    defaultValue: 2.6% + 10¢
+    type: DOMAIN
+    tag: Shopify Payments
+  inPersonManualCredit/debitTransactionRates:
+    valueType: TEXT
+    defaultValue: 3.5% + 10¢
+    type: DOMAIN
+    tag: Shopify Payments
+  thirdPartyTransactionFeesNotUsingShopifyPayments:
+    description: Third-party transaction fees are charges that apply if you use a third-party provider.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Shopify Payments
+  fraudAnalysis:
+    description: When you use Shopify Payments, get a built-in analysis feature that flags potentially fraudulent orders.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Shopify Payments
+  shippingDiscount:
+    description: Competitive shipping rates from DHL Express, UPS, or USPS.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Shopify Shipping
+  shippingLabels:
+    description: Buy shipping labels individually or in bulk through Shopify Payments.
+        Print shipping labels using a standard printer.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Shopify Shipping
+  uspsSmallPackageDiscounts:
+    description: Get discounted rates for smaller/lighter packages with USPS Parcel
+        Select Cubic® and USPS Priority Mail Cubic®.
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+    tag: Shopify Shipping
+  shippingInsurance:
+    description: Get up to $200 coverage with each eligible Shopify Shipping label (requires Shopify Payments).
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+    tag: Shopify Shipping
+  3rdPartyCalculatedShippingRates:
+    description: Show calculated rates with your own account or third-party apps at checkout.
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+    tag: Shopify Shipping
+  connectProducts:
+    description: Connect and list your Shopify products on all supported marketplaces.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Shopify Marketplace Connect
+  listProducts:
+    description: Connect and list your Shopify products on all supported marketplaces.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Shopify Marketplace Connect
+  importMarketPlaceOrders:
+    description: Import unlimited orders from marketplaces to Shopify.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Shopify Marketplace Connect
+  shopifySyncedOrders:
+    description: Each month, get 50 marketplace orders from Shopify-synced listings for free.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Shopify Marketplace Connect
+  3rdPartyAppIntegrations:
+    description: Manage your unique business with a vast selection of compatible apps.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: MARKETPLACE
+    tag: Customization
+  ecommerceAutomations:
+    description: Automate manual tasks, build workflows, and grow your business with the first built-in ecommerce automation platform.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: AUTOMATION
+    automationType: TASK_AUTOMATION
+    tag: Customization
+  api: 
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: API
+    tag: Customization
+  customApps:
+    description: Build apps using Shopify APIs. For added customization, get API access to personally
+      identifiable information (PII), including customer names, addresses, phone numbers, and email.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: API
+    tag: Customization
+  headlessStoreFronts:
+    description: Build a custom storefront with Hydrogen, Shopify’s React-based toolkit
+        and deploy on Oxygen, Shopify’s free global hosting solution.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Customization
+  languageTranslation:
+    description: Enable multiple languages on your storefront to reach a global customer base.
+        Includes two free automated translations and flexible integrations with third-party translation services.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: International
+  currencyConversion:
+    description: Automatically convert prices into your customer’s local currency to
+        drive conversion in each market (requires Shopify Payments).
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: International
+  localizedSellingWithCustomMarkets:
+    description: Manage global sales all from a single store with our cross-border international sales tools.
+        Target specific countries or regions, offering a customized, high-converting shopping experience.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: International
+  productPricingByMarket:
+    description: Take greater control of your international pricing strategy by setting specific
+        prices for products or product variants in each market.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: International
+  localPaymentMethods:
+    description: Set local payment methods to appear for customers who check out in
+        specific markets (requires Shopify Payments).
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: International
+  localDomains:
+    description: Assign custom web addresses for each market that are optimized for local search results.
+        Automatically redirect customers to the right domain or subfolder based on their market.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: International
+  duties:
+    description: Estimate and collect duties and import taxes at checkout to give customers total cost clarity.
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+    tag: International
+  importTaxes:
+    description: Estimate and collect duties and import taxes at checkout to give customers total cost clarity.
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+    tag: International
+  salesTaxCalculation:
+    description: Automatically collect the right amount of sales tax at checkout based on
+        product-specific rates and your customer's precise address.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Shopify Tax
+  taxLiabilityTracking:
+    description: Clearly monitor where you may be required to collect sales tax and where you're approaching state thresholds.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: AUTOMATION
+    automationType: TRACKING
+    tag: Shopify Tax
+  easyProductCategorization:
+    description: Review and approve product categories suggested by Shopify, or make edits to
+        ensure the most accurate rates and exemptions are applied to your orders.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Shopify Tax
+  automaticUpdates:
+    description: Let Shopify Tax routinely scan for rate changes, regulation updates, and tax holidays,
+        and apply them to your store as needed.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: AUTOMATION
+    automationType: TASK_AUTOMATION
+    tag: Shopify Tax
+  shopifyTax:
+    description: Get Shopify Tax for free for your first $100,000 in US sales per year.
+        After $100,000 you only pay a small transaction fee when sales tax is calculated.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Shopify Tax
+  checkoutExtensibility:
+    description: Convert more buyers with advanced customizations to Shopify Checkout using powerful apps and branding tools.
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+    tag: Just for Plus
+  b2bOnShopify:
+    description: Sell wholesale and DTC, integrated in one admin and store.
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+    tag: Just for Plus
+  shopifyAudiences:
+    description: Find high-intent customers at lower cost.
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+    tag: Just for Plus
+  expansionStores:
+    description: Set up additional stores under the same brand for the purpose of selling in different languages or currencies.
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+    tag: Just for Plus
+  botProtection:
+    description: Protects your online store from bots during flash sales.
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+    tag: Just for Plus
+  exclusiveAPIAccess:
+    description: Build complex integrations with APIs and get up to 500% higher API call limits.
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+    tag: Just for Plus
+  exclusiveAPIEndpoints:
+    description: Build complex integrations with APIs and get up to 500% higher API call limits.
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+    tag: Just for Plus
+  featureTestDrives:
+    description: Control the release of new features to your stores to ensure
+        your workflows and API integrations keep functioning smoothly.
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+    tag: Just for Plus
+  launchpad:
+    description: Schedule automated promotions, product releases, and online store updates.
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+    tag: Just for Plus
+  shopifyFunctions:
+    description: Get the freedom to design and deploy flexible personalizations to build commerce
+        experiences as unique as your brand with Shopify Functions.
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+    tag: Just for Plus
+  customUserGroups:
+    description: Group users with similar roles together to assign permissions in bulk,
+        making it easy to onboard new team members or transition roles within your organization.
+    valueType: BOOLEAN
+    defaultValue: false
+    type: MANAGEMENT
+    tag: Just for Plus
+  shopifyPlusCertifiedAppPartners:
+    description: Use apps that are hand-selected for their quality and ability to solve complex needs.
+    valueType: BOOLEAN
+    defaultValue: false
+    type: MANAGEMENT
+    tag: Just for Plus
+  shopifyPlusAcademy:
+    description: Access lessons and courses designed to help you scale on Shopify Plus.
+    valueType: BOOLEAN
+    defaultValue: false
+    type: MANAGEMENT
+    tag: Just for Plus
+usageLimits:
+  additionalStaffAccountsLimit:
+    valueType: NUMERIC
+    defaultValue: 0
+    unit: staff account
+    type: NON_RENEWABLE
+    linkedFeatures:
+      - additionalStaffAccounts
+  inventoryLocationsLimit:
+    valueType: NUMERIC
+    defaultValue: 10
+    unit: location
+    type: NON_RENEWABLE
+    linkedFeatures:
+      - inventoryLocations
+  checkoutCapacity:
+    description: Let more shoppers check out simultaneously during big sales events.
+        Assign anyone who exceeds capacity to a waiting room queue.
+    valueType: TEXT
+    defaultValue: Standard
+    unit: location
+    type: NON_RENEWABLE
+    linkedFeatures:
+      - checkout
+  shopifyPosProLocations:
+    valueType: NUMERIC
+    defaultValue: 0
+    unit: location
+    type: NON_RENEWABLE
+    linkedFeatures:
+      - shopifyPosPro
+  includedFreeEmails:
+    valueType: NUMERIC
+    defaultValue: 10_000
+    unit: email/month
+    type: RENEWABLE
+    linkedFeatures:
+      - shopifyEmail
+  thirdPartyTransactionFeesNotUsingShopifyPaymentsRates:
+    valueType: NUMERIC
+    defaultValue: 0.02
+    type: NON_RENEWABLE
+    linkedFeatures:
+      - thirdPartyTransactionFeesNotUsingShopifyPayments
+  shippingDiscountRate:
+    valueType: NUMERIC
+    defaultValue: 0.77
+    type: NON_RENEWABLE
+    linkedFeatures:
+      - shippingDiscount
+  freeShopifySyncedOrders:
+    valueType: NUMERIC
+    defaultValue: 50
+    unit: Shopify-synced order
+    type: RENEWABLE
+    linkedFeatures:
+      - shopifySyncedOrders
+  customAppsRestrictions:
+    valueType: TEXT
+    defaultValue: Limited data access (no PII)
+    type: NON_RENEWABLE
+    linkedFeatures:
+      - api
+      - customApps
+  apiRateLimits:
+    valueType: TEXT
+    defaultValue: Standard
+    type: NON_RENEWABLE
+    linkedFeatures:
+      - api
+  headlessStoreFrontsLimit:
+    valueType: NUMERIC
+    defaultValue: 1
+    unit: storefront
+    type: NON_RENEWABLE
+    linkedFeatures:
+      - headlessStoreFronts
+  localizedSellingWithCustomMarketsLimit:
+    valueType: NUMERIC
+    defaultValue: 3
+    unit: market
+    type: NON_RENEWABLE
+    linkedFeatures:
+      - localizedSellingWithCustomMarkets
+  shopifyTaxCap:
+    valueType: TEXT
+    defaultValue: First $100K free, 0.35% after
+    type: NON_RENEWABLE
+    linkedFeatures:
+      - shopifyTax
+  expansionStoresLimit:
+    valueType: NUMERIC
+    defaultValue: 0
+    unit: store
+    type: NON_RENEWABLE
+    linkedFeatures:
+      - expansionStores
+plans:
+  BASIC:
+    description: For solo entrepreneurs
+    price: 39
+    features: null
+    usageLimits: null
+  SHOPIFY:
+    description: For small teams
+    price: 105
+    features:
+      additionalStaffAccounts:
+        value: true
+      onlineStandardCardRates:
+        value: 2.7% + 30¢
+      onlinePremiumCardRates:
+        value: 3.3% + 30¢
+      inPersonCardRates:
+        value: 2.5% + 10¢
+      uspsSmallPackageDiscounts:
+        value: true
+      shippingInsurance:
+        value: true
+    usageLimits:
+      additionalStaffAccountsLimit:
+        value: 5
+      thirdPartyTransactionFeesNotUsingShopifyPaymentsRates:
+        value: 0.01
+      shippingDiscountRate:
+        value: 0.88
+      customAppsRestrictions:
+        value: Full data access
+  ADVANCED:
+    description: As your business scales
+    price: 399
+    features:
+      additionalStaffAccounts:
+        value: true
+      24/7support:
+        value: Enhanced live chat
+      onlineStandardCardRates:
+        value: 2.5% + 30¢
+      onlinePremiumCardRates:
+        value: 3.1% + 30¢
+      inPersonCardRates:
+        value: 2.4% + 10¢
+      uspsSmallPackageDiscounts:
+        value: true
+      shippingInsurance:
+        value: true
+      3rdPartyCalculatedShippingRates:
+        value: true
+      duties:
+        value: true
+      importTaxes:
+        value: true
+    usageLimits:
+      additionalStaffAccountsLimit:
+        value: 15
+      checkoutCapacity:
+        value: 10x
+      thirdPartyTransactionFeesNotUsingShopifyPaymentsRates:
+        value: 0.006
+      shippingDiscountRate:
+        value: 0.88
+      customAppsRestrictions:
+        value: Full data access
+      apiRateLimits:
+        value: Up to 2x on select APIs
+  PLUS:
+    description: For more complex businesses
+    price: 2300
+    features:
+      additionalStaffAccounts:
+        value: true
+      24/7support:
+        value: Priority support by phone or live chat
+      shopifyPosPro:
+        value: true
+      onlineStandardCardRates:
+        value: Most competitive rates
+      onlinePremiumCardRates:
+        value: Most competitive rates
+      onlineInternationalCardRates:
+        value: Most competitive rates
+      inPersonCardRates:
+        value: Most competitive rates
+      inPersonManualCredit/debitTransactionRates:
+        value: Most competitive rates
+      uspsSmallPackageDiscounts:
+        value: true
+      shippingInsurance:
+        value: true
+      3rdPartyCalculatedShippingRates:
+        value: true
+      duties:
+        value: true
+      importTaxes:
+        value: true
+      checkoutExtensibility:
+        value: true
+      b2bOnShopify:
+        value: true
+      shopifyAudiences:
+        value: true
+      expansionStores:
+        value: true
+      botProtection:
+        value: true
+      exclusiveAPIAccess:
+        value: true
+      exclusiveAPIEndpoints:
+        value: true
+      featureTestDrives:
+        value: true
+      launchpad:
+        value: true
+      shopifyFunctions:
+        value: true
+      customUserGroups:
+        value: true
+      shopifyPlusCertifiedAppPartners:
+        value: true
+      shopifyPlusAcademy:
+        value: true
+    usageLimits:
+      additionalStaffAccountsLimit:
+        value: .inf
+      inventoryLocationsLimit:
+        value: 200
+      checkoutCapacity:
+        value: 40x
+      shopifyPosProLocations:
+        value: 20
+      thirdPartyTransactionFeesNotUsingShopifyPaymentsRates:
+        value: 0.002
+      shippingDiscountRate:
+        value: 0.88
+      customAppsRestrictions:
+        value: Full data access
+      apiRateLimits:
+        value: Up to 10x on select APIs
+      headlessStoreFrontsLimit:
+        value: 25
+      localizedSellingWithCustomMarketsLimit:
+        value: 50
+      shopifyTaxCap:
+        value: First $100K free, 0.25% after
+      expansionStoresLimit:
+        value: 9
+addOns:
+  TAX_PLATFORM:
+    price: Contact sales
+    features:
+      taxPlatform:
+        value: true
+  SHOPIFY_POS_PRO:
+    price: 89
+    availableFor:
+      - BASIC
+      - SHOPIFY
+      - ADVANCED
+    unit: location
+    features:
+      shopifyPosPro:
+        value: true
+    usageLimits:
+      shopifyPosProLocations:
+        value: 1
+  3RD_PARTY_CALCULATED_SHIPPING_RATES:
+    price: Contact Sales
+    availableFor:
+      - SHOPIFY
+    features:
+      3rdPartyCalculatedShippingRates:
+        value: true
+  MORE_SHOPIFY_SYNCED:
+    price: 1% up to $99
+    unit: month
+    features:
+      shopifySyncedOrders:
+        value: true
+  LOCALIZED_SELLING_CUSTOM_MARKETS:
+    price: 59
+    availableFor:
+      - ADVANCED
+    unit: month/market
+    features:
+      localizedSellingWithCustomMarkets:
+        value: true
+    usageLimitsExtensions:
+      localizedSellingWithCustomMarketsLimit:
+        value: 1

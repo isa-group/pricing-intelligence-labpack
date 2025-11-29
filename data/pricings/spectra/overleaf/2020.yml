@@ -1,0 +1,261 @@
+syntaxVersion: '2.1'
+saasName: Overleaf
+createdAt: '2020-11-25'
+version: '2020-11-25'
+billing:
+  monthly: 1.0
+currency: USD
+url: https://web.archive.org/web/20201125061108/https://www.overleaf.com/user/subscription/plans
+features:
+  privateProjects:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  realTimeCollaboration:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  templates:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  latexEditor:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  latexCompilation:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  realTimeTrackChanges:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  fullDocumentHistory:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  advancedReferenceSearch:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  referenceManagerSync:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: INTEGRATION
+    integrationType: MARKETPLACE
+  dropboxIntegration:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+    pricingUrls:
+    - https://www.dropbox.com/plans
+  gitIntegration:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+  githubIntegration:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+  prioritySupport:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: SUPPORT
+  groupLicenseManagement:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: MANAGEMENT
+  discountedPricingForMultipleLicenses:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: MANAGEMENT
+  unlimitedSiteWideAccess:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  centralizedBillingAndManagement:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: MANAGEMENT
+usageLimits:
+  maxCollaboratorsPerProject:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 1
+    unit: collaborator
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - realTimeCollaboration
+  compileTimeoutLimit:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 1
+    unit: min
+    type: TIME_DRIVEN
+    linkedFeatures:
+    - latexCompilation
+plans:
+  FREE:
+    description: ''
+    price: 0
+    unit: /month
+    features: null
+    usageLimits: null
+  PERSONAL:
+    description: ''
+    price: 10
+    unit: /month
+    features:
+      fullDocumentHistory:
+        value: true
+      advancedReferenceSearch:
+        value: true
+      referenceManagerSync:
+        value: true
+      dropboxIntegration:
+        value: true
+      gitIntegration:
+        value: true
+      githubIntegration:
+        value: true
+      prioritySupport:
+        value: true
+    usageLimits:
+      compileTimeoutLimit:
+        value: 4
+  STUDENT:
+    description: ''
+    price: 8
+    unit: /month
+    features:
+      realTimeTrackChanges:
+        value: true
+      fullDocumentHistory:
+        value: true
+      advancedReferenceSearch:
+        value: true
+      referenceManagerSync:
+        value: true
+      dropboxIntegration:
+        value: true
+      gitIntegration:
+        value: true
+      githubIntegration:
+        value: true
+      prioritySupport:
+        value: true
+    usageLimits:
+      maxCollaboratorsPerProject:
+        value: 6
+      compileTimeoutLimit:
+        value: 4
+  COLLABORATOR:
+    description: ''
+    price: 15
+    unit: /month
+    features:
+      realTimeTrackChanges:
+        value: true
+      fullDocumentHistory:
+        value: true
+      advancedReferenceSearch:
+        value: true
+      referenceManagerSync:
+        value: true
+      dropboxIntegration:
+        value: true
+      gitIntegration:
+        value: true
+      githubIntegration:
+        value: true
+      prioritySupport:
+        value: true
+    usageLimits:
+      maxCollaboratorsPerProject:
+        value: 10
+      compileTimeoutLimit:
+        value: 4
+  PROFESSIONAL:
+    description: ''
+    price: 30
+    unit: /month
+    features:
+      realTimeTrackChanges:
+        value: true
+      fullDocumentHistory:
+        value: true
+      advancedReferenceSearch:
+        value: true
+      referenceManagerSync:
+        value: true
+      dropboxIntegration:
+        value: true
+      gitIntegration:
+        value: true
+      githubIntegration:
+        value: true
+      prioritySupport:
+        value: true
+    usageLimits:
+      maxCollaboratorsPerProject:
+        value: .inf
+      compileTimeoutLimit:
+        value: 4
+addOns:
+  groupAccount:
+    description: Provides discounted multiple licenses for colleagues, with centralized
+      management options.
+    price: Contact Sales
+    unit: license
+    features:
+      groupLicenseManagement:
+        value: true
+      discountedPricingForMultipleLicenses:
+        value: true
+    usageLimits: null
+    availableFor:
+    - COLLABORATOR
+    - PROFESSIONAL
+    dependsOn: []
+    excludes:
+    - siteLicense
+    usageLimitsExtensions: null
+  siteLicense:
+    description: Provides unlimited premium access for all users within an organization
+      or site.
+    price: Contact Sales
+    unit: site
+    features:
+      unlimitedSiteWideAccess:
+        value: true
+      centralizedBillingAndManagement:
+        value: true
+    usageLimits: null
+    availableFor:
+    - COLLABORATOR
+    - PROFESSIONAL
+    dependsOn: []
+    excludes:
+    - groupAccount
+    usageLimitsExtensions: null

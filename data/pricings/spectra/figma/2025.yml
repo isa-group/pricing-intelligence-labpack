@@ -1,0 +1,970 @@
+syntaxVersion: '2.1'
+saasName: Figma
+createdAt: '2025-03-05'
+version: '2025'
+url: https://web.archive.org/web/20250305110535/http://web.archive.org/screenshot/https://www.figma.com/pricing/
+tags:
+- Design
+- Collaboration
+- Prototyping
+- Design systems
+- Dev Mode
+- Developer platform
+- Admin & security
+- Support
+billing:
+  monthly: 1.0
+currency: USD
+features:
+  versionHistory:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Design
+    type: DOMAIN
+  figmaEditor:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Design
+    type: DOMAIN
+  advancedDrawingTools:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Design
+    type: DOMAIN
+  autoLayout:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Design
+    type: DOMAIN
+  pluginsAndWidgets:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Design
+    type: INTEGRATION
+    integrationType: MARKETPLACE
+  fileStorage:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Design
+    type: DOMAIN
+  crossPlatform:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Design
+    type: DOMAIN
+  sketchImport:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Design
+    type: DOMAIN
+  viewPropertiesAndVariables:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Design
+    type: INFORMATION
+  basicCodeGen:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Design
+    type: AUTOMATION
+    automationType: BOT
+  multiplayer:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Collaboration
+    type: DOMAIN
+  viewers:
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Collaboration
+    type: DOMAIN
+  shareableLinks:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Collaboration
+    type: DOMAIN
+  onCanvasCommenting:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Collaboration
+    type: DOMAIN
+  observationMode:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Collaboration
+    type: DOMAIN
+  privateProjects:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Collaboration
+    type: MANAGEMENT
+  prototypeSharingPermissions:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Collaboration
+    type: MANAGEMENT
+  audioConversations:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Collaboration
+    type: DOMAIN
+  teamAndProjectTransfer:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Collaboration
+    type: MANAGEMENT
+  teams:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Collaboration
+    type: MANAGEMENT
+  unlimitedTeams:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Collaboration
+    type: MANAGEMENT
+  branchingAndMerging:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Collaboration
+    type: DOMAIN
+  customWorkspaces:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Collaboration
+    type: DOMAIN
+  interactivePrototypes:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Prototyping
+    type: DOMAIN
+  videosInPrototypes:
+    description: ''
+    valueType: TEXT
+    defaultValue: Choose videos from the Figma Community
+    tag: Prototyping
+    type: DOMAIN
+  overlays:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Prototyping
+    type: DOMAIN
+  transitions:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Prototyping
+    type: DOMAIN
+  advancedAnimations:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Prototyping
+    type: DOMAIN
+  responsivePrototypingViewer:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Prototyping
+    type: DOMAIN
+  setVariableAndMode:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Prototyping
+    type: DOMAIN
+  conditionalLogic:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Prototyping
+    type: DOMAIN
+  multipleActions:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Prototyping
+    type: DOMAIN
+  expressions:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Prototyping
+    type: DOMAIN
+  variables:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Design systems
+    type: DOMAIN
+  components:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Design systems
+    type: DOMAIN
+  styles:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Design systems
+    type: DOMAIN
+  uiKits:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Design systems
+    type: DOMAIN
+  variableModes:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Design systems
+    type: DOMAIN
+  teamLibraries:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Design systems
+    type: DOMAIN
+  sharedFonts:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Design systems
+    type: DOMAIN
+  organizationWideDesignSystems:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Design systems
+    type: DOMAIN
+  inAppLibraryAnalytics:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Design systems
+    type: INFORMATION
+  libraryAnalyticsAPI:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Design systems
+    type: INTEGRATION
+    integrationType: API
+  defaultLibrariesByWorkspace:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Design systems
+    type: MANAGEMENT
+  restApiForVariables:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Design systems
+    type: INTEGRATION
+    integrationType: API
+  approvedLibraries:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Design systems
+    type: MANAGEMENT
+  advancedInspection:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Dev Mode
+    type: DOMAIN
+  readyForDev:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Dev Mode
+    type: DOMAIN
+  compareChanges:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Dev Mode
+    type: DOMAIN
+  annotations:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Dev Mode
+    type: DOMAIN
+  assetExport:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Dev Mode
+    type: DOMAIN
+  advancedCodeGen:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Dev Mode
+    type: AUTOMATION
+    automationType: BOT
+  devResources:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Dev Mode
+    type: DOMAIN
+  vscodeExtension:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Dev Mode
+    type: INTEGRATION
+    integrationType: EXTENSION
+  plugins:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Dev Mode
+    type: INTEGRATION
+    integrationType: MARKETPLACE
+  viewDetachedComponents:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Dev Mode
+    type: DOMAIN
+  componentPlayground:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Dev Mode
+    type: DOMAIN
+  privatePlugins:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Dev Mode
+    type: INTEGRATION
+    integrationType: MARKETPLACE
+  codeConnect:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Dev Mode
+    type: INTEGRATION
+    integrationType: MARKETPLACE
+  handoffProcessManagement:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Dev Mode
+    type: DOMAIN
+  syncingWorkflowsThroughAPI:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Dev Mode
+    type: INTEGRATION
+    integrationType: API
+  automatingWorkflowsThroughAPI:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Dev Mode
+    type: INTEGRATION
+    integrationType: API
+  adminControlsForInspectPanel:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Dev Mode
+    type: MANAGEMENT
+  restApis:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Developer platform
+    type: INTEGRATION
+    integrationType: API
+  thirdPartyIntegrations:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Developer platform
+    type: INTEGRATION
+    integrationType: MARKETPLACE
+  liveEmbeds:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Developer platform
+    type: INTEGRATION
+    integrationType: EXTENSION
+  webhooks:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Developer platform
+    type: DOMAIN
+  privatePluginsAndWidgets:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Developer platform
+    type: INTEGRATION
+    integrationType: MARKETPLACE
+  passwordProtection:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Admin & security
+    type: MANAGEMENT
+  defaultRoles:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Admin & security
+    type: MANAGEMENT
+  pluginAndWidgetApproval:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Admin & security
+    type: MANAGEMENT
+  centralizedAdministration:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Admin & security
+    type: MANAGEMENT
+  domainCapture:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Admin & security
+    type: MANAGEMENT
+  linkAccessControls:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Admin & security
+    type: MANAGEMENT
+  singleSignOn:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Admin & security
+    type: INTEGRATION
+    integrationType: IDENTITY_PROVIDER
+  activityLogs:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Admin & security
+    type: INFORMATION
+  workspaceAdministration:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Admin & security
+    type: MANAGEMENT
+  guestAccessControls:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Admin & security
+    type: MANAGEMENT
+  defaultTeams:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Admin & security
+    type: MANAGEMENT
+  roleAssigmentViaSCIM:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Admin & security
+    type: INTEGRATION
+    integrationType: IDENTITY_PROVIDER
+  passwordProtectionRequired:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Admin & security
+    type: MANAGEMENT
+  teamCreationControls:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Admin & security
+    type: MANAGEMENT
+  externalContentsControls:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Admin & security
+    type: MANAGEMENT
+  activityLogsApi:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Admin & security
+    type: INTEGRATION
+    integrationType: API
+  windowsInstaller:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Admin & security
+    type: DOMAIN
+  idleSessionTimeout:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Admin & security
+    type: MANAGEMENT
+  euDataHosting:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Admin & security
+    type: MANAGEMENT
+  expiringPublicLinks:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Admin & security
+    type: MANAGEMENT
+  puglinAndWidgetsAnalytics:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Admin & security
+    type: INFORMATION
+  figmaSupportForum:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Support
+    type: SUPPORT
+  figmaHelpCenter:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Support
+    type: SUPPORT
+  onboardingPlanningAndSupport:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Support
+    type: SUPPORT
+usageLimits:
+  versionHistoryDepth:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 30
+    unit: day
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - versionHistory
+  variableModesLimits:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 0
+    unit: mode
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - variableModes
+plans:
+  STARTER:
+    description: ''
+    price: 0
+    unit: editor/month
+    features: null
+    usageLimits: null
+  PROFESSIONAL:
+    description: ''
+    price: 15
+    unit: editor/month
+    features:
+      privateProjects:
+        value: true
+      prototypeSharingPermissions:
+        value: true
+      audioConversations:
+        value: true
+      teamAndProjectTransfer:
+        value: true
+      videosInPrototypes:
+        value: Upload your own videos
+      setVariableAndMode:
+        value: true
+      conditionalLogic:
+        value: true
+      multipleActions:
+        value: true
+      expressions:
+        value: true
+      variableModes:
+        value: true
+      teamLibraries:
+        value: true
+      advancedInspection:
+        value: true
+      readyForDev:
+        value: true
+      compareChanges:
+        value: true
+      annotations:
+        value: true
+      assetExport:
+        value: true
+      advancedCodeGen:
+        value: true
+      devResources:
+        value: true
+      vscodeExtension:
+        value: true
+      plugins:
+        value: true
+      viewDetachedComponents:
+        value: true
+      componentPlayground:
+        value: true
+      codeConnect:
+        value: true
+      passwordProtection:
+        value: true
+      defaultRoles:
+        value: true
+    usageLimits:
+      versionHistoryDepth:
+        value: .inf
+      variableModesLimits:
+        value: 4
+  ORGANIZATION:
+    description: ''
+    price: 45
+    unit: editor/month
+    features:
+      privateProjects:
+        value: true
+      prototypeSharingPermissions:
+        value: true
+      audioConversations:
+        value: true
+      teamAndProjectTransfer:
+        value: true
+      unlimitedTeams:
+        value: true
+      branchingAndMerging:
+        value: true
+      videosInPrototypes:
+        value: Included
+      setVariableAndMode:
+        value: true
+      conditionalLogic:
+        value: true
+      multipleActions:
+        value: true
+      expressions:
+        value: true
+      variableModes:
+        value: true
+      teamLibraries:
+        value: true
+      sharedFonts:
+        value: true
+      organizationWideDesignSystems:
+        value: true
+      inAppLibraryAnalytics:
+        value: true
+      advancedInspection:
+        value: true
+      readyForDev:
+        value: true
+      compareChanges:
+        value: true
+      annotations:
+        value: true
+      assetExport:
+        value: true
+      advancedCodeGen:
+        value: true
+      devResources:
+        value: true
+      vscodeExtension:
+        value: true
+      plugins:
+        value: true
+      viewDetachedComponents:
+        value: true
+      componentPlayground:
+        value: true
+      privatePlugins:
+        value: true
+      codeConnect:
+        value: true
+      handoffProcessManagement:
+        value: true
+      webhooks:
+        value: true
+      privatePluginsAndWidgets:
+        value: true
+      passwordProtection:
+        value: true
+      defaultRoles:
+        value: true
+      pluginAndWidgetApproval:
+        value: true
+      centralizedAdministration:
+        value: true
+      domainCapture:
+        value: true
+      linkAccessControls:
+        value: true
+      singleSignOn:
+        value: true
+      activityLogs:
+        value: true
+    usageLimits:
+      versionHistoryDepth:
+        value: .inf
+      variableModesLimits:
+        value: 4
+  DEV_MODE_ORGANIZATION:
+    description: ''
+    price: 25
+    unit: editor/month
+    features:
+      advancedInspection:
+        value: true
+      readyForDev:
+        value: true
+      compareChanges:
+        value: true
+      annotations:
+        value: true
+      assetExport:
+        value: true
+      advancedCodeGen:
+        value: true
+      devResources:
+        value: true
+      vscodeExtension:
+        value: true
+      plugins:
+        value: true
+      viewDetachedComponents:
+        value: true
+      componentPlayground:
+        value: true
+      privatePlugins:
+        value: true
+      codeConnect:
+        value: true
+      handoffProcessManagement:
+        value: true
+    usageLimits: null
+  ENTERPRISE:
+    description: ''
+    price: 75
+    unit: editor/month
+    features:
+      privateProjects:
+        value: true
+      prototypeSharingPermissions:
+        value: true
+      audioConversations:
+        value: true
+      teamAndProjectTransfer:
+        value: true
+      unlimitedTeams:
+        value: true
+      branchingAndMerging:
+        value: true
+      customWorkspaces:
+        value: true
+      videosInPrototypes:
+        value: Included
+      setVariableAndMode:
+        value: true
+      conditionalLogic:
+        value: true
+      multipleActions:
+        value: true
+      expressions:
+        value: true
+      variableModes:
+        value: true
+      teamLibraries:
+        value: true
+      sharedFonts:
+        value: true
+      organizationWideDesignSystems:
+        value: true
+      inAppLibraryAnalytics:
+        value: true
+      libraryAnalyticsAPI:
+        value: true
+      defaultLibrariesByWorkspace:
+        value: true
+      restApiForVariables:
+        value: true
+      approvedLibraries:
+        value: true
+      advancedInspection:
+        value: true
+      readyForDev:
+        value: true
+      compareChanges:
+        value: true
+      annotations:
+        value: true
+      assetExport:
+        value: true
+      advancedCodeGen:
+        value: true
+      devResources:
+        value: true
+      vscodeExtension:
+        value: true
+      plugins:
+        value: true
+      viewDetachedComponents:
+        value: true
+      componentPlayground:
+        value: true
+      privatePlugins:
+        value: true
+      codeConnect:
+        value: true
+      handoffProcessManagement:
+        value: true
+      syncingWorkflowsThroughAPI:
+        value: true
+      automatingWorkflowsThroughAPI:
+        value: true
+      adminControlsForInspectPanel:
+        value: true
+      webhooks:
+        value: true
+      privatePluginsAndWidgets:
+        value: true
+      passwordProtection:
+        value: true
+      defaultRoles:
+        value: true
+      pluginAndWidgetApproval:
+        value: true
+      centralizedAdministration:
+        value: true
+      domainCapture:
+        value: true
+      linkAccessControls:
+        value: true
+      singleSignOn:
+        value: true
+      activityLogs:
+        value: true
+      workspaceAdministration:
+        value: true
+      guestAccessControls:
+        value: true
+      defaultTeams:
+        value: true
+      roleAssigmentViaSCIM:
+        value: true
+      passwordProtectionRequired:
+        value: true
+      teamCreationControls:
+        value: true
+      externalContentsControls:
+        value: true
+      activityLogsApi:
+        value: true
+      windowsInstaller:
+        value: true
+      idleSessionTimeout:
+        value: true
+      euDataHosting:
+        value: true
+      expiringPublicLinks:
+        value: true
+      puglinAndWidgetsAnalytics:
+        value: true
+      onboardingPlanningAndSupport:
+        value: true
+    usageLimits:
+      versionHistoryDepth:
+        value: .inf
+      variableModesLimits:
+        value: 40
+  DEV_MODE_ENTERPRISE:
+    description: ''
+    price: 35
+    unit: editor/month
+    features:
+      advancedInspection:
+        value: true
+      readyForDev:
+        value: true
+      compareChanges:
+        value: true
+      annotations:
+        value: true
+      assetExport:
+        value: true
+      advancedCodeGen:
+        value: true
+      devResources:
+        value: true
+      vscodeExtension:
+        value: true
+      plugins:
+        value: true
+      viewDetachedComponents:
+        value: true
+      componentPlayground:
+        value: true
+      privatePlugins:
+        value: true
+      codeConnect:
+        value: true
+      handoffProcessManagement:
+        value: true
+      syncingWorkflowsThroughAPI:
+        value: true
+      automatingWorkflowsThroughAPI:
+        value: true
+      adminControlsForInspectPanel:
+        value: true
+    usageLimits: null
+addOns: null

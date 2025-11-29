@@ -1,0 +1,105 @@
+syntaxVersion: '2.1'
+saasName: Planable
+createdAt: '2019-05-24'
+version: '2019-05-24'
+billing:
+  monthly: 1.0
+currency: USD
+url: https://web.archive.org/web/20190524225713/https://planable.io/pricing/
+features:
+  posts:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  pages:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  workspaces:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  advancedFeatures:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  realTimeCustomerSupport:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: SUPPORT
+usageLimits:
+  usersLimit:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 3
+    unit: user
+    type: NON_RENEWABLE
+  postsLimit:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 1000000000000
+    unit: post
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - posts
+  pagesLimit:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 0
+    unit: page
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - pages
+  workspacesLimit:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 1
+    unit: worspace
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - workspaces
+plans:
+  STARTER:
+    description: ''
+    price: 24
+    unit: user/month
+    features: null
+    usageLimits: null
+  PREMIUM:
+    description: For small agencies & brands
+    price: 99
+    unit: user/month
+    features:
+      pages:
+        value: true
+    usageLimits:
+      usersLimit:
+        value: 7
+      pagesLimit:
+        value: 1000000000000
+      workspacesLimit:
+        value: 5
+  ENTERPRISE:
+    description: For large organizations
+    price: Contact Us
+    unit: user/month
+    features:
+      pages:
+        value: true
+      advancedFeatures:
+        value: true
+      realTimeCustomerSupport:
+        value: true
+    usageLimits:
+      usersLimit:
+        value: 1000000000000
+      pagesLimit:
+        value: 1000000000000
+      workspacesLimit:
+        value: 1000000000000
+addOns: null

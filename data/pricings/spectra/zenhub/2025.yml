@@ -1,0 +1,412 @@
+syntaxVersion: '2.1'
+saasName: Zenhub
+createdAt: '2025-02-21'
+version: '2025'
+billing:
+  monthly: 1.0
+  annual: 0.66
+currency: USD
+url: https://web.archive.org/web/20250221172731/https://www.zenhub.com/pricing
+tags:
+  - Configuration
+  - GitHub
+  - Features
+  - Integrations
+  - Security
+  - Support
+features:
+  teamWorkspaces:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Configuration
+  githubIntegration:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+    pricingUrls:
+      - https://github.com/pricing
+    tag: GitHub
+  zenhubExtensionForGithub:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: EXTENSION
+    tag: GitHub
+  githubInsights:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: INFORMATION
+    tag: GitHub
+  nonGithubUsersCanViewGithubIssues:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: MANAGEMENT
+    tag: GitHub
+  automatedSprintPlanning:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: AUTOMATION
+    automationType: TASK_AUTOMATION
+    tag: Features
+  planningPoker:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Features
+  estimates:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Features
+  zenhubProjects:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Features
+  epics:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Features
+  issues:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Features
+  realTimeRoadmaps:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Features
+  basicSprintReports:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INFORMATION
+    tag: Features
+  velocityReport:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INFORMATION
+    tag: Features
+  sprintInsights:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INFORMATION
+    tag: Features
+  aiSuggestedLabels:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: AUTOMATION
+    automationType: BOT
+    tag: Features
+  aiAcceptanceCriteria:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: AUTOMATION
+    automationType: BOT
+    tag: Features
+  aiSprintReview:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: AUTOMATION
+    automationType: BOT
+    tag: Features
+  workspaceAutomation:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: AUTOMATION
+    automationType: TASK_AUTOMATION
+    tag: Features
+  advancedReporting:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: INFORMATION
+    tag: Features
+  togglePublicAndPrivateWorkspaces:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: MANAGEMENT
+    tag: Features
+  togglePublicAndPrivateFiles:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: MANAGEMENT
+    tag: Features
+  smartPipelinesPermissions:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: AUTOMATION
+    automationType: TASK_AUTOMATION
+    tag: Features
+  slackIntegration:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+    pricingUrls:
+      - https://slack.com/pricing
+    tag: Integrations
+  figma:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+    pricingUrls:
+      - https://figma.com/pricing
+    tag: Integrations
+  loom:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+    pricingUrls:
+      - https://www.loom.com/pricing
+    tag: Integrations
+  miro:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+    pricingUrls:
+      - https://miro.com/pricing/
+    tag: Integrations
+  signUpWithEmail:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Security
+  emailDomainVerification:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Security
+  cloudHosted:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+    tag: Security
+  googleSSO:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: IDENTITY_PROVIDER
+    tag: Security
+  selfHostedOnPremise:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+    tag: Security
+  enterpriseGradeIdManagement:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: MANAGEMENT
+    tag: Security
+  enterpriseGradeAccessManagement:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: MANAGEMENT
+    tag: Security
+  advancedAdminControls:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: MANAGEMENT
+    tag: Security
+  advancedAdminSecurity:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: MANAGEMENT
+    tag: Security
+  communitySupport:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: SUPPORT
+    tag: Support
+  emailSupport:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: true
+    type: SUPPORT
+    tag: Support
+  prioritySupport:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: SUPPORT
+    tag: Support
+  sharedSlackChannelWithZenhubTeam:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: SUPPORT
+    tag: Support
+  liveGuidedOnboardingForYourTeam:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: SUPPORT
+    tag: Support
+usageLimits:
+  teamWorkspacesLimit:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 1
+    unit: workspace
+    type: NON_RENEWABLE
+    linkedFeatures:
+      - teamWorkspaces
+  usersLimit:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 50
+    unit: user
+    type: NON_RENEWABLE
+    linkedFeatures: null
+  maxConnectedGithubOrganizations:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 1
+    unit: organization
+    type: NON_RENEWABLE
+    linkedFeatures:
+      - githubIntegration
+  maxConnectedGithubRepositories:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 2
+    unit: repo
+    type: NON_RENEWABLE
+    linkedFeatures:
+      - githubIntegration
+  maxGithubIssues:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 250
+    unit: repo
+    type: NON_RENEWABLE
+    linkedFeatures:
+      - githubIntegration
+plans:
+  FREE:
+    description: ""
+    price: 0
+    unit: /month
+    features: null
+    usageLimits: null
+  TEAMS:
+    description: ""
+    price: 12.5
+    unit: /month
+    features:
+      aiSuggestedLabels:
+        value: true
+      aiSprintReview:
+        value: true
+      togglePublicAndPrivateFiles:
+        value: true
+    usageLimits:
+      teamWorkspacesLimit:
+        value: 10
+      maxConnectedGithubRepositories:
+        value: 50
+      maxGithubIssues:
+        value: .inf
+  ENTERPRISE:
+    description: ""
+    price: "Contact us"
+    unit: 'user/month'
+    features:
+      githubInsights:
+        value: true
+      nonGithubUsersCanViewGithubIssues:
+        value: true
+      aiSuggestedLabels:
+        value: true
+      aiAcceptanceCriteria:
+        value: true
+      aiSprintReview:
+        value: true
+      workspaceAutomation:
+        value: true
+      advancedReporting:
+        value: true
+      togglePublicAndPrivateWorkspaces:
+        value: true
+      togglePublicAndPrivateFiles:
+        value: true
+      smartPipelinesPermissions:
+        value: true
+      figma:
+        value: true
+      loom:
+        value: true
+      miro:
+        value: true
+      selfHostedOnPremise:
+        value: true
+      enterpriseGradeIdManagement:
+        value: true
+      enterpriseGradeAccessManagement:
+        value: true
+      advancedAdminControls:
+        value: true
+      advancedAdminSecurity:
+        value: true
+      prioritySupport:
+        value: true
+      sharedSlackChannelWithZenhubTeam:
+        value: true
+      liveGuidedOnboardingForYourTeam:
+        value: true
+    usageLimits:
+      teamWorkspacesLimit:
+        value: .inf
+      usersLimit:
+        value: .inf
+      maxConnectedGithubOrganizations:
+        value: 10
+      maxConnectedGithubRepositories:
+        value: .inf
+      maxGithubIssues:
+        value: .inf
+addOns: null

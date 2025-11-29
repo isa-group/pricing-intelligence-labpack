@@ -1,0 +1,3925 @@
+{
+  "instances": [
+    {
+      "id": 0,
+      "template_index": 0,
+      "placeholder_values": {
+        "ACTION 1": "managing site roles, content ownership, and user permissions",
+        "SAAS 1": "Tableau",
+        "PRICE 1": "$40",
+        "PRICE 2": "$91",
+        "FEATURE 1": "create new data flows"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "subscriptions",
+            "filters": {
+              "minPrice": 40,
+              "maxPrice": 91,
+              "features": [
+                "createNewDataFlows",
+                "manageUserPermissions"
+              ]
+            },
+            "pricing_url": "uploaded://pricing"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/tableau/2021.yml"
+      ]
+    },
+    {
+      "id": 1,
+      "template_index": 0,
+      "placeholder_values": {
+        "ACTION 1": "contacting customer support via chat",
+        "SAAS 1": "Pumble",
+        "PRICE 1": "$36",
+        "PRICE 2": "$175",
+        "FEATURE 1": "voice messages"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "subscriptions",
+            "filters": {
+              "minPrice": 36,
+              "maxPrice": 175,
+              "features": [
+                "voiceMessages",
+                "chatSupport"
+              ]
+            },
+            "pricing_url": "uploaded://pricing"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/pumble/2025.yml"
+      ]
+    },
+    {
+      "id": 2,
+      "template_index": 0,
+      "placeholder_values": {
+        "ACTION 1": "third party integrations",
+        "SAAS 1": "Figma",
+        "PRICE 1": "$152",
+        "PRICE 2": "$169",
+        "FEATURE 1": "vscode extension"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "subscriptions",
+            "filters": {
+              "minPrice": 152,
+              "maxPrice": 169,
+              "features": [
+                "vscodeExtension",
+                "thirdPartyIntegrations"
+              ]
+            },
+            "pricing_url": "uploaded://pricing"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/figma/2025.yml"
+      ]
+    },
+    {
+      "id": 3,
+      "template_index": 0,
+      "placeholder_values": {
+        "ACTION 1": "managing site roles, content ownership, and user permissions",
+        "SAAS 1": "Tableau",
+        "PRICE 1": "$150",
+        "PRICE 2": "$197",
+        "FEATURE 1": "create new workbooks based on pre built dashboard starters"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "subscriptions",
+            "filters": {
+              "minPrice": 150,
+              "maxPrice": 197,
+              "features": [
+                "createNewWorkbooksBasedOnPreBuiltDashboardStarters",
+                "manageUserPermissions"
+              ]
+            },
+            "pricing_url": "uploaded://pricing"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/tableau/2023.yml"
+      ]
+    },
+    {
+      "id": 4,
+      "template_index": 0,
+      "placeholder_values": {
+        "ACTION 1": "customization of reports",
+        "SAAS 1": "Buffer",
+        "PRICE 1": "$71",
+        "PRICE 2": "$122",
+        "FEATURE 1": "channels"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "subscriptions",
+            "filters": {
+              "minPrice": 71,
+              "maxPrice": 122,
+              "features": [
+                "channels",
+                "customReports"
+              ]
+            },
+            "pricing_url": "uploaded://pricing"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/buffer/2024.yml"
+      ]
+    },
+    {
+      "id": 5,
+      "template_index": 1,
+      "placeholder_values": {
+        "PRICE 1": "$30",
+        "SAAS 1": "Jira",
+        "ACTION 1": "more than 2000 automations"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "subscriptions",
+            "filters": {
+              "maxPrice": 30,
+              "usageLimits": [
+                {
+                  "totalAutomationLimit": 2001
+                }
+              ]
+            },
+            "pricing_url": "uploaded://pricing"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/jira/2024.yml"
+      ]
+    },
+    {
+      "id": 6,
+      "template_index": 1,
+      "placeholder_values": {
+        "PRICE 1": "$83",
+        "SAAS 1": "ClickUp",
+        "ACTION 1": "the use of 2 email accounts per workspace"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "subscriptions",
+            "filters": {
+              "maxPrice": 83,
+              "usageLimits": [
+                {
+                  "useEmailAccountsInClickUp": 2
+                }
+              ]
+            },
+            "pricing_url": "uploaded://pricing"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/clickup/2025.yml"
+      ]
+    },
+    {
+      "id": 7,
+      "template_index": 1,
+      "placeholder_values": {
+        "PRICE 1": "$125",
+        "SAAS 1": "Trustmary - Collect",
+        "ACTION 1": "the ability to send surveys with more than 30 responses"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "subscriptions",
+            "filters": {
+              "maxPrice": 125,
+              "usageLimits": [
+                {
+                  "surveyResponsesLimit": 31
+                }
+              ]
+            },
+            "pricing_url": "uploaded://pricing"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/trustmary/2024.yml"
+      ]
+    },
+    {
+      "id": 8,
+      "template_index": 1,
+      "placeholder_values": {
+        "PRICE 1": "$12",
+        "SAAS 1": "Microsoft - Office 365 For Business",
+        "ACTION 1": "online meetings of at least 250 participants"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "subscriptions",
+            "filters": {
+              "maxPrice": 12,
+              "usageLimits": [
+                {
+                  "onlineMeetingCapacity": 250
+                }
+              ]
+            },
+            "pricing_url": "uploaded://pricing"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/microsoft365Business/2019.yml"
+      ]
+    },
+    {
+      "id": 9,
+      "template_index": 1,
+      "placeholder_values": {
+        "PRICE 1": "$185",
+        "SAAS 1": "Trello",
+        "ACTION 1": "collaborating with more than 100 team members"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "subscriptions",
+            "filters": {
+              "maxPrice": 185,
+              "usageLimits": [
+                {
+                  "workspaceCollaboratorsLimit": 101
+                }
+              ]
+            },
+            "pricing_url": "uploaded://pricing"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/trello/2025.yml"
+      ]
+    },
+    {
+      "id": 10,
+      "template_index": 2,
+      "placeholder_values": {
+        "YEAR 1": "2021",
+        "YEAR 2": "2024",
+        "CONFIGURATION 1": "Pro plan",
+        "CONFIGURATION 2": "Business plan",
+        "SAAS 1": "HyperContext"
+      },
+      "question_override": null,
+      "plan_overrides": null,
+      "pricing_paths": [
+        "data/pricings/spectra/hypercontext/2021.yml",
+        "data/pricings/spectra/hypercontext/2024.yml"
+      ]
+    },
+    {
+      "id": 11,
+      "template_index": 2,
+      "placeholder_values": {
+        "YEAR 1": "2019",
+        "YEAR 2": "2023",
+        "CONFIGURATION 1": "Ecommerce standard plan",
+        "CONFIGURATION 2": "Ecommerce plus plan",
+        "SAAS 1": "Webflow"
+      },
+      "question_override": null,
+      "plan_overrides": null,
+      "pricing_paths": [
+        "data/pricings/spectra/webflow/2019.yml",
+        "data/pricings/spectra/webflow/2023.yml"
+      ]
+    },
+    {
+      "id": 12,
+      "template_index": 2,
+      "placeholder_values": {
+        "YEAR 1": "2019",
+        "YEAR 2": "2021",
+        "CONFIGURATION 1": "Explorer plan",
+        "CONFIGURATION 2": "Creator plan",
+        "SAAS 1": "Tableau"
+      },
+      "question_override": null,
+      "plan_overrides": null,
+      "pricing_paths": [
+        "data/pricings/spectra/tableau/2019.yml",
+        "data/pricings/spectra/tableau/2021.yml"
+      ]
+    },
+    {
+      "id": 13,
+      "template_index": 2,
+      "placeholder_values": {
+        "YEAR 1": "2019",
+        "YEAR 2": "2024",
+        "CONFIGURATION 1": "Standard plan",
+        "CONFIGURATION 2": "Premium plan",
+        "SAAS 1": "MailChimp"
+      },
+      "question_override": null,
+      "plan_overrides": null,
+      "pricing_paths": [
+        "data/pricings/spectra/mailchimp/2019.yml",
+        "data/pricings/spectra/mailchimp/2024.yml"
+      ]
+    },
+    {
+      "id": 14,
+      "template_index": 2,
+      "placeholder_values": {
+        "YEAR 1": "2021",
+        "YEAR 2": "2023",
+        "CONFIGURATION 1": "Basic plan",
+        "CONFIGURATION 2": "Business plan",
+        "SAAS 1": "HyperContext"
+      },
+      "question_override": null,
+      "plan_overrides": null,
+      "pricing_paths": [
+        "data/pricings/spectra/hypercontext/2021.yml",
+        "data/pricings/spectra/hypercontext/2023.yml"
+      ]
+    },
+    {
+      "id": 15,
+      "template_index": 3,
+      "placeholder_values": {
+        "SAAS 1": "Shopify",
+        "FEATURE 1": "fast checkout",
+        "FEATURE 2": "usps priority mail cubic pricing",
+        "PRICE 1": "$173"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "subscriptions",
+            "filters": {
+              "maxPrice": 172.99,
+              "features": [
+                "fastCheckout",
+                "uspsPriorityMailCubicPricing"
+              ]
+            },
+            "pricing_url": "uploaded://pricing"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/shopify/2020.yml"
+      ]
+    },
+    {
+      "id": 16,
+      "template_index": 3,
+      "placeholder_values": {
+        "SAAS 1": "Overleaf",
+        "FEATURE 1": "templates",
+        "FEATURE 2": "git integration",
+        "PRICE 1": "$97"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "subscriptions",
+            "filters": {
+              "maxPrice": 96.99,
+              "features": [
+                "templates",
+                "gitIntegration"
+              ]
+            },
+            "pricing_url": "uploaded://pricing"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/overleaf/2021.yml"
+      ]
+    },
+    {
+      "id": 17,
+      "template_index": 3,
+      "placeholder_values": {
+        "SAAS 1": "Clockify",
+        "FEATURE 1": "targets",
+        "FEATURE 2": "reminders and integrations",
+        "PRICE 1": "$83"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "subscriptions",
+            "filters": {
+              "maxPrice": 82.99,
+              "features": [
+                "targetsAndReminders",
+                "integrations"
+              ]
+            },
+            "pricing_url": "uploaded://pricing"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/clockify/2020.yml"
+      ]
+    },
+    {
+      "id": 18,
+      "template_index": 3,
+      "placeholder_values": {
+        "SAAS 1": "slack",
+        "FEATURE 1": "priority support",
+        "FEATURE 2": "slack ai",
+        "PRICE 1": "$175"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "subscriptions",
+            "filters": {
+              "maxPrice": 174.99,
+              "features": [
+                "prioritySupport",
+                "slackAI"
+              ]
+            },
+            "pricing_url": "uploaded://pricing"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/slack/2025.yml"
+      ]
+    },
+    {
+      "id": 19,
+      "template_index": 3,
+      "placeholder_values": {
+        "SAAS 1": "Figma",
+        "FEATURE 1": "private projects",
+        "FEATURE 2": "figma editor",
+        "PRICE 1": "$157"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "subscriptions",
+            "filters": {
+              "maxPrice": 156.99,
+              "features": [
+                "privateProjects",
+                "figmaEditor"
+              ]
+            },
+            "pricing_url": "uploaded://pricing"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/figma/2022.yml"
+      ]
+    },
+    {
+      "id": 20,
+      "template_index": 4,
+      "placeholder_values": {
+        "ACTION 1": "managing team tasks",
+        "SAAS 1": "Trello",
+        "CONFIGURATION 1": "Enterprise plan",
+        "SAAS 2": "Wrike",
+        "CONFIGURATION 2": "Business plan"
+      },
+      "question_override": null,
+      "plan_overrides": null,
+      "pricing_paths": [
+        "data/pricings/spectra/trello/2019.yml",
+        "data/pricings/spectra/wrike/2019.yml"
+      ]
+    },
+    {
+      "id": 21,
+      "template_index": 4,
+      "placeholder_values": {
+        "ACTION 1": "managing complex tasks",
+        "SAAS 1": "HyperContext",
+        "CONFIGURATION 1": "Pro plan",
+        "SAAS 2": "ClickUp",
+        "CONFIGURATION 2": "Business plus plan"
+      },
+      "question_override": null,
+      "plan_overrides": null,
+      "pricing_paths": [
+        "data/pricings/spectra/hypercontext/2021.yml",
+        "data/pricings/spectra/clickup/2021.yml"
+      ]
+    },
+    {
+      "id": 22,
+      "template_index": 4,
+      "placeholder_values": {
+        "ACTION 1": "facilitating remote work",
+        "SAAS 1": "ClickUp",
+        "CONFIGURATION 1": "Enterprise plan",
+        "SAAS 2": "Trello",
+        "CONFIGURATION 2": "Enterprise plan"
+      },
+      "question_override": null,
+      "plan_overrides": null,
+      "pricing_paths": [
+        "data/pricings/spectra/clickup/2019.yml",
+        "data/pricings/spectra/trello/2019.yml"
+      ]
+    },
+    {
+      "id": 23,
+      "template_index": 4,
+      "placeholder_values": {
+        "ACTION 1": "launching marketing campaigns",
+        "SAAS 1": "MailChimp",
+        "CONFIGURATION 1": "Premium plan",
+        "SAAS 2": "Trustmary - Full",
+        "CONFIGURATION 2": "Light plan"
+      },
+      "question_override": null,
+      "plan_overrides": null,
+      "pricing_paths": [
+        "data/pricings/spectra/mailchimp/2020.yml",
+        "data/pricings/spectra/trustmary/2020.yml"
+      ]
+    },
+    {
+      "id": 24,
+      "template_index": 4,
+      "placeholder_values": {
+        "ACTION 1": "managing code repositories",
+        "SAAS 1": "Jira",
+        "CONFIGURATION 1": "Enterprise plan",
+        "SAAS 2": "Wrike",
+        "CONFIGURATION 2": "Enterprise plan"
+      },
+      "question_override": null,
+      "plan_overrides": null,
+      "pricing_paths": [
+        "data/pricings/spectra/jira/2020.yml",
+        "data/pricings/spectra/wrike/2020.yml"
+      ]
+    },
+    {
+      "id": 25,
+      "template_index": 5,
+      "placeholder_values": {
+        "CONFIGURATION 1": "Business plan",
+        "SAAS 1": "ClickUp",
+        "USAGE LIMIT 1": "use email in click up"
+      },
+      "question_override": null,
+      "plan_overrides": null,
+      "pricing_paths": [
+        "data/pricings/spectra/clickup/2024.yml"
+      ]
+    },
+    {
+      "id": 26,
+      "template_index": 5,
+      "placeholder_values": {
+        "CONFIGURATION 1": "Enterprise plan",
+        "SAAS 1": "Clockify",
+        "USAGE LIMIT 1": "reports limit"
+      },
+      "question_override": null,
+      "plan_overrides": null,
+      "pricing_paths": [
+        "data/pricings/spectra/clockify/2019.yml"
+      ]
+    },
+    {
+      "id": 27,
+      "template_index": 5,
+      "placeholder_values": {
+        "CONFIGURATION 1": "Business plan",
+        "SAAS 1": "Hypercontext",
+        "USAGE LIMIT 1": "meeting search"
+      },
+      "question_override": null,
+      "plan_overrides": null,
+      "pricing_paths": [
+        "data/pricings/spectra/hypercontext/2022.yml"
+      ]
+    },
+    {
+      "id": 28,
+      "template_index": 5,
+      "placeholder_values": {
+        "CONFIGURATION 1": "Medium business plan",
+        "SAAS 1": "Buffer - Publish",
+        "USAGE LIMIT 1": "users limit"
+      },
+      "question_override": null,
+      "plan_overrides": null,
+      "pricing_paths": [
+        "data/pricings/spectra/buffer/2020.yml"
+      ]
+    },
+    {
+      "id": 29,
+      "template_index": 5,
+      "placeholder_values": {
+        "CONFIGURATION 1": "Basic plan",
+        "SAAS 1": "Shopify",
+        "USAGE LIMIT 1": "api rate limits"
+      },
+      "question_override": null,
+      "plan_overrides": null,
+      "pricing_paths": [
+        "data/pricings/spectra/shopify/2025.yml"
+      ]
+    },
+    {
+      "id": 30,
+      "template_index": 6,
+      "placeholder_values": {
+        "CONFIGURATION 1": "Free plan",
+        "SAAS 1": "CircleCI - Cloud",
+        "YEAR 1": "2022",
+        "YEAR 2": "2025"
+      },
+      "question_override": null,
+      "plan_overrides": null,
+      "pricing_paths": [
+        "data/pricings/spectra/circleci/2022.yml",
+        "data/pricings/spectra/circleci/2025.yml"
+      ]
+    },
+    {
+      "id": 31,
+      "template_index": 6,
+      "placeholder_values": {
+        "CONFIGURATION 1": "Starter plan",
+        "SAAS 1": "Trustmary - Collect",
+        "YEAR 1": "2023",
+        "YEAR 2": "2024"
+      },
+      "question_override": null,
+      "plan_overrides": null,
+      "pricing_paths": [
+        "data/pricings/spectra/trustmary/2023.yml",
+        "data/pricings/spectra/trustmary/2024.yml"
+      ]
+    },
+    {
+      "id": 32,
+      "template_index": 6,
+      "placeholder_values": {
+        "CONFIGURATION 1": "Free plan",
+        "SAAS 1": "Pumble",
+        "YEAR 1": "2021",
+        "YEAR 2": "2022"
+      },
+      "question_override": null,
+      "plan_overrides": null,
+      "pricing_paths": [
+        "data/pricings/spectra/pumble/2021.yml",
+        "data/pricings/spectra/pumble/2022.yml"
+      ]
+    },
+    {
+      "id": 33,
+      "template_index": 6,
+      "placeholder_values": {
+        "CONFIGURATION 1": "Enterprise plan",
+        "SAAS 1": "Trello",
+        "YEAR 1": "2019",
+        "YEAR 2": "2020"
+      },
+      "question_override": null,
+      "plan_overrides": null,
+      "pricing_paths": [
+        "data/pricings/spectra/trello/2019.yml",
+        "data/pricings/spectra/trello/2020.yml"
+      ]
+    },
+    {
+      "id": 34,
+      "template_index": 6,
+      "placeholder_values": {
+        "CONFIGURATION 1": "Free plan",
+        "SAAS 1": "Planable",
+        "YEAR 1": "2023",
+        "YEAR 2": "2024"
+      },
+      "question_override": null,
+      "plan_overrides": null,
+      "pricing_paths": [
+        "data/pricings/spectra/planable/2023.yml",
+        "data/pricings/spectra/planable/2024.yml"
+      ]
+    },
+    {
+      "id": 35,
+      "template_index": 7,
+      "placeholder_values": {
+        "CONFIGURATION 1": "Enterprise plan",
+        "SAAS 1": "Planable",
+        "FEATURE 1": "feed view",
+        "CONFIGURATION 2": "Enterprise plan"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions_full": [
+          {
+            "name": "subscriptions",
+            "pricing_url": "uploaded://pricing"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/planable/2022.yml"
+      ]
+    },
+    {
+      "id": 36,
+      "template_index": 7,
+      "placeholder_values": {
+        "CONFIGURATION 1": "Free plan",
+        "SAAS 1": "Jira",
+        "FEATURE 1": "Atlassian Access",
+        "CONFIGURATION 2": "Enterprise plan"
+      },
+      "question_override": null,
+      "plan_overrides": null,
+      "pricing_paths": [
+        "data/pricings/spectra/jira/2020.yml"
+      ]
+    },
+    {
+      "id": 37,
+      "template_index": 7,
+      "placeholder_values": {
+        "CONFIGURATION 1": "Performance plan",
+        "SAAS 1": "CircleCI - Cloud",
+        "FEATURE 1": "silver premium support",
+        "CONFIGURATION 2": "Scale plan"
+      },
+      "question_override": null,
+      "plan_overrides": null,
+      "pricing_paths": [
+        "data/pricings/spectra/circleci/2020.yml"
+      ]
+    },
+    {
+      "id": 38,
+      "template_index": 7,
+      "placeholder_values": {
+        "CONFIGURATION 1": "Free plan",
+        "SAAS 1": "Jira",
+        "FEATURE 1": "Atlassian Guard",
+        "CONFIGURATION 2": "Enterprise plan"
+      },
+      "question_override": null,
+      "plan_overrides": null,
+      "pricing_paths": [
+        "data/pricings/spectra/jira/2024.yml"
+      ]
+    },
+    {
+      "id": 39,
+      "template_index": 7,
+      "placeholder_values": {
+        "CONFIGURATION 1": "Enterprise plan",
+        "SAAS 1": "Box",
+        "FEATURE 1": "Box Zones",
+        "CONFIGURATION 2": "Enterprise plus plan"
+      },
+      "question_override": null,
+      "plan_overrides": null,
+      "pricing_paths": [
+        "data/pricings/spectra/box/2025.yml"
+      ]
+    },
+    {
+      "id": 40,
+      "template_index": 8,
+      "placeholder_values": {
+        "ACTION 1": "sending 500 emails per month",
+        "SAAS 1": "Trustmary - Full Suite",
+        "SAAS 2": "MailChimp - Marketing",
+        "PRICE 1": "$60",
+        "PRICE 2": "$84"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "optimal",
+            "filters": {
+              "minPrice": 5,
+              "maxPrice": 7,
+              "usageLimits": [
+                {
+                  "monthlyEmailRequestsLimit": 500
+                }
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing/1"
+          },
+          {
+            "name": "optimal",
+            "filters": {
+              "minPrice": 5,
+              "maxPrice": 7,
+              "usageLimits": [
+                {
+                  "monthlyEmailSends": 500
+                }
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing/2"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/trustmary/2025.yml",
+        "data/pricings/spectra/mailchimp/2025.yml"
+      ]
+    },
+    {
+      "id": 41,
+      "template_index": 8,
+      "placeholder_values": {
+        "ACTION 1": "using single sign-on",
+        "SAAS 1": "Trello",
+        "SAAS 2": "Wrike",
+        "PRICE 1": "$144",
+        "PRICE 2": "$312"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "optimal",
+            "filters": {
+              "minPrice": 12,
+              "maxPrice": 26,
+              "features": [
+                "singleSignOn"
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing/1"
+          },
+          {
+            "name": "optimal",
+            "filters": {
+              "minPrice": 12,
+              "maxPrice": 26,
+              "features": [
+                "singleSignOn"
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing/2"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/trello/2019.yml",
+        "data/pricings/spectra/wrike/2019.yml"
+      ]
+    },
+    {
+      "id": 42,
+      "template_index": 8,
+      "placeholder_values": {
+        "ACTION 1": "using SAML single sign-on",
+        "SAAS 1": "ClickUp",
+        "SAAS 2": "Notion",
+        "PRICE 1": "$72",
+        "PRICE 2": "$180"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "optimal",
+            "filters": {
+              "minPrice": 6,
+              "maxPrice": 15,
+              "features": [
+                "customSamlSSO"
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing/1"
+          },
+          {
+            "name": "optimal",
+            "filters": {
+              "minPrice": 6,
+              "maxPrice": 15,
+              "features": [
+                "samlSso"
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing/2"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/clickup/2025.yml",
+        "data/pricings/spectra/notion/2025.yml"
+      ]
+    },
+    {
+      "id": 43,
+      "template_index": 8,
+      "placeholder_values": {
+        "ACTION 1": "integrating with Zapier",
+        "SAAS 1": "Buffer",
+        "SAAS 2": "Crowdcast",
+        "PRICE 1": "$120",
+        "PRICE 2": "$144"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "optimal",
+            "filters": {
+              "minPrice": 10,
+              "maxPrice": 12,
+              "features": [
+                "thirdPartyIntegrations"
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing/1"
+          },
+          {
+            "name": "optimal",
+            "filters": {
+              "minPrice": 10,
+              "maxPrice": 12,
+              "features": [
+                "zapierIntegration"
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing/2"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/buffer/2021.yml",
+        "data/pricings/spectra/crowdcast/2021.yml"
+      ]
+    },
+    {
+      "id": 44,
+      "template_index": 8,
+      "placeholder_values": {
+        "ACTION 1": "storaging 3000 GB of data",
+        "SAAS 1": "Box",
+        "SAAS 2": "Dropbox",
+        "PRICE 1": "$84",
+        "PRICE 2": "$108"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "optimal",
+            "filters": {
+              "minPrice": 7,
+              "maxPrice": 9,
+              "usageLimits": [
+                {
+                  "storageLimit": 3000
+                }
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing/1"
+          },
+          {
+            "name": "optimal",
+            "filters": {
+              "minPrice": 7,
+              "maxPrice": 9,
+              "usageLimits": [
+                {
+                  "storageLimit": 3000
+                }
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing/2"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/box/2022.yml",
+        "data/pricings/spectra/dropbox/2022.yml"
+      ]
+    },
+    {
+      "id": 45,
+      "template_index": 9,
+      "placeholder_values": {
+        "ACTION 1": "the access of more than 100 users",
+        "SAAS 1": "ClickUp",
+        "SAAS 2": "Box",
+        "PRICE 1": "$187"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "optimal",
+            "filters": {
+              "maxPrice": 187,
+              "usageLimits": [
+                {
+                  "useUsers": 101
+                }
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing/1"
+          },
+          {
+            "name": "optimal",
+            "filters": {
+              "maxPrice": 187,
+              "usageLimits": [
+                {
+                  "maxUsers": 101
+                }
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing/2"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/clickup/2019.yml",
+        "data/pricings/spectra/box/2019.yml"
+      ]
+    },
+    {
+      "id": 46,
+      "template_index": 9,
+      "placeholder_values": {
+        "ACTION 1": "having single sign-on",
+        "SAAS 1": "Trello",
+        "SAAS 2": "Wrike",
+        "PRICE 1": "$129"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "optimal",
+            "filters": {
+              "maxPrice": 129,
+              "usageLimits": [
+                {
+                  "singleSignOn": true
+                }
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing/1"
+          },
+          {
+            "name": "optimal",
+            "filters": {
+              "maxPrice": 129,
+              "usageLimits": [
+                {
+                  "singleSignOn": true
+                }
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing/2"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/trello/2021.yml",
+        "data/pricings/spectra/wrike/2021.yml"
+      ]
+    },
+    {
+      "id": 47,
+      "template_index": 9,
+      "placeholder_values": {
+        "ACTION 1": "commenting designs and canvases",
+        "SAAS 1": "Figma",
+        "SAAS 2": "Canva",
+        "PRICE 1": "$137"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "optimal",
+            "filters": {
+              "maxPrice": 137,
+              "features": [
+                "onCanvasCommenting"
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing/1"
+          },
+          {
+            "name": "optimal",
+            "filters": {
+              "maxPrice": 137,
+              "features": [
+                "addCommentsToDesigns"
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing/2"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/figma/2020.yml",
+        "data/pricings/spectra/canva/2020.yml"
+      ]
+    },
+    {
+      "id": 48,
+      "template_index": 9,
+      "placeholder_values": {
+        "ACTION 1": "integrating AI in every aspect of their work to improve productivity and their content",
+        "SAAS 1": "ClickUp",
+        "SAAS 2": "Deskera - ERP",
+        "PRICE 1": "$152"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "optimal",
+            "filters": {
+              "maxPrice": 152,
+              "features": [
+                "clickUpAI"
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing/1"
+          },
+          {
+            "name": "optimal",
+            "filters": {
+              "maxPrice": 152,
+              "features": [
+                "aiAssistant"
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing/2"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/clickup/2025.yml",
+        "data/pricings/spectra/buffer/2025.yml"
+      ]
+    },
+    {
+      "id": 49,
+      "template_index": 9,
+      "placeholder_values": {
+        "ACTION 1": "mobile access",
+        "SAAS 1": "Box",
+        "SAAS 2": "Quip",
+        "PRICE 1": "$18"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "optimal",
+            "filters": {
+              "maxPrice": 18,
+              "features": [
+                "mobileAccess"
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing/1"
+          },
+          {
+            "name": "optimal",
+            "filters": {
+              "maxPrice": 18,
+              "features": [
+                "mobileAccess"
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing/2"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/box/2019.yml",
+        "data/pricings/spectra/quip/2019.yml"
+      ]
+    },
+    {
+      "id": 50,
+      "template_index": 10,
+      "placeholder_values": {
+        "FEATURE 1": "dedicated csm",
+        "SAAS 1": "HyperContext",
+        "SAAS 2": "ClickUp",
+        "PRICE 1": "$91"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "optimal",
+            "filters": {
+              "maxPrice": 91,
+              "features": [
+                "dedicatedCSM"
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing/1"
+          },
+          {
+            "name": "optimal",
+            "filters": {
+              "maxPrice": 91,
+              "features": [
+                "dedicatedCustomerSuccessManager"
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing/2"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/hypercontext/2021.yml",
+        "data/pricings/spectra/clickup/2021.yml"
+      ]
+    },
+    {
+      "id": 51,
+      "template_index": 10,
+      "placeholder_values": {
+        "FEATURE 1": "single sign on",
+        "SAAS 1": "Quip",
+        "SAAS 2": "ClickUp",
+        "PRICE 1": "$186"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "optimal",
+            "filters": {
+              "maxPrice": 186,
+              "features": [
+                "singleSignOn"
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing/1"
+          },
+          {
+            "name": "optimal",
+            "filters": {
+              "maxPrice": 186,
+              "features": [
+                "googleSSO"
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing/2"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/quip/2020.yml",
+        "data/pricings/spectra/clickup/2020.yml"
+      ]
+    },
+    {
+      "id": 52,
+      "template_index": 10,
+      "placeholder_values": {
+        "FEATURE 1": "integrating slack",
+        "SAAS 1": "Notion",
+        "SAAS 2": "Box - Businesses",
+        "PRICE 1": "$56"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "optimal",
+            "filters": {
+              "maxPrice": 56,
+              "features": [
+                "slackIntegration"
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing/1"
+          },
+          {
+            "name": "optimal",
+            "filters": {
+              "maxPrice": 56,
+              "features": [
+                "slackIntegration"
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing/2"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/notion/2025.yml",
+        "data/pricings/spectra/box/2025.yml"
+      ]
+    },
+    {
+      "id": 53,
+      "template_index": 10,
+      "placeholder_values": {
+        "FEATURE 1": "single sign on",
+        "SAAS 1": "Evernote",
+        "SAAS 2": "Quip",
+        "PRICE 1": "$26"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "optimal",
+            "filters": {
+              "maxPrice": 26,
+              "features": [
+                "singleSignOn"
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing/1"
+          },
+          {
+            "name": "optimal",
+            "filters": {
+              "maxPrice": 26,
+              "features": [
+                "singleSignOn"
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing/2"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/evernote/2020.yml",
+        "data/pricings/spectra/quip/2020.yml"
+      ]
+    },
+    {
+      "id": 54,
+      "template_index": 10,
+      "placeholder_values": {
+        "FEATURE 1": "builtin automation",
+        "SAAS 1": "Trello",
+        "SAAS 2": "Deskera - ERP",
+        "PRICE 1": "$104"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "optimal",
+            "filters": {
+              "maxPrice": 104,
+              "features": [
+                "builtinAutomation"
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing/1"
+          },
+          {
+            "name": "optimal",
+            "filters": {
+              "maxPrice": 104,
+              "features": [
+                "builtinAutomation"
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing/2"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/trello/2025.yml",
+        "data/pricings/spectra/deskera/2025.yml"
+      ]
+    },
+    {
+      "id": 55,
+      "template_index": 11,
+      "placeholder_values": {
+        "CONFIGURATION 1": "Pro plan"
+      },
+      "question_override": null,
+      "plan_overrides": null,
+      "pricing_paths": [
+        "data/pricings/spectra/crowdcast/2025.yml"
+      ]
+    },
+    {
+      "id": 56,
+      "template_index": 11,
+      "placeholder_values": {
+        "CONFIGURATION 1": "Free plan"
+      },
+      "question_override": null,
+      "plan_overrides": null,
+      "pricing_paths": [
+        "data/pricings/spectra/circleci/2020.yml"
+      ]
+    },
+    {
+      "id": 57,
+      "template_index": 11,
+      "placeholder_values": {
+        "CONFIGURATION 1": "Standard plan"
+      },
+      "question_override": null,
+      "plan_overrides": null,
+      "pricing_paths": [
+        "data/pricings/spectra/overleaf/2022.yml"
+      ]
+    },
+    {
+      "id": 58,
+      "template_index": 11,
+      "placeholder_values": {
+        "CONFIGURATION 1": "free plan"
+      },
+      "question_override": null,
+      "plan_overrides": null,
+      "pricing_paths": [
+        "data/pricings/spectra/canva/2019.yml"
+      ]
+    },
+    {
+      "id": 59,
+      "template_index": 11,
+      "placeholder_values": {
+        "CONFIGURATION 1": "Starter plan"
+      },
+      "question_override": null,
+      "plan_overrides": null,
+      "pricing_paths": [
+        "data/pricings/spectra/quip/2020.yml"
+      ]
+    },
+    {
+      "id": 60,
+      "template_index": 12,
+      "placeholder_values": {
+        "USAGE LIMIT 1": "only for public repos",
+        "CONFIGURATION 1": "Free plan"
+      },
+      "question_override": null,
+      "plan_overrides": null,
+      "pricing_paths": [
+        "data/pricings/spectra/zenhub/2020.yml"
+      ]
+    },
+    {
+      "id": 61,
+      "template_index": 12,
+      "placeholder_values": {
+        "USAGE LIMIT 1": "unhosted sites limit",
+        "CONFIGURATION 1": "Workspaces inhouse core plan"
+      },
+      "question_override": null,
+      "plan_overrides": null,
+      "pricing_paths": [
+        "data/pricings/spectra/webflow/2022.yml"
+      ]
+    },
+    {
+      "id": 62,
+      "template_index": 12,
+      "placeholder_values": {
+        "USAGE LIMIT 1": "yearly sales volume limit",
+        "CONFIGURATION 1": "Website cms plan"
+      },
+      "question_override": null,
+      "plan_overrides": null,
+      "pricing_paths": [
+        "data/pricings/spectra/webflow/2020.yml"
+      ]
+    },
+    {
+      "id": 63,
+      "template_index": 12,
+      "placeholder_values": {
+        "USAGE LIMIT 1": "unlimited suveys",
+        "CONFIGURATION 1": "Starter plan"
+      },
+      "question_override": null,
+      "plan_overrides": null,
+      "pricing_paths": [
+        "data/pricings/spectra/trustmary/2024.yml"
+      ]
+    },
+    {
+      "id": 64,
+      "template_index": 12,
+      "placeholder_values": {
+        "USAGE LIMIT 1": "max users",
+        "CONFIGURATION 1": "Apps for business plan"
+      },
+      "question_override": null,
+      "plan_overrides": null,
+      "pricing_paths": [
+        "data/pricings/spectra/microsoft365Business/2022.yml"
+      ]
+    },
+    {
+      "id": 65,
+      "template_index": 13,
+      "placeholder_values": {
+        "YEAR 1": "2020",
+        "YEAR 2": "2025",
+        "FEATURE 1": "encryption in transit",
+        "FEATURE 2": "at rest and user counts"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "optimal",
+            "filters": {
+              "features": [
+                "encryptionInTransitAndAtRest"
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing/1"
+          },
+          {
+            "name": "optimal",
+            "filters": {
+              "features": [
+                "encryptionInTransitAndAtRest",
+                "userCounts"
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing/2"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/jira/2020.yml",
+        "data/pricings/spectra/jira/2025.yml"
+      ]
+    },
+    {
+      "id": 66,
+      "template_index": 13,
+      "placeholder_values": {
+        "YEAR 1": "2019",
+        "YEAR 2": "2024",
+        "FEATURE 1": "premier support",
+        "FEATURE 2": "super admin"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "optimal",
+            "filters": {
+              "features": [
+                "premierSupport"
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing/1"
+          },
+          {
+            "name": "optimal",
+            "filters": {
+              "features": [
+                "premierSupport",
+                "superAdmin"
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing/2"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/zapier/2019.yml",
+        "data/pricings/spectra/zapier/2024.yml"
+      ]
+    },
+    {
+      "id": 67,
+      "template_index": 13,
+      "placeholder_values": {
+        "YEAR 1": "2023",
+        "YEAR 2": "2025",
+        "FEATURE 1": "secure storage",
+        "FEATURE 2": "pci dss compliance"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "optimal",
+            "filters": {
+              "features": [
+                "secureStorage",
+                "pciDssCompliance"
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing/1"
+          },
+          {
+            "name": "optimal",
+            "filters": {
+              "features": [
+                "storage",
+                "sslEncryption",
+                "atRestEncryption",
+                "pciDssCompliance"
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing/2"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/box/2023.yml",
+        "data/pricings/spectra/box/2025.yml"
+      ]
+    },
+    {
+      "id": 68,
+      "template_index": 13,
+      "placeholder_values": {
+        "YEAR 1": "2024",
+        "YEAR 2": "2025",
+        "FEATURE 1": "components release",
+        "FEATURE 2": "concurrent job runs"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "optimal",
+            "filters": {
+              "features": [
+                "componentsRelease",
+                "concurrentJobRuns"
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing/1"
+          },
+          {
+            "name": "optimal",
+            "filters": {
+              "features": [
+                "releases",
+                "concurrentJobRuns"
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing/2"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/circleci/2024.yml",
+        "data/pricings/spectra/circleci/2025.yml"
+      ]
+    },
+    {
+      "id": 69,
+      "template_index": 13,
+      "placeholder_values": {
+        "YEAR 1": "2019",
+        "YEAR 2": "2020",
+        "FEATURE 1": "github integration",
+        "FEATURE 2": "centralized billing and management"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "optimal",
+            "filters": {
+              "features": [
+                "githubIntegration",
+                "centralizedBillingAndManagement"
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing/1"
+          },
+          {
+            "name": "optimal",
+            "filters": {
+              "features": [
+                "githubIntegration",
+                "centralizedBillingAndManagement"
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing/2"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/overleaf/2019.yml",
+        "data/pricings/spectra/overleaf/2020.yml"
+      ]
+    },
+    {
+      "id": 70,
+      "template_index": 14,
+      "placeholder_values": {
+        "ACTION 1": "live (in real time) customer support preferentially via chat",
+        "PRICE 1": "$186",
+        "SAAS 1": "Planable",
+        "SAAS 2": "MailChimp - Marketing"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "optimal",
+            "filters": {
+              "maxPrice": 186,
+              "features": [
+                "realTimeSupport"
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing/1"
+          },
+          {
+            "name": "optimal",
+            "filters": {
+              "maxPrice": 186,
+              "features": [
+                "liveChatSupport"
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing/2"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/planable/2021.yml",
+        "data/pricings/spectra/mailchimp/2021.yml"
+      ]
+    },
+    {
+      "id": 71,
+      "template_index": 14,
+      "placeholder_values": {
+        "ACTION 1": "some integrations through marketplace",
+        "PRICE 1": "$149",
+        "SAAS 1": "Buffer",
+        "SAAS 2": "MailChimp - Marketing"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "optimal",
+            "filters": {
+              "maxPrice": 149,
+              "features": [
+                "thirdPartyIntegrations"
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing/1"
+          },
+          {
+            "name": "optimal",
+            "filters": {
+              "maxPrice": 149,
+              "features": [
+                "integrations"
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing/2"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/buffer/2024.yml",
+        "data/pricings/spectra/mailchimp/2024.yml"
+      ]
+    },
+    {
+      "id": 72,
+      "template_index": 14,
+      "placeholder_values": {
+        "ACTION 1": "part of the SaaS functionalities through API calls",
+        "PRICE 1": "$131",
+        "SAAS 1": "Box",
+        "SAAS 2": "Quip"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "optimal",
+            "filters": {
+              "maxPrice": 131,
+              "features": [
+                "boxApi"
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing/1"
+          },
+          {
+            "name": "optimal",
+            "filters": {
+              "maxPrice": 131,
+              "features": [
+                "enterpriseAPI"
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing/2"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/box/2019.yml",
+        "data/pricings/spectra/quip/2019.yml"
+      ]
+    },
+    {
+      "id": 73,
+      "template_index": 14,
+      "placeholder_values": {
+        "ACTION 1": "priority support",
+        "PRICE 1": "$43",
+        "SAAS 1": "Zenhub",
+        "SAAS 2": "Trello"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "optimal",
+            "filters": {
+              "maxPrice": 43,
+              "features": [
+                "prioritySupport"
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing/1"
+          },
+          {
+            "name": "optimal",
+            "filters": {
+              "maxPrice": 43,
+              "features": [
+                "prioritySupport"
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing/2"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/zenhub/2020.yml",
+        "data/pricings/spectra/trello/2020.yml"
+      ]
+    },
+    {
+      "id": 74,
+      "template_index": 14,
+      "placeholder_values": {
+        "ACTION 1": "HIPAA compliance",
+        "PRICE 1": "$187",
+        "SAAS 1": "ClickUp",
+        "SAAS 2": "Box"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "optimal",
+            "filters": {
+              "maxPrice": 187,
+              "features": [
+                "hipaaCompliance"
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing/1"
+          },
+          {
+            "name": "optimal",
+            "filters": {
+              "maxPrice": 187,
+              "features": [
+                "hipaaCompliance"
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing/2"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/clickup/2022.yml",
+        "data/pricings/spectra/box/2022.yml"
+      ]
+    },
+    {
+      "id": 75,
+      "template_index": 15,
+      "placeholder_values": {
+        "SAAS 1": "Zenhub",
+        "FEATURE 1": "miro",
+        "PRICE 1": "$31",
+        "PRICE 2": "$84"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "subscriptions",
+            "filters": {
+              "features": [
+                "miro"
+              ],
+              "minPrice": 31,
+              "maxPrice": 84
+            },
+            "pricing_url": "uploaded://pricing"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/zenhub/2025.yml"
+      ]
+    },
+    {
+      "id": 76,
+      "template_index": 15,
+      "placeholder_values": {
+        "SAAS 1": "Clockify",
+        "FEATURE 1": "targets and reminders",
+        "PRICE 1": "$50",
+        "PRICE 2": "$181"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "subscriptions",
+            "filters": {
+              "features": [
+                "targetsAndReminders"
+              ],
+              "minPrice": 50,
+              "maxPrice": 181
+            },
+            "pricing_url": "uploaded://pricing"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/clockify/2024.yml"
+      ]
+    },
+    {
+      "id": 77,
+      "template_index": 15,
+      "placeholder_values": {
+        "SAAS 1": "Wrike",
+        "FEATURE 1": "adobe creative cloud extension",
+        "PRICE 1": "$88",
+        "PRICE 2": "$160"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "subscriptions",
+            "filters": {
+              "features": [
+                "adobeCreativeCloudExtension"
+              ],
+              "minPrice": 88,
+              "maxPrice": 160
+            },
+            "pricing_url": "uploaded://pricing"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/wrike/2024.yml"
+      ]
+    },
+    {
+      "id": 78,
+      "template_index": 15,
+      "placeholder_values": {
+        "SAAS 1": "ClickUp",
+        "FEATURE 1": "pulse live overview",
+        "PRICE 1": "$109",
+        "PRICE 2": "$115"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "subscriptions",
+            "filters": {
+              "features": [
+                "pulseLiveOverview"
+              ],
+              "minPrice": 109,
+              "maxPrice": 115
+            },
+            "pricing_url": "uploaded://pricing"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/clickup/2020.yml"
+      ]
+    },
+    {
+      "id": 79,
+      "template_index": 15,
+      "placeholder_values": {
+        "SAAS 1": "clockify",
+        "FEATURE 1": "project access",
+        "PRICE 1": "$60",
+        "PRICE 2": "$143"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "subscriptions",
+            "filters": {
+              "features": [
+                "projectAccess"
+              ],
+              "minPrice": 60,
+              "maxPrice": 143
+            },
+            "pricing_url": "uploaded://pricing"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/clockify/2023.yml"
+      ]
+    },
+    {
+      "id": 80,
+      "template_index": 16,
+      "placeholder_values": {
+        "PRICE 1": "$13",
+        "FEATURE 1": "threads",
+        "USAGE LIMIT 1": "5 GB of file storage per user",
+        "SAAS 1": "Pumble"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "optimal",
+            "filters": {
+              "maxPrice": 13,
+              "features": [
+                "threads"
+              ],
+              "usageLimits": [
+                {
+                  "useFileStoragePerUser": 5
+                }
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/pumble/2023.yml"
+      ]
+    },
+    {
+      "id": 81,
+      "template_index": 16,
+      "placeholder_values": {
+        "PRICE 1": "$28",
+        "FEATURE 1": "24/7support",
+        "USAGE LIMIT 1": "80% shipping discount rate",
+        "SAAS 1": "Shopify"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "optimal",
+            "filters": {
+              "maxPrice": 28,
+              "features": [
+                "24/7Support"
+              ],
+              "usageLimits": [
+                {
+                  "shippingDiscountRate": 0.8
+                }
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/shopify/2022.yml"
+      ]
+    },
+    {
+      "id": 82,
+      "template_index": 16,
+      "placeholder_values": {
+        "PRICE 1": "$175",
+        "FEATURE 1": "create and publish new data sources",
+        "USAGE LIMIT 1": "1 flow",
+        "SAAS 1": "Tableau"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "optimal",
+            "filters": {
+              "maxPrice": 175,
+              "features": [
+                "createAndPublishNewDataSources"
+              ],
+              "usageLimits": [
+                {
+                  "flowsLimit": 1
+                }
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/tableau/2020.yml"
+      ]
+    },
+    {
+      "id": 83,
+      "template_index": 16,
+      "placeholder_values": {
+        "PRICE 1": "$16",
+        "FEATURE 1": "two factor authentication",
+        "USAGE LIMIT 1": "1500 ideas",
+        "SAAS 1": "Buffer"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "optimal",
+            "filters": {
+              "maxPrice": 16,
+              "features": [
+                "twoFactorAuthentication"
+              ],
+              "usageLimits": [
+                {
+                  "ideasLimit": 1500
+                }
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/buffer/2022.yml"
+      ]
+    },
+    {
+      "id": 84,
+      "template_index": 16,
+      "placeholder_values": {
+        "PRICE 1": "$93",
+        "FEATURE 1": "custom templates",
+        "USAGE LIMIT 1": "5 users",
+        "SAAS 1": "Box - Businesses"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "optimal",
+            "filters": {
+              "maxPrice": 93,
+              "features": [
+                "customTemplates"
+              ],
+              "usageLimits": [
+                {
+                  "minUsers": 5
+                }
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/box/2025.yml"
+      ]
+    },
+    {
+      "id": 85,
+      "template_index": 17,
+      "placeholder_values": {
+        "CONFIGURATION 1": "Student plan",
+        "SAAS 1": "Overleaf",
+        "FEATURE 1": "centralized billing and management"
+      },
+      "question_override": null,
+      "plan_overrides": null,
+      "pricing_paths": [
+        "data/pricings/spectra/overleaf/2019.yml"
+      ]
+    },
+    {
+      "id": 86,
+      "template_index": 17,
+      "placeholder_values": {
+        "CONFIGURATION 1": "Free plan",
+        "SAAS 1": "Overleaf - Individual",
+        "FEATURE 1": "priority support"
+      },
+      "question_override": null,
+      "plan_overrides": null,
+      "pricing_paths": [
+        "data/pricings/spectra/overleaf/2025.yml"
+      ]
+    },
+    {
+      "id": 87,
+      "template_index": 17,
+      "placeholder_values": {
+        "CONFIGURATION 1": "Ecommerce advanced plan",
+        "SAAS 1": "Webflow",
+        "FEATURE 1": "billing permissions"
+      },
+      "question_override": null,
+      "plan_overrides": null,
+      "pricing_paths": [
+        "data/pricings/spectra/webflow/2022.yml"
+      ]
+    },
+    {
+      "id": 88,
+      "template_index": 17,
+      "placeholder_values": {
+        "CONFIGURATION 1": "Pro plan",
+        "SAAS 1": "Pumble",
+        "FEATURE 1": "share files and links"
+      },
+      "question_override": null,
+      "plan_overrides": null,
+      "pricing_paths": [
+        "data/pricings/spectra/pumble/2024.yml"
+      ]
+    },
+    {
+      "id": 89,
+      "template_index": 17,
+      "placeholder_values": {
+        "CONFIGURATION 1": "Enterprise plan",
+        "SAAS 1": "Canva",
+        "FEATURE 1": "onboarding incentives"
+      },
+      "question_override": null,
+      "plan_overrides": null,
+      "pricing_paths": [
+        "data/pricings/spectra/canva/2019.yml"
+      ]
+    },
+    {
+      "id": 90,
+      "template_index": 18,
+      "placeholder_values": {
+        "SAAS 1": "HyperContext",
+        "FEATURE 1": "markdown editor",
+        "SAAS 2": "Notion"
+      },
+      "question_override": null,
+      "plan_overrides": null,
+      "pricing_paths": [
+        "data/pricings/spectra/hypercontext/2021.yml",
+        "data/pricings/spectra/notion/2021.yml"
+      ]
+    },
+    {
+      "id": 91,
+      "template_index": 18,
+      "placeholder_values": {
+        "SAAS 1": "HyperContext",
+        "FEATURE 1": "admin reporting",
+        "SAAS 2": "Trello"
+      },
+      "question_override": null,
+      "plan_overrides": null,
+      "pricing_paths": [
+        "data/pricings/spectra/hypercontext/2022.yml",
+        "data/pricings/spectra/trello/2022.yml"
+      ]
+    },
+    {
+      "id": 92,
+      "template_index": 18,
+      "placeholder_values": {
+        "SAAS 1": "Figma",
+        "FEATURE 1": "password protection required",
+        "SAAS 2": "Canva"
+      },
+      "question_override": null,
+      "plan_overrides": null,
+      "pricing_paths": [
+        "data/pricings/spectra/figma/2024.yml",
+        "data/pricings/spectra/canva/2024.yml"
+      ]
+    },
+    {
+      "id": 93,
+      "template_index": 18,
+      "placeholder_values": {
+        "SAAS 1": "Jira",
+        "FEATURE 1": "advanced permissions",
+        "SAAS 2": "Trello"
+      },
+      "question_override": null,
+      "plan_overrides": null,
+      "pricing_paths": [
+        "data/pricings/spectra/jira/2023.yml",
+        "data/pricings/spectra/trello/2023.yml"
+      ]
+    },
+    {
+      "id": 94,
+      "template_index": 18,
+      "placeholder_values": {
+        "SAAS 1": "MailChimp - Marketing",
+        "FEATURE 1": "next best action",
+        "SAAS 2": "Buffer"
+      },
+      "question_override": null,
+      "plan_overrides": null,
+      "pricing_paths": [
+        "data/pricings/spectra/mailchimp/2023.yml",
+        "data/pricings/spectra/buffer/2023.yml"
+      ]
+    },
+    {
+      "id": 95,
+      "template_index": 19,
+      "placeholder_values": {
+        "SAAS 1": "Canva"
+      },
+      "question_override": null,
+      "plan_overrides": null,
+      "pricing_paths": [
+        "data/pricings/spectra/canva/2020.yml"
+      ]
+    },
+    {
+      "id": 96,
+      "template_index": 19,
+      "placeholder_values": {
+        "SAAS 1": "Jira"
+      },
+      "question_override": null,
+      "plan_overrides": null,
+      "pricing_paths": [
+        "data/pricings/spectra/jira/2023.yml"
+      ]
+    },
+    {
+      "id": 97,
+      "template_index": 19,
+      "placeholder_values": {
+        "SAAS 1": "Dropbox"
+      },
+      "question_override": null,
+      "plan_overrides": null,
+      "pricing_paths": [
+        "data/pricings/spectra/dropbox/2022.yml"
+      ]
+    },
+    {
+      "id": 98,
+      "template_index": 19,
+      "placeholder_values": {
+        "SAAS 1": "Notion"
+      },
+      "question_override": null,
+      "plan_overrides": null,
+      "pricing_paths": [
+        "data/pricings/spectra/notion/2024.yml"
+      ]
+    },
+    {
+      "id": 99,
+      "template_index": 19,
+      "placeholder_values": {
+        "SAAS 1": "Box"
+      },
+      "question_override": null,
+      "plan_overrides": null,
+      "pricing_paths": [
+        "data/pricings/spectra/box/2023.yml"
+      ]
+    },
+    {
+      "id": 100,
+      "template_index": 20,
+      "placeholder_values": {
+        "CONFIGURATION 1": "Figma professional plan",
+        "SAAS 1": "Figma",
+        "PRICE 1": "\u20ac15",
+        "PRICE 2": "\u20ac183",
+        "ACTION 1": "third party integrations"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "optimal",
+            "filters": {
+              "maxPrice": 183,
+              "features": [
+                "thirdPartyIntegrations"
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/figma/2023.yml"
+      ]
+    },
+    {
+      "id": 101,
+      "template_index": 20,
+      "placeholder_values": {
+        "CONFIGURATION 1": "Starter plan",
+        "SAAS 1": "Box",
+        "PRICE 1": "$15",
+        "PRICE 2": "$150",
+        "ACTION 1": "50k api calls per month"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "optimal",
+            "filters": {
+              "maxPrice": 150,
+              "usageLimits": [
+                {
+                  "apiCallsLimit": 50000
+                }
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/box/2019.yml"
+      ]
+    },
+    {
+      "id": 102,
+      "template_index": 20,
+      "placeholder_values": {
+        "CONFIGURATION 1": "Personal plan",
+        "SAAS 1": "Notion",
+        "PRICE 1": "$0",
+        "PRICE 2": "$60",
+        "ACTION 1": "a manager for dedicated customer support"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "optimal",
+            "filters": {
+              "maxPrice": 60,
+              "features": [
+                "dedicatedCustomerManager"
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/notion/2022.yml"
+      ]
+    },
+    {
+      "id": 103,
+      "template_index": 20,
+      "placeholder_values": {
+        "CONFIGURATION 1": "Free plan",
+        "SAAS 1": "MailChimp - Marketing",
+        "PRICE 1": "$0",
+        "PRICE 2": "$175",
+        "ACTION 1": "to send transactional emails"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "optimal",
+            "filters": {
+              "maxPrice": 175,
+              "features": [
+                "transactionalEmails"
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/mailchimp/2025.yml"
+      ]
+    },
+    {
+      "id": 104,
+      "template_index": 20,
+      "placeholder_values": {
+        "CONFIGURATION 1": "Enterprise plan",
+        "SAAS 1": "Trello",
+        "PRICE 1": "$20.83",
+        "PRICE 2": "$22",
+        "ACTION 1": "to deactivate employees who leave the company without deleting their data"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "optimal",
+            "filters": {
+              "maxPrice": 22,
+              "features": [
+                "deactivateMembers"
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/trello/2019.yml"
+      ]
+    },
+    {
+      "id": 105,
+      "template_index": 21,
+      "placeholder_values": {
+        "SAAS 1": "Evernote",
+        "PRICE 1": "$174",
+        "USAGE LIMIT 1": "25 MB/note"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "optimal",
+            "filters": {
+              "maxPrice": 174,
+              "usageLimits": [
+                {
+                  "maximumNoteSize": 26
+                }
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/evernote/2020.yml"
+      ]
+    },
+    {
+      "id": 106,
+      "template_index": 21,
+      "placeholder_values": {
+        "SAAS 1": "Planable",
+        "PRICE 1": "$133",
+        "USAGE LIMIT 1": "3 user"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "optimal",
+            "filters": {
+              "maxPrice": 133,
+              "usageLimits": [
+                {
+                  "usersLimit": 4
+                }
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/planable/2019.yml"
+      ]
+    },
+    {
+      "id": 107,
+      "template_index": 21,
+      "placeholder_values": {
+        "SAAS 1": "Buffer",
+        "PRICE 1": "$43",
+        "USAGE LIMIT 1": "100 ideas"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "optimal",
+            "filters": {
+              "maxPrice": 43,
+              "usageLimits": [
+                {
+                  "ideasLimit": 101
+                }
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/buffer/2022.yml"
+      ]
+    },
+    {
+      "id": 108,
+      "template_index": 21,
+      "placeholder_values": {
+        "SAAS 1": "Zenhub",
+        "PRICE 1": "$145",
+        "USAGE LIMIT 1": "250 github issues"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "optimal",
+            "filters": {
+              "maxPrice": 145,
+              "usageLimits": [
+                {
+                  "maxGithubIssues": 251
+                }
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/zenhub/2025.yml"
+      ]
+    },
+    {
+      "id": 109,
+      "template_index": 21,
+      "placeholder_values": {
+        "SAAS 1": "Pumble",
+        "PRICE 1": "$142",
+        "USAGE LIMIT 1": "1 user in the same voicecall"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "optimal",
+            "filters": {
+              "maxPrice": 142,
+              "usageLimits": [
+                {
+                  "useVoiceCalls": 2
+                }
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/pumble/2023.yml"
+      ]
+    },
+    {
+      "id": 110,
+      "template_index": 22,
+      "placeholder_values": {
+        "YEAR 1": "2020",
+        "YEAR 2": "2021",
+        "SAAS 1": "Clockify"
+      },
+      "question_override": null,
+      "plan_overrides": null,
+      "pricing_paths": [
+        "data/pricings/spectra/clockify/2020.yml",
+        "data/pricings/spectra/clockify/2021.yml"
+      ]
+    },
+    {
+      "id": 111,
+      "template_index": 22,
+      "placeholder_values": {
+        "YEAR 1": "2022",
+        "YEAR 2": "2023",
+        "SAAS 1": "Deskera"
+      },
+      "question_override": null,
+      "plan_overrides": null,
+      "pricing_paths": [
+        "data/pricings/spectra/deskera/2022.yml",
+        "data/pricings/spectra/deskera/2023.yml"
+      ]
+    },
+    {
+      "id": 112,
+      "template_index": 22,
+      "placeholder_values": {
+        "YEAR 1": "2022",
+        "YEAR 2": "2023",
+        "SAAS 1": "CircleCI - Cloud"
+      },
+      "question_override": null,
+      "plan_overrides": null,
+      "pricing_paths": [
+        "data/pricings/spectra/circleci/2022.yml",
+        "data/pricings/spectra/circleci/2023.yml"
+      ]
+    },
+    {
+      "id": 113,
+      "template_index": 22,
+      "placeholder_values": {
+        "YEAR 1": "2019",
+        "YEAR 2": "2020",
+        "SAAS 1": "ClickUp"
+      },
+      "question_override": null,
+      "plan_overrides": null,
+      "pricing_paths": [
+        "data/pricings/spectra/clickup/2019.yml",
+        "data/pricings/spectra/clickup/2020.yml"
+      ]
+    },
+    {
+      "id": 114,
+      "template_index": 22,
+      "placeholder_values": {
+        "YEAR 1": "2020",
+        "YEAR 2": "2021",
+        "SAAS 1": "Shopify"
+      },
+      "question_override": null,
+      "plan_overrides": null,
+      "pricing_paths": [
+        "data/pricings/spectra/shopify/2020.yml",
+        "data/pricings/spectra/shopify/2021.yml"
+      ]
+    },
+    {
+      "id": 115,
+      "template_index": 23,
+      "placeholder_values": {
+        "ACTION 1": "improving business efficiency",
+        "USAGE LIMIT 1": "max collaborators per project",
+        "CONFIGURATION 1": "Student plan",
+        "SAAS 1": "Overleaf - Individual"
+      },
+      "question_override": null,
+      "plan_overrides": null,
+      "pricing_paths": [
+        "data/pricings/spectra/overleaf/2023.yml"
+      ]
+    },
+    {
+      "id": 116,
+      "template_index": 23,
+      "placeholder_values": {
+        "ACTION 1": "improving business efficiency",
+        "USAGE LIMIT 1": "non renewable credits",
+        "CONFIGURATION 1": "Performance plan",
+        "SAAS 1": "CircleCI - Cloud"
+      },
+      "question_override": null,
+      "plan_overrides": null,
+      "pricing_paths": [
+        "data/pricings/spectra/circleci/2020.yml"
+      ]
+    },
+    {
+      "id": 117,
+      "template_index": 23,
+      "placeholder_values": {
+        "ACTION 1": "tracking agenda items",
+        "USAGE LIMIT 1": "{{USAGE LIMIT 1}}",
+        "CONFIGURATION 1": "Enterprise plan",
+        "SAAS 1": "HyperContext"
+      },
+      "question_override": null,
+      "plan_overrides": null,
+      "pricing_paths": [
+        "data/pricings/spectra/hypercontext/2024.yml"
+      ]
+    },
+    {
+      "id": 118,
+      "template_index": 23,
+      "placeholder_values": {
+        "ACTION 1": "managing team tasks",
+        "USAGE LIMIT 1": "min number",
+        "CONFIGURATION 1": "users",
+        "SAAS 1": "Enterprise plan of Wrike"
+      },
+      "question_override": null,
+      "plan_overrides": null,
+      "pricing_paths": [
+        "data/pricings/spectra/wrike/2020.yml"
+      ]
+    },
+    {
+      "id": 119,
+      "template_index": 23,
+      "placeholder_values": {
+        "ACTION 1": "optimizing supply chain",
+        "USAGE LIMIT 1": "invoice and bills limit",
+        "CONFIGURATION 1": "Essential plan",
+        "SAAS 1": "Deskera"
+      },
+      "question_override": null,
+      "plan_overrides": null,
+      "pricing_paths": [
+        "data/pricings/spectra/deskera/2021.yml"
+      ]
+    },
+    {
+      "id": 120,
+      "template_index": 24,
+      "placeholder_values": {
+        "FEATURE 1": "message formatting",
+        "FEATURE 2": "embedded media in meetings",
+        "FEATURE 3": "create and publish new workbook from new data sources"
+      },
+      "question_override": null,
+      "plan_overrides": null,
+      "pricing_paths": [
+        "data/pricings/spectra/pumble/2024.yml",
+        "data/pricings/spectra/hypercontext/2024.yml",
+        "data/pricings/spectra/tableau/2024.yml"
+      ]
+    },
+    {
+      "id": 121,
+      "template_index": 24,
+      "placeholder_values": {
+        "FEATURE 1": "microsoft excel mobile app",
+        "FEATURE 2": "managed users dashboard",
+        "FEATURE 3": "m1medium mac os vm"
+      },
+      "question_override": null,
+      "plan_overrides": null,
+      "pricing_paths": [
+        "data/pricings/spectra/microsoft365Business/2024.yml",
+        "data/pricings/spectra/notion/2024.yml",
+        "data/pricings/spectra/circleci/2024.yml"
+      ]
+    },
+    {
+      "id": 122,
+      "template_index": 24,
+      "placeholder_values": {
+        "FEATURE 1": "comment on dashboard",
+        "FEATURE 2": "reports spreadsheet",
+        "FEATURE 3": "attachments"
+      },
+      "question_override": null,
+      "plan_overrides": null,
+      "pricing_paths": [
+        "data/pricings/spectra/tableau/2025.yml",
+        "data/pricings/spectra/buffer/2025.yml",
+        "data/pricings/spectra/evernote/2025.yml"
+      ]
+    },
+    {
+      "id": 123,
+      "template_index": 24,
+      "placeholder_values": {
+        "FEATURE 1": "two factor authentication",
+        "FEATURE 2": "crowdcast expert services",
+        "FEATURE 3": "dedicated qbr"
+      },
+      "question_override": null,
+      "plan_overrides": null,
+      "pricing_paths": [
+        "data/pricings/spectra/webflow/2023.yml",
+        "data/pricings/spectra/crowdcast/2023.yml",
+        "data/pricings/spectra/hypercontext/2023.yml"
+      ]
+    },
+    {
+      "id": 124,
+      "template_index": 24,
+      "placeholder_values": {
+        "FEATURE 1": "print shipping labels",
+        "FEATURE 2": "agile reporting",
+        "FEATURE 3": "google apps sign on"
+      },
+      "question_override": null,
+      "plan_overrides": null,
+      "pricing_paths": [
+        "data/pricings/spectra/shopify/2019.yml",
+        "data/pricings/spectra/jira/2019.yml",
+        "data/pricings/spectra/trello/2019.yml"
+      ]
+    },
+    {
+      "id": 125,
+      "template_index": 25,
+      "placeholder_values": {
+        "ACTION 1": "customization of reports"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "optimal",
+            "filters": {
+              "features": [
+                "customAnalytics",
+                "reportsSpreadsheet",
+                "reportsPDF",
+                "reportsImages",
+                "brandedReports"
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing/1"
+          },
+          {
+            "name": "optimal",
+            "filters": {
+              "features": [
+                "customReports"
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing/2"
+          },
+          {
+            "name": "optimal",
+            "filters": {
+              "features": [
+                "reportBuilder",
+                "customReports",
+                "customDashboards"
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing/3"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/buffer/2025.yml",
+        "data/pricings/spectra/planable/2025.yml",
+        "data/pricings/spectra/deskera/2025.yml"
+      ]
+    },
+    {
+      "id": 126,
+      "template_index": 25,
+      "placeholder_values": {
+        "ACTION 1": "priority support"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "optimal",
+            "filters": {
+              "features": [
+                "prioritySupport"
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing/1"
+          },
+          {
+            "name": "optimal",
+            "filters": {
+              "features": [
+                "prioritySupport"
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing/2"
+          },
+          {
+            "name": "optimal",
+            "filters": {
+              "features": [
+                "prioritySupport"
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing/3"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/overleaf/2022.yml",
+        "data/pricings/spectra/clickup/2022.yml",
+        "data/pricings/spectra/notion/2022.yml"
+      ]
+    },
+    {
+      "id": 127,
+      "template_index": 25,
+      "placeholder_values": {
+        "ACTION 1": "using the SaaS via API"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "optimal",
+            "filters": {
+              "features": [
+                "api"
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing/1"
+          },
+          {
+            "name": "optimal",
+            "filters": {
+              "features": [
+                "restApis"
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing/2"
+          },
+          {
+            "name": "optimal",
+            "filters": {
+              "features": [
+                "apiAccess"
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing/3"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/clockify/2019.yml",
+        "data/pricings/spectra/figma/2019.yml",
+        "data/pricings/spectra/zenhub/2019.yml"
+      ]
+    },
+    {
+      "id": 128,
+      "template_index": 25,
+      "placeholder_values": {
+        "ACTION 1": "managing at least 100 users"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "optimal",
+            "filters": {
+              "usageLimits": [
+                {
+                  "maxUsers": 100
+                }
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing/1"
+          },
+          {
+            "name": "optimal",
+            "filters": {
+              "usageLimits": [
+                {
+                  "unlimitedTeamMembers": 100
+                }
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing/2"
+          },
+          {
+            "name": "optimal",
+            "filters": {
+              "features": [
+                "unlimitedUsers"
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing/3"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/circleci/2024.yml",
+        "data/pricings/spectra/trustmary/2024.yml",
+        "data/pricings/spectra/clockify/2024.yml"
+      ]
+    },
+    {
+      "id": 129,
+      "template_index": 25,
+      "placeholder_values": {
+        "ACTION 1": "having access to the app for iOS and Android"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "optimal",
+            "filters": {
+              "features": [
+                "appForIOS",
+                "appForAndroid"
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing/1"
+          },
+          {
+            "name": "optimal",
+            "filters": {
+              "features": [
+                "iosAndAndroidApps"
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing/2"
+          },
+          {
+            "name": "optimal",
+            "filters": {
+              "features": [
+                "wrikeIOSAndAndroidApps"
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing/3"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/evernote/2024.yml",
+        "data/pricings/spectra/jira/2024.yml",
+        "data/pricings/spectra/wrike/2024.yml"
+      ]
+    },
+    {
+      "id": 130,
+      "template_index": 26,
+      "placeholder_values": {
+        "FEATURE 1": "shareable links",
+        "FEATURE 2": "surveys",
+        "USAGE LIMIT 1": "300 surveys"
+      },
+      "question_override": "For a team that needs the features shareable links and surveys and with a a size 300 surveys, which configuration offers the best price?",
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "optimal",
+            "filters": {
+              "features": [
+                "shareableLinks",
+                "surveys"
+              ],
+              "usageLimits": [
+                {
+                  "surveysLimit": 300
+                }
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/trustmary/2021.yml"
+      ]
+    },
+    {
+      "id": 131,
+      "template_index": 26,
+      "placeholder_values": {
+        "FEATURE 1": "transfer analytics",
+        "FEATURE 2": "pdf editing",
+        "USAGE LIMIT 1": "10 templates"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "optimal",
+            "filters": {
+              "features": [
+                "transferAnalytics",
+                "pdfEditing"
+              ],
+              "usageLimits": [
+                {
+                  "templatesLimit": 10
+                }
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/dropbox/2025.yml"
+      ]
+    },
+    {
+      "id": 132,
+      "template_index": 26,
+      "placeholder_values": {
+        "FEATURE 1": "no code editor",
+        "FEATURE 2": "premium apps",
+        "USAGE LIMIT 1": "10 zaps"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "optimal",
+            "filters": {
+              "features": [
+                "noCodeEditor",
+                "premiumApps"
+              ],
+              "usageLimits": [
+                {
+                  "zapsLimit": 10
+                }
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/zapier/2022.yml"
+      ]
+    },
+    {
+      "id": 133,
+      "template_index": 26,
+      "placeholder_values": {
+        "FEATURE 1": "decimal format",
+        "FEATURE 2": "unlimited projects",
+        "USAGE LIMIT 1": "1000 reports"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "optimal",
+            "filters": {
+              "features": [
+                "decimalFormat",
+                "unlimitedProjects"
+              ],
+              "usageLimits": [
+                {
+                  "reportsLimit": 1000
+                }
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/clockify/2021.yml"
+      ]
+    },
+    {
+      "id": 134,
+      "template_index": 26,
+      "placeholder_values": {
+        "FEATURE 1": "see data quality warnings",
+        "FEATURE 2": "create new workbooks based on pre built dashboard starters",
+        "USAGE LIMIT 1": "1 flow"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "optimal",
+            "filters": {
+              "features": [
+                "seeDataQualityWarnings",
+                "createNewWorkbooksBasedOnPreBuiltDashboardStarters"
+              ],
+              "usageLimits": [
+                {
+                  "flowsLimit": 1
+                }
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/tableau/2020.yml"
+      ]
+    },
+    {
+      "id": 135,
+      "template_index": 27,
+      "placeholder_values": {
+        "PRICE 1": "$38"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "optimal",
+            "filters": {
+              "maxPrice": 38
+            },
+            "objective": "maximize",
+            "pricing_url": "uploaded://pricing"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/deskera/2022.yml"
+      ]
+    },
+    {
+      "id": 136,
+      "template_index": 27,
+      "placeholder_values": {
+        "PRICE 1": "$168"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "optimal",
+            "filters": {
+              "maxPrice": 168
+            },
+            "objective": "maximize",
+            "pricing_url": "uploaded://pricing"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/dropbox/2022.yml"
+      ]
+    },
+    {
+      "id": 137,
+      "template_index": 27,
+      "placeholder_values": {
+        "PRICE 1": "$193"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "optimal",
+            "filters": {
+              "maxPrice": 193
+            },
+            "objective": "maximize",
+            "pricing_url": "uploaded://pricing"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/trello/2021.yml"
+      ]
+    },
+    {
+      "id": 138,
+      "template_index": 27,
+      "placeholder_values": {
+        "PRICE 1": "$81"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "optimal",
+            "filters": {
+              "maxPrice": 81
+            },
+            "objective": "maximize",
+            "pricing_url": "uploaded://pricing"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/slack/2020.yml"
+      ]
+    },
+    {
+      "id": 139,
+      "template_index": 27,
+      "placeholder_values": {
+        "PRICE 1": "$152"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "optimal",
+            "filters": {
+              "maxPrice": 152
+            },
+            "objective": "maximize",
+            "pricing_url": "uploaded://pricing"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/figma/2019.yml"
+      ]
+    },
+    {
+      "id": 140,
+      "template_index": 28,
+      "placeholder_values": {
+        "ACTION 1": "contacting customer support via email",
+        "SAAS 1": "Pumble",
+        "SAAS 2": "Crowdcast"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "optimal",
+            "filters": {
+              "features": [
+                "emailSupport"
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing/1"
+          },
+          {
+            "name": "optimal",
+            "filters": {
+              "features": [
+                "emailSupport"
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing/2"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/pumble/2022.yml",
+        "data/pricings/spectra/crowdcast/2022.yml"
+      ]
+    },
+    {
+      "id": 141,
+      "template_index": 28,
+      "placeholder_values": {
+        "ACTION 1": "the storage of 5 GB of data",
+        "SAAS 1": "Jira",
+        "SAAS 2": "CircleCI - Cloud"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "optimal",
+            "filters": {
+              "usageLimits": [
+                {
+                  "storageLimit": 5
+                }
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing/1"
+          },
+          {
+            "name": "optimal",
+            "filters": {
+              "usageLimits": [
+                {
+                  "storageLimit": 5
+                }
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing/2"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/jira/2021.yml",
+        "data/pricings/spectra/circleci/2021.yml"
+      ]
+    },
+    {
+      "id": 142,
+      "template_index": 28,
+      "placeholder_values": {
+        "ACTION 1": "real time collaboration between team members",
+        "SAAS 1": "Overleaf",
+        "SAAS 2": "Notion"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "optimal",
+            "filters": {
+              "features": [
+                "realTimeCollaboration"
+              ],
+              "usageLimits": [
+                {
+                  "maxCollaboratorsPerProject": 2
+                }
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing/1"
+          },
+          {
+            "name": "optimal",
+            "filters": {
+              "features": [
+                "realTimeCollaboration",
+                "collaborativeWorkspace"
+              ],
+              "usageLimits": [
+                {
+                  "membersLimit": 2
+                }
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing/2"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/overleaf/2021.yml",
+        "data/pricings/spectra/notion/2021.yml"
+      ]
+    },
+    {
+      "id": 143,
+      "template_index": 28,
+      "placeholder_values": {
+        "ACTION 1": "two factor authentication",
+        "SAAS 1": "Wrike",
+        "SAAS 2": "Trello"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "optimal",
+            "filters": {
+              "features": [
+                "twoFactorVerification"
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing/1"
+          },
+          {
+            "name": "optimal",
+            "filters": {
+              "features": [
+                "2factorAuthentication"
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing/2"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/wrike/2021.yml",
+        "data/pricings/spectra/trello/2021.yml"
+      ]
+    },
+    {
+      "id": 144,
+      "template_index": 28,
+      "placeholder_values": {
+        "ACTION 1": "priority support for issues",
+        "SAAS 1": "ClickUp",
+        "SAAS 2": "Trello"
+      },
+      "question_override": null,
+      "plan_overrides": {
+        "actions": [
+          {
+            "name": "optimal",
+            "filters": {
+              "features": [
+                "prioritySupport"
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing/1"
+          },
+          {
+            "name": "optimal",
+            "filters": {
+              "features": [
+                "prioritySupport"
+              ]
+            },
+            "objective": "minimize",
+            "pricing_url": "uploaded://pricing/2"
+          }
+        ]
+      },
+      "pricing_paths": [
+        "data/pricings/spectra/clickup/2022.yml",
+        "data/pricings/spectra/trello/2022.yml"
+      ]
+    },
+    {
+      "id": 145,
+      "template_index": 29,
+      "placeholder_values": {
+        "CONFIGURATION 1": "Server plan",
+        "SAAS 1": "Pumble",
+        "YEAR 1": "2021",
+        "YEAR 2": "2022",
+        "YEAR 3": "2023",
+        "YEAR 4": "2024",
+        "YEAR 5": "2025"
+      },
+      "question_override": null,
+      "plan_overrides": null,
+      "pricing_paths": [
+        "data/pricings/spectra/pumble/2021.yml",
+        "data/pricings/spectra/pumble/2022.yml",
+        "data/pricings/spectra/pumble/2023.yml",
+        "data/pricings/spectra/pumble/2024.yml",
+        "data/pricings/spectra/pumble/2025.yml"
+      ]
+    },
+    {
+      "id": 146,
+      "template_index": 29,
+      "placeholder_values": {
+        "CONFIGURATION 1": "Business plus plan",
+        "SAAS 1": "Box",
+        "YEAR 1": "2019",
+        "YEAR 2": "2020",
+        "YEAR 3": "2021",
+        "YEAR 4": "2022",
+        "YEAR 5": "2023"
+      },
+      "question_override": null,
+      "plan_overrides": null,
+      "pricing_paths": [
+        "data/pricings/spectra/box/2019.yml",
+        "data/pricings/spectra/box/2020.yml",
+        "data/pricings/spectra/box/2021.yml",
+        "data/pricings/spectra/box/2022.yml",
+        "data/pricings/spectra/box/2023.yml"
+      ]
+    },
+    {
+      "id": 147,
+      "template_index": 29,
+      "placeholder_values": {
+        "CONFIGURATION 1": "Performance plan",
+        "SAAS 1": "CircleCI",
+        "YEAR 1": "2019",
+        "YEAR 2": "2020",
+        "YEAR 3": "2021",
+        "YEAR 4": "2022",
+        "YEAR 5": "2023"
+      },
+      "question_override": null,
+      "plan_overrides": null,
+      "pricing_paths": [
+        "data/pricings/spectra/circleci/2019.yml",
+        "data/pricings/spectra/circleci/2020.yml",
+        "data/pricings/spectra/circleci/2021.yml",
+        "data/pricings/spectra/circleci/2022.yml",
+        "data/pricings/spectra/circleci/2023.yml"
+      ]
+    },
+    {
+      "id": 148,
+      "template_index": 29,
+      "placeholder_values": {
+        "CONFIGURATION 1": "Free plan",
+        "SAAS 1": "Canva",
+        "YEAR 1": "2019",
+        "YEAR 2": "2020",
+        "YEAR 3": "2021",
+        "YEAR 4": "2022",
+        "YEAR 5": "2023"
+      },
+      "question_override": null,
+      "plan_overrides": null,
+      "pricing_paths": [
+        "data/pricings/spectra/canva/2019.yml",
+        "data/pricings/spectra/canva/2020.yml",
+        "data/pricings/spectra/canva/2021.yml",
+        "data/pricings/spectra/canva/2022.yml",
+        "data/pricings/spectra/canva/2023.yml"
+      ]
+    },
+    {
+      "id": 149,
+      "template_index": 29,
+      "placeholder_values": {
+        "CONFIGURATION 1": "Viewer plan",
+        "SAAS 1": "Tableau",
+        "YEAR 1": "2021",
+        "YEAR 2": "2022",
+        "YEAR 3": "2023",
+        "YEAR 4": "2024",
+        "YEAR 5": "2025"
+      },
+      "question_override": null,
+      "plan_overrides": null,
+      "pricing_paths": [
+        "data/pricings/spectra/tableau/2021.yml",
+        "data/pricings/spectra/tableau/2022.yml",
+        "data/pricings/spectra/tableau/2023.yml",
+        "data/pricings/spectra/tableau/2024.yml",
+        "data/pricings/spectra/tableau/2025.yml"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,272 @@
+syntaxVersion: '2.1'
+saasName: Shopify
+createdAt: '2021-11-20'
+version: '2021-11-20'
+currency: USD
+tags:
+  - Features
+  - Shopify Shipping
+  - Shopify Payments
+  - Point of Sale
+  - Global Selling
+url: https://web.archive.org/web/20211120143802/https://www.shopify.com/pricing
+features:
+  onlineStore:
+    description: Includes ecommerce website and blog
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Features
+  products:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Features
+  staffAccounts:
+    description: Staff members with access to the Shopify admin and Shopify POS
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Features
+  24/7Support:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: SUPPORT
+    tag: Features
+  salesChannels:
+    description: Sell on online marketplaces and social media. Channel availability varies by country
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Features
+  inventoryLocations:
+    description: Assign inventory to retail stores, warehouses, pop-ups, or wherever you store products
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Features
+  manualOrderCreation:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Features
+  discountCodes:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Features
+  freeSslCertificate:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Features
+  abandonedCartRecovery:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Features
+  giftCards:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Features
+  reports:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Features
+  thirdPartyCalculatedShippingRates:
+    description: Show calculated rates with your own account or third-party apps at checkout
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+    tag: Features
+  shippingDiscount:
+    description: Competitive shipping rates from DHL Express, UPS, or USPS
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Shopify Shipping
+  shippingLabels:
+    description: Print shipping labels for orders using a standard printer—no special equipment required
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Shopify Shipping
+  uspsPriorityMailCubicPricing:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+    tag: Shopify Shipping
+  fraudAnalysis:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Shopify Payments
+  onlineCreditCardRates:
+    valueType: TEXT
+    defaultValue: 2.9% + 30¢
+    type: DOMAIN
+    tag: Shopify Payments
+  inPersonCreditCardRates:
+    valueType: TEXT
+    defaultValue: 2.7% + 0¢
+    type: DOMAIN
+    tag: Shopify Payments
+  transactionFeeNotUsingShopifyPayments:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Shopify Payments
+  shopifyPosLite:
+    description: Accept in-person payments instantly at pop-ups, markets, fairs, and more
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Point of Sale
+  shopifyPosPro:
+    description: Choose locations to upgrade to POS Pro for faster workflows, staff permissions, and advanced inventory tools
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+    tag: Point of Sale
+  sellInCurrencies:
+    description: Use price rounding to create consistency in your prices after conversion
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Global Selling
+  sellInMultipleLanguages:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Global Selling
+  internationalDomains:
+    description: Set country-specific domains to optimize international SEO
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+    tag: Global Selling
+  internationalPricing:
+    description: Customize your product prices for different countries/regions with a percentage increase or decrease
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+    tag: Global Selling
+  internationalPricingPerVariantPricing:
+    description: Set individual product prices for different countries/regions
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+    tag: Global Selling
+usageLimits:
+  staffAccountsLimit:
+    valueType: NUMERIC
+    defaultValue: 2
+    unit: account
+    type: NON_RENEWABLE
+    linkedFeatures:
+      - staffAccounts
+  inventoryLocationsLimit:
+    valueType: NUMERIC
+    defaultValue: 4
+    unit: location
+    type: NON_RENEWABLE
+    linkedFeatures:
+      - inventoryLocations
+  reportType:
+    valueType: TEXT
+    defaultValue: None
+    type: NON_RENEWABLE
+    linkedFeatures:
+      - reports
+  shippingDiscountRate:
+    valueType: NUMERIC
+    defaultValue: 0.77
+    type: NON_RENEWABLE
+    linkedFeatures:
+      - shippingDiscount
+  transactionFeeNotUsingShopifyPaymentsRate:
+    description: Additional fees using all payment providers other than Shopify Payments
+    valueType: NUMERIC
+    defaultValue: 0.02
+    type: NON_RENEWABLE
+    linkedFeatures:
+      - transactionFeeNotUsingShopifyPayments
+  sellInMultipleLanguagesCap:
+    valueType: NUMERIC
+    defaultValue: 20
+    unit: language
+    type: NON_RENEWABLE
+    linkedFeatures:
+      - sellInMultipleLanguages
+plans:
+  BASIC_SHOPIFY:
+    description: All the basics for starting a new business
+    price: 29
+    unit: user/month
+    features: null
+    usageLimits: null
+  SHOPIFY:
+    description: Everything you need for a growing business
+    price: 79
+    unit: user/month
+    features:
+      uspsPriorityMailCubicPricing:
+        value: true
+      onlineCreditCardRates:
+        value: 2.6% + 30¢
+      inPersonCreditCardRates:
+        value: 2.5% + 0¢
+      internationalDomains:
+        value: true
+      internationalPricing:
+        value: true
+    usageLimits:
+      staffAccountsLimit:
+        value: 5
+      shippingDiscountRate:
+        value: 0.88
+      reportType:
+        value: Standard
+      transactionFeeNotUsingShopifyPaymentsRate:
+        value: 0.01
+      inventoryLocationsLimit:
+        value: 5
+  ADVANCED_SHOPIFY:
+    description: Advanced features for scaling your business
+    price: 299
+    unit: user/month
+    features:
+      thirdPartyCalculatedShippingRates:
+        value: true
+      uspsPriorityMailCubicPricing:
+        value: true
+      onlineCreditCardRates:
+        value: 2.4% + 30¢
+      inPersonCreditCardRates:
+        value: 2.4% + 0¢
+      internationalDomains:
+        value: true
+      internationalPricing:
+        value: true
+      internationalPricingPerVariantPricing:
+        value: true
+    usageLimits:
+      staffAccountsLimit:
+        value: 15
+      inventoryLocationsLimit:
+        value: 8
+      reportType:
+        value: Advanced
+      shippingDiscountRate:
+        value: 0.88
+      transactionFeeNotUsingShopifyPaymentsRate:
+        value: 0.005
+addOns:
+  SHOPIFY_POS_PRO:
+    description: Choose locations to upgrade to POS Pro for faster workflows, staff permissions, and advanced inventory tools
+    price: 89
+    features:
+      shopifyPosPro:
+        value: true

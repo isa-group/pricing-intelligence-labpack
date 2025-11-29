@@ -1,0 +1,952 @@
+syntaxVersion: '2.1'
+saasName: Databox
+createdAt: '2025-03-04'
+version: '2025'
+url: https://web.archive.org/web/20250304080336/https://databox.com/pricing
+tags:
+- Data Collection
+- Connect any Data Source
+- Build Custom Dashboards
+- Monitor Performance Everywhere
+- Easily Share With Your Team
+- Report Automation
+- Data and AI features
+- Partner only features
+- Support and consulting
+- Account management & security
+billing:
+  monthly: 1.0
+  annually: 0.8
+currency: USD
+features:
+  dataSources:
+    description: A Data Source is any property, account, or other source of data you
+      want to integrate. (e.g., Syncing 3 GA4 properties would count as 3 data sources).
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Data Collection
+    type: DOMAIN
+  dataSyncFrequency:
+    description: Update the sync frequency of your Data Sources.
+    valueType: TEXT
+    defaultValue: daily
+    tag: Data Collection
+    type: GUARANTEE
+  15minPriorityConnections:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Data Collection
+    type: INTEGRATION
+    integrationType: API
+  historicalData:
+    description: The maximum amount of historical data that you can access in your
+      Databox Account.
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Data Collection
+    type: DOMAIN
+  warehouseDataStorage:
+    description: The maximum amount of data that will be stored by Databox.
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Data Collection
+    type: DOMAIN
+  databoxIntegrations:
+    description: Connect HubSpot, Google Analytics, Facebook Ads, and more using a
+      pre-built, one-click integration.
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Connect any Data Source
+    type: INTEGRATION
+    integrationType: MARKETPLACE
+  thirdPartyIntegrations:
+    description: Visualize performance from 2,000+ third-party integrations using
+      Zapier and Make.
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Connect any Data Source
+    type: INTEGRATION
+    integrationType: MARKETPLACE
+  pushCustomDataToAPI:
+    description: Push pre-processed data to Databox using scripting languages via
+      the Rest API.
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Connect any Data Source
+    type: INTEGRATION
+    integrationType: API
+  customApiIntegrations:
+    description: Pull data from anywhere and push it into Databox using our secure
+      and easy-to-use custom API integrations.
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Connect any Data Source
+    type: INTEGRATION
+    integrationType: API
+  sqlIntegrations:
+    description: Visualize your data from PostgreSQL, MySQL, AWS Redshift, Microsoft
+      SQL Azure, Microsoft SQL Service, Google BigQuery and Snowflake in Databox.
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Connect any Data Source
+    type: INTEGRATION
+    integrationType: MARKETPLACE
+  spreadsheetsIntegration:
+    description: Use Databox to visualize your Google Sheets and Excel data.
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Connect any Data Source
+    type: INTEGRATION
+    integrationType: MARKETPLACE
+  databoards:
+    description: Databoards are Databox dashboards.
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Build Custom Dashboards
+    type: DOMAIN
+  databoardTemplates:
+    description: Instantly visualize your performance using one of over 300 pre-built
+      dashboard Templates created by our community of experts.
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Build Custom Dashboards
+    type: DOMAIN
+  databoardDesigner:
+    description: Visualize KPIs in a variety of ways, and build meaningful dashboards–no
+      code or design skills necessary.
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Build Custom Dashboards
+    type: DOMAIN
+  databoardAccountTemplates:
+    description: Create and use custom dashboard templates in your Account to streamline
+      your reporting process.
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Build Custom Dashboards
+    type: DOMAIN
+  databoardLoops:
+    description: Loop multiple dashboards together to create a comprehensive presentation
+      of performance data.
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Build Custom Dashboards
+    type: DOMAIN
+  metricBuilder:
+    description: Use Metric Builder to create Custom Metrics and get a more granular
+      view of your performance.
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Build Custom Dashboards
+    type: INTEGRATION
+    integrationType: MARKETPLACE
+  customMetrics:
+    description: Build Custom Metrics to monitor custom data, events, goals and more
+      with just a few clicks.
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Build Custom Dashboards
+    type: DOMAIN
+  dataCalculations:
+    description: Easily calculate (add, subtract, multiply, divide) new metrics from
+      any Data Source using Data Calculations.
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Build Custom Dashboards
+    type: DOMAIN
+  customDateRanges:
+    description: Define your own Date Ranges and Comparison Periods by selecting the
+      start and end dates, custom rolling periods, and more.
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Build Custom Dashboards
+    type: DOMAIN
+  removableBrandingOnDataboards:
+    description: Remove “Powered by Databox” and the Databox logo from dashboards
+      in your Account.
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Build Custom Dashboards
+    type: DOMAIN
+  mediaCreatives:
+    description: Display your ad creatives alongside related ads data.
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Build Custom Dashboards
+    type: INFORMATION
+  instantRefresh:
+    description: A button to instantly refresh your data on demand 1x per day.
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Build Custom Dashboards
+    type: DOMAIN
+  fiscalCalendars:
+    description: Monitor, visualize, and report on all of your business data based
+      on your fiscal calendar.
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Build Custom Dashboards
+    type: MANAGEMENT
+  personalizedPerformanceScreen:
+    description: Keep an eye on what matters most, from critical KPIs to emerging
+      trends.
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Monitor Performance Everywhere
+    type: DOMAIN
+  metricsScreen:
+    description: Monitor all of your key metrics from one screen to see how performance
+      is trending at a glance.
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Monitor Performance Everywhere
+    type: DOMAIN
+  slackIntegration:
+    description: Get dashboards, alerts, scorecards, and more delivered directly to
+      Slack.
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Monitor Performance Everywhere
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+    pricingUrls:
+    - https://slack.com/pricing
+  streamToTv:
+    description: Easily stream your Databoards to any Smart TV using your own unique
+      streaming code.
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Monitor Performance Everywhere
+    type: INTEGRATION
+    integrationType: EXTERNAL_DEVICE
+  mobileAppAccess:
+    description: Monitor your performance data anytime, anywhere using the Databox
+      Mobile app (available for iOS and Android).
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Monitor Performance Everywhere
+    type: INTEGRATION
+    integrationType: EXTERNAL_DEVICE
+  goals:
+    description: Set, assign, and monitor progress toward S.M.A.R.T. Goals in Databox.
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Monitor Performance Everywhere
+    type: AUTOMATION
+    automationType: TRACKING
+  shareableDataboardLinks:
+    description: A unique URL used for sharing and viewing your dashboards outside
+      of the Databox app.
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Easily Share With Your Team
+    type: DOMAIN
+  scheduleDataboardSnapshots:
+    description: Schedule regular exports of dashboards to be delivered via email
+      as JPGs or a PDF.
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Easily Share With Your Team
+    type: AUTOMATION
+    automationType: TASK_AUTOMATION
+  scorecards:
+    description: Receive regular Scorecard updates on your most important KPIs through
+      email, mobile push notification, and/or Slack.
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Easily Share With Your Team
+    type: MANAGEMENT
+  weeklyDigest:
+    description: Receive detailed metric performance updates directly in your inbox
+      each week.
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Easily Share With Your Team
+    type: INFORMATION
+  databoardEmbedding:
+    description: Use the simple embed code to share and publish live dashboards on
+      any web page.
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Easily Share With Your Team
+    type: INTEGRATION
+    integrationType: EXTENSION
+  annotations:
+    description: Add additional context and insights as a comment directly on a data
+      point in a visualization.
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Easily Share With Your Team
+    type: DOMAIN
+  alerts:
+    description: Automatically and proactively monitor your most important KPIs and
+      stay up-to-date on performance trends using Alerts.
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Easily Share With Your Team
+    type: AUTOMATION
+    automationType: TRACKING
+  basicReporting:
+    description: Easily build and customize report presentation decks without leaving
+      Databox. Includes metric, text, and image blocks as well as Databoard slides.
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Report Automation
+    type: DOMAIN
+  scheduleReports:
+    description: Schedule Reports to be sent on a daily, weekly, monthly, or quarterly
+      basis. Add an automated reminder to be delivered to your inbox ahead of the
+      scheduled send.
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Report Automation
+    type: AUTOMATION
+    automationType: TASK_AUTOMATION
+  publicReportTemplates:
+    description: Instantly create Reports using pre-built Report Templates created
+      by our community of experts.
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Report Automation
+    type: DOMAIN
+  reportAccountTemplates:
+    description: Create and use custom Report Templates in your Account to streamline
+      your reporting process.
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Report Automation
+    type: DOMAIN
+  shareReportPDFs:
+    description: Download Report PDFs directly in Databox or send via email.
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Report Automation
+    type: DOMAIN
+  downloadReportPDFs:
+    description: Download Report PDFs directly in Databox or send via email.
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Report Automation
+    type: DOMAIN
+  archiveReports:
+    description: Access, view, and retrieve all of your Account's Report PDFs.
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Report Automation
+    type: DOMAIN
+  removableBrandingOnReports:
+    description: Remove “Powered by Databox” and the Databox logo from Reports in
+      your Account.
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Report Automation
+    type: DOMAIN
+  advancedReporting:
+    description: Use Data stories and AI performance summaries to enhance your Reports.
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Report Automation
+    type: DOMAIN
+  metricForecast:
+    description: Predict future performace for your KPIs, optimize your strategy,
+      and stay ahead of your competition.
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Data and AI features
+    type: AUTOMATION
+    automationType: BOT
+  performanceSummaries:
+    description: Artificial intelligence will assist you in discovering connections,
+      patterns, and emerging trends in your data.
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Data and AI features
+    type: INFORMATION
+  anomalyDetection:
+    description: Identify unusual patterns or outliers in data, which may indicate
+      potential anomalies or areas of opportunity.
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Data and AI features
+    type: AUTOMATION
+    automationType: TRACKING
+  advancedBenchmarks:
+    description: Instantly compare your performance against other similar companies
+      to recognize areas of opportunity and sell/ upsell/ retain clients.
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Data and AI features
+    type: DOMAIN
+  metricCorrelations:
+    description: Quickly identify relationships between metrics to understand how
+      they impact one another and how you can influence your overall performance.
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Data and AI features
+    type: AUTOMATION
+    automationType: BOT
+  clientAccounts:
+    description: Use Client Accounts to create a secure, repeatable, organized, and
+      valuable reporting process for both your Agency and Clients.
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Partner only features
+    type: DOMAIN
+  clientPerformanceOverview:
+    description: View every client’s top KPIs and goals in one screen. Eliminate the
+      work required for internal review of client performance and goal achievement.
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Partner only features
+    type: INFORMATION
+  clientGoalsOverview:
+    description: View every client’s top KPIs and goals in one screen. Eliminate the
+      work required for internal review of client performance and goal achievement.
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Partner only features
+    type: INFORMATION
+  whiteLabeling:
+    description: Create an on-brand experience in your Databox Account. Allow users
+      to login, view dashboards, and receive emails with your company's branding.
+      Perfect if you plan to resell Databox to your clients.
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Partner only features
+    type: DOMAIN
+  chatSupport:
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Support and consulting
+    type: SUPPORT
+  emailSupport:
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Support and consulting
+    type: SUPPORT
+  prioritySupport:
+    description: Move your cases to the top of our chat and email support queues.
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Support and consulting
+    type: SUPPORT
+  guidedOnboarding:
+    description: Guided Onboarding (6h). Personalized guidance as you set up and roll
+      out Databox to your company. Includes 6 calls of one-on-one or team support,
+      as well as priority support for 3 months.
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Support and consulting
+    type: SUPPORT
+  dedicatedAnalyst:
+    description: (2h/mo). Meet with a Databox expert and business analyst twice a
+      month to discuss your goals, develop a plan for success, and assist with the
+      creation of dashboards and reports.
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Support and consulting
+    type: SUPPORT
+  userManagement:
+    description: Add and manage permissions for your team and clients in Databox.
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Account management & security
+    type: MANAGEMENT
+  twoFactorAuthentication:
+    description: Add an additional layer of security to your account by requiring
+      more than just a password to log in.
+    valueType: BOOLEAN
+    defaultValue: true
+    tag: Account management & security
+    type: MANAGEMENT
+  singleSignOn:
+    description: We support Single Sign-on (SSO) over SAML 2.0 open authentication
+      standard.
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Account management & security
+    type: INTEGRATION
+    integrationType: IDENTITY_PROVIDER
+  advancedSecurityManagement:
+    description: Make your account more secure and protect sensitive data, meet internal
+      company policies, build trust and confidence and enhance control over your data
+      by using Force 2FA, Force SSO, Activity Log, Login Records and Active User Sessions.
+    valueType: BOOLEAN
+    defaultValue: false
+    tag: Account management & security
+    type: MANAGEMENT
+  quickstartOnboarding:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+usageLimits:
+  includedDataSources:
+    description: A Data Source is any property, account, or other source of data you
+      want to integrate. (e.g., Syncing 3 GA4 properties would count as 3 data sources).
+    valueType: NUMERIC
+    defaultValue: 3
+    unit: data source
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - dataSources
+  dataSourceLimit:
+    description: Add additional Data Sources to sync all of your data with Databox.
+    valueType: NUMERIC
+    defaultValue: 3
+    unit: data source
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - dataSources
+  historicalDataThreshold:
+    description: The maximum amount of historical data that’s available in your Databox
+      Account.
+    valueType: NUMERIC
+    defaultValue: 11
+    unit: month
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - historicalData
+  warehouseStorageLimit:
+    description: The maximum amount of data that will be stored by Databox.
+    valueType: NUMERIC
+    defaultValue: 5
+    unit: GB
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - warehouseDataStorage
+  usersLimit:
+    description: Users can log in to your Databox Account and view or edit different
+      features according to their user role and permissions.
+    valueType: NUMERIC
+    defaultValue: 3
+    unit: user
+    type: NON_RENEWABLE
+  guidedOnboardingLimit:
+    valueType: NUMERIC
+    defaultValue: 0
+    unit: hour
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - guidedOnboarding
+  dedicatedAnalystLimit:
+    valueType: NUMERIC
+    defaultValue: 0
+    unit: hour/month
+    type: RENEWABLE
+    linkedFeatures:
+    - dedicatedAnalyst
+  15minPriorityConnectionsLimit:
+    valueType: NUMERIC
+    defaultValue: 0
+    unit: connection
+    type: RENEWABLE
+    linkedFeatures:
+    - 15minPriorityConnections
+plans:
+  FREE:
+    description: Daily monitoring of your most-important metrics for up to 3 data
+      sources. For individuals and small teams
+    price: 0
+    unit: /month
+    features: null
+    usageLimits: null
+  STARTER:
+    description: Basic features for high-level performance management and reporting.
+      For startups and small businesses
+    price: 47
+    unit: /month
+    features:
+      dataSyncFrequency:
+        value: every 4 hours
+      thirdPartyIntegrations:
+        value: true
+      pushCustomDataToAPI:
+        value: true
+      databoardAccountTemplates:
+        value: true
+      goals:
+        value: true
+      alerts:
+        value: true
+      basicReporting:
+        value: true
+      scheduleReports:
+        value: true
+      publicReportTemplates:
+        value: true
+      reportAccountTemplates:
+        value: true
+      shareReportPDFs:
+        value: true
+      downloadReportPDFs:
+        value: true
+      archiveReports:
+        value: true
+    usageLimits:
+      dataSourceLimit:
+        value: .inf
+      warehouseStorageLimit:
+        value: 20
+      usersLimit:
+        value: 5
+  PROFESSIONAL:
+    description: Custom analytics capabilities for monitoring KPIs from any data source.
+      For mid-sized businesses
+    price: 159
+    unit: /month
+    features:
+      dataSyncFrequency:
+        value: hourly
+      thirdPartyIntegrations:
+        value: true
+      pushCustomDataToAPI:
+        value: true
+      customApiIntegrations:
+        value: true
+      sqlIntegrations:
+        value: true
+      spreadsheetsIntegration:
+        value: true
+      databoardAccountTemplates:
+        value: true
+      metricBuilder:
+        value: true
+      customMetrics:
+        value: true
+      dataCalculations:
+        value: true
+      customDateRanges:
+        value: true
+      removableBrandingOnDataboards:
+        value: true
+      mediaCreatives:
+        value: true
+      instantRefresh:
+        value: true
+      goals:
+        value: true
+      alerts:
+        value: true
+      basicReporting:
+        value: true
+      scheduleReports:
+        value: true
+      publicReportTemplates:
+        value: true
+      reportAccountTemplates:
+        value: true
+      shareReportPDFs:
+        value: true
+      downloadReportPDFs:
+        value: true
+      archiveReports:
+        value: true
+      removableBrandingOnReports:
+        value: true
+    usageLimits:
+      dataSourceLimit:
+        value: .inf
+      historicalDataThreshold:
+        value: 24
+      warehouseStorageLimit:
+        value: 20
+      usersLimit:
+        value: 15
+  GROWTH:
+    description: AI-enhanced analytics & advanced performance management. For high-growth
+      companies
+    price: 319
+    unit: /month
+    features:
+      dataSyncFrequency:
+        value: hourly
+      thirdPartyIntegrations:
+        value: true
+      pushCustomDataToAPI:
+        value: true
+      customApiIntegrations:
+        value: true
+      sqlIntegrations:
+        value: true
+      spreadsheetsIntegration:
+        value: true
+      databoardAccountTemplates:
+        value: true
+      metricBuilder:
+        value: true
+      customMetrics:
+        value: true
+      dataCalculations:
+        value: true
+      customDateRanges:
+        value: true
+      removableBrandingOnDataboards:
+        value: true
+      mediaCreatives:
+        value: true
+      instantRefresh:
+        value: true
+      goals:
+        value: true
+      alerts:
+        value: true
+      basicReporting:
+        value: true
+      scheduleReports:
+        value: true
+      publicReportTemplates:
+        value: true
+      reportAccountTemplates:
+        value: true
+      shareReportPDFs:
+        value: true
+      downloadReportPDFs:
+        value: true
+      archiveReports:
+        value: true
+      removableBrandingOnReports:
+        value: true
+      advancedReporting:
+        value: true
+      metricForecast:
+        value: true
+      performanceSummaries:
+        value: true
+      anomalyDetection:
+        value: true
+      advancedBenchmarks:
+        value: true
+      metricCorrelations:
+        value: true
+      singleSignOn:
+        value: true
+    usageLimits:
+      dataSourceLimit:
+        value: .inf
+      historicalDataThreshold:
+        value: .inf
+      warehouseStorageLimit:
+        value: 20
+      usersLimit:
+        value: .inf
+  PREMIUM:
+    description: All features & most add-ons with unlimited usage and enterprise-level
+      security. For larger companies
+    price: 799
+    unit: /month
+    features:
+      dataSyncFrequency:
+        value: hourly
+      15minPriorityConnections:
+        value: true
+      thirdPartyIntegrations:
+        value: true
+      pushCustomDataToAPI:
+        value: true
+      customApiIntegrations:
+        value: true
+      sqlIntegrations:
+        value: true
+      spreadsheetsIntegration:
+        value: true
+      databoardAccountTemplates:
+        value: true
+      metricBuilder:
+        value: true
+      customMetrics:
+        value: true
+      dataCalculations:
+        value: true
+      customDateRanges:
+        value: true
+      removableBrandingOnDataboards:
+        value: true
+      mediaCreatives:
+        value: true
+      instantRefresh:
+        value: true
+      fiscalCalendars:
+        value: true
+      goals:
+        value: true
+      alerts:
+        value: true
+      basicReporting:
+        value: true
+      scheduleReports:
+        value: true
+      publicReportTemplates:
+        value: true
+      reportAccountTemplates:
+        value: true
+      shareReportPDFs:
+        value: true
+      downloadReportPDFs:
+        value: true
+      archiveReports:
+        value: true
+      removableBrandingOnReports:
+        value: true
+      advancedReporting:
+        value: true
+      metricForecast:
+        value: true
+      performanceSummaries:
+        value: true
+      anomalyDetection:
+        value: true
+      advancedBenchmarks:
+        value: true
+      metricCorrelations:
+        value: true
+      prioritySupport:
+        value: true
+      guidedOnboarding:
+        value: true
+      dedicatedAnalyst:
+        value: true
+      singleSignOn:
+        value: true
+      advancedSecurityManagement:
+        value: true
+    usageLimits:
+      includedDataSources:
+        value: 100
+      dataSourceLimit:
+        value: .inf
+      historicalDataThreshold:
+        value: .inf
+      warehouseStorageLimit:
+        value: .inf
+      usersLimit:
+        value: .inf
+      guidedOnboardingLimit:
+        value: 6
+      dedicatedAnalystLimit:
+        value: 2
+      15minPriorityConnectionsLimit:
+        value: 5
+addOns:
+  brandingAndWhiteLabelling:
+    description: Create an on-brand experience by white-labeling your Databox Account.
+      Allow users to login, view dashboards, and receive emails with your company's
+      branding. Perfect if you plan to resell Databox to your clients.
+    availableFor:
+    - STARTER
+    - PROFESSIONAL
+    - GROWTH
+    - PREMIUM
+    price: 200
+    unit: /month
+    features:
+      whiteLabeling:
+        value: true
+    usageLimits: null
+    usageLimitsExtensions: null
+  guidedOnboarding:
+    description: Training and consulting on setting up Databox for your company or
+      clients. Includes 6 training calls over Zoom and Priority Support for 3 months.
+    availableFor:
+    - STARTER
+    - PROFESSIONAL
+    - GROWTH
+    price: 500
+    unit: one time purchase
+    features:
+      guidedOnboarding:
+        value: true
+    usageLimits: null
+    usageLimitsExtensions: null
+  15minSyncPerSource:
+    description: Sync every 15 minutes for selected Data Sources. Not available for
+      all data sources due to vendor’s API limitations and rate limits.
+    availableFor:
+    - FREE
+    - STARTER
+    - PROFESSIONAL
+    - GROWTH
+    - PREMIUM
+    price: 14
+    unit: source/month
+    features:
+      dataSyncFrequency:
+        value: 15 minutes
+      15minPriorityConnections:
+        value: true
+    usageLimits: null
+    usageLimitsExtensions:
+      15minPriorityConnectionsLimit:
+        value: 1
+  fiscalCalendar:
+    description: Monitor, visualize, and report on all of your business data based
+      on your fiscal calendar to improve your accounting, performance, and revenue
+      tracking processes.
+    availableFor:
+    - STARTER
+    - PROFESSIONAL
+    - GROWTH
+    price: 40
+    unit: /month
+    features:
+      fiscalCalendars:
+        value: true
+    usageLimits: null
+    usageLimitsExtensions: null
+  quickstartOnboarding:
+    description: Setup of your initial set of metrics, dashboards, and reports along
+      with training on core Databox features and functionality.
+    availableFor:
+    - STARTER
+    - PROFESSIONAL
+    - GROWTH
+    - PREMIUM
+    price: 1000
+    unit: one time purchase
+    features:
+      quickstartOnboarding:
+        value: true
+    usageLimits: null
+    usageLimitsExtensions: null
+  dedicatedAnalyst:
+    description: Ongoing success planning, training and data analysis from a Databox
+      and analytics expert.
+    availableFor:
+    - STARTER
+    - PROFESSIONAL
+    - GROWTH
+    price: 160
+    unit: /month
+    features:
+      dedicatedAnalyst:
+        value: true
+    usageLimits: null
+    usageLimitsExtensions: null
+  advancedSecurityManagement:
+    description: Make your account more secure and protect sensitive data, meet internal
+      company policies, build trust and confidence and enhance control over your data
+      by using Force 2FA, Force SSO, Activity Log, Login Records and Active User Sessions.
+    availableFor:
+    - STARTER
+    - PROFESSIONAL
+    - GROWTH
+    price: 80
+    unit: /month
+    features:
+      advancedSecurityManagement:
+        value: true
+    usageLimits: null
+    usageLimitsExtensions: null
+  prioritySupport:
+    availableFor:
+    - STARTER
+    - PROFESSIONAL
+    - GROWTH
+    - PREMIUM
+    price: Contact Sales
+    unit: /month
+    features:
+      prioritySupport:
+        value: true
+    usageLimits: null
+    usageLimitsExtensions: null

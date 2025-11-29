@@ -1,0 +1,261 @@
+syntaxVersion: '2.1'
+saasName: Shopify
+createdAt: '2020-11-20'
+version: '2020-11-20'
+currency: USD
+tags:
+  - Sales Channels
+  - Store Management
+  - Apps and Ecosystem
+  - Shopify Payments
+  - Shopify Shipping
+  - Point of Sale
+url: https://web.archive.org/web/20201120210114/https://www.shopify.com/pricing
+features:
+  onlineStore:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Sales Channels
+  socialSelling:
+    description: Instagram, Facebook, Amazon, Messenger, Buy Buttons
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Sales Channels
+  fastCheckout:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Sales Channels
+  reliableCheckout:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Sales Channels
+  products:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Store Management
+  coupons:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Store Management
+  discounts:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Store Management
+  giftCards:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Store Management
+  integratedMarketingPlatform:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+    tag: Store Management
+  staffAccounts:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Store Management
+  locations:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Store Management
+  professionalReports:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+    tag: Store Management
+  advancedReportBuilder:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+    tag: Store Management
+  24/7MultichannelSupport:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: SUPPORT
+    tag: Apps and Ecosystem
+  appEcosystem:
+    description: App Ecosystem, including 4,100+ apps
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Apps and Ecosystem
+  api:
+    description: Access to our Shopify APIs
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: API
+    tag: Apps and Ecosystem
+  onlineCreditCardRates:
+    valueType: TEXT
+    defaultValue: 2.9% + 30¢
+    type: DOMAIN
+    tag: Shopify Payments
+  inPersonCreditCardRates:
+    valueType: TEXT
+    defaultValue: 2.7% + 0¢
+    type: DOMAIN
+    tag: Shopify Payments
+  thirdPartyPaymentProcessors:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Shopify Payments
+  multiplePaymentMethods:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Shopify Payments
+  shippingDiscount:
+    description: Competitive shipping rates from USPS, UPS, or DHL Express
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Shopify Shipping
+  printShippingLabels:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Shopify Shipping
+  shippingCalculatedAtCheckout:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Shopify Shipping
+  integratedShopifyFullfillmentNetwork:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Shopify Shipping
+  uspsPriorityMailCubicPricing:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+    tag: Shopify Shipping
+  thirdPartyCalculatedShippingRates:
+    description: Show calculated rates with your own account or third-party apps at checkout
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+    tag: Shopify Shipping
+  integrationWithShippingAccounts:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+    tag: Shopify Shipping
+  shopifyPosLite:
+    description: Accept casual, in-person payments at markets, fairs, pop-ups, and more
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Point of Sale
+  shopifyPosPro:
+    description: Run your brick-and-mortar business with powerful tools built for omnichannel selling
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+    tag: Point of Sale
+usageLimits:
+  staffAccountsLimit:
+    valueType: NUMERIC
+    defaultValue: 2
+    unit: account
+    type: NON_RENEWABLE
+    linkedFeatures:
+      - staffAccounts
+  locationsLimit:
+    valueType: NUMERIC
+    defaultValue: 4
+    unit: location
+    type: NON_RENEWABLE
+    linkedFeatures:
+      - locations
+  thirdPartyPaymentProcessorsRate:
+    description: Additional fees using all payment providers other than Shopify Payments
+    valueType: NUMERIC
+    defaultValue: 0.02
+    type: NON_RENEWABLE
+    linkedFeatures:
+      - thirdPartyPaymentProcessors
+  shippingDiscountRate:
+    valueType: NUMERIC
+    defaultValue: 0.64
+    type: NON_RENEWABLE
+    linkedFeatures:
+      - shippingDiscount
+
+plans:
+  BASIC_SHOPIFY:
+    description: All the basics for starting a new business
+    price: 29
+    unit: user/month
+    features: null
+    usageLimits: null
+  SHOPIFY:
+    description: Everything you need for a growing business
+    price: 79
+    unit: user/month
+    features:
+      professionalReports:
+        value: true
+      uspsPriorityMailCubicPricing:
+        value: true
+      onlineCreditCardRates:
+        value: 2.6% + 30¢
+      inPersonCreditCardRates:
+        value: 2.5% + 0¢
+    usageLimits:
+      staffAccountsLimit:
+        value: 5
+      locationsLimit:
+        value: 5
+      shippingDiscountRate:
+        value: 0.72
+      thirdPartyPaymentProcessorsRate:
+        value: 0.01
+  ADVANCED_SHOPIFY:
+    description: Advanced features for scaling your business
+    price: 299
+    unit: user/month
+    features:
+      professionalReports:
+        value: true
+      advancedReportBuilder:
+        value: true
+      thirdPartyCalculatedShippingRates:
+        value: true
+      uspsPriorityMailCubicPricing:
+        value: true
+      onlineCreditCardRates:
+        value: 2.4% + 30¢
+      inPersonCreditCardRates:
+        value: 2.4% + 0¢
+      integrationWithShippingAccounts:
+        value: true
+    usageLimits:
+      staffAccountsLimit:
+        value: 15
+      locationsLimit:
+        value: 8
+      shippingDiscountRate:
+        value: 0.74
+      thirdPartyPaymentProcessorsRate:
+        value: 0.005
+addOns:
+  SHOPIFY_POS_PRO:
+    description: Run your brick-and-mortar business with powerful tools built for omnichannel selling
+    price: 89
+    features:
+      shopifyPosPro:
+        value: true

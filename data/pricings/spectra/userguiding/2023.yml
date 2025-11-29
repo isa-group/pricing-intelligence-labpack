@@ -1,0 +1,534 @@
+syntaxVersion: '2.1'
+saasName: UserGuiding
+createdAt: '2023-12-10'
+version: '2023-12-10'
+billing:
+  monthly: 1.0
+currency: USD
+url: https://web.archive.org/web/20230615205123/https://userguiding.com/pricing/
+features:
+  guides:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  hotspots:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  onboardingChecklist:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  resourceCenters:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  npsSurveys:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  engagementAnalytics:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  userIdentification:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  userTracking:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  adoptionTracker:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: AUTOMATION
+    automationType: TRACKING
+  audienceSegmentation:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  customAttributes:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  userDetails:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  userActivityFeed:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  customEvents:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  weeklyReports:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INFORMATION
+  errorLogging:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: INFORMATION
+  customizableThemes:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  languageLocalization:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  dynamicMaterialPersonalization:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  removeUserGuidingBranding:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  customCSS:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  materialScheduling:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  appearanceCustomization:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  googleAnalytics:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+    pricingUrls:
+    - https://marketingplatform.google.com/about/analytics/
+  webhooks:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: API
+  segment:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+    pricingUrls:
+    - https://segment.com/pricing/
+  mixpanel:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+    pricingUrls:
+    - https://mixpanel.com/pricing/
+  zapier:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: INTEGRATION
+    integrationType: API
+  hubspot:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+    pricingUrls:
+    - https://www.hubspot.com/pricing/marketing/starter
+  intercom:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+    pricingUrls:
+    - https://www.intercom.com/pricing
+  slack:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+    pricingUrls:
+    - https://slack.com/pricing
+  woopra:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+    pricingUrls:
+    - https://www.woopra.com/pricing/
+  knowledBaseIntegrations:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: MARKETPLACE
+  liveChatSoftwareIntegrations:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: MARKETPLACE
+  roleManagement:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: MANAGEMENT
+  permissionManagement:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: MANAGEMENT
+  teams:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  domains:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  employeeOnboardingModule:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  troubleShooterAccess:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: SUPPORT
+  helpCenter:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: SUPPORT
+  userGuidingUniversity:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: SUPPORT
+  emailSupport:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: SUPPORT
+  liveChatSupport:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: SUPPORT
+  dedicatedCustomerSuccessManager:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: SUPPORT
+usageLimits:
+  activeGuidesLimit:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 20
+    unit: guide
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - guides
+  activeHotspotsLimit:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 20
+    unit: hotspot
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - hotspots
+  activeOnboardingChecklistsLimit:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 2
+    unit: checklist
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - onboardingChecklist
+  activeResourceCentersLimit:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 1
+    unit: resource center
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - resourceCenters
+  customizableThemesLimit:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 1
+    unit: theme
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - customizableThemes
+  activeUsersLimit:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 2500
+    unit: user/month
+    type: RENEWABLE
+  teamMembersLimit:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 1
+    unit: member
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - teams
+  domainsLimit:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 2
+    unit: domain
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - domains
+  monthlyActiveUsersLimit:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 2500
+    unit: user/month
+    type: RENEWABLE
+plans:
+  BASIC:
+    description: Onboard new users and engage customers throughout their lifecycles.
+      Ideal for startups and SMBs.
+    price: 129
+    unit: /month
+    features: null
+    usageLimits: null
+  PROFESSIONAL:
+    description: Maximize activation, customer revenue, and retention. Ideal for rapidly
+      growing companies.
+    price: 499
+    unit: /month
+    features:
+      adoptionTracker:
+        value: true
+      errorLogging:
+        value: true
+      languageLocalization:
+        value: true
+      removeUserGuidingBranding:
+        value: true
+      materialScheduling:
+        value: true
+      zapier:
+        value: true
+      roleManagement:
+        value: true
+      permissionManagement:
+        value: true
+      employeeOnboardingModule:
+        value: true
+      dedicatedCustomerSuccessManager:
+        value: true
+    usageLimits:
+      activeGuidesLimit:
+        value: 1000000000
+      activeHotspotsLimit:
+        value: 1000000000
+      activeOnboardingChecklistsLimit:
+        value: 1000000000
+      activeResourceCentersLimit:
+        value: 1000000000
+      customizableThemesLimit:
+        value: 5
+      activeUsersLimit:
+        value: 20000
+      teamMembersLimit:
+        value: 5
+      domainsLimit:
+        value: 5
+  CORPORATE:
+    description: Transform your product experience. Ideal for enterprises with multiple
+      products.
+    price: 999
+    unit: /month
+    features:
+      adoptionTracker:
+        value: true
+      errorLogging:
+        value: true
+      languageLocalization:
+        value: true
+      removeUserGuidingBranding:
+        value: true
+      materialScheduling:
+        value: true
+      zapier:
+        value: true
+      roleManagement:
+        value: true
+      permissionManagement:
+        value: true
+      employeeOnboardingModule:
+        value: true
+      dedicatedCustomerSuccessManager:
+        value: true
+    usageLimits:
+      activeGuidesLimit:
+        value: 1000000000
+      activeHotspotsLimit:
+        value: 1000000000
+      activeOnboardingChecklistsLimit:
+        value: 1000000000
+      activeResourceCentersLimit:
+        value: 1000000000
+      customizableThemesLimit:
+        value: 1000000000
+      activeUsersLimit:
+        value: 1000000000
+      teamMembersLimit:
+        value: 1000000000
+      domainsLimit:
+        value: 1000000000
+addOns:
+  extraActiveGuides:
+    description: Purchase additional active guide quotas.
+    price: Contact Sales
+    unit: active guide
+    features: null
+    usageLimits: null
+    availableFor:
+    - BASIC
+    dependsOn: []
+    excludes: []
+    usageLimitsExtensions:
+      activeGuidesLimit:
+        value: 1
+  extraActiveHotspots:
+    description: Purchase additional active hotspot quotas.
+    price: Contact Sales
+    unit: active hotspot
+    features: null
+    usageLimits: null
+    availableFor:
+    - BASIC
+    dependsOn: []
+    excludes: []
+    usageLimitsExtensions:
+      activeHotspotsLimit:
+        value: 1
+  extraActiveResourceCenters:
+    description: Purchase additional active resource center quotas.
+    price: Contact Sales
+    unit: active resource center
+    features: null
+    usageLimits: null
+    availableFor:
+    - BASIC
+    dependsOn: []
+    excludes: []
+    usageLimitsExtensions:
+      activeResourceCentersLimit:
+        value: 1
+  extraCustomizableThemes:
+    description: Purchase additional customizable themes.
+    price: Contact Sales
+    unit: theme
+    features: null
+    usageLimits: null
+    availableFor:
+    - BASIC
+    - PROFESSIONAL
+    dependsOn: []
+    excludes: []
+    usageLimitsExtensions:
+      customizableThemesLimit:
+        value: 1
+  extraTeamMembers:
+    description: Purchase additional team member seats.
+    price: Contact Sales
+    unit: team member
+    features: null
+    usageLimits: null
+    availableFor:
+    - BASIC
+    - PROFESSIONAL
+    dependsOn: []
+    excludes: []
+    usageLimitsExtensions:
+      teamMembersLimit:
+        value: 1
+  extraDomains:
+    description: Purchase additional domains where UserGuiding can be installed.
+    price: Contact Sales
+    unit: domain
+    features: null
+    usageLimits: null
+    availableFor:
+    - BASIC
+    - PROFESSIONAL
+    dependsOn: []
+    excludes: []
+    usageLimitsExtensions:
+      domainsLimit:
+        value: 1
+  whiteLabeling:
+    description: Remove UserGuiding branding from your materials, available as an
+      add-on.
+    price: Contact Sales
+    unit: per account
+    features:
+      removeUserGuidingBranding:
+        value: true
+    usageLimits: null
+    availableFor:
+    - BASIC
+    dependsOn: []
+    excludes: []
+    usageLimitsExtensions: null
+  extraMonthlyActiveUsers:
+    description: Increase your Monthly Active User (MAU) quota for the Basic Plan.
+    price: Contact Sales
+    unit: MAU
+    features: null
+    usageLimits: null
+    availableFor:
+    - BASIC
+    - PROFESSIONAL
+    - CORPORATE
+    dependsOn: []
+    excludes: []
+    usageLimitsExtensions:
+      monthlyActiveUsersLimit:
+        value: 1

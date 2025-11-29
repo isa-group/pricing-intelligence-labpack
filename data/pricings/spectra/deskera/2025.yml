@@ -1,0 +1,501 @@
+syntaxVersion: '2.1'
+saasName: Deskera - ERP
+createdAt: '2025-03-05'
+version: '2025'
+currency: USD
+features:
+  estimates:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  salesOrder:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  invoices:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  purchaseRequisitions:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  purchaseOrders:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  bills:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  expenses:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  documentTemplateDesigner:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  paymentMilestones:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  customers:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  vendors:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  products:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  services:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  priceLists:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  inventoryTracking:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: AUTOMATION
+    automationType: TRACKING
+  orderFulfillment:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  goodsReceipt:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  inventoryReorder:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  productVariants:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  inventoryBarcoding:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  uomSchemas:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  multiWarehouse:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  rowRackBin:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  warehouseRoles:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: MANAGEMENT
+  stockAdjustments:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  stockTransfers:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  lotTracking:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: AUTOMATION
+    automationType: TRACKING
+  batchTracking:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: AUTOMATION
+    automationType: TRACKING
+  serialTracking:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: AUTOMATION
+    automationType: TRACKING
+  billOfMaterials:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  pickPackShip:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  landedCost:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  bankFeeds:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  importBankTransactions:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: MARKETPLACE
+  bankRules:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: MANAGEMENT
+  chartOfAccounts:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  journalEntries:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  deposits:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  creditNotes:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  debitNotes:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  budgeting:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  financialYearClosing:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  class:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  department:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  location:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  customFields:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  multiBookAccounting:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  multiEntityConsolidation:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  interCompanyEliminations:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  revaluations:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  multiCurrencyAccounting:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: GUARANTEE
+  revenueRecognition:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: AUTOMATION
+    automationType: TRACKING
+  expenseAmortization:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  reclassification:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  approvalFlows:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: MANAGEMENT
+  workflowAutomation:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: AUTOMATION
+    automationType: TASK_AUTOMATION
+  financialReports:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INFORMATION
+  salesReports:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INFORMATION
+  purchaseReports:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INFORMATION
+  invetoryReports:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INFORMATION
+  warehouseReports:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INFORMATION
+  reportBuilder:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  accountManagement:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: MANAGEMENT
+  contactDatabase:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  deals:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  opportunities:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  salesPipelines:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  tasks:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  activities:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  forms:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  landingPages:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  emailBroadcasts:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  dripEmailSequence:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  salesAutomation:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: AUTOMATION
+    automationType: TASK_AUTOMATION
+  marketingAutomation:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: AUTOMATION
+    automationType: TASK_AUTOMATION
+  crmReports:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INFORMATION
+  recruitmentManagement:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  employeeDatabase:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  payrollIntegration:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: MARKETPLACE
+  timeOffs:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  employeeExpenses:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  timesheetTracking:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: AUTOMATION
+    automationType: TRACKING
+  shiftManagement:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  attendanceTracking:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: AUTOMATION
+    automationType: TRACKING
+  geoFencing:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  performanceAppraisals:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  apisIntegration:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: API
+  amazonIntegration:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+    pricingUrls:
+      - https://amazon.com/
+  paypalIntegration:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+    pricingUrls:
+      - https://paypal.com/
+  shipstationIntegration:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+    pricingUrls:
+      - https://shipstation.com/
+  shopifyIntegration:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+    pricingUrls:
+      - https://shopify.com/
+  squareIntegration:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+    pricingUrls:
+      - https://square.com/
+  stripeIntegration:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+    pricingUrls:
+      - https://stripe.com/
+  wooCommerceIntegration:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+    pricingUrls:
+      - https://woocommerce.com/
+  mobileApp:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: EXTERNAL_DEVICE
+  roleBasedAccess:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: MANAGEMENT
+  auditLog:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INFORMATION
+  customIntegrations:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: INTEGRATION
+    integrationType: API
+  customReports:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: INFORMATION
+  customDashboards:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+plans:
+  GROWTH:
+    description: Ideal for businesses w/ 5-20 employees
+    price: 199
+    unit: user/month
+    features: null
+    usageLimits: null
+  MID_MARKET:
+    description: Ideal for businesses w/ 20-50 employees
+    price: 249
+    unit: user/month
+    features:
+      rowRackBin:
+        value: true
+      warehouseRoles:
+        value: true
+      landedCost:
+        value: true
+      revaluations:
+        value: true
+      reportBuilder:
+        value: true
+      customReports:
+        value: true
+      customDashboards:
+        value: true
+    usageLimits: null
+  ENTERPRISE:
+    description: Ideal for businesses w/ more than 50 employees
+    price: Contact Sales
+    unit: user/month
+    features:
+      rowRackBin:
+        value: true
+      warehouseRoles:
+        value: true
+      landedCost:
+        value: true
+      multiBookAccounting:
+        value: true
+      interCompanyEliminations:
+        value: true
+      revaluations:
+        value: true
+      revenueRecognition:
+        value: true
+      expenseAmortization:
+        value: true
+      reclassification:
+        value: true
+      reportBuilder:
+        value: true
+      customIntegrations:
+        value: true
+      customReports:
+        value: true
+      customDashboards:
+        value: true
+    usageLimits: null

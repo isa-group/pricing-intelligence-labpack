@@ -1,0 +1,378 @@
+syntaxVersion: '2.1'
+saasName: Pumble
+createdAt: '2025-03-07'
+version: '2025'
+billing:
+  monthly: 1.0
+  annual: 0.8
+currency: USD
+url: https://web.archive.org/web/20250307215313/https://pumble.com/pricing
+tags:
+  - Communication
+  - Collaboration
+  - Admin
+  - Security
+  - Support
+features:
+  privateChannels:
+    description: Only invited users can send messages in a private channel.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Communication
+  publicChannels:
+    description: Everyone can join and send messages in public channels.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Communication
+  directMessages:
+    description: Share business information, send files and images, or share links
+      to others, one-on-one.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Communication
+  threads:
+    description: Spin off side conversations into threads to keep the channel distraction-free.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Communication
+  mentions:
+    description: Mention others to notify them.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Communication
+  reactions:
+    description: React to messages with emojis.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Communication
+  pin:
+    description: Pin important messages so everyone can access them later.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Communication
+  saveMessages:
+    description: Save messages to access them later.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Communication
+  messageHistory:
+    description: Access all your messages that have ever been sent to get context
+      for past decisions or get new team members up to speed faster.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Communication
+  shareFilesAndLinks:
+    description: Share images, videos, documents or links with your teammates and
+      search for them later via File browser.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Collaboration
+  messageFormatting:
+    description: Highlight important information within conversation or markup your
+      code blocks.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Collaboration
+  # fileStoragePerAccount:
+  #   description: Share images, documents, and other files, and access them later in
+  #     Pumble.
+  #   valueType: BOOLEAN
+  #   defaultValue: true
+  #   type: DOMAIN
+  fileStorage:
+    description: Share images, documents, and other files, and access them later in
+      Pumble.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Collaboration
+  messageSchedule:
+    description: Schedule messages to be sent at a later time.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: AUTOMATION
+    automationType: TASK_AUTOMATION
+    tag: Collaboration
+  reminders:
+    description: Set reminders for important tasks.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: AUTOMATION
+    automationType: TASK_AUTOMATION
+    tag: Collaboration
+  voiceMessages:
+    description: Tap, talk, and send to give updates, share ideas, and be more expressive.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Collaboration
+  videoMessages:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Collaboration
+  voiceCalls:
+    description: Start a voice call in real time.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Collaboration
+  videoCalls:
+    description: Start a video call in real time.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Collaboration
+  screenSharing:
+    description: Start a video call or share your screen in real time.
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+    tag: Collaboration
+  videoConferencing:
+    description: Start a video call with multiple participants.
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+    tag: Collaboration
+  groupVoiceMeetings:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+    tag: Collaboration
+  customizableSections:
+    description: Organize channels and conversations into custom, collapsible sections
+      in your sidebar.
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+    tag: Collaboration
+  importFromSlack:
+    description: Import public channels, messages and your team from Slack.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+    pricingUrls:
+    - https://www.slack.com/pricing
+    tag: Admin
+  guestAccess:
+    description: Work with people outside your company and give them access only to
+      the specific channels.
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+    tag: Admin
+  permissions:
+    description: Manage who can create and archive channels, invite members, remove
+      them from channels, post in public channels and other permissions.
+    valueType: BOOLEAN
+    defaultValue: false
+    type: MANAGEMENT
+    tag: Admin
+  channelPostingPermissions:
+    description: Customize channel posting permissions and mention usage to ensure
+      a focused and distraction-free environment.
+    valueType: BOOLEAN
+    defaultValue: false
+    type: MANAGEMENT
+    tag: Admin
+  userGroups:
+    description: Organize users into groups to manage permissions and access to channels.
+    valueType: BOOLEAN
+    defaultValue: false
+    type: MANAGEMENT
+    tag: Admin
+  integrations:
+    description: Integrate Pumble with other apps.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: MARKETPLACE
+    tag: Admin
+  dataEncryption:
+    description: Pumble encrypts all data at rest and in transit.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: GUARANTEE
+    tag: Security
+  soc2:
+    description: Annual audit certification for Service Organization Controls Trust
+      Services Principles.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: GUARANTEE
+    tag: Security
+  singleSignOn:
+    description: Manage access using SSO (SAML2, OAuth2).
+    valueType: BOOLEAN
+    defaultValue: false
+    type: INTEGRATION
+    tag: Security
+    integrationType: IDENTITY_PROVIDER
+  dataRetention:
+    description: Decide for how long you want to have your messages and files.
+    valueType: BOOLEAN
+    defaultValue: false
+    type: GUARANTEE
+    tag: Security
+  phoneSupport:
+    description: Contact Pumble’s customer support and get answer within 24 hours.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: SUPPORT
+    tag: Support
+  chatSupport:
+    description: Contact Pumble’s customer support and get answer within 24 hours.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: SUPPORT
+    tag: Support
+  emailSupport:
+    description: Contact Pumble’s customer support and get answer within 24 hours.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: SUPPORT
+    tag: Support
+  dedicatedSuccessRepresentative:
+    description: Get a guaranteed answer from customer support within a few hours.
+    valueType: BOOLEAN
+    defaultValue: false
+    type: SUPPORT
+    tag: Support
+usageLimits:
+  maxUsers:
+    description: The number of users who can use Pumble.
+    valueType: NUMERIC
+    defaultValue: 1
+    unit: user
+    type: NON_RENEWABLE
+  fileStorageCapacity:
+    description: The amount of storage that can be used per user or team member.
+    valueType: NUMERIC
+    defaultValue: 10
+    unit: GB/user
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - fileStorage
+  videoConferencingParticipants:
+    valueType: NUMERIC
+    defaultValue: 0
+    unit: user/meeting
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - videoConferencing
+    - groupVoiceMeetings
+  integrationsLimit:
+    description: The number of integrations that can be used.
+    valueType: NUMERIC
+    defaultValue: 3
+    unit: integration
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - integrations
+plans:
+  FREE:
+    description: Communication
+    price: 0
+    unit: user/month
+    features: null
+    usageLimits: null
+  PRO:
+    description: Organization
+    price: 2.49
+    unit: user/month
+    features:
+      screenSharing:
+        value: true
+      videoConferencing:
+        value: true
+      groupVoiceMeetings:
+        value: true
+      customizableSections:
+        value: true
+      dedicatedSuccessRepresentative:
+        value: true
+    usageLimits:
+      maxUsers:
+        value: .inf
+      videoConferencingParticipants:
+        value: 50
+      integrationsLimit:
+        value: 10
+  BUSINESS:
+    description: Administration
+    price: 3.99
+    unit: user/month
+    features:
+      screenSharing:
+        value: true
+      videoConferencing:
+        value: true
+      groupVoiceMeetings:
+        value: true
+      customizableSections:
+        value: true
+      guestAccess:
+        value: true
+      permissions:
+        value: true
+      channelPostingPermissions:
+        value: true
+      userGroups:
+        value: true
+      dedicatedSuccessRepresentative:
+        value: true
+    usageLimits:
+      maxUsers:
+        value: .inf
+      videoConferencingParticipants:
+        value: 100
+      integrationsLimit:
+        value: .inf
+  ENTERPRISE:
+    description: Control & Security
+    price: 6.99
+    unit: user/month
+    features:
+      screenSharing:
+        value: true
+      videoConferencing:
+        value: true
+      groupVoiceMeetings:
+        value: true
+      customizableSections:
+        value: true
+      guestAccess:
+        value: true
+      permissions:
+        value: true
+      channelPostingPermissions:
+        value: true
+      userGroups:
+        value: true
+      singleSignOn:
+        value: true
+      dataRetention:
+        value: true
+      dedicatedSuccessRepresentative:
+        value: true
+    usageLimits:
+      maxUsers:
+        value: .inf
+      videoConferencingParticipants:
+        value: 100
+      integrationsLimit:
+        value: .inf
+addOns: null

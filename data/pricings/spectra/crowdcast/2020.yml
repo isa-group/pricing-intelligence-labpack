@@ -1,0 +1,275 @@
+syntaxVersion: '2.1'
+saasName: Crowdcast
+createdAt: '2020-11-30'
+version: '2020-11-30'
+billing:
+  monthly: 1.0
+currency: USD
+url: https://web.archive.org/web/20201130045919/https://www.crowdcast.io/pricing
+features:
+  liveStreaming:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  transactionFee:
+    description: Charge a ticket price for your events. Choose a fixed price or sliding. Create coupons to give discounts. For every ticket sold there is a 5% transaction fee plus Stripe's processing fee of 2.9% + 30¢.
+    valueType: TEXT
+    defaultValue: 5%
+    type: DOMAIN
+  hdLiveVideoWithRecording:
+    description: Your event has the option to be recorded and the recording will be available instantly for replay and download.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  multiSessionEvents:
+    description: Create events that have multiple sessions at different times. This is great for creating live courses or online summits. Click here to learn more about live courses on crowdcast.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  rtmpSudio:
+    description: Broadcast with OBS, Wirecast, Ecamm Live and StreamYard
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: MARKETPLACE
+  emailSupport:
+    description: Our general support hours are Monday to Friday, 9am to 5pm (PST, or UTC-8). We will do our best to respond within 24 hours although our actual response times may vary and take longer for more advanced or technical inquiries.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: SUPPORT
+  chatSupport:
+    description: Our general support hours are Monday to Friday, 9am to 5pm (PST, or UTC-8). We will do our best to respond within 24 hours although our actual response times may vary and take longer for more advanced or technical inquiries.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: SUPPORT
+  patreonIntegration:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+    pricingUrls:
+    - https://www.patreon.com/pricing
+  stripeIntegration:
+    description: Connect Stripe to your account to accept payment for paid events and in-event contributions.
+    valueType: TEXT
+    defaultValue:
+    - GATEWAY
+    type: PAYMENT
+  eventAnalytics:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: INFORMATION
+  sessionAnalytics:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: INFORMATION
+  zapierIntegration:
+    description: Sync your Crowdcast account with 5,000+ other web apps through automated workflows.
+    valueType: BOOLEAN
+    defaultValue: false
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+    pricingUrls:
+    - https://zapier.com/pricing
+  convertKitIntegration:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+    pricingUrls:
+    - https://convertkit.com/pricing
+  dripIntegration:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+    pricingUrls:
+    - https://www.drip.com/pricing
+  exportEmailAddresses:
+    description: Export all emails, chat messages and data from attendees into a CSV.
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  exportChat:
+    description: Export all emails, chat messages and data from attendees into a CSV.
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  exportData:
+    description: Export all emails, chat messages and data from attendees into a CSV.
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  multistreaming:
+    description: Multistream your crowdcast stage to 3rd party sites like Facebook, Youtube, Twitch & more.
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  presentOnManyScreens:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  customRegistrationFields:
+    description: Add custom inputs to the registration form to collect additional data like phone numbers, URLs, multiple choice questions, dates, and more.
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+usageLimits:
+  liveAttendeesLimit:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 50
+    unit: attendee
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - liveStreaming
+  liveHoursPerMonthLimit:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 5
+    unit: hour/month
+    type: RENEWABLE
+    linkedFeatures:
+    - liveStreaming
+  sessionsLimit:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 2
+    unit: hour/session
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - liveStreaming
+  multistreamLocationsLimit:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 0
+    unit: location
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - multistreaming
+  screensLimit:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 1
+    unit: screen
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - liveStreaming
+    - presentOnManyScreens
+plans:
+  STARTER:
+    description: Perfect for creators just getting started with live video
+    price: 29
+    unit: /month
+    features: null
+    usageLimits: null
+  LITE:
+    description: For creators and small businesses looking to grow their audience
+    price: 49
+    unit: /month
+    features:
+      zapierIntegration:
+        value: true
+      convertKitIntegration:
+        value: true
+      dripIntegration:
+        value: true
+      exportEmailAddresses:
+        value: true
+      exportChat:
+        value: true
+      exportData:
+        value: true
+      eventAnalytics:
+        value: true
+      sessionAnalytics:
+        value: true
+    usageLimits:
+      liveAttendeesLimit:
+        value: 100
+      liveHoursPerMonthLimit:
+        value: 10
+  PRO:
+    description: For professional creators and businesses to consistently host live
+      video events
+    price: 89
+    unit: /month
+    features:
+      zapierIntegration:
+        value: true
+      convertKitIntegration:
+        value: true
+      dripIntegration:
+        value: true
+      exportEmailAddresses:
+        value: true
+      exportChat:
+        value: true
+      exportData:
+        value: true
+      multistreaming:
+        value: true
+      presentOnManyScreens:
+        value: true
+      customRegistrationFields:
+        value: true
+      eventAnalytics:
+        value: true
+      sessionAnalytics:
+        value: true
+    usageLimits:
+      liveAttendeesLimit:
+        value: 250
+      liveHoursPerMonthLimit:
+        value: 20
+      multistreamLocationsLimit:
+        value: 1
+      screensLimit:
+        value: 6
+  BUSINESS:
+    description: For startups and companies looking to engage their customers
+    price: 199
+    unit: /month
+    features:
+      transactionFee:
+        value: 2%
+      zapierIntegration:
+        value: true
+      convertKitIntegration:
+        value: true
+      dripIntegration:
+        value: true
+      exportEmailAddresses:
+        value: true
+      exportChat:
+        value: true
+      exportData:
+        value: true
+      multistreaming:
+        value: true
+      presentOnManyScreens:
+        value: true
+      customRegistrationFields:
+        value: true
+      eventAnalytics:
+        value: true
+      sessionAnalytics:
+        value: true
+    usageLimits:
+      liveAttendeesLimit:
+        value: 1000
+      liveHoursPerMonthLimit:
+        value: 40
+      sessionsLimit:
+        value: 6
+      multistreamLocationsLimit:
+        value: 3
+      screensLimit:
+        value: 6
+addOns: null

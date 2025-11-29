@@ -1,0 +1,521 @@
+syntaxVersion: '2.1'
+saasName: Trello
+createdAt: '2020-11-29'
+version: '2020-11-29'
+billing:
+  monthly: 1.0
+  annual: 0.7792
+currency: USD
+url: https://web.archive.org/web/20201129074846/https://trello.com/pricing
+tags:
+- Standard Features
+- Power-Ups
+- Automation by Butler
+- Admin and Security Features
+features:
+  teamBoards:
+    description: Collaborate with your team by creating boards that will be available
+      to all members
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Standard Features
+  cards:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Standard Features
+  lists:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Standard Features
+  advancedChecklists:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+    tag: Standard Features
+  fileAttachments:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Standard Features
+  prioritySupport:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: SUPPORT
+    tag: Standard Features
+  observers:
+    description: Observers are a Business Class security setting that limit a
+      user’s actions within a board.
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+    tag: Standard Features
+  customBackgrounds:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+    tag: Standard Features
+  customStickers:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+    tag: Standard Features
+  boardCollections:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+    tag: Standard Features
+  teamBoardTemplates:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+    tag: Standard Features
+  powerUps:
+    description: Enable calendars, custom fields, automation, 3rd party reporting and much
+      more to solve your business needs
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+    tag: Power-Ups
+  customFields:
+    description: Bring additional structure to cards with custom fields
+      like text, numbers, checkboxes, dates, and dropdown lists
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+    tag: Power-Ups
+  listLimits:
+    description: Easily identify bottlenecks in your team’s workflow
+      by setting limits on your board’s lists
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+    tag: Power-Ups
+  cardRepeater:
+    description: Automate repeated tasks and bring process to workflows
+      by creating duplicate copies of Trello cards at set intervals
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+    tag: Power-Ups
+  calendarView:
+    description: Visualize Trello cards with due dates in a calendar view
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+    tag: Power-Ups
+  mapView:
+    description: Add locations to cards and view them on a map
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+    tag: Power-Ups
+  voting:
+    description: Crowdsource opinions and get team input when
+      prioritizing ideas and projects by enabling voting on cards
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+    tag: Power-Ups
+  appIntegrations:
+    description: Bring the apps and tools your team depends on
+      like Slack, Google Drive, Salesforce, Dropbox and more directly into your Trello boards
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+    tag: Power-Ups
+  butler:
+    description: Butler brings powerful board automations and actions all
+      easily created with simple natural language programming.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: AUTOMATION
+    automationType: TASK_AUTOMATION
+    tag: Automation by Butler
+  butlerCommandsCardButton:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: AUTOMATION
+    automationType: TASK_AUTOMATION
+    tag: Automation by Butler
+  butlerCommandsBoardButton:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: AUTOMATION
+    automationType: TASK_AUTOMATION
+    tag: Automation by Butler
+  butlerCommandsRules:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: AUTOMATION
+    automationType: TASK_AUTOMATION
+    tag: Automation by Butler
+  butlerCommandsRunUser:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: AUTOMATION
+    automationType: TASK_AUTOMATION
+    tag: Automation by Butler
+  butlerCommandsRunTeam:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: AUTOMATION
+    automationType: TASK_AUTOMATION
+    tag: Automation by Butler
+  butlerScheduledCommands:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: AUTOMATION
+    automationType: TASK_AUTOMATION
+    tag: Automation by Butler
+  butlerCommandAdministration:
+    description: Business Class or Enterprise administrators can enable/disable
+      commands on behalf of other users, and perform other command maintenance.
+    valueType: BOOLEAN
+    defaultValue: false
+    type: AUTOMATION
+    automationType: TASK_AUTOMATION
+    tag: Automation by Butler
+  butlerEmailNotifications:
+    description: Email notifications means the ability to send a
+      custom email notification from within a Butler command
+    valueType: BOOLEAN
+    defaultValue: false
+    type: AUTOMATION
+    automationType: TASK_AUTOMATION
+    tag: Automation by Butler
+  butlerHttpRequests:
+    description: HTTP requests means the ability to issue HTTP request
+      to an external service from within a Butler command.
+    valueType: BOOLEAN
+    defaultValue: false
+    type: AUTOMATION
+    automationType: TASK_AUTOMATION
+    tag: Automation by Butler
+  2factorAuthentication:
+    description: Add another layer of verification to the login process
+      to keep external parties out of your Trello account.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: MANAGEMENT
+    tag: Admin and Security Features
+  advancedAdminPermissions:
+    description: Set the team-level permissions for members,
+      boards and invitation restrictions all from one place
+    valueType: BOOLEAN
+    defaultValue: false
+    type: MANAGEMENT
+    tag: Admin and Security Features
+  domainRestrictedInvites:
+    description: Restrict who can be added to your Trello
+      teams by email domain or individual address
+    valueType: BOOLEAN
+    defaultValue: false
+    type: MANAGEMENT
+    tag: Admin and Security Features
+  deactivateMembers:
+    description: Employees who leave the company can have their
+      account deactivated in your team, without removing their work or history
+    valueType: BOOLEAN
+    defaultValue: false
+    type: MANAGEMENT
+    tag: Admin and Security Features
+  googleAppsSignOn:
+    description: Easily add members from your Google Apps account
+    valueType: BOOLEAN
+    defaultValue: false
+    type: MANAGEMENT
+    tag: Admin and Security Features
+  simpleDataExport:
+    description: Export your team's data all at once, in JSON or CSV
+    valueType: BOOLEAN
+    defaultValue: false
+    type: MANAGEMENT
+    tag: Admin and Security Features
+  enforce2FA:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: MANAGEMENT
+    tag: Admin and Security Features
+  singleSignOn:
+    description: Increase security and simplify login with Atlassian Access,
+      a separate subscription that your company can enable across
+      all your Atlassian cloud products, starting at $3/month/user.
+    valueType: BOOLEAN
+    defaultValue: false
+    type: INTEGRATION
+    integrationType: IDENTITY_PROVIDER
+    tag: Admin and Security Features
+  powerUpAdministration:
+    description: Admins can control which third party power-ups and attachment types can be used on a board
+    valueType: BOOLEAN
+    defaultValue: false
+    type: MANAGEMENT
+    tag: Admin and Security Features
+  attachmentRestrictions:
+    description: Admins can control which third party power-ups and attachment types can be used on a board
+    valueType: BOOLEAN
+    defaultValue: false
+    type: MANAGEMENT
+    tag: Admin and Security Features
+  organizationWidePermissions:
+    description: Admins can set permissions at a company level, which cascade to all team members within the company
+    valueType: BOOLEAN
+    defaultValue: false
+    type: MANAGEMENT
+    tag: Admin and Security Features
+  organizationVisibleBoards:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: MANAGEMENT
+    tag: Admin and Security Features
+  publicBoardManagement:
+    description: Admins can see and change the visibility on all of your company’s
+      public boards, and can view public boards in private spaces
+      of users whose accounts are owned by the company.
+    valueType: BOOLEAN
+    defaultValue: false
+    type: MANAGEMENT
+    tag: Admin and Security Features
+usageLimits:
+  fileAttachmentsLimit:
+    valueType: NUMERIC
+    defaultValue: 10
+    unit: MB/file
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - fileAttachments
+  teamBoardsLimit:
+    valueType: NUMERIC
+    defaultValue: 10
+    unit: board
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - teamBoards
+  powerUpsLimit:
+    valueType: NUMERIC
+    defaultValue: 1
+    unit: Power-up/board
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - powerUps
+  butlerCommandsCardButtonLimit:
+    valueType: NUMERIC
+    defaultValue: 1
+    unit: command
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - butlerCommandsCardButton
+  butlerCommandsBoardButtonLimit:
+    valueType: NUMERIC
+    defaultValue: 1
+    unit: command
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - butlerCommandsBoardButton
+  butlerCommandsRulesLimit:
+    valueType: NUMERIC
+    defaultValue: 1
+    unit: command
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - butlerCommandsRules
+  butlerCommandsRunTeamLimit:
+    valueType: NUMERIC
+    defaultValue: 50
+    unit: run/team
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - butlerCommandsRunTeam
+  butlerCommandsRunUserLimit:
+    valueType: NUMERIC
+    defaultValue: 50
+    unit: run/user
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - butlerCommandsRunUser
+  maxCommandsRunTeamQuota:
+    valueType: NUMERIC
+    defaultValue: 50
+    unit: run/month
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - butlerCommandsRunTeam
+plans:
+  FREE:
+    price: 0
+    unit: user/month
+    features: null
+    usageLimits: null
+  BUSINESS_CLASS:
+    price: 12.5
+    unit: user/month
+    features:
+      advancedChecklists:
+        value: true
+      prioritySupport:
+        value: true
+      observers:
+        value: true
+      customBackgrounds: 
+        value: true
+      customStickers:
+        value: true
+      teamBoards:
+        value: true
+      boardCollections:
+        value: true
+      teamBoardTemplates:
+        value: true
+      customFields:
+        value: true
+      listLimits:
+        value: true
+      cardRepeater:
+        value: true
+      calendarView:
+        value: true
+      mapView:
+        value: true
+      voting:
+        value: true
+      appIntegrations:
+        value: true
+      butlerScheduledCommands:
+        value: true
+      butlerCommandAdministration:
+        value: true
+      butlerEmailNotifications:
+        value: true
+      butlerHttpRequests:
+        value: true
+      2factorAuthentication:
+        value: true
+      advancedAdminPermissions:
+        value: true
+      domainRestrictedInvites:
+        value: true
+      deactivateMembers:
+        value: true
+      googleAppsSignOn:
+        value: true
+      simpleDataExport:
+        value: true
+    usageLimits:
+      fileAttachmentsLimit:
+        value: 250
+      teamBoardsLimit:
+        value: .inf
+      powerUpsLimit:
+        value: .inf
+      butlerCommandsBoardButtonLimit:
+        value: .inf
+      butlerCommandsCardButtonLimit:
+        value: .inf
+      butlerCommandsRulesLimit:
+        value: .inf
+      butlerCommandsRunTeamLimit:
+        value: 1000
+      butlerCommandsRunUserLimit:
+        value: 200
+      maxCommandsRunTeamQuota:
+        value: 6000
+  ENTERPRISE:
+    price: 17.50
+    unit: user/month
+    features:
+      advancedChecklists:
+        value: true
+      prioritySupport:
+        value: true
+      observers:
+        value: true
+      customBackgrounds: 
+        value: true
+      customStickers:
+        value: true
+      teamBoards:
+        value: true
+      boardCollections:
+        value: true
+      teamBoardTemplates:
+        value: true
+      customFields:
+        value: true
+      listLimits:
+        value: true
+      cardRepeater:
+        value: true
+      calendarView:
+        value: true
+      mapView:
+        value: true
+      voting:
+        value: true
+      appIntegrations:
+        value: true
+      butlerScheduledCommands:
+        value: true
+      butlerCommandAdministration:
+        value: true
+      butlerEmailNotifications:
+        value: true
+      butlerHttpRequests:
+        value: true
+      2factorAuthentication:
+        value: true
+      advancedAdminPermissions:
+        value: true
+      domainRestrictedInvites:
+        value: true
+      deactivateMembers:
+        value: true
+      googleAppsSignOn:
+        value: true
+      simpleDataExport:
+        value: true
+      singleSignOn:
+        value: true
+      powerUpAdministration:
+        value: true
+      attachmentRestrictions:
+        value: true
+      organizationWidePermissions:
+        value: true
+      organizationVisibleBoards:
+        value: true
+      publicBoardManagement:
+        value: true
+    usageLimits:
+      fileAttachmentsLimit:
+        value: 250
+      teamBoardsLimit:
+        value: .inf
+      powerUpsLimit:
+        value: .inf
+      butlerCommandsBoardButtonLimit:
+        value: .inf
+      butlerCommandsCardButtonLimit:
+        value: .inf
+      butlerCommandsRulesLimit:
+        value: .inf
+      butlerCommandsRunTeamLimit:
+        value: .inf
+      butlerCommandsRunUserLimit:
+        value: .inf
+      maxCommandsRunTeamQuota:
+        value: .inf
+addOns:
+  ATLASSIAN_ACCESS:
+    description: Atlassian Access is a separate subscription that your company
+      can enable across all your Atlassian products and starts at $3/month/user.
+      Trello is an Atlassian product.
+    price: 3
+    unit: user/month
+    features:
+      enforce2FA:
+        value: true
+      singleSignOn:
+        value: true

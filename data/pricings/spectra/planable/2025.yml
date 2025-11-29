@@ -1,0 +1,429 @@
+syntaxVersion: '2.1'
+saasName: Planable
+createdAt: '2025-01-23'
+version: '2025'
+billing:
+  monthly: 1.0
+  annual: 0.83
+currency: USD
+url: https://web.archive.org/web/20250116125900/https://planable.io/pricing/
+features:
+  workspaces:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  posts:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  pages:
+    description: Number of social media pages allowed in each workspace. It can be
+      multiple pages from the same platform.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  publishTweets:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  aiPostRewrite:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: AUTOMATION
+    automationType: BOT
+  aiPostGenerate:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: AUTOMATION
+    automationType: BOT
+  firstCommentScheduling:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: AUTOMATION
+    automationType: TASK_AUTOMATION
+  recurringPosts:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  omnichannelPlanning:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  builtInMediaEditor:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  feedView:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  calendarView:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  gridView:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  listView:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  labels:
+    description: Categorize posts per campaign, topic or content pillar with color-coded
+      labels.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  mediaStorage:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  syncPreviousContent:
+    description: Import content published outside of Planable.
+    valueType: BOOLEAN
+    defaultValue: false
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+  publishedPostsStorage:
+    description: Published posts are archived after 1 year. Then permanently deleted.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  archivedPostsStorage:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  sharedContentPlanning:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  noneApprovalWorkflows:
+    description: Set workflows that do not require approval for publishing.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  optionalApprovalWorkflows:
+    description: Set workflows that have approvals enabled, but aren't required for
+      publishing.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  requiredApprovalWorkflows:
+    description: Set workflows that require an approvals for publishing.
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  multiLevelApprovalWorkflows:
+    description: Set workflows that require 2 or more approvals for publishing.
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  teamOnlyDraftPosts:
+    description: Have the option to hold conversations and posts behind the scenes,
+      out of approver’s sight.
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  versionHistory:
+    description: See who did what and when. Preview & restore previous versions of
+      your posts.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  teamOnlyNotes:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  bulkApproval:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  bulkRequestForApproval:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  textAnnotations:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  suggestEdits:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  pageLevelInsights:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: INFORMATION
+  postLevelMetrics:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: INFORMATION
+  customReports:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: INFORMATION
+  audienceInsights:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  selfServeKnowledgeBase:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: SUPPORT
+  chatSupport:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: SUPPORT
+  prioritySupport:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: SUPPORT
+  personalizedOnboarding:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: SUPPORT
+  dedicatedAccountManager:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: SUPPORT
+  paymentOptions:
+    description: ''
+    valueType: TEXT
+    defaultValue:
+    - CARD
+    type: PAYMENT
+usageLimits:
+  postsLimit:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: .inf
+    unit: post
+    type: RENEWABLE
+    linkedFeatures:
+    - posts
+  postsPerMonthLimit:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 60
+    unit: post/workspace/month
+    type: RENEWABLE
+    linkedFeatures:
+    - posts
+  socialMediaPagesLimit:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 4
+    unit: pages/workspace
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - pages
+  tweetsLimit:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 1
+    unit: tweet/day
+    type: RENEWABLE
+    linkedFeatures:
+    - publishTweets
+  numberOfLabels:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 5
+    unit: label
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - labels
+  mediaStorageCapacity:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 10
+    unit: GB
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - mediaStorage
+  publishedPostsStorageLimit:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 13
+    unit: month
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - publishedPostsStorage
+  archivedPostsStorageLimit:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 30
+    unit: day
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - archivedPostsStorage
+  versionHistoryThreshold:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 7
+    unit: day
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - versionHistory
+plans:
+  FREE:
+    description: For anyone wanting to test Planable out
+    price: 0
+    unit: /month
+    features:
+      gridView:
+        value: true
+      listView:
+        value: true
+      syncPreviousContent:
+        value: true
+      requiredApprovalWorkflows:
+        value: true
+      multiLevelApprovalWorkflows:
+        value: true
+      teamOnlyDraftPosts:
+        value: true
+    usageLimits:
+      postsLimit:
+        value: 50
+  BASIC:
+    description: For businesses getting started with social media
+    price: 33
+    unit: workspace/month
+    features: null
+    usageLimits: null
+  PRO:
+    description: For growing social media teams
+    price: 49
+    unit: workspace/month
+    features:
+      gridView:
+        value: true
+      syncPreviousContent:
+        value: true
+      requiredApprovalWorkflows:
+        value: true
+      teamOnlyDraftPosts:
+        value: true
+      teamOnlyNotes:
+        value: true
+      chatSupport:
+        value: true
+    usageLimits:
+      postsPerMonthLimit:
+        value: 150
+      socialMediaPagesLimit:
+        value: 10
+      tweetsLimit:
+        value: .inf
+      numberOfLabels:
+        value: 10
+      mediaStorageCapacity:
+        value: 50
+      versionHistoryThreshold:
+        value: 30
+  ENTERPRISE:
+    description: For large social media teams wanting to scale
+    price: Custom
+    unit: workspace/month
+    features:
+      gridView:
+        value: true
+      listView:
+        value: true
+      syncPreviousContent:
+        value: true
+      requiredApprovalWorkflows:
+        value: true
+      multiLevelApprovalWorkflows:
+        value: true
+      teamOnlyDraftPosts:
+        value: true
+      teamOnlyNotes:
+        value: true
+      bulkApproval:
+        value: true
+      bulkRequestForApproval:
+        value: true
+      prioritySupport:
+        value: true
+      chatSupport:
+        value: true
+      personalizedOnboarding:
+        value: true
+      dedicatedAccountManager:
+        value: true
+      paymentOptions:
+        value:
+        - CARD
+        - ACH
+        - WIRE_TRANSFER
+        - GATEWAY
+    usageLimits:
+      postsPerMonthLimit:
+        value: .inf
+      socialMediaPagesLimit:
+        value: 10
+      tweetsLimit:
+        value: .inf
+      numberOfLabels:
+        value: .inf
+      mediaStorageCapacity:
+        value: .inf
+      publishedPostsStorageLimit:
+        value: 24
+      archivedPostsStorageLimit:
+        value: 365
+      versionHistoryThreshold:
+        value: .inf
+addOns:
+  analyticsAndReporting:
+    description: Unlock advanced analytics and reporting features.
+    availableFor:
+    - BASIC
+    - PRO
+    - ENTERPRISE
+    price: 9
+    unit: user/month/workspace
+    features:
+      pageLevelInsights:
+        value: true
+      postLevelMetrics:
+        value: true
+      customReports:
+        value: true
+      audienceInsights:
+        value: true
+    usageLimits: null
+    usageLimitsExtensions: null

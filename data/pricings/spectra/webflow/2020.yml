@@ -1,0 +1,1251 @@
+syntaxVersion: '2.1'
+saasName: Webflow
+createdAt: '2020-11-12'
+version: '2020'
+billing:
+  monthly: 1.0
+  annual: 0.8
+currency: USD
+url: https://web.archive.org/web/20201112022414/https://webflow.com/pricing
+features:
+  # Site Plans Features
+  backup:
+    description: "We automatically save and create restore points so you would never lose your work."
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  versioning:
+    description: "We automatically save and create restore points so you would never lose your work."
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  passwordProtection:
+    description: "Password protect your whole site or individual pages with Webflow hosting."
+    valueType: BOOLEAN
+    defaultValue: false
+    type: MANAGEMENT
+  advancedSeoControls:
+    description: "Automatic sitemaps and customizable 301 redirects for complete SEO control."
+    valueType: BOOLEAN
+    defaultValue: false
+    type: MANAGEMENT
+  superFastPageLoads:
+    description: "The fastest hosting on the internet via our Tier 1 Content Delivery Network, Amazon Cloudfront, and Fastly."
+    valueType: BOOLEAN
+    defaultValue: false
+    type: MANAGEMENT
+  enhancedSecurity:
+    description: "ISO 27018 compliance to protect you and your customers’ personal information."
+    valueType: BOOLEAN
+    defaultValue: false
+    type: GUARANTEE
+  uptimeSla:
+    description: "ISO 27018 compliance to protect you and your customers’ personal information."
+    valueType: BOOLEAN
+    defaultValue: false
+    type: GUARANTEE
+  immediateScaling:
+    description: "Your site will be snappy for the first or millionth concurrent visitor. Don't worry about getting popular overnight."
+    valueType: BOOLEAN
+    defaultValue: false
+    type: GUARANTEE
+  ## Website Plans Features
+  webflowHosting:
+    description: "Site plans are backed by Webflow's super fast, secure, and scalable hosting infrastructure."
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  customDomain:
+    description: "Connect your custom domain to your site. You can also purchase a domain through Webflow."
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  pages:
+    description: "The number of static pages your site can have."
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  collectionItems:
+    description: "The maximum number of records you can have in your CMS database. Ex: 50 projects in a portfolio."
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  formSubmissions:
+    description: "Collect form submissions, customize notification emails, and download submissions as a CSV. $1 per 100 extra submissions."
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  formFileUpload:
+    description: "Collect files with an upload button in forms. Max file size per upload is 10MB. Storage is free up to 10GB, and $0.50/month per GB after that."
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  fileStorage:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  cdn:
+    description: "Delivers your content from the server closest to your site visitor, ensuring even faster page loads."
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  advancedCdn:
+    description: "Delivers your content from the server closest to your site visitor, ensuring even faster page loads."
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  cmsApi:
+    description: "Connect with our REST API to programmatically add, update, or delete CMS items, or connect an external database with the Webflow CMS."
+    valueType: TEXT
+    defaultValue: ""
+    type: INTEGRATION
+    integrationType: API
+  contentEditors:
+    description: "Give clients or content editors a special login into the Editor, where they can easily make edits to the live website."
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  siteSearch:
+    description: "Create a custom search engine and let visitors search for specific content on your site."
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  enterpriseSupport:
+    description: "Dedicated account manager and technical specialist for immediate support to meet the demands of a high profile website."
+    valueType: BOOLEAN
+    defaultValue: false
+    type: SUPPORT
+  training:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: SUPPORT
+  onBoarding:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: SUPPORT
+  99.99%Uptime:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: GUARANTEE
+  customBilling:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: PAYMENT
+  msa:
+    description: "Master Service Agreement"
+    valueType: BOOLEAN
+    defaultValue: false
+    type: GUARANTEE
+  ## Ecommerce Plans Features
+  customCheckout:
+    description: "Visually customize the design and layout of your checkout page."
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  customShoppingCart:
+    description: "Visually customize the look and feel of your add to cart and shopping cart."
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  customProductFields:
+    description: "Add custom fields to products and use that data in your designs."
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  emailCustomization:
+    description: "Customize colors, logos, and text in receipt and order update emails."
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  integratedCmsForBlogs:
+    description: "Integrate products with a custom CMS for blogging, landing pages, and more."
+    valueType: BOOLEAN
+    defaultValue: false
+    type: INTEGRATION
+    integrationType: EXTENSION
+  unbrandedEmails:
+    description: "Remove Webflow references from transaction email footers."
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  transactionFee:
+    description: "In addition to Stripe or Paypal processing fees"
+    valueType: TEXT
+    defaultValue: ""
+    type: DOMAIN
+  stripePoweredPayments:
+    description: "Connect a Stripe account to process payments, refunds, and payouts."
+    valueType: BOOLEAN
+    defaultValue: false
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+    pricingUrls:
+      - https://stripe.com/pricing
+  automaticTaxCalculation:
+    description: "Automatic sales tax and VAT calculated at checkout."
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  applePay:
+    description: "Let customers pay with stored payment details in their browser."
+    valueType: BOOLEAN
+    defaultValue: false
+    type: PAYMENT
+    integrationType: EXTERNAL_DEVICE
+  webPayments:
+    description: "Let customers pay with stored payment details in their browser."
+    valueType: BOOLEAN
+    defaultValue: false
+    type: PAYMENT
+  paypalSupport:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: PAYMENT
+  facebookIntegration:
+    description: "Sync products to Facebook and Instagram to run smarter marketing campaigns."
+    valueType: BOOLEAN
+    defaultValue: false
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+  instagramIntegration:
+    description: "Sync products to Facebook and Instagram to run smarter marketing campaigns."
+    valueType: BOOLEAN
+    defaultValue: false
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+  googleShoppingIntegration:
+    description: "Sync products to Google to run Google Shopping campaigns."
+    valueType: BOOLEAN
+    defaultValue: false
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+  googleAnalyticsIntegration:
+    description: "Add your Google Analytics ID to pass visitor behavior data to Google."
+    valueType: BOOLEAN
+    defaultValue: false
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+  mailchimpIntegration:
+    description: "Connect forms to MailChimp for email marketing."
+    valueType: BOOLEAN
+    defaultValue: false
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+  customCode:
+    description: "Integrate any marketing tools you want by adding snippets to your site."
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  configureManualShippingRules:
+    description: "Define shipping regions and set custom rates for each location."
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  staffAccounts:
+    description: "Invite colleagues and clients to manage products, inventory, and fulfillment."
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  yearlySalesVolume:
+    description: "Calculated on a trailing 12-month basis."
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  # Account Plans Features
+  unlimitedHostedProjects:
+    description: "Hosted projects don’t count against your plan limits, so you can build as many as you want when you host with Webflow."
+    valueType: BOOLEAN
+    defaultValue: false
+    type: MANAGEMENT
+  clientBilling:
+    description: "Charge your client for your bill instead of paying out of pocket. Charge any amount and make a profit."
+    valueType: BOOLEAN
+    defaultValue: false
+    type: PAYMENT
+  interactions:
+    description: "Create custom interactions and animations to make your site stand out, all without coding Javascript."
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  animations:
+    description: "Create custom interactions and animations to make your site stand out, all without coding Javascript."
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  100+ResponsiveTemplates:
+    description: "Tons of free and premium responsive templates to choose from if you don't want to start from scratch."
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  3dTransforms:
+    description: "Change position, add skew, and rotate objects in 3D space."
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  globalSwatches:
+    description: "Define key colors as variables, so every instance of that color updates whenever you change it."
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  useCustomFonts:
+    description: "Upload your own fonts or add free Google Fonts."
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  flexbox:
+    description: "Build flexible, responsive layouts with the power of flexbox in a visual interface."
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  reusableSymbols:
+    description: "Turn any recurring element into a reusable symbol that you can update across your site in one edit."
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  ## Individual Account Plans Features
+  projects:
+    description: ""
+    valueType: BOOLEAN
+    defaultValue: false
+    type: MANAGEMENT
+  staging:
+    description: "Publish unhosted projects to a webflow.io subdomain"
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  codeExport:
+    description: "Export clean and semantic HTML & CSS files to hand off to your dev team. Note: dynamic content (CMS items and pages) cannot be exported."
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  unlimitedProjectTransfers:
+    description: "Transfer projects to Teams or anyone with a Webflow account."
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  whiteLabeling:
+    description: "Add your own logo to the CMS and Client Billing payment forms, and remove Webflow branding from form emails and staging sites."
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  sitePasswordProtection:
+    description: "Set a site wide password to protect in-progress or sensitive work."
+    valueType: BOOLEAN
+    defaultValue: false
+    type: MANAGEMENT
+  teamDashboard:
+    description: "Collaborate with teammates on projects and share templates in a team dashboard."
+    valueType: BOOLEAN
+    defaultValue: false
+    type: MANAGEMENT
+usageLimits:
+  ## Website Usage Limits
+  pagesLimit:
+    description: ""
+    valueType: NUMERIC
+    defaultValue: 0
+    unit: page
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - pages
+  monthlyWebsiteVisits:
+    description: "The number of unique daily visits you can get to your site every month. We'll let you know if you go over."
+    valueType: NUMERIC
+    defaultValue: 0
+    unit: visit/day
+    type: RENEWABLE
+    linkedFeatures:
+    - webflowHosting
+  formSubmissionsLimit:
+    description: "Collect form submissions, customize notification emails, and download submissions as a CSV. $1 per 100 extra submissions."
+    valueType: NUMERIC
+    defaultValue: 0
+    unit: submission
+    type: RENEWABLE
+    linkedFeatures:
+    - formSubmissions
+  cmsItemsLimit:
+    description: "The maximum number of records you can have in your CMS database. Ex: 50 projects in a portfolio."
+    valueType: NUMERIC
+    defaultValue: 0
+    unit: item
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - collectionItems
+  cdnBandwidth:
+    description: ""
+    valueType: NUMERIC
+    defaultValue: 0
+    unit: GB
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - cdn
+    - advancedCdn
+  contentEditorsLimit:
+    description: ""
+    valueType: NUMERIC
+    defaultValue: 0
+    unit: editor
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - contentEditors
+  formFileSizeLimit:
+    description: ""
+    valueType: NUMERIC
+    defaultValue: 0
+    unit: MB
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - formFileUpload
+  fileStorageLimit:
+    description: ""
+    valueType: NUMERIC
+    defaultValue: 0
+    unit: GB
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - fileStorage
+  ## Ecommerce Usage Limits
+  staffAccountsLimit:
+    description: ""
+    valueType: NUMERIC
+    defaultValue: 0
+    unit: account
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - staffAccounts
+  yearlySalesVolumeLimit:
+    description: ""
+    valueType: NUMERIC
+    defaultValue: 0
+    unit: K
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - yearlySalesVolume
+  ## Account Usage Limits
+  projectsLimit:
+    description: ""
+    valueType: NUMERIC
+    defaultValue: 0
+    unit: project
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - projects
+  stagingStaticPages:
+    description: ""
+    valueType: NUMERIC
+    defaultValue: 0
+    unit: page
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - staging
+  stagingCmsItems:
+    description: ""
+    valueType: NUMERIC
+    defaultValue: 0
+    unit: cms item
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - staging
+  usersLimit:
+    description: ""
+    valueType: NUMERIC
+    defaultValue: 0
+    unit: user
+    type: NON_RENEWABLE
+    linkedFeatures: null
+plans:
+  WEBSITE_BASIC:
+    description: ""
+    price: 15
+    unit: site/month
+    features:
+      backup:
+        value: true
+      versioning:
+        value: true
+      passwordProtection:
+        value: true
+      advancedSeoControls:
+        value: true
+      superFastPageLoads:
+        value: true
+      enhancedSecurity:
+        value: true
+      uptimeSla:
+        value: true
+      immediateScaling:
+        value: true
+      webflowHosting:
+        value: true
+      customDomain:
+        value: true
+      pages:
+        value: true
+      formSubmissions:
+        value: true
+      cdn:
+        value: true
+    usageLimits:
+      pagesLimit:
+        value: 100
+      monthlyWebsiteVisits:
+        value: 25000
+      formSubmissionsLimit:
+        value: 500
+      cdnBandwidth:
+        value: 50
+  WEBSITE_CMS:
+    description: ""
+    price: 20
+    unit: site/month
+    features:
+      backup:
+        value: true
+      versioning:
+        value: true
+      passwordProtection:
+        value: true
+      advancedSeoControls:
+        value: true
+      superFastPageLoads:
+        value: true
+      enhancedSecurity:
+        value: true
+      uptimeSla:
+        value: true
+      immediateScaling:
+        value: true
+      webflowHosting:
+        value: true
+      customDomain:
+        value: true
+      pages:
+        value: true
+      formSubmissions:
+        value: true
+      cdn:
+        value: true
+      collectionItems:
+        value: true
+      cmsApi:
+        value: "Limited"
+      contentEditors:
+        value: true
+      siteSearch:
+        value: true
+    usageLimits:
+      pagesLimit:
+        value: 100
+      monthlyWebsiteVisits:
+        value: 100000
+      formSubmissionsLimit:
+        value: 1000
+      cmsItemsLimit:
+        value: 2000
+      contentEditorsLimit:
+        value: 3
+      cdnBandwidth:
+        value: 200
+  WEBSITE_BUSINESS:
+    description: ""
+    price: 45
+    unit: site/month
+    features:
+      backup:
+        value: true
+      versioning:
+        value: true
+      passwordProtection:
+        value: true
+      advancedSeoControls:
+        value: true
+      superFastPageLoads:
+        value: true
+      enhancedSecurity:
+        value: true
+      uptimeSla:
+        value: true
+      immediateScaling:
+        value: true
+      webflowHosting:
+        value: true
+      customDomain:
+        value: true
+      pages:
+        value: true
+      formSubmissions:
+        value: true
+      formFileUpload:
+        value: true
+      fileStorage:
+        value: true
+      cdn:
+        value: true
+      advancedCdn:
+        value: true
+      collectionItems:
+        value: true
+      cmsApi:
+        value: "Limited"
+      contentEditors:
+        value: true
+      siteSearch:
+        value: true
+    usageLimits:
+      pagesLimit:
+        value: 100
+      monthlyWebsiteVisits:
+        value: 1000000
+      formSubmissionsLimit:
+        value: .inf
+      cmsItemsLimit:
+        value: 10000
+      contentEditorsLimit:
+        value: 10
+      formFileSizeLimit:
+        value: 10
+      fileStorageLimit:
+        value: 10
+      cdnBandwidth:
+        value: 400
+  WEBSITE_ENTERPRISE:
+    description: ""
+    price: "Contact us"
+    unit: site/month
+    features:
+      backup:
+        value: true
+      versioning:
+        value: true
+      passwordProtection:
+        value: true
+      advancedSeoControls:
+        value: true
+      superFastPageLoads:
+        value: true
+      enhancedSecurity:
+        value: true
+      uptimeSla:
+        value: true
+      immediateScaling:
+        value: true
+      webflowHosting:
+        value: true
+      customDomain:
+        value: true
+      pages:
+        value: true
+      formSubmissions:
+        value: true
+      formFileUpload:
+        value: true
+      fileStorage:
+        value: true
+      cdn:
+        value: true
+      advancedCdn:
+        value: true
+      collectionItems:
+        value: true
+      cmsApi:
+        value: "Unlimited"
+      contentEditors:
+        value: true
+      siteSearch:
+        value: true
+      enterpriseSupport:
+        value: true
+      training:
+        value: true
+      onBoarding:
+        value: true
+      99.99%Uptime:
+        value: true
+      customBilling:
+        value: true
+      msa:
+        value: true
+    usageLimits:
+      pagesLimit:
+        value: 100
+      monthlyWebsiteVisits:
+        value: .inf
+      formSubmissionsLimit:
+        value: .inf
+      cmsItemsLimit:
+        value: 10000
+      contentEditorsLimit:
+        value: .inf
+      formFileSizeLimit:
+        value: 10
+      fileStorageLimit:
+        value: 10
+      cdnBandwidth:
+        value: 400
+  ECOMMERCE_STANDARD:
+    description: ""
+    price: 42
+    unit: site/month
+    features:
+      backup:
+        value: true
+      versioning:
+        value: true
+      passwordProtection:
+        value: true
+      advancedSeoControls:
+        value: true
+      superFastPageLoads:
+        value: true
+      enhancedSecurity:
+        value: true
+      uptimeSla:
+        value: true
+      immediateScaling:
+        value: true
+      webflowHosting:
+        value: true
+      customDomain:
+        value: true
+      pages:
+        value: true
+      formSubmissions:
+        value: true
+      cdn:
+        value: true
+      collectionItems:
+        value: true
+      cmsApi:
+        value: "Limited"
+      contentEditors:
+        value: true
+      siteSearch:
+        value: true
+      customCheckout:
+        value: true
+      customShoppingCart:
+        value: true
+      customProductFields:
+        value: true
+      emailCustomization:
+        value: true
+      integratedCmsForBlogs:
+        value: true
+      transactionFee:
+        value: "2%"
+      stripePoweredPayments:
+        value: true
+      automaticTaxCalculation:
+        value: true
+      applePay:
+        value: true
+      webPayments:
+        value: true
+      paypalSupport:
+        value: true
+      facebookIntegration:
+        value: true
+      instagramIntegration:
+        value: true
+      googleShoppingIntegration:
+        value: true
+      googleAnalyticsIntegration:
+        value: true
+      mailchimpIntegration:
+        value: true
+      customCode:
+        value: true
+      configureManualShippingRules:
+        value: true
+      staffAccounts:
+        value: true
+      yearlySalesVolume:
+        value: true
+    usageLimits:
+      pagesLimit:
+        value: 100
+      monthlyWebsiteVisits:
+        value: 100000
+      formSubmissionsLimit:
+        value: 1000
+      cmsItemsLimit:
+        value: 2000
+      contentEditorsLimit:
+        value: 3
+      cdnBandwidth:
+        value: 200
+      staffAccountsLimit:
+        value: 3
+      yearlySalesVolumeLimit:
+        value: 50
+  ECOMMERCE_PLUS:
+    description: ""
+    price: 84
+    unit: site/month
+    features:
+      backup:
+        value: true
+      versioning:
+        value: true
+      passwordProtection:
+        value: true
+      advancedSeoControls:
+        value: true
+      superFastPageLoads:
+        value: true
+      enhancedSecurity:
+        value: true
+      uptimeSla:
+        value: true
+      immediateScaling:
+        value: true
+      webflowHosting:
+        value: true
+      customDomain:
+        value: true
+      pages:
+        value: true
+      formSubmissions:
+        value: true
+      formFileUpload:
+        value: true
+      fileStorage:
+        value: true
+      cdn:
+        value: true
+      advancedCdn:
+        value: true
+      collectionItems:
+        value: true
+      cmsApi:
+        value: "Limited"
+      contentEditors:
+        value: true
+      siteSearch:
+        value: true
+      customCheckout:
+        value: true
+      customShoppingCart:
+        value: true
+      customProductFields:
+        value: true
+      emailCustomization:
+        value: true
+      integratedCmsForBlogs:
+        value: true
+      unbrandedEmails:
+        value: true
+      transactionFee:
+        value: "0%"
+      stripePoweredPayments:
+        value: true
+      automaticTaxCalculation:
+        value: true
+      applePay:
+        value: true
+      webPayments:
+        value: true
+      paypalSupport:
+        value: true
+      facebookIntegration:
+        value: true
+      instagramIntegration:
+        value: true
+      googleShoppingIntegration:
+        value: true
+      googleAnalyticsIntegration:
+        value: true
+      mailchimpIntegration:
+        value: true
+      customCode:
+        value: true
+      configureManualShippingRules:
+        value: true
+      staffAccounts:
+        value: true
+      yearlySalesVolume:
+        value: true
+    usageLimits:
+      pagesLimit:
+        value: 100
+      monthlyWebsiteVisits:
+        value: 1000000
+      formSubmissionsLimit:
+        value: .inf
+      cmsItemsLimit:
+        value: 10000
+      contentEditorsLimit:
+        value: 10
+      formFileSizeLimit:
+        value: 10
+      fileStorageLimit:
+        value: 10
+      cdnBandwidth:
+        value: 400
+      staffAccountsLimit:
+        value: 10
+      yearlySalesVolumeLimit:
+        value: 200
+  ECOMMERCE_ADVANCED:
+    description: ""
+    price: 235
+    unit: site/month
+    features:
+      backup:
+        value: true
+      versioning:
+        value: true
+      passwordProtection:
+        value: true
+      advancedSeoControls:
+        value: true
+      superFastPageLoads:
+        value: true
+      enhancedSecurity:
+        value: true
+      uptimeSla:
+        value: true
+      immediateScaling:
+        value: true
+      webflowHosting:
+        value: true
+      customDomain:
+        value: true
+      pages:
+        value: true
+      formSubmissions:
+        value: true
+      formFileUpload:
+        value: true
+      fileStorage:
+        value: true
+      cdn:
+        value: true
+      advancedCdn:
+        value: true
+      collectionItems:
+        value: true
+      cmsApi:
+        value: "Limited"
+      contentEditors:
+        value: true
+      siteSearch:
+        value: true
+      customCheckout:
+        value: true
+      customShoppingCart:
+        value: true
+      customProductFields:
+        value: true
+      emailCustomization:
+        value: true
+      integratedCmsForBlogs:
+        value: true
+      unbrandedEmails:
+        value: true
+      transactionFee:
+        value: "0%"
+      stripePoweredPayments:
+        value: true
+      automaticTaxCalculation:
+        value: true
+      applePay:
+        value: true
+      webPayments:
+        value: true
+      paypalSupport:
+        value: true
+      facebookIntegration:
+        value: true
+      instagramIntegration:
+        value: true
+      googleShoppingIntegration:
+        value: true
+      googleAnalyticsIntegration:
+        value: true
+      mailchimpIntegration:
+        value: true
+      customCode:
+        value: true
+      configureManualShippingRules:
+        value: true
+      staffAccounts:
+        value: true
+      yearlySalesVolume:
+        value: true
+    usageLimits:
+      pagesLimit:
+        value: 100
+      monthlyWebsiteVisits:
+        value: 1000000
+      formSubmissionsLimit:
+        value: .inf
+      cmsItemsLimit:
+        value: 10000
+      contentEditorsLimit:
+        value: 10
+      formFileSizeLimit:
+        value: 10
+      fileStorageLimit:
+        value: 10
+      cdnBandwidth:
+        value: 400
+      staffAccountsLimit:
+        value: 15
+      yearlySalesVolumeLimit:
+        value: .inf
+  INDIVIDUAL_FREE:
+    description: ""
+    price: 0
+    unit: /month
+    features:
+      unlimitedHostedProjects:
+        value: true
+      clientBilling:
+        value: true
+      interactions:
+        value: true
+      animations:
+        value: true
+      100+ResponsiveTemplates:
+        value: true
+      3dTransforms:
+        value: true
+      globalSwatches:
+        value: true
+      useCustomFonts:
+        value: true
+      flexbox:
+        value: true
+      reusableSymbols:
+        value: true
+      projects:
+        value: true
+      staging:
+        value: true
+    usageLimits:
+      projectsLimit:
+        value: 2
+      stagingStaticPages:
+        value: 2
+      stagingCmsItems:
+        value: 50
+      usersLimit:
+        value: 1
+  INDIVIDUAL_LITE:
+    description: ""
+    price: 24
+    unit: /month
+    features:
+      unlimitedHostedProjects:
+        value: true
+      clientBilling:
+        value: true
+      interactions:
+        value: true
+      animations:
+        value: true
+      100+ResponsiveTemplates:
+        value: true
+      3dTransforms:
+        value: true
+      globalSwatches:
+        value: true
+      useCustomFonts:
+        value: true
+      flexbox:
+        value: true
+      reusableSymbols:
+        value: true
+      projects:
+        value: true
+      staging:
+        value: true
+      codeExport:
+        value: true
+      unlimitedProjectTransfers:
+        value: true
+    usageLimits:
+      projectsLimit:
+        value: 10
+      stagingStaticPages:
+        value: 100
+      stagingCmsItems:
+        value: 50
+      usersLimit:
+        value: 1
+  INDIVIDUAL_PRO:
+    description: ""
+    price: 42
+    unit: /month
+    features:
+      unlimitedHostedProjects:
+        value: true
+      clientBilling:
+        value: true
+      interactions:
+        value: true
+      animations:
+        value: true
+      100+ResponsiveTemplates:
+        value: true
+      3dTransforms:
+        value: true
+      globalSwatches:
+        value: true
+      useCustomFonts:
+        value: true
+      flexbox:
+        value: true
+      reusableSymbols:
+        value: true
+      projects:
+        value: true
+      staging:
+        value: true
+      codeExport:
+        value: true
+      unlimitedProjectTransfers:
+        value: true
+      whiteLabeling:
+        value: true
+      sitePasswordProtection:
+        value: true
+    usageLimits:
+      projectsLimit:
+        value: .inf
+      stagingStaticPages:
+        value: 100
+      stagingCmsItems:
+        value: 50
+      usersLimit:
+        value: 1
+  TEAM:
+    description: "Minimum 2 seats per team"
+    price: 42
+    unit: user/month
+    features:
+      unlimitedHostedProjects:
+        value: true
+      clientBilling:
+        value: true
+      interactions:
+        value: true
+      animations:
+        value: true
+      100+ResponsiveTemplates:
+        value: true
+      3dTransforms:
+        value: true
+      globalSwatches:
+        value: true
+      useCustomFonts:
+        value: true
+      flexbox:
+        value: true
+      reusableSymbols:
+        value: true
+      projects:
+        value: true
+      staging:
+        value: true
+      codeExport:
+        value: true
+      unlimitedProjectTransfers:
+        value: true
+      whiteLabeling:
+        value: true
+      sitePasswordProtection:
+        value: true
+      teamDashboard:
+        value: true
+    usageLimits:
+      projectsLimit:
+        value: .inf
+      stagingStaticPages:
+        value: 100
+      stagingCmsItems:
+        value: 50
+      usersLimit:
+        value: 24
+  ENTERPRISE:
+    description: "For teams of 25 or more"
+    price: "Contact us"
+    unit: user/month
+    features:
+      unlimitedHostedProjects:
+        value: true
+      clientBilling:
+        value: true
+      interactions:
+        value: true
+      animations:
+        value: true
+      100+ResponsiveTemplates:
+        value: true
+      3dTransforms:
+        value: true
+      globalSwatches:
+        value: true
+      useCustomFonts:
+        value: true
+      flexbox:
+        value: true
+      reusableSymbols:
+        value: true
+      projects:
+        value: true
+      staging:
+        value: true
+      codeExport:
+        value: true
+      unlimitedProjectTransfers:
+        value: true
+      whiteLabeling:
+        value: true
+      sitePasswordProtection:
+        value: true
+      teamDashboard:
+        value: true
+    usageLimits:
+      projectsLimit:
+        value: .inf
+      stagingStaticPages:
+        value: 100
+      stagingCmsItems:
+        value: 50
+      usersLimit:
+        value: .inf
+addOns:
+  extraFormSubmissions:
+    description: ""
+    availableFor:
+      - WEBSITE_BASIC
+      - WEBSITE_CMS
+      - WEBSITE_BUSINESS
+      - ECOMMERCE_STANDARD
+      - ECOMMERCE_PLUS
+      - ECOMMERCE_ADVANCED
+    price: 1
+    unit: /month
+    usageLimitsExtensions:
+      formSubmissionsLimit: 
+        value: 100
+  extraFileStorage:
+    description: ""
+    availableFor:
+      - WEBSITE_BUSINESS
+      - ECOMMERCE_PLUS
+      - ECOMMERCE_ADVANCED
+    price: 0.5
+    unit: /month
+    usageLimitsExtensions:
+      fileStorageLimit: 
+        value: 1

@@ -1,0 +1,3362 @@
+{
+  "overall": {
+    "structure_p_act": 0.6555555555555556,
+    "structure_r_act": 0.94,
+    "structure_p_par": 0.9545555555555556,
+    "structure_r_par": 0.9857777777777779,
+    "structure_hierarchical_precision": 0.8050555555555556,
+    "structure_hierarchical_recall": 0.9628888888888889,
+    "structure_hierarchical_f1": 0.8769269326517858,
+    "content_accuracy": 0.9584444444444445,
+    "structure_p_act_median": 1.0,
+    "structure_r_act_median": 1.0,
+    "structure_p_par_median": 1.0,
+    "structure_r_par_median": 1.0,
+    "structure_hierarchical_precision_median": 0.95,
+    "structure_hierarchical_recall_median": 1.0,
+    "structure_hierarchical_f1_median": 0.9736842105263158,
+    "content_accuracy_median": 1.0,
+    "structure_p_act_iqr": 1.0,
+    "structure_r_act_iqr": 0.0,
+    "structure_p_par_iqr": 0.0,
+    "structure_r_par_iqr": 0.0,
+    "structure_hierarchical_precision_iqr": 0.5,
+    "structure_hierarchical_recall_iqr": 0.0,
+    "structure_hierarchical_f1_iqr": 0.33333333333333337,
+    "content_accuracy_iqr": 0.0
+  },
+  "by_template": {
+    "To accomplish {{ACTION 1}}, does {{SAAS 1}} provide any configuration between {{PRICE 1}} and {{PRICE 2}} that includes {{FEATURE 1}}?": {
+      "structure_action_precision": 1.0,
+      "structure_action_recall": 1.0,
+      "structure_parameter_precision": 0.96,
+      "structure_parameter_recall": 1.0,
+      "structure_hierarchical_precision": 0.9800000000000001,
+      "structure_hierarchical_recall": 1.0,
+      "structure_hierarchical_f1": 0.9894736842105264,
+      "content_accuracy": 0.95,
+      "structure_action_precision_median": 1.0,
+      "structure_action_recall_median": 1.0,
+      "structure_parameter_precision_median": 1.0,
+      "structure_parameter_recall_median": 1.0,
+      "structure_hierarchical_precision_median": 1.0,
+      "structure_hierarchical_recall_median": 1.0,
+      "structure_hierarchical_f1_median": 1.0,
+      "content_accuracy_median": 1.0,
+      "structure_action_precision_iqr": 0.0,
+      "structure_action_recall_iqr": 0.0,
+      "structure_parameter_precision_iqr": 0.09999999999999998,
+      "structure_parameter_recall_iqr": 0.0,
+      "structure_hierarchical_precision_iqr": 0.050000000000000044,
+      "structure_hierarchical_recall_iqr": 0.0,
+      "structure_hierarchical_f1_iqr": 0.02631578947368418,
+      "content_accuracy_iqr": 0.125
+    },
+    "If our maximum budget is {{PRICE 1}} per month, which configurations of {{SAAS 1}} allow us to achieve {{ACTION 1}} without incurring overage fees?": {
+      "structure_action_precision": 0.9,
+      "structure_action_recall": 1.0,
+      "structure_parameter_precision": 0.9,
+      "structure_parameter_recall": 1.0,
+      "structure_hierarchical_precision": 0.9,
+      "structure_hierarchical_recall": 1.0,
+      "structure_hierarchical_f1": 0.9447619047619048,
+      "content_accuracy": 1.0,
+      "structure_action_precision_median": 1.0,
+      "structure_action_recall_median": 1.0,
+      "structure_parameter_precision_median": 1.0,
+      "structure_parameter_recall_median": 1.0,
+      "structure_hierarchical_precision_median": 0.875,
+      "structure_hierarchical_recall_median": 1.0,
+      "structure_hierarchical_f1_median": 0.9333333333333333,
+      "content_accuracy_median": 1.0,
+      "structure_action_precision_iqr": 0.25,
+      "structure_action_recall_iqr": 0.0,
+      "structure_parameter_precision_iqr": 0.25,
+      "structure_parameter_recall_iqr": 0.0,
+      "structure_hierarchical_precision_iqr": 0.1875,
+      "structure_hierarchical_recall_iqr": 0.0,
+      "structure_hierarchical_f1_iqr": 0.10476190476190483,
+      "content_accuracy_iqr": 0.0
+    },
+    "Considering a timeframe spanning {{YEAR 1}} and {{YEAR 2}}, what is the total cost difference between remaining on {{CONFIGURATION 1}} versus upgrading to {{CONFIGURATION 2}} for {{SAAS 1}}?": {
+      "structure_action_precision": 1.0,
+      "structure_action_recall": 1.0,
+      "structure_parameter_precision": 1.0,
+      "structure_parameter_recall": 1.0,
+      "structure_hierarchical_precision": 1.0,
+      "structure_hierarchical_recall": 1.0,
+      "structure_hierarchical_f1": 1.0,
+      "content_accuracy": 1.0,
+      "structure_action_precision_median": 1.0,
+      "structure_action_recall_median": 1.0,
+      "structure_parameter_precision_median": 1.0,
+      "structure_parameter_recall_median": 1.0,
+      "structure_hierarchical_precision_median": 1.0,
+      "structure_hierarchical_recall_median": 1.0,
+      "structure_hierarchical_f1_median": 1.0,
+      "content_accuracy_median": 1.0,
+      "structure_action_precision_iqr": 0.0,
+      "structure_action_recall_iqr": 0.0,
+      "structure_parameter_precision_iqr": 0.0,
+      "structure_parameter_recall_iqr": 0.0,
+      "structure_hierarchical_precision_iqr": 0.0,
+      "structure_hierarchical_recall_iqr": 0.0,
+      "structure_hierarchical_f1_iqr": 0.0,
+      "content_accuracy_iqr": 0.0
+    },
+    "Which configurations of {{SAAS 1}} provide access to {{FEATURE 1}} and {{FEATURE 2}} while maintaining a price point lower than {{PRICE 1}}?": {
+      "structure_action_precision": 0.9,
+      "structure_action_recall": 1.0,
+      "structure_parameter_precision": 1.0,
+      "structure_parameter_recall": 0.9333333333333333,
+      "structure_hierarchical_precision": 0.95,
+      "structure_hierarchical_recall": 0.9666666666666666,
+      "structure_hierarchical_f1": 0.9578947368421054,
+      "content_accuracy": 0.7333333333333333,
+      "structure_action_precision_median": 1.0,
+      "structure_action_recall_median": 1.0,
+      "structure_parameter_precision_median": 1.0,
+      "structure_parameter_recall_median": 1.0,
+      "structure_hierarchical_precision_median": 1.0,
+      "structure_hierarchical_recall_median": 1.0,
+      "structure_hierarchical_f1_median": 1.0,
+      "content_accuracy_median": 0.6666666666666666,
+      "structure_action_precision_iqr": 0.25,
+      "structure_action_recall_iqr": 0.0,
+      "structure_parameter_precision_iqr": 0.0,
+      "structure_parameter_recall_iqr": 0.16666666666666674,
+      "structure_hierarchical_precision_iqr": 0.125,
+      "structure_hierarchical_recall_iqr": 0.08333333333333337,
+      "structure_hierarchical_f1_iqr": 0.10526315789473684,
+      "content_accuracy_iqr": 0.16666666666666663
+    },
+    "For a team that needs to {{ACTION 1}} on a daily basis, is {{SAAS 1}} (using {{CONFIGURATION 1}}) more cost-effective than {{SAAS 2}} (using {{CONFIGURATION 2}})?": {
+      "structure_action_precision": 0.0,
+      "structure_action_recall": 1.0,
+      "structure_parameter_precision": 1.0,
+      "structure_parameter_recall": 1.0,
+      "structure_hierarchical_precision": 0.5,
+      "structure_hierarchical_recall": 1.0,
+      "structure_hierarchical_f1": 0.6666666666666666,
+      "content_accuracy": 1.0,
+      "structure_action_precision_median": 0.0,
+      "structure_action_recall_median": 1.0,
+      "structure_parameter_precision_median": 1.0,
+      "structure_parameter_recall_median": 1.0,
+      "structure_hierarchical_precision_median": 0.5,
+      "structure_hierarchical_recall_median": 1.0,
+      "structure_hierarchical_f1_median": 0.6666666666666666,
+      "content_accuracy_median": 1.0,
+      "structure_action_precision_iqr": 0.0,
+      "structure_action_recall_iqr": 0.0,
+      "structure_parameter_precision_iqr": 0.0,
+      "structure_parameter_recall_iqr": 0.0,
+      "structure_hierarchical_precision_iqr": 0.0,
+      "structure_hierarchical_recall_iqr": 0.0,
+      "structure_hierarchical_f1_iqr": 0.0,
+      "content_accuracy_iqr": 0.0
+    },
+    "Does {{CONFIGURATION 1}} of {{SAAS 1}} impose a strict limit regarding {{USAGE LIMIT 1}}, and what is the cost per unit if that limit is exceeded?": {
+      "structure_action_precision": 0.2,
+      "structure_action_recall": 1.0,
+      "structure_parameter_precision": 1.0,
+      "structure_parameter_recall": 1.0,
+      "structure_hierarchical_precision": 0.6,
+      "structure_hierarchical_recall": 1.0,
+      "structure_hierarchical_f1": 0.7333333333333333,
+      "content_accuracy": 1.0,
+      "structure_action_precision_median": 0.0,
+      "structure_action_recall_median": 1.0,
+      "structure_parameter_precision_median": 1.0,
+      "structure_parameter_recall_median": 1.0,
+      "structure_hierarchical_precision_median": 0.5,
+      "structure_hierarchical_recall_median": 1.0,
+      "structure_hierarchical_f1_median": 0.6666666666666666,
+      "content_accuracy_median": 1.0,
+      "structure_action_precision_iqr": 0.5,
+      "structure_action_recall_iqr": 0.0,
+      "structure_parameter_precision_iqr": 0.0,
+      "structure_parameter_recall_iqr": 0.0,
+      "structure_hierarchical_precision_iqr": 0.25,
+      "structure_hierarchical_recall_iqr": 0.0,
+      "structure_hierarchical_f1_iqr": 0.16666666666666663,
+      "content_accuracy_iqr": 0.0
+    },
+    "How has the subscription cost for {{CONFIGURATION 1}} of {{SAAS 1}} changed between {{YEAR 1}} and {{YEAR 2}}, and were any new features added to justify the change?": {
+      "structure_action_precision": 0.0,
+      "structure_action_recall": 1.0,
+      "structure_parameter_precision": 1.0,
+      "structure_parameter_recall": 1.0,
+      "structure_hierarchical_precision": 0.5,
+      "structure_hierarchical_recall": 1.0,
+      "structure_hierarchical_f1": 0.6666666666666666,
+      "content_accuracy": 1.0,
+      "structure_action_precision_median": 0.0,
+      "structure_action_recall_median": 1.0,
+      "structure_parameter_precision_median": 1.0,
+      "structure_parameter_recall_median": 1.0,
+      "structure_hierarchical_precision_median": 0.5,
+      "structure_hierarchical_recall_median": 1.0,
+      "structure_hierarchical_f1_median": 0.6666666666666666,
+      "content_accuracy_median": 1.0,
+      "structure_action_precision_iqr": 0.0,
+      "structure_action_recall_iqr": 0.0,
+      "structure_parameter_precision_iqr": 0.0,
+      "structure_parameter_recall_iqr": 0.0,
+      "structure_hierarchical_precision_iqr": 0.0,
+      "structure_hierarchical_recall_iqr": 0.0,
+      "structure_hierarchical_f1_iqr": 0.0,
+      "content_accuracy_iqr": 0.0
+    },
+    "Is it cheaper to purchase {{CONFIGURATION 1}} of {{SAAS 1}} and pay for {{FEATURE 1}} as an add-on, or is the all-inclusive {{CONFIGURATION 2}} a better deal?": {
+      "structure_action_precision": 0.5,
+      "structure_action_recall": 0.8,
+      "structure_parameter_precision": 0.7,
+      "structure_parameter_recall": 1.0,
+      "structure_hierarchical_precision": 0.6,
+      "structure_hierarchical_recall": 0.9,
+      "structure_hierarchical_f1": 0.7,
+      "content_accuracy": 1.0,
+      "structure_action_precision_median": 0.5,
+      "structure_action_recall_median": 1.0,
+      "structure_parameter_precision_median": 0.5,
+      "structure_parameter_recall_median": 1.0,
+      "structure_hierarchical_precision_median": 0.5,
+      "structure_hierarchical_recall_median": 1.0,
+      "structure_hierarchical_f1_median": 0.6666666666666666,
+      "content_accuracy_median": 1.0,
+      "structure_action_precision_iqr": 0.5,
+      "structure_action_recall_iqr": 0.5,
+      "structure_parameter_precision_iqr": 0.5,
+      "structure_parameter_recall_iqr": 0.0,
+      "structure_hierarchical_precision_iqr": 0.25,
+      "structure_hierarchical_recall_iqr": 0.25,
+      "structure_hierarchical_f1_iqr": 0.25,
+      "content_accuracy_iqr": 0.0
+    },
+    "Compare the total cost of ownership for {{ACTION 1}} between {{SAAS 1}} and {{SAAS 2}} when constrained to a budget range of {{PRICE 1}} to {{PRICE 2}} annually.": {
+      "structure_action_precision": 0.8,
+      "structure_action_recall": 1.0,
+      "structure_parameter_precision": 1.0,
+      "structure_parameter_recall": 0.8400000000000001,
+      "structure_hierarchical_precision": 0.9,
+      "structure_hierarchical_recall": 0.9199999999999999,
+      "structure_hierarchical_f1": 0.9096774193548388,
+      "content_accuracy": 0.76,
+      "structure_action_precision_median": 1.0,
+      "structure_action_recall_median": 1.0,
+      "structure_parameter_precision_median": 1.0,
+      "structure_parameter_recall_median": 1.0,
+      "structure_hierarchical_precision_median": 1.0,
+      "structure_hierarchical_recall_median": 1.0,
+      "structure_hierarchical_f1_median": 1.0,
+      "content_accuracy_median": 1.0,
+      "structure_action_precision_iqr": 0.5,
+      "structure_action_recall_iqr": 0.0,
+      "structure_parameter_precision_iqr": 0.0,
+      "structure_parameter_recall_iqr": 0.4,
+      "structure_hierarchical_precision_iqr": 0.25,
+      "structure_hierarchical_recall_iqr": 0.19999999999999996,
+      "structure_hierarchical_f1_iqr": 0.22580645161290314,
+      "content_accuracy_iqr": 0.6
+    },
+    "For a startup prioritizing {{ACTION 1}}, which SaaS provider—{{SAAS 1}} or {{SAAS 2}}—offers the best path within a {{PRICE 1}} initial budget?": {
+      "structure_action_precision": 0.6666666666666667,
+      "structure_action_recall": 1.0,
+      "structure_parameter_precision": 0.95,
+      "structure_parameter_recall": 0.95,
+      "structure_hierarchical_precision": 0.8083333333333333,
+      "structure_hierarchical_recall": 0.975,
+      "structure_hierarchical_f1": 0.8778571428571429,
+      "content_accuracy": 0.8,
+      "structure_action_precision_median": 0.5,
+      "structure_action_recall_median": 1.0,
+      "structure_parameter_precision_median": 1.0,
+      "structure_parameter_recall_median": 1.0,
+      "structure_hierarchical_precision_median": 0.75,
+      "structure_hierarchical_recall_median": 1.0,
+      "structure_hierarchical_f1_median": 0.8571428571428571,
+      "content_accuracy_median": 0.75,
+      "structure_action_precision_iqr": 0.5833333333333334,
+      "structure_action_recall_iqr": 0.0,
+      "structure_parameter_precision_iqr": 0.125,
+      "structure_parameter_recall_iqr": 0.125,
+      "structure_hierarchical_precision_iqr": 0.22916666666666674,
+      "structure_hierarchical_recall_iqr": 0.0625,
+      "structure_hierarchical_f1_iqr": 0.10892857142857149,
+      "content_accuracy_iqr": 0.375
+    },
+    "When {{FEATURE 1}} is mandatory, which option—{{SAAS 1}} or {{SAAS 2}}—minimizes cost-per-user below {{PRICE 1}}?": {
+      "structure_action_precision": 1.0,
+      "structure_action_recall": 1.0,
+      "structure_parameter_precision": 1.0,
+      "structure_parameter_recall": 1.0,
+      "structure_hierarchical_precision": 1.0,
+      "structure_hierarchical_recall": 1.0,
+      "structure_hierarchical_f1": 1.0,
+      "content_accuracy": 0.9,
+      "structure_action_precision_median": 1.0,
+      "structure_action_recall_median": 1.0,
+      "structure_parameter_precision_median": 1.0,
+      "structure_parameter_recall_median": 1.0,
+      "structure_hierarchical_precision_median": 1.0,
+      "structure_hierarchical_recall_median": 1.0,
+      "structure_hierarchical_f1_median": 1.0,
+      "content_accuracy_median": 1.0,
+      "structure_action_precision_iqr": 0.0,
+      "structure_action_recall_iqr": 0.0,
+      "structure_parameter_precision_iqr": 0.0,
+      "structure_parameter_recall_iqr": 0.0,
+      "structure_hierarchical_precision_iqr": 0.0,
+      "structure_hierarchical_recall_iqr": 0.0,
+      "structure_hierarchical_f1_iqr": 0.0,
+      "content_accuracy_iqr": 0.25
+    },
+    "Can I have more than one account on the {{CONFIGURATION 1}}?": {
+      "structure_action_precision": 0.6,
+      "structure_action_recall": 1.0,
+      "structure_parameter_precision": 1.0,
+      "structure_parameter_recall": 1.0,
+      "structure_hierarchical_precision": 0.8,
+      "structure_hierarchical_recall": 1.0,
+      "structure_hierarchical_f1": 0.8666666666666666,
+      "content_accuracy": 1.0,
+      "structure_action_precision_median": 1.0,
+      "structure_action_recall_median": 1.0,
+      "structure_parameter_precision_median": 1.0,
+      "structure_parameter_recall_median": 1.0,
+      "structure_hierarchical_precision_median": 1.0,
+      "structure_hierarchical_recall_median": 1.0,
+      "structure_hierarchical_f1_median": 1.0,
+      "content_accuracy_median": 1.0,
+      "structure_action_precision_iqr": 1.0,
+      "structure_action_recall_iqr": 0.0,
+      "structure_parameter_precision_iqr": 0.0,
+      "structure_parameter_recall_iqr": 0.0,
+      "structure_hierarchical_precision_iqr": 0.5,
+      "structure_hierarchical_recall_iqr": 0.0,
+      "structure_hierarchical_f1_iqr": 0.33333333333333337,
+      "content_accuracy_iqr": 0.0
+    },
+    "Can the limit of {{USAGE LIMIT 1}} from {{CONFIGURATION 1}} be increased without changing the current plan?": {
+      "structure_action_precision": 0.2,
+      "structure_action_recall": 0.2,
+      "structure_parameter_precision": 0.9,
+      "structure_parameter_recall": 1.0,
+      "structure_hierarchical_precision": 0.55,
+      "structure_hierarchical_recall": 0.6,
+      "structure_hierarchical_f1": 0.5714285714285714,
+      "content_accuracy": 1.0,
+      "structure_action_precision_median": 0.0,
+      "structure_action_recall_median": 0.0,
+      "structure_parameter_precision_median": 1.0,
+      "structure_parameter_recall_median": 1.0,
+      "structure_hierarchical_precision_median": 0.5,
+      "structure_hierarchical_recall_median": 0.5,
+      "structure_hierarchical_f1_median": 0.5,
+      "content_accuracy_median": 1.0,
+      "structure_action_precision_iqr": 0.5,
+      "structure_action_recall_iqr": 0.5,
+      "structure_parameter_precision_iqr": 0.25,
+      "structure_parameter_recall_iqr": 0.0,
+      "structure_hierarchical_precision_iqr": 0.125,
+      "structure_hierarchical_recall_iqr": 0.25,
+      "structure_hierarchical_f1_iqr": 0.1785714285714286,
+      "content_accuracy_iqr": 0.0
+    },
+    "What is the most cost-effective configuration for {{YEAR 1}} and {{YEAR 2}} if I require {{FEATURE 1}} and {{FEATURE 2}}?": {
+      "structure_action_precision": 0.8,
+      "structure_action_recall": 1.0,
+      "structure_parameter_precision": 1.0,
+      "structure_parameter_recall": 1.0,
+      "structure_hierarchical_precision": 0.9,
+      "structure_hierarchical_recall": 1.0,
+      "structure_hierarchical_f1": 0.9428571428571428,
+      "content_accuracy": 0.9333333333333333,
+      "structure_action_precision_median": 1.0,
+      "structure_action_recall_median": 1.0,
+      "structure_parameter_precision_median": 1.0,
+      "structure_parameter_recall_median": 1.0,
+      "structure_hierarchical_precision_median": 1.0,
+      "structure_hierarchical_recall_median": 1.0,
+      "structure_hierarchical_f1_median": 1.0,
+      "content_accuracy_median": 1.0,
+      "structure_action_precision_iqr": 0.5,
+      "structure_action_recall_iqr": 0.0,
+      "structure_parameter_precision_iqr": 0.0,
+      "structure_parameter_recall_iqr": 0.0,
+      "structure_hierarchical_precision_iqr": 0.25,
+      "structure_hierarchical_recall_iqr": 0.0,
+      "structure_hierarchical_f1_iqr": 0.1428571428571429,
+      "content_accuracy_iqr": 0.16666666666666674
+    },
+    "If I want to do {{ACTION 1}} with a budget of {{PRICE 1}}, what is the most economical option between {{SAAS 1}} and {{SAAS 2}}?": {
+      "structure_action_precision": 1.0,
+      "structure_action_recall": 1.0,
+      "structure_parameter_precision": 1.0,
+      "structure_parameter_recall": 1.0,
+      "structure_hierarchical_precision": 1.0,
+      "structure_hierarchical_recall": 1.0,
+      "structure_hierarchical_f1": 1.0,
+      "content_accuracy": 1.0,
+      "structure_action_precision_median": 1.0,
+      "structure_action_recall_median": 1.0,
+      "structure_parameter_precision_median": 1.0,
+      "structure_parameter_recall_median": 1.0,
+      "structure_hierarchical_precision_median": 1.0,
+      "structure_hierarchical_recall_median": 1.0,
+      "structure_hierarchical_f1_median": 1.0,
+      "content_accuracy_median": 1.0,
+      "structure_action_precision_iqr": 0.0,
+      "structure_action_recall_iqr": 0.0,
+      "structure_parameter_precision_iqr": 0.0,
+      "structure_parameter_recall_iqr": 0.0,
+      "structure_hierarchical_precision_iqr": 0.0,
+      "structure_hierarchical_recall_iqr": 0.0,
+      "structure_hierarchical_f1_iqr": 0.0,
+      "content_accuracy_iqr": 0.0
+    },
+    "In {{SAAS 1}}, would it be possible to find all the configurations that include {{FEATURE 1}} but keep price within the range between {{PRICE 1}} and {{PRICE 2}}?": {
+      "structure_action_precision": 1.0,
+      "structure_action_recall": 1.0,
+      "structure_parameter_precision": 1.0,
+      "structure_parameter_recall": 1.0,
+      "structure_hierarchical_precision": 1.0,
+      "structure_hierarchical_recall": 1.0,
+      "structure_hierarchical_f1": 1.0,
+      "content_accuracy": 1.0,
+      "structure_action_precision_median": 1.0,
+      "structure_action_recall_median": 1.0,
+      "structure_parameter_precision_median": 1.0,
+      "structure_parameter_recall_median": 1.0,
+      "structure_hierarchical_precision_median": 1.0,
+      "structure_hierarchical_recall_median": 1.0,
+      "structure_hierarchical_f1_median": 1.0,
+      "content_accuracy_median": 1.0,
+      "structure_action_precision_iqr": 0.0,
+      "structure_action_recall_iqr": 0.0,
+      "structure_parameter_precision_iqr": 0.0,
+      "structure_parameter_recall_iqr": 0.0,
+      "structure_hierarchical_precision_iqr": 0.0,
+      "structure_hierarchical_recall_iqr": 0.0,
+      "structure_hierarchical_f1_iqr": 0.0,
+      "content_accuracy_iqr": 0.0
+    },
+    "My company has a budget of {{PRICE 1}} and needs {{FEATURE 1}} with at least a usage limit of {{USAGE LIMIT 1}}. Which is the best configuration of {{SAAS 1}} that can offer this without exceeding the budget?": {
+      "structure_action_precision": 1.0,
+      "structure_action_recall": 1.0,
+      "structure_parameter_precision": 1.0,
+      "structure_parameter_recall": 1.0,
+      "structure_hierarchical_precision": 1.0,
+      "structure_hierarchical_recall": 1.0,
+      "structure_hierarchical_f1": 1.0,
+      "content_accuracy": 0.96,
+      "structure_action_precision_median": 1.0,
+      "structure_action_recall_median": 1.0,
+      "structure_parameter_precision_median": 1.0,
+      "structure_parameter_recall_median": 1.0,
+      "structure_hierarchical_precision_median": 1.0,
+      "structure_hierarchical_recall_median": 1.0,
+      "structure_hierarchical_f1_median": 1.0,
+      "content_accuracy_median": 1.0,
+      "structure_action_precision_iqr": 0.0,
+      "structure_action_recall_iqr": 0.0,
+      "structure_parameter_precision_iqr": 0.0,
+      "structure_parameter_recall_iqr": 0.0,
+      "structure_hierarchical_precision_iqr": 0.0,
+      "structure_hierarchical_recall_iqr": 0.0,
+      "structure_hierarchical_f1_iqr": 0.0,
+      "content_accuracy_iqr": 0.09999999999999998
+    },
+    "Does the configuration {{CONFIGURATION 1}} of {{SAAS 1}} include {{FEATURE 1}}?": {
+      "structure_action_precision": 0.8,
+      "structure_action_recall": 0.8,
+      "structure_parameter_precision": 0.6,
+      "structure_parameter_recall": 1.0,
+      "structure_hierarchical_precision": 0.7,
+      "structure_hierarchical_recall": 0.9,
+      "structure_hierarchical_f1": 0.7857142857142857,
+      "content_accuracy": 1.0,
+      "structure_action_precision_median": 1.0,
+      "structure_action_recall_median": 1.0,
+      "structure_parameter_precision_median": 0.5,
+      "structure_parameter_recall_median": 1.0,
+      "structure_hierarchical_precision_median": 0.75,
+      "structure_hierarchical_recall_median": 1.0,
+      "structure_hierarchical_f1_median": 0.8571428571428571,
+      "content_accuracy_median": 1.0,
+      "structure_action_precision_iqr": 0.5,
+      "structure_action_recall_iqr": 0.5,
+      "structure_parameter_precision_iqr": 0.25,
+      "structure_parameter_recall_iqr": 0.0,
+      "structure_hierarchical_precision_iqr": 0.125,
+      "structure_hierarchical_recall_iqr": 0.25,
+      "structure_hierarchical_f1_iqr": 0.1785714285714285,
+      "content_accuracy_iqr": 0.0
+    },
+    "In {{SAAS 1}} there is {{FEATURE 1}}; is there a similar one in {{SAAS 2}}?": {
+      "structure_action_precision": 0.0,
+      "structure_action_recall": 1.0,
+      "structure_parameter_precision": 1.0,
+      "structure_parameter_recall": 1.0,
+      "structure_hierarchical_precision": 0.5,
+      "structure_hierarchical_recall": 1.0,
+      "structure_hierarchical_f1": 0.6666666666666666,
+      "content_accuracy": 1.0,
+      "structure_action_precision_median": 0.0,
+      "structure_action_recall_median": 1.0,
+      "structure_parameter_precision_median": 1.0,
+      "structure_parameter_recall_median": 1.0,
+      "structure_hierarchical_precision_median": 0.5,
+      "structure_hierarchical_recall_median": 1.0,
+      "structure_hierarchical_f1_median": 0.6666666666666666,
+      "content_accuracy_median": 1.0,
+      "structure_action_precision_iqr": 0.0,
+      "structure_action_recall_iqr": 0.0,
+      "structure_parameter_precision_iqr": 0.0,
+      "structure_parameter_recall_iqr": 0.0,
+      "structure_hierarchical_precision_iqr": 0.0,
+      "structure_hierarchical_recall_iqr": 0.0,
+      "structure_hierarchical_f1_iqr": 0.0,
+      "content_accuracy_iqr": 0.0
+    },
+    "What is the maximum cost that {{SAAS 1}} can generate through a single subscription?": {
+      "structure_action_precision": 1.0,
+      "structure_action_recall": 1.0,
+      "structure_parameter_precision": 1.0,
+      "structure_parameter_recall": 1.0,
+      "structure_hierarchical_precision": 1.0,
+      "structure_hierarchical_recall": 1.0,
+      "structure_hierarchical_f1": 1.0,
+      "content_accuracy": 1.0,
+      "structure_action_precision_median": 1.0,
+      "structure_action_recall_median": 1.0,
+      "structure_parameter_precision_median": 1.0,
+      "structure_parameter_recall_median": 1.0,
+      "structure_hierarchical_precision_median": 1.0,
+      "structure_hierarchical_recall_median": 1.0,
+      "structure_hierarchical_f1_median": 1.0,
+      "content_accuracy_median": 1.0,
+      "structure_action_precision_iqr": 0.0,
+      "structure_action_recall_iqr": 0.0,
+      "structure_parameter_precision_iqr": 0.0,
+      "structure_parameter_recall_iqr": 0.0,
+      "structure_hierarchical_precision_iqr": 0.0,
+      "structure_hierarchical_recall_iqr": 0.0,
+      "structure_hierarchical_f1_iqr": 0.0,
+      "content_accuracy_iqr": 0.0
+    },
+    "Is it worth switching my current configuration {{CONFIGURATION 1}} of {{SAAS 1}} if my budget has gone from {{PRICE 1}} to {{PRICE 2}} and I need {{ACTION 1}}?": {
+      "structure_action_precision": 0.4,
+      "structure_action_recall": 0.8,
+      "structure_parameter_precision": 1.0,
+      "structure_parameter_recall": 0.85,
+      "structure_hierarchical_precision": 0.7,
+      "structure_hierarchical_recall": 0.825,
+      "structure_hierarchical_f1": 0.756043956043956,
+      "content_accuracy": 1.0,
+      "structure_action_precision_median": 0.5,
+      "structure_action_recall_median": 1.0,
+      "structure_parameter_precision_median": 1.0,
+      "structure_parameter_recall_median": 0.75,
+      "structure_hierarchical_precision_median": 0.75,
+      "structure_hierarchical_recall_median": 0.875,
+      "structure_hierarchical_f1_median": 0.8076923076923077,
+      "content_accuracy_median": 1.0,
+      "structure_action_precision_iqr": 0.25,
+      "structure_action_recall_iqr": 0.5,
+      "structure_parameter_precision_iqr": 0.0,
+      "structure_parameter_recall_iqr": 0.25,
+      "structure_hierarchical_precision_iqr": 0.125,
+      "structure_hierarchical_recall_iqr": 0.25,
+      "structure_hierarchical_f1_iqr": 0.1785714285714285,
+      "content_accuracy_iqr": 0.0
+    },
+    "Which configuration of {{SAAS 1}} is more worthwhile for me if my budget is {{PRICE 1}} and I need a usage limit higher than {{USAGE LIMIT 1}}?": {
+      "structure_action_precision": 0.7,
+      "structure_action_recall": 1.0,
+      "structure_parameter_precision": 0.96,
+      "structure_parameter_recall": 1.0,
+      "structure_hierarchical_precision": 0.8300000000000001,
+      "structure_hierarchical_recall": 1.0,
+      "structure_hierarchical_f1": 0.9004329004329005,
+      "content_accuracy": 0.9,
+      "structure_action_precision_median": 0.5,
+      "structure_action_recall_median": 1.0,
+      "structure_parameter_precision_median": 1.0,
+      "structure_parameter_recall_median": 1.0,
+      "structure_hierarchical_precision_median": 0.75,
+      "structure_hierarchical_recall_median": 1.0,
+      "structure_hierarchical_f1_median": 0.8571428571428571,
+      "content_accuracy_median": 1.0,
+      "structure_action_precision_iqr": 0.5,
+      "structure_action_recall_iqr": 0.0,
+      "structure_parameter_precision_iqr": 0.09999999999999998,
+      "structure_parameter_recall_iqr": 0.0,
+      "structure_hierarchical_precision_iqr": 0.30000000000000004,
+      "structure_hierarchical_recall_iqr": 0.0,
+      "structure_hierarchical_f1_iqr": 0.17748917748917747,
+      "content_accuracy_iqr": 0.25
+    },
+    "Between {{YEAR 1}} and {{YEAR 2}}, has {{SAAS 1}} introduced configuration changes that help users with a lower budget?": {
+      "structure_action_precision": 0.6,
+      "structure_action_recall": 0.8,
+      "structure_parameter_precision": 1.0,
+      "structure_parameter_recall": 1.0,
+      "structure_hierarchical_precision": 0.8,
+      "structure_hierarchical_recall": 0.9,
+      "structure_hierarchical_f1": 0.8428571428571429,
+      "content_accuracy": 1.0,
+      "structure_action_precision_median": 0.5,
+      "structure_action_recall_median": 1.0,
+      "structure_parameter_precision_median": 1.0,
+      "structure_parameter_recall_median": 1.0,
+      "structure_hierarchical_precision_median": 0.75,
+      "structure_hierarchical_recall_median": 1.0,
+      "structure_hierarchical_f1_median": 0.8571428571428571,
+      "content_accuracy_median": 1.0,
+      "structure_action_precision_iqr": 0.75,
+      "structure_action_recall_iqr": 0.5,
+      "structure_parameter_precision_iqr": 0.0,
+      "structure_parameter_recall_iqr": 0.0,
+      "structure_hierarchical_precision_iqr": 0.375,
+      "structure_hierarchical_recall_iqr": 0.25,
+      "structure_hierarchical_f1_iqr": 0.3214285714285714,
+      "content_accuracy_iqr": 0.0
+    },
+    "For {{ACTION 1}}, is the {{USAGE LIMIT 1}} of {{CONFIGURATION 1}} of {{SAAS 1}} sufficient?": {
+      "structure_action_precision": 0.8,
+      "structure_action_recall": 0.8,
+      "structure_parameter_precision": 0.7166666666666667,
+      "structure_parameter_recall": 1.0,
+      "structure_hierarchical_precision": 0.7583333333333333,
+      "structure_hierarchical_recall": 0.9,
+      "structure_hierarchical_f1": 0.8138461538461538,
+      "content_accuracy": 1.0,
+      "structure_action_precision_median": 1.0,
+      "structure_action_recall_median": 1.0,
+      "structure_parameter_precision_median": 1.0,
+      "structure_parameter_recall_median": 1.0,
+      "structure_hierarchical_precision_median": 0.6666666666666666,
+      "structure_hierarchical_recall_median": 1.0,
+      "structure_hierarchical_f1_median": 0.8,
+      "content_accuracy_median": 1.0,
+      "structure_action_precision_iqr": 0.5,
+      "structure_action_recall_iqr": 0.5,
+      "structure_parameter_precision_iqr": 0.7083333333333334,
+      "structure_parameter_recall_iqr": 0.0,
+      "structure_hierarchical_precision_iqr": 0.4375,
+      "structure_hierarchical_recall_iqr": 0.25,
+      "structure_hierarchical_f1_iqr": 0.3653846153846154,
+      "content_accuracy_iqr": 0.0
+    },
+    "Which SaaS products offer {{FEATURE 1}}, {{FEATURE 2}} and {{FEATURE 3}}?": {
+      "structure_action_precision": 0.0,
+      "structure_action_recall": 1.0,
+      "structure_parameter_precision": 1.0,
+      "structure_parameter_recall": 1.0,
+      "structure_hierarchical_precision": 0.5,
+      "structure_hierarchical_recall": 1.0,
+      "structure_hierarchical_f1": 0.6666666666666666,
+      "content_accuracy": 1.0,
+      "structure_action_precision_median": 0.0,
+      "structure_action_recall_median": 1.0,
+      "structure_parameter_precision_median": 1.0,
+      "structure_parameter_recall_median": 1.0,
+      "structure_hierarchical_precision_median": 0.5,
+      "structure_hierarchical_recall_median": 1.0,
+      "structure_hierarchical_f1_median": 0.6666666666666666,
+      "content_accuracy_median": 1.0,
+      "structure_action_precision_iqr": 0.0,
+      "structure_action_recall_iqr": 0.0,
+      "structure_parameter_precision_iqr": 0.0,
+      "structure_parameter_recall_iqr": 0.0,
+      "structure_hierarchical_precision_iqr": 0.0,
+      "structure_hierarchical_recall_iqr": 0.0,
+      "structure_hierarchical_f1_iqr": 0.0,
+      "content_accuracy_iqr": 0.0
+    },
+    "What is the best configuration among all these SaaS products for {{ACTION 1}}?": {
+      "structure_action_precision": 1.0,
+      "structure_action_recall": 1.0,
+      "structure_parameter_precision": 1.0,
+      "structure_parameter_recall": 1.0,
+      "structure_hierarchical_precision": 1.0,
+      "structure_hierarchical_recall": 1.0,
+      "structure_hierarchical_f1": 1.0,
+      "content_accuracy": 1.0,
+      "structure_action_precision_median": 1.0,
+      "structure_action_recall_median": 1.0,
+      "structure_parameter_precision_median": 1.0,
+      "structure_parameter_recall_median": 1.0,
+      "structure_hierarchical_precision_median": 1.0,
+      "structure_hierarchical_recall_median": 1.0,
+      "structure_hierarchical_f1_median": 1.0,
+      "content_accuracy_median": 1.0,
+      "structure_action_precision_iqr": 0.0,
+      "structure_action_recall_iqr": 0.0,
+      "structure_parameter_precision_iqr": 0.0,
+      "structure_parameter_recall_iqr": 0.0,
+      "structure_hierarchical_precision_iqr": 0.0,
+      "structure_hierarchical_recall_iqr": 0.0,
+      "structure_hierarchical_f1_iqr": 0.0,
+      "content_accuracy_iqr": 0.0
+    },
+    "For a team that needs the features {{FEATURE 1}} and {{FEATURE 2}} and with a a size of {{USAGE LIMIT 1}}, which configuration offers the best price?": {
+      "structure_action_precision": 1.0,
+      "structure_action_recall": 1.0,
+      "structure_parameter_precision": 1.0,
+      "structure_parameter_recall": 1.0,
+      "structure_hierarchical_precision": 1.0,
+      "structure_hierarchical_recall": 1.0,
+      "structure_hierarchical_f1": 1.0,
+      "content_accuracy": 1.0,
+      "structure_action_precision_median": 1.0,
+      "structure_action_recall_median": 1.0,
+      "structure_parameter_precision_median": 1.0,
+      "structure_parameter_recall_median": 1.0,
+      "structure_hierarchical_precision_median": 1.0,
+      "structure_hierarchical_recall_median": 1.0,
+      "structure_hierarchical_f1_median": 1.0,
+      "content_accuracy_median": 1.0,
+      "structure_action_precision_iqr": 0.0,
+      "structure_action_recall_iqr": 0.0,
+      "structure_parameter_precision_iqr": 0.0,
+      "structure_parameter_recall_iqr": 0.0,
+      "structure_hierarchical_precision_iqr": 0.0,
+      "structure_hierarchical_recall_iqr": 0.0,
+      "structure_hierarchical_f1_iqr": 0.0,
+      "content_accuracy_iqr": 0.0
+    },
+    "I have a maximum budget of {{PRICE 1}} per month. Which configuration provides the best features without exceeding this limit?": {
+      "structure_action_precision": 0.8,
+      "structure_action_recall": 1.0,
+      "structure_parameter_precision": 0.95,
+      "structure_parameter_recall": 1.0,
+      "structure_hierarchical_precision": 0.875,
+      "structure_hierarchical_recall": 1.0,
+      "structure_hierarchical_f1": 0.9295238095238094,
+      "content_accuracy": 1.0,
+      "structure_action_precision_median": 1.0,
+      "structure_action_recall_median": 1.0,
+      "structure_parameter_precision_median": 1.0,
+      "structure_parameter_recall_median": 1.0,
+      "structure_hierarchical_precision_median": 0.875,
+      "structure_hierarchical_recall_median": 1.0,
+      "structure_hierarchical_f1_median": 0.9333333333333333,
+      "content_accuracy_median": 1.0,
+      "structure_action_precision_iqr": 0.5,
+      "structure_action_recall_iqr": 0.0,
+      "structure_parameter_precision_iqr": 0.125,
+      "structure_parameter_recall_iqr": 0.0,
+      "structure_hierarchical_precision_iqr": 0.25,
+      "structure_hierarchical_recall_iqr": 0.0,
+      "structure_hierarchical_f1_iqr": 0.1428571428571429,
+      "content_accuracy_iqr": 0.0
+    },
+    "I need to perform {{ACTION 1}}. Compare the prices of {{SAAS 1}} and {{SAAS 2}} to determine which is cheaper for this specific use.": {
+      "structure_action_precision": 1.0,
+      "structure_action_recall": 1.0,
+      "structure_parameter_precision": 1.0,
+      "structure_parameter_recall": 1.0,
+      "structure_hierarchical_precision": 1.0,
+      "structure_hierarchical_recall": 1.0,
+      "structure_hierarchical_f1": 1.0,
+      "content_accuracy": 0.8166666666666667,
+      "structure_action_precision_median": 1.0,
+      "structure_action_recall_median": 1.0,
+      "structure_parameter_precision_median": 1.0,
+      "structure_parameter_recall_median": 1.0,
+      "structure_hierarchical_precision_median": 1.0,
+      "structure_hierarchical_recall_median": 1.0,
+      "structure_hierarchical_f1_median": 1.0,
+      "content_accuracy_median": 1.0,
+      "structure_action_precision_iqr": 0.0,
+      "structure_action_recall_iqr": 0.0,
+      "structure_parameter_precision_iqr": 0.0,
+      "structure_parameter_recall_iqr": 0.0,
+      "structure_hierarchical_precision_iqr": 0.0,
+      "structure_hierarchical_recall_iqr": 0.0,
+      "structure_hierarchical_f1_iqr": 0.0,
+      "content_accuracy_iqr": 0.45833333333333337
+    },
+    "What has been the price increase (in percentage or absolute terms) of {{CONFIGURATION 1}} from {{SAAS 1}} over the past 5 years ({{YEAR 1}}, {{YEAR 2}}, {{YEAR 3}}, {{YEAR 4}} and {{YEAR 5}})?": {
+      "structure_action_precision": 0.0,
+      "structure_action_recall": 1.0,
+      "structure_parameter_precision": 1.0,
+      "structure_parameter_recall": 1.0,
+      "structure_hierarchical_precision": 0.5,
+      "structure_hierarchical_recall": 1.0,
+      "structure_hierarchical_f1": 0.6666666666666666,
+      "content_accuracy": 1.0,
+      "structure_action_precision_median": 0.0,
+      "structure_action_recall_median": 1.0,
+      "structure_parameter_precision_median": 1.0,
+      "structure_parameter_recall_median": 1.0,
+      "structure_hierarchical_precision_median": 0.5,
+      "structure_hierarchical_recall_median": 1.0,
+      "structure_hierarchical_f1_median": 0.6666666666666666,
+      "content_accuracy_median": 1.0,
+      "structure_action_precision_iqr": 0.0,
+      "structure_action_recall_iqr": 0.0,
+      "structure_parameter_precision_iqr": 0.0,
+      "structure_parameter_recall_iqr": 0.0,
+      "structure_hierarchical_precision_iqr": 0.0,
+      "structure_hierarchical_recall_iqr": 0.0,
+      "structure_hierarchical_f1_iqr": 0.0,
+      "content_accuracy_iqr": 0.0
+    }
+  },
+  "details": [
+    {
+      "index": 0,
+      "template": "To accomplish {{ACTION 1}}, does {{SAAS 1}} provide any configuration between {{PRICE 1}} and {{PRICE 2}} that includes {{FEATURE 1}}?",
+      "question": "To accomplish managing site roles, content ownership, and user permissions, does Tableau provide any configuration between $40 and $91 that includes create new data flows?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 1.0,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 1.0
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 1,
+      "template": "To accomplish {{ACTION 1}}, does {{SAAS 1}} provide any configuration between {{PRICE 1}} and {{PRICE 2}} that includes {{FEATURE 1}}?",
+      "question": "To accomplish contacting customer support via chat, does Pumble provide any configuration between $36 and $175 that includes voice messages?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 1.0,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 1.0
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 2,
+      "template": "To accomplish {{ACTION 1}}, does {{SAAS 1}} provide any configuration between {{PRICE 1}} and {{PRICE 2}} that includes {{FEATURE 1}}?",
+      "question": "To accomplish third party integrations, does Figma provide any configuration between $152 and $169 that includes vscode extension?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 1.0,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 1.0
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 3,
+      "template": "To accomplish {{ACTION 1}}, does {{SAAS 1}} provide any configuration between {{PRICE 1}} and {{PRICE 2}} that includes {{FEATURE 1}}?",
+      "question": "To accomplish managing site roles, content ownership, and user permissions, does Tableau provide any configuration between $150 and $197 that includes create new workbooks based on pre built dashboard starters?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 1.0,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 1.0
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 4,
+      "template": "To accomplish {{ACTION 1}}, does {{SAAS 1}} provide any configuration between {{PRICE 1}} and {{PRICE 2}} that includes {{FEATURE 1}}?",
+      "question": "To accomplish customization of reports, does Buffer provide any configuration between $71 and $122 that includes channels?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 0.8,
+        "r_par": 1.0,
+        "hierarchical_precision": 0.9,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 0.9473684210526316
+      },
+      "content": {
+        "accuracy": 0.75
+      }
+    },
+    {
+      "index": 5,
+      "template": "If our maximum budget is {{PRICE 1}} per month, which configurations of {{SAAS 1}} allow us to achieve {{ACTION 1}} without incurring overage fees?",
+      "question": "If our maximum budget is $30 per month, which configurations of Jira allow us to achieve more than 2000 automations without incurring overage fees?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 1.0,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 1.0
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 6,
+      "template": "If our maximum budget is {{PRICE 1}} per month, which configurations of {{SAAS 1}} allow us to achieve {{ACTION 1}} without incurring overage fees?",
+      "question": "If our maximum budget is $83 per month, which configurations of ClickUp allow us to achieve the use of 2 email accounts per workspace without incurring overage fees?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 1.0,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 1.0
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 7,
+      "template": "If our maximum budget is {{PRICE 1}} per month, which configurations of {{SAAS 1}} allow us to achieve {{ACTION 1}} without incurring overage fees?",
+      "question": "If our maximum budget is $125 per month, which configurations of Trustmary - Collect allow us to achieve the ability to send surveys with more than 30 responses without incurring overage fees?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 0.75,
+        "r_par": 1.0,
+        "hierarchical_precision": 0.875,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 0.9333333333333333
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 8,
+      "template": "If our maximum budget is {{PRICE 1}} per month, which configurations of {{SAAS 1}} allow us to achieve {{ACTION 1}} without incurring overage fees?",
+      "question": "If our maximum budget is $12 per month, which configurations of Microsoft - Office 365 For Business allow us to achieve online meetings of at least 250 participants without incurring overage fees?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 0.75,
+        "r_par": 1.0,
+        "hierarchical_precision": 0.875,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 0.9333333333333333
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 9,
+      "template": "If our maximum budget is {{PRICE 1}} per month, which configurations of {{SAAS 1}} allow us to achieve {{ACTION 1}} without incurring overage fees?",
+      "question": "If our maximum budget is $185 per month, which configurations of Trello allow us to achieve collaborating with more than 100 team members without incurring overage fees?",
+      "structure": {
+        "p_act": 0.5,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 0.75,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 0.8571428571428571
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 10,
+      "template": "Considering a timeframe spanning {{YEAR 1}} and {{YEAR 2}}, what is the total cost difference between remaining on {{CONFIGURATION 1}} versus upgrading to {{CONFIGURATION 2}} for {{SAAS 1}}?",
+      "question": "Considering a timeframe spanning 2021 and 2024, what is the total cost difference between remaining on Pro plan versus upgrading to Business plan for HyperContext?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 1.0,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 1.0
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 11,
+      "template": "Considering a timeframe spanning {{YEAR 1}} and {{YEAR 2}}, what is the total cost difference between remaining on {{CONFIGURATION 1}} versus upgrading to {{CONFIGURATION 2}} for {{SAAS 1}}?",
+      "question": "Considering a timeframe spanning 2019 and 2023, what is the total cost difference between remaining on Ecommerce standard plan versus upgrading to Ecommerce plus plan for Webflow?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 1.0,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 1.0
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 12,
+      "template": "Considering a timeframe spanning {{YEAR 1}} and {{YEAR 2}}, what is the total cost difference between remaining on {{CONFIGURATION 1}} versus upgrading to {{CONFIGURATION 2}} for {{SAAS 1}}?",
+      "question": "Considering a timeframe spanning 2019 and 2021, what is the total cost difference between remaining on Explorer plan versus upgrading to Creator plan for Tableau?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 1.0,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 1.0
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 13,
+      "template": "Considering a timeframe spanning {{YEAR 1}} and {{YEAR 2}}, what is the total cost difference between remaining on {{CONFIGURATION 1}} versus upgrading to {{CONFIGURATION 2}} for {{SAAS 1}}?",
+      "question": "Considering a timeframe spanning 2019 and 2024, what is the total cost difference between remaining on Standard plan versus upgrading to Premium plan for MailChimp?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 1.0,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 1.0
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 14,
+      "template": "Considering a timeframe spanning {{YEAR 1}} and {{YEAR 2}}, what is the total cost difference between remaining on {{CONFIGURATION 1}} versus upgrading to {{CONFIGURATION 2}} for {{SAAS 1}}?",
+      "question": "Considering a timeframe spanning 2021 and 2023, what is the total cost difference between remaining on Basic plan versus upgrading to Business plan for HyperContext?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 1.0,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 1.0
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 15,
+      "template": "Which configurations of {{SAAS 1}} provide access to {{FEATURE 1}} and {{FEATURE 2}} while maintaining a price point lower than {{PRICE 1}}?",
+      "question": "Which configurations of Shopify provide access to fast checkout and usps priority mail cubic pricing while maintaining a price point lower than $173?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 1.0,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 1.0
+      },
+      "content": {
+        "accuracy": 0.6666666666666666
+      }
+    },
+    {
+      "index": 16,
+      "template": "Which configurations of {{SAAS 1}} provide access to {{FEATURE 1}} and {{FEATURE 2}} while maintaining a price point lower than {{PRICE 1}}?",
+      "question": "Which configurations of Overleaf provide access to templates and git integration while maintaining a price point lower than $97?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 1.0,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 1.0
+      },
+      "content": {
+        "accuracy": 0.6666666666666666
+      }
+    },
+    {
+      "index": 17,
+      "template": "Which configurations of {{SAAS 1}} provide access to {{FEATURE 1}} and {{FEATURE 2}} while maintaining a price point lower than {{PRICE 1}}?",
+      "question": "Which configurations of Clockify provide access to targets and reminders and integrations while maintaining a price point lower than $83?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 1.0,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 1.0
+      },
+      "content": {
+        "accuracy": 0.6666666666666666
+      }
+    },
+    {
+      "index": 18,
+      "template": "Which configurations of {{SAAS 1}} provide access to {{FEATURE 1}} and {{FEATURE 2}} while maintaining a price point lower than {{PRICE 1}}?",
+      "question": "Which configurations of slack provide access to priority support and slack ai while maintaining a price point lower than $175?",
+      "structure": {
+        "p_act": 0.5,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 0.6666666666666666,
+        "hierarchical_precision": 0.75,
+        "hierarchical_recall": 0.8333333333333333,
+        "hierarchical_f1": 0.7894736842105263
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 19,
+      "template": "Which configurations of {{SAAS 1}} provide access to {{FEATURE 1}} and {{FEATURE 2}} while maintaining a price point lower than {{PRICE 1}}?",
+      "question": "Which configurations of Figma provide access to private projects and figma editor while maintaining a price point lower than $157?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 1.0,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 1.0
+      },
+      "content": {
+        "accuracy": 0.6666666666666666
+      }
+    },
+    {
+      "index": 20,
+      "template": "For a team that needs to {{ACTION 1}} on a daily basis, is {{SAAS 1}} (using {{CONFIGURATION 1}}) more cost-effective than {{SAAS 2}} (using {{CONFIGURATION 2}})?",
+      "question": "For a team that needs to managing team tasks on a daily basis, is Trello (using Enterprise plan) more cost-effective than Wrike (using Business plan)?",
+      "structure": {
+        "p_act": 0.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 0.5,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 0.6666666666666666
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 21,
+      "template": "For a team that needs to {{ACTION 1}} on a daily basis, is {{SAAS 1}} (using {{CONFIGURATION 1}}) more cost-effective than {{SAAS 2}} (using {{CONFIGURATION 2}})?",
+      "question": "For a team that needs to managing complex tasks on a daily basis, is HyperContext (using Pro plan) more cost-effective than ClickUp (using Business plus plan)?",
+      "structure": {
+        "p_act": 0.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 0.5,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 0.6666666666666666
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 22,
+      "template": "For a team that needs to {{ACTION 1}} on a daily basis, is {{SAAS 1}} (using {{CONFIGURATION 1}}) more cost-effective than {{SAAS 2}} (using {{CONFIGURATION 2}})?",
+      "question": "For a team that needs to facilitating remote work on a daily basis, is ClickUp (using Enterprise plan) more cost-effective than Trello (using Enterprise plan)?",
+      "structure": {
+        "p_act": 0.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 0.5,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 0.6666666666666666
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 23,
+      "template": "For a team that needs to {{ACTION 1}} on a daily basis, is {{SAAS 1}} (using {{CONFIGURATION 1}}) more cost-effective than {{SAAS 2}} (using {{CONFIGURATION 2}})?",
+      "question": "For a team that needs to launching marketing campaigns on a daily basis, is MailChimp (using Premium plan) more cost-effective than Trustmary - Full (using Light plan)?",
+      "structure": {
+        "p_act": 0.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 0.5,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 0.6666666666666666
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 24,
+      "template": "For a team that needs to {{ACTION 1}} on a daily basis, is {{SAAS 1}} (using {{CONFIGURATION 1}}) more cost-effective than {{SAAS 2}} (using {{CONFIGURATION 2}})?",
+      "question": "For a team that needs to managing code repositories on a daily basis, is Jira (using Enterprise plan) more cost-effective than Wrike (using Enterprise plan)?",
+      "structure": {
+        "p_act": 0.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 0.5,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 0.6666666666666666
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 25,
+      "template": "Does {{CONFIGURATION 1}} of {{SAAS 1}} impose a strict limit regarding {{USAGE LIMIT 1}}, and what is the cost per unit if that limit is exceeded?",
+      "question": "Does Business plan of ClickUp impose a strict limit regarding use email in click up, and what is the cost per unit if that limit is exceeded?",
+      "structure": {
+        "p_act": 0.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 0.5,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 0.6666666666666666
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 26,
+      "template": "Does {{CONFIGURATION 1}} of {{SAAS 1}} impose a strict limit regarding {{USAGE LIMIT 1}}, and what is the cost per unit if that limit is exceeded?",
+      "question": "Does Enterprise plan of Clockify impose a strict limit regarding reports limit, and what is the cost per unit if that limit is exceeded?",
+      "structure": {
+        "p_act": 0.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 0.5,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 0.6666666666666666
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 27,
+      "template": "Does {{CONFIGURATION 1}} of {{SAAS 1}} impose a strict limit regarding {{USAGE LIMIT 1}}, and what is the cost per unit if that limit is exceeded?",
+      "question": "Does Business plan of Hypercontext impose a strict limit regarding meeting search, and what is the cost per unit if that limit is exceeded?",
+      "structure": {
+        "p_act": 0.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 0.5,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 0.6666666666666666
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 28,
+      "template": "Does {{CONFIGURATION 1}} of {{SAAS 1}} impose a strict limit regarding {{USAGE LIMIT 1}}, and what is the cost per unit if that limit is exceeded?",
+      "question": "Does Medium business plan of Buffer - Publish impose a strict limit regarding users limit, and what is the cost per unit if that limit is exceeded?",
+      "structure": {
+        "p_act": 0.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 0.5,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 0.6666666666666666
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 29,
+      "template": "Does {{CONFIGURATION 1}} of {{SAAS 1}} impose a strict limit regarding {{USAGE LIMIT 1}}, and what is the cost per unit if that limit is exceeded?",
+      "question": "Does Basic plan of Shopify impose a strict limit regarding api rate limits, and what is the cost per unit if that limit is exceeded?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 1.0,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 1.0
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 30,
+      "template": "How has the subscription cost for {{CONFIGURATION 1}} of {{SAAS 1}} changed between {{YEAR 1}} and {{YEAR 2}}, and were any new features added to justify the change?",
+      "question": "How has the subscription cost for Free plan of CircleCI - Cloud changed between 2022 and 2025, and were any new features added to justify the change?",
+      "structure": {
+        "p_act": 0.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 0.5,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 0.6666666666666666
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 31,
+      "template": "How has the subscription cost for {{CONFIGURATION 1}} of {{SAAS 1}} changed between {{YEAR 1}} and {{YEAR 2}}, and were any new features added to justify the change?",
+      "question": "How has the subscription cost for Starter plan of Trustmary - Collect changed between 2023 and 2024, and were any new features added to justify the change?",
+      "structure": {
+        "p_act": 0.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 0.5,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 0.6666666666666666
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 32,
+      "template": "How has the subscription cost for {{CONFIGURATION 1}} of {{SAAS 1}} changed between {{YEAR 1}} and {{YEAR 2}}, and were any new features added to justify the change?",
+      "question": "How has the subscription cost for Free plan of Pumble changed between 2021 and 2022, and were any new features added to justify the change?",
+      "structure": {
+        "p_act": 0.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 0.5,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 0.6666666666666666
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 33,
+      "template": "How has the subscription cost for {{CONFIGURATION 1}} of {{SAAS 1}} changed between {{YEAR 1}} and {{YEAR 2}}, and were any new features added to justify the change?",
+      "question": "How has the subscription cost for Enterprise plan of Trello changed between 2019 and 2020, and were any new features added to justify the change?",
+      "structure": {
+        "p_act": 0.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 0.5,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 0.6666666666666666
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 34,
+      "template": "How has the subscription cost for {{CONFIGURATION 1}} of {{SAAS 1}} changed between {{YEAR 1}} and {{YEAR 2}}, and were any new features added to justify the change?",
+      "question": "How has the subscription cost for Free plan of Planable changed between 2023 and 2024, and were any new features added to justify the change?",
+      "structure": {
+        "p_act": 0.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 0.5,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 0.6666666666666666
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 35,
+      "template": "Is it cheaper to purchase {{CONFIGURATION 1}} of {{SAAS 1}} and pay for {{FEATURE 1}} as an add-on, or is the all-inclusive {{CONFIGURATION 2}} a better deal?",
+      "question": "Is it cheaper to purchase Enterprise plan of Planable and pay for feed view as an add-on, or is the all-inclusive Enterprise plan a better deal?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 1.0,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 1.0
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 36,
+      "template": "Is it cheaper to purchase {{CONFIGURATION 1}} of {{SAAS 1}} and pay for {{FEATURE 1}} as an add-on, or is the all-inclusive {{CONFIGURATION 2}} a better deal?",
+      "question": "Is it cheaper to purchase Free plan of Jira and pay for Atlassian Access as an add-on, or is the all-inclusive Enterprise plan a better deal?",
+      "structure": {
+        "p_act": 0.0,
+        "r_act": 0.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 0.5,
+        "hierarchical_recall": 0.5,
+        "hierarchical_f1": 0.5
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 37,
+      "template": "Is it cheaper to purchase {{CONFIGURATION 1}} of {{SAAS 1}} and pay for {{FEATURE 1}} as an add-on, or is the all-inclusive {{CONFIGURATION 2}} a better deal?",
+      "question": "Is it cheaper to purchase Performance plan of CircleCI - Cloud and pay for silver premium support as an add-on, or is the all-inclusive Scale plan a better deal?",
+      "structure": {
+        "p_act": 0.5,
+        "r_act": 1.0,
+        "p_par": 0.5,
+        "r_par": 1.0,
+        "hierarchical_precision": 0.5,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 0.6666666666666666
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 38,
+      "template": "Is it cheaper to purchase {{CONFIGURATION 1}} of {{SAAS 1}} and pay for {{FEATURE 1}} as an add-on, or is the all-inclusive {{CONFIGURATION 2}} a better deal?",
+      "question": "Is it cheaper to purchase Free plan of Jira and pay for Atlassian Guard as an add-on, or is the all-inclusive Enterprise plan a better deal?",
+      "structure": {
+        "p_act": 0.5,
+        "r_act": 1.0,
+        "p_par": 0.5,
+        "r_par": 1.0,
+        "hierarchical_precision": 0.5,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 0.6666666666666666
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 39,
+      "template": "Is it cheaper to purchase {{CONFIGURATION 1}} of {{SAAS 1}} and pay for {{FEATURE 1}} as an add-on, or is the all-inclusive {{CONFIGURATION 2}} a better deal?",
+      "question": "Is it cheaper to purchase Enterprise plan of Box and pay for Box Zones as an add-on, or is the all-inclusive Enterprise plus plan a better deal?",
+      "structure": {
+        "p_act": 0.5,
+        "r_act": 1.0,
+        "p_par": 0.5,
+        "r_par": 1.0,
+        "hierarchical_precision": 0.5,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 0.6666666666666666
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 40,
+      "template": "Compare the total cost of ownership for {{ACTION 1}} between {{SAAS 1}} and {{SAAS 2}} when constrained to a budget range of {{PRICE 1}} to {{PRICE 2}} annually.",
+      "question": "Compare the total cost of ownership for sending 500 emails per month between Trustmary - Full Suite and MailChimp - Marketing when constrained to a budget range of $60 to $84 annually.",
+      "structure": {
+        "p_act": 0.5,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 0.6,
+        "hierarchical_precision": 0.75,
+        "hierarchical_recall": 0.8,
+        "hierarchical_f1": 0.7741935483870969
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 41,
+      "template": "Compare the total cost of ownership for {{ACTION 1}} between {{SAAS 1}} and {{SAAS 2}} when constrained to a budget range of {{PRICE 1}} to {{PRICE 2}} annually.",
+      "question": "Compare the total cost of ownership for using single sign-on between Trello and Wrike when constrained to a budget range of $144 to $312 annually.",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 1.0,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 1.0
+      },
+      "content": {
+        "accuracy": 0.6
+      }
+    },
+    {
+      "index": 42,
+      "template": "Compare the total cost of ownership for {{ACTION 1}} between {{SAAS 1}} and {{SAAS 2}} when constrained to a budget range of {{PRICE 1}} to {{PRICE 2}} annually.",
+      "question": "Compare the total cost of ownership for using SAML single sign-on between ClickUp and Notion when constrained to a budget range of $72 to $180 annually.",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 1.0,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 1.0
+      },
+      "content": {
+        "accuracy": 0.2
+      }
+    },
+    {
+      "index": 43,
+      "template": "Compare the total cost of ownership for {{ACTION 1}} between {{SAAS 1}} and {{SAAS 2}} when constrained to a budget range of {{PRICE 1}} to {{PRICE 2}} annually.",
+      "question": "Compare the total cost of ownership for integrating with Zapier between Buffer and Crowdcast when constrained to a budget range of $120 to $144 annually.",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 1.0,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 1.0
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 44,
+      "template": "Compare the total cost of ownership for {{ACTION 1}} between {{SAAS 1}} and {{SAAS 2}} when constrained to a budget range of {{PRICE 1}} to {{PRICE 2}} annually.",
+      "question": "Compare the total cost of ownership for storaging 3000 GB of data between Box and Dropbox when constrained to a budget range of $84 to $108 annually.",
+      "structure": {
+        "p_act": 0.5,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 0.6,
+        "hierarchical_precision": 0.75,
+        "hierarchical_recall": 0.8,
+        "hierarchical_f1": 0.7741935483870969
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 45,
+      "template": "For a startup prioritizing {{ACTION 1}}, which SaaS provider—{{SAAS 1}} or {{SAAS 2}}—offers the best path within a {{PRICE 1}} initial budget?",
+      "question": "For a startup prioritizing the access of more than 100 users, which SaaS provider—ClickUp or Box—offers the best path within a $187 initial budget?",
+      "structure": {
+        "p_act": 0.5,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 0.75,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 0.8571428571428571
+      },
+      "content": {
+        "accuracy": 0.75
+      }
+    },
+    {
+      "index": 46,
+      "template": "For a startup prioritizing {{ACTION 1}}, which SaaS provider—{{SAAS 1}} or {{SAAS 2}}—offers the best path within a {{PRICE 1}} initial budget?",
+      "question": "For a startup prioritizing having single sign-on, which SaaS provider—Trello or Wrike—offers the best path within a $129 initial budget?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 0.75,
+        "r_par": 0.75,
+        "hierarchical_precision": 0.875,
+        "hierarchical_recall": 0.875,
+        "hierarchical_f1": 0.875
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 47,
+      "template": "For a startup prioritizing {{ACTION 1}}, which SaaS provider—{{SAAS 1}} or {{SAAS 2}}—offers the best path within a {{PRICE 1}} initial budget?",
+      "question": "For a startup prioritizing commenting designs and canvases, which SaaS provider—Figma or Canva—offers the best path within a $137 initial budget?",
+      "structure": {
+        "p_act": 0.5,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 0.75,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 0.8571428571428571
+      },
+      "content": {
+        "accuracy": 0.75
+      }
+    },
+    {
+      "index": 48,
+      "template": "For a startup prioritizing {{ACTION 1}}, which SaaS provider—{{SAAS 1}} or {{SAAS 2}}—offers the best path within a {{PRICE 1}} initial budget?",
+      "question": "For a startup prioritizing integrating AI in every aspect of their work to improve productivity and their content, which SaaS provider—ClickUp or Deskera - ERP—offers the best path within a $152 initial budget?",
+      "structure": {
+        "p_act": 0.3333333333333333,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 0.6666666666666666,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 0.8
+      },
+      "content": {
+        "accuracy": 0.5
+      }
+    },
+    {
+      "index": 49,
+      "template": "For a startup prioritizing {{ACTION 1}}, which SaaS provider—{{SAAS 1}} or {{SAAS 2}}—offers the best path within a {{PRICE 1}} initial budget?",
+      "question": "For a startup prioritizing mobile access, which SaaS provider—Box or Quip—offers the best path within a $18 initial budget?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 1.0,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 1.0
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 50,
+      "template": "When {{FEATURE 1}} is mandatory, which option—{{SAAS 1}} or {{SAAS 2}}—minimizes cost-per-user below {{PRICE 1}}?",
+      "question": "When dedicated csm is mandatory, which option—HyperContext or ClickUp—minimizes cost-per-user below $91?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 1.0,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 1.0
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 51,
+      "template": "When {{FEATURE 1}} is mandatory, which option—{{SAAS 1}} or {{SAAS 2}}—minimizes cost-per-user below {{PRICE 1}}?",
+      "question": "When single sign on is mandatory, which option—Quip or ClickUp—minimizes cost-per-user below $186?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 1.0,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 1.0
+      },
+      "content": {
+        "accuracy": 0.75
+      }
+    },
+    {
+      "index": 52,
+      "template": "When {{FEATURE 1}} is mandatory, which option—{{SAAS 1}} or {{SAAS 2}}—minimizes cost-per-user below {{PRICE 1}}?",
+      "question": "When integrating slack is mandatory, which option—Notion or Box - Businesses—minimizes cost-per-user below $56?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 1.0,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 1.0
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 53,
+      "template": "When {{FEATURE 1}} is mandatory, which option—{{SAAS 1}} or {{SAAS 2}}—minimizes cost-per-user below {{PRICE 1}}?",
+      "question": "When single sign on is mandatory, which option—Evernote or Quip—minimizes cost-per-user below $26?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 1.0,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 1.0
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 54,
+      "template": "When {{FEATURE 1}} is mandatory, which option—{{SAAS 1}} or {{SAAS 2}}—minimizes cost-per-user below {{PRICE 1}}?",
+      "question": "When builtin automation is mandatory, which option—Trello or Deskera - ERP—minimizes cost-per-user below $104?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 1.0,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 1.0
+      },
+      "content": {
+        "accuracy": 0.75
+      }
+    },
+    {
+      "index": 55,
+      "template": "Can I have more than one account on the {{CONFIGURATION 1}}?",
+      "question": "Can I have more than one account on the Pro plan?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 1.0,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 1.0
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 56,
+      "template": "Can I have more than one account on the {{CONFIGURATION 1}}?",
+      "question": "Can I have more than one account on the Free plan?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 1.0,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 1.0
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 57,
+      "template": "Can I have more than one account on the {{CONFIGURATION 1}}?",
+      "question": "Can I have more than one account on the Standard plan?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 1.0,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 1.0
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 58,
+      "template": "Can I have more than one account on the {{CONFIGURATION 1}}?",
+      "question": "Can I have more than one account on the free plan?",
+      "structure": {
+        "p_act": 0.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 0.5,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 0.6666666666666666
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 59,
+      "template": "Can I have more than one account on the {{CONFIGURATION 1}}?",
+      "question": "Can I have more than one account on the Starter plan?",
+      "structure": {
+        "p_act": 0.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 0.5,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 0.6666666666666666
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 60,
+      "template": "Can the limit of {{USAGE LIMIT 1}} from {{CONFIGURATION 1}} be increased without changing the current plan?",
+      "question": "Can the limit of only for public repos from Free plan be increased without changing the current plan?",
+      "structure": {
+        "p_act": 0.0,
+        "r_act": 0.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 0.5,
+        "hierarchical_recall": 0.5,
+        "hierarchical_f1": 0.5
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 61,
+      "template": "Can the limit of {{USAGE LIMIT 1}} from {{CONFIGURATION 1}} be increased without changing the current plan?",
+      "question": "Can the limit of unhosted sites limit from Workspaces inhouse core plan be increased without changing the current plan?",
+      "structure": {
+        "p_act": 0.0,
+        "r_act": 0.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 0.5,
+        "hierarchical_recall": 0.5,
+        "hierarchical_f1": 0.5
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 62,
+      "template": "Can the limit of {{USAGE LIMIT 1}} from {{CONFIGURATION 1}} be increased without changing the current plan?",
+      "question": "Can the limit of yearly sales volume limit from Website cms plan be increased without changing the current plan?",
+      "structure": {
+        "p_act": 0.0,
+        "r_act": 0.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 0.5,
+        "hierarchical_recall": 0.5,
+        "hierarchical_f1": 0.5
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 63,
+      "template": "Can the limit of {{USAGE LIMIT 1}} from {{CONFIGURATION 1}} be increased without changing the current plan?",
+      "question": "Can the limit of unlimited suveys from Starter plan be increased without changing the current plan?",
+      "structure": {
+        "p_act": 0.0,
+        "r_act": 0.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 0.5,
+        "hierarchical_recall": 0.5,
+        "hierarchical_f1": 0.5
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 64,
+      "template": "Can the limit of {{USAGE LIMIT 1}} from {{CONFIGURATION 1}} be increased without changing the current plan?",
+      "question": "Can the limit of max users from Apps for business plan be increased without changing the current plan?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 0.5,
+        "r_par": 1.0,
+        "hierarchical_precision": 0.75,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 0.8571428571428571
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 65,
+      "template": "What is the most cost-effective configuration for {{YEAR 1}} and {{YEAR 2}} if I require {{FEATURE 1}} and {{FEATURE 2}}?",
+      "question": "What is the most cost-effective configuration for 2020 and 2025 if I require encryption in transit and at rest and user counts?",
+      "structure": {
+        "p_act": 0.5,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 0.75,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 0.8571428571428571
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 66,
+      "template": "What is the most cost-effective configuration for {{YEAR 1}} and {{YEAR 2}} if I require {{FEATURE 1}} and {{FEATURE 2}}?",
+      "question": "What is the most cost-effective configuration for 2019 and 2024 if I require premier support and super admin?",
+      "structure": {
+        "p_act": 0.5,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 0.75,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 0.8571428571428571
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 67,
+      "template": "What is the most cost-effective configuration for {{YEAR 1}} and {{YEAR 2}} if I require {{FEATURE 1}} and {{FEATURE 2}}?",
+      "question": "What is the most cost-effective configuration for 2023 and 2025 if I require secure storage and pci dss compliance?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 1.0,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 1.0
+      },
+      "content": {
+        "accuracy": 0.6666666666666666
+      }
+    },
+    {
+      "index": 68,
+      "template": "What is the most cost-effective configuration for {{YEAR 1}} and {{YEAR 2}} if I require {{FEATURE 1}} and {{FEATURE 2}}?",
+      "question": "What is the most cost-effective configuration for 2024 and 2025 if I require components release and concurrent job runs?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 1.0,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 1.0
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 69,
+      "template": "What is the most cost-effective configuration for {{YEAR 1}} and {{YEAR 2}} if I require {{FEATURE 1}} and {{FEATURE 2}}?",
+      "question": "What is the most cost-effective configuration for 2019 and 2020 if I require github integration and centralized billing and management?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 1.0,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 1.0
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 70,
+      "template": "If I want to do {{ACTION 1}} with a budget of {{PRICE 1}}, what is the most economical option between {{SAAS 1}} and {{SAAS 2}}?",
+      "question": "If I want to do live (in real time) customer support preferentially via chat with a budget of $186, what is the most economical option between Planable and MailChimp - Marketing?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 1.0,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 1.0
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 71,
+      "template": "If I want to do {{ACTION 1}} with a budget of {{PRICE 1}}, what is the most economical option between {{SAAS 1}} and {{SAAS 2}}?",
+      "question": "If I want to do some integrations through marketplace with a budget of $149, what is the most economical option between Buffer and MailChimp - Marketing?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 1.0,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 1.0
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 72,
+      "template": "If I want to do {{ACTION 1}} with a budget of {{PRICE 1}}, what is the most economical option between {{SAAS 1}} and {{SAAS 2}}?",
+      "question": "If I want to do part of the SaaS functionalities through API calls with a budget of $131, what is the most economical option between Box and Quip?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 1.0,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 1.0
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 73,
+      "template": "If I want to do {{ACTION 1}} with a budget of {{PRICE 1}}, what is the most economical option between {{SAAS 1}} and {{SAAS 2}}?",
+      "question": "If I want to do priority support with a budget of $43, what is the most economical option between Zenhub and Trello?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 1.0,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 1.0
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 74,
+      "template": "If I want to do {{ACTION 1}} with a budget of {{PRICE 1}}, what is the most economical option between {{SAAS 1}} and {{SAAS 2}}?",
+      "question": "If I want to do HIPAA compliance with a budget of $187, what is the most economical option between ClickUp and Box?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 1.0,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 1.0
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 75,
+      "template": "In {{SAAS 1}}, would it be possible to find all the configurations that include {{FEATURE 1}} but keep price within the range between {{PRICE 1}} and {{PRICE 2}}?",
+      "question": "In Zenhub, would it be possible to find all the configurations that include miro but keep price within the range between $31 and $84?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 1.0,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 1.0
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 76,
+      "template": "In {{SAAS 1}}, would it be possible to find all the configurations that include {{FEATURE 1}} but keep price within the range between {{PRICE 1}} and {{PRICE 2}}?",
+      "question": "In Clockify, would it be possible to find all the configurations that include targets and reminders but keep price within the range between $50 and $181?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 1.0,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 1.0
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 77,
+      "template": "In {{SAAS 1}}, would it be possible to find all the configurations that include {{FEATURE 1}} but keep price within the range between {{PRICE 1}} and {{PRICE 2}}?",
+      "question": "In Wrike, would it be possible to find all the configurations that include adobe creative cloud extension but keep price within the range between $88 and $160?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 1.0,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 1.0
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 78,
+      "template": "In {{SAAS 1}}, would it be possible to find all the configurations that include {{FEATURE 1}} but keep price within the range between {{PRICE 1}} and {{PRICE 2}}?",
+      "question": "In ClickUp, would it be possible to find all the configurations that include pulse live overview but keep price within the range between $109 and $115?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 1.0,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 1.0
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 79,
+      "template": "In {{SAAS 1}}, would it be possible to find all the configurations that include {{FEATURE 1}} but keep price within the range between {{PRICE 1}} and {{PRICE 2}}?",
+      "question": "In clockify, would it be possible to find all the configurations that include project access but keep price within the range between $60 and $143?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 1.0,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 1.0
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 80,
+      "template": "My company has a budget of {{PRICE 1}} and needs {{FEATURE 1}} with at least a usage limit of {{USAGE LIMIT 1}}. Which is the best configuration of {{SAAS 1}} that can offer this without exceeding the budget?",
+      "question": "My company has a budget of $13 and needs threads with at least a usage limit of 5 GB of file storage per user. Which is the best configuration of Pumble that can offer this without exceeding the budget?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 1.0,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 1.0
+      },
+      "content": {
+        "accuracy": 0.8
+      }
+    },
+    {
+      "index": 81,
+      "template": "My company has a budget of {{PRICE 1}} and needs {{FEATURE 1}} with at least a usage limit of {{USAGE LIMIT 1}}. Which is the best configuration of {{SAAS 1}} that can offer this without exceeding the budget?",
+      "question": "My company has a budget of $28 and needs 24/7support with at least a usage limit of 80% shipping discount rate. Which is the best configuration of Shopify that can offer this without exceeding the budget?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 1.0,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 1.0
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 82,
+      "template": "My company has a budget of {{PRICE 1}} and needs {{FEATURE 1}} with at least a usage limit of {{USAGE LIMIT 1}}. Which is the best configuration of {{SAAS 1}} that can offer this without exceeding the budget?",
+      "question": "My company has a budget of $175 and needs create and publish new data sources with at least a usage limit of 1 flow. Which is the best configuration of Tableau that can offer this without exceeding the budget?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 1.0,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 1.0
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 83,
+      "template": "My company has a budget of {{PRICE 1}} and needs {{FEATURE 1}} with at least a usage limit of {{USAGE LIMIT 1}}. Which is the best configuration of {{SAAS 1}} that can offer this without exceeding the budget?",
+      "question": "My company has a budget of $16 and needs two factor authentication with at least a usage limit of 1500 ideas. Which is the best configuration of Buffer that can offer this without exceeding the budget?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 1.0,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 1.0
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 84,
+      "template": "My company has a budget of {{PRICE 1}} and needs {{FEATURE 1}} with at least a usage limit of {{USAGE LIMIT 1}}. Which is the best configuration of {{SAAS 1}} that can offer this without exceeding the budget?",
+      "question": "My company has a budget of $93 and needs custom templates with at least a usage limit of 5 users. Which is the best configuration of Box - Businesses that can offer this without exceeding the budget?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 1.0,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 1.0
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 85,
+      "template": "Does the configuration {{CONFIGURATION 1}} of {{SAAS 1}} include {{FEATURE 1}}?",
+      "question": "Does the configuration Student plan of Overleaf include centralized billing and management?",
+      "structure": {
+        "p_act": 0.0,
+        "r_act": 0.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 0.5,
+        "hierarchical_recall": 0.5,
+        "hierarchical_f1": 0.5
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 86,
+      "template": "Does the configuration {{CONFIGURATION 1}} of {{SAAS 1}} include {{FEATURE 1}}?",
+      "question": "Does the configuration Free plan of Overleaf - Individual include priority support?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 0.5,
+        "r_par": 1.0,
+        "hierarchical_precision": 0.75,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 0.8571428571428571
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 87,
+      "template": "Does the configuration {{CONFIGURATION 1}} of {{SAAS 1}} include {{FEATURE 1}}?",
+      "question": "Does the configuration Ecommerce advanced plan of Webflow include billing permissions?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 0.5,
+        "r_par": 1.0,
+        "hierarchical_precision": 0.75,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 0.8571428571428571
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 88,
+      "template": "Does the configuration {{CONFIGURATION 1}} of {{SAAS 1}} include {{FEATURE 1}}?",
+      "question": "Does the configuration Pro plan of Pumble include share files and links?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 0.5,
+        "r_par": 1.0,
+        "hierarchical_precision": 0.75,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 0.8571428571428571
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 89,
+      "template": "Does the configuration {{CONFIGURATION 1}} of {{SAAS 1}} include {{FEATURE 1}}?",
+      "question": "Does the configuration Enterprise plan of Canva include onboarding incentives?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 0.5,
+        "r_par": 1.0,
+        "hierarchical_precision": 0.75,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 0.8571428571428571
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 90,
+      "template": "In {{SAAS 1}} there is {{FEATURE 1}}; is there a similar one in {{SAAS 2}}?",
+      "question": "In HyperContext there is markdown editor; is there a similar one in Notion?",
+      "structure": {
+        "p_act": 0.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 0.5,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 0.6666666666666666
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 91,
+      "template": "In {{SAAS 1}} there is {{FEATURE 1}}; is there a similar one in {{SAAS 2}}?",
+      "question": "In HyperContext there is admin reporting; is there a similar one in Trello?",
+      "structure": {
+        "p_act": 0.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 0.5,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 0.6666666666666666
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 92,
+      "template": "In {{SAAS 1}} there is {{FEATURE 1}}; is there a similar one in {{SAAS 2}}?",
+      "question": "In Figma there is password protection required; is there a similar one in Canva?",
+      "structure": {
+        "p_act": 0.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 0.5,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 0.6666666666666666
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 93,
+      "template": "In {{SAAS 1}} there is {{FEATURE 1}}; is there a similar one in {{SAAS 2}}?",
+      "question": "In Jira there is advanced permissions; is there a similar one in Trello?",
+      "structure": {
+        "p_act": 0.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 0.5,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 0.6666666666666666
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 94,
+      "template": "In {{SAAS 1}} there is {{FEATURE 1}}; is there a similar one in {{SAAS 2}}?",
+      "question": "In MailChimp - Marketing there is next best action; is there a similar one in Buffer?",
+      "structure": {
+        "p_act": 0.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 0.5,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 0.6666666666666666
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 95,
+      "template": "What is the maximum cost that {{SAAS 1}} can generate through a single subscription?",
+      "question": "What is the maximum cost that Canva can generate through a single subscription?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 1.0,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 1.0
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 96,
+      "template": "What is the maximum cost that {{SAAS 1}} can generate through a single subscription?",
+      "question": "What is the maximum cost that Jira can generate through a single subscription?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 1.0,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 1.0
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 97,
+      "template": "What is the maximum cost that {{SAAS 1}} can generate through a single subscription?",
+      "question": "What is the maximum cost that Dropbox can generate through a single subscription?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 1.0,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 1.0
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 98,
+      "template": "What is the maximum cost that {{SAAS 1}} can generate through a single subscription?",
+      "question": "What is the maximum cost that Notion can generate through a single subscription?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 1.0,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 1.0
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 99,
+      "template": "What is the maximum cost that {{SAAS 1}} can generate through a single subscription?",
+      "question": "What is the maximum cost that Box can generate through a single subscription?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 1.0,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 1.0
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 100,
+      "template": "Is it worth switching my current configuration {{CONFIGURATION 1}} of {{SAAS 1}} if my budget has gone from {{PRICE 1}} to {{PRICE 2}} and I need {{ACTION 1}}?",
+      "question": "Is it worth switching my current configuration Figma professional plan of Figma if my budget has gone from €15 to €183 and I need third party integrations?",
+      "structure": {
+        "p_act": 0.5,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 0.75,
+        "hierarchical_precision": 0.75,
+        "hierarchical_recall": 0.875,
+        "hierarchical_f1": 0.8076923076923077
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 101,
+      "template": "Is it worth switching my current configuration {{CONFIGURATION 1}} of {{SAAS 1}} if my budget has gone from {{PRICE 1}} to {{PRICE 2}} and I need {{ACTION 1}}?",
+      "question": "Is it worth switching my current configuration Starter plan of Box if my budget has gone from $15 to $150 and I need 50k api calls per month?",
+      "structure": {
+        "p_act": 0.5,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 0.75,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 0.8571428571428571
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 102,
+      "template": "Is it worth switching my current configuration {{CONFIGURATION 1}} of {{SAAS 1}} if my budget has gone from {{PRICE 1}} to {{PRICE 2}} and I need {{ACTION 1}}?",
+      "question": "Is it worth switching my current configuration Personal plan of Notion if my budget has gone from $0 to $60 and I need a manager for dedicated customer support?",
+      "structure": {
+        "p_act": 0.0,
+        "r_act": 0.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 0.5,
+        "hierarchical_recall": 0.5,
+        "hierarchical_f1": 0.5
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 103,
+      "template": "Is it worth switching my current configuration {{CONFIGURATION 1}} of {{SAAS 1}} if my budget has gone from {{PRICE 1}} to {{PRICE 2}} and I need {{ACTION 1}}?",
+      "question": "Is it worth switching my current configuration Free plan of MailChimp - Marketing if my budget has gone from $0 to $175 and I need to send transactional emails?",
+      "structure": {
+        "p_act": 0.5,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 0.75,
+        "hierarchical_precision": 0.75,
+        "hierarchical_recall": 0.875,
+        "hierarchical_f1": 0.8076923076923077
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 104,
+      "template": "Is it worth switching my current configuration {{CONFIGURATION 1}} of {{SAAS 1}} if my budget has gone from {{PRICE 1}} to {{PRICE 2}} and I need {{ACTION 1}}?",
+      "question": "Is it worth switching my current configuration Enterprise plan of Trello if my budget has gone from $20.83 to $22 and I need to deactivate employees who leave the company without deleting their data?",
+      "structure": {
+        "p_act": 0.5,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 0.75,
+        "hierarchical_precision": 0.75,
+        "hierarchical_recall": 0.875,
+        "hierarchical_f1": 0.8076923076923077
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 105,
+      "template": "Which configuration of {{SAAS 1}} is more worthwhile for me if my budget is {{PRICE 1}} and I need a usage limit higher than {{USAGE LIMIT 1}}?",
+      "question": "Which configuration of Evernote is more worthwhile for me if my budget is $174 and I need a usage limit higher than 25 MB/note?",
+      "structure": {
+        "p_act": 0.5,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 0.75,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 0.8571428571428571
+      },
+      "content": {
+        "accuracy": 0.75
+      }
+    },
+    {
+      "index": 106,
+      "template": "Which configuration of {{SAAS 1}} is more worthwhile for me if my budget is {{PRICE 1}} and I need a usage limit higher than {{USAGE LIMIT 1}}?",
+      "question": "Which configuration of Planable is more worthwhile for me if my budget is $133 and I need a usage limit higher than 3 user?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 1.0,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 1.0
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 107,
+      "template": "Which configuration of {{SAAS 1}} is more worthwhile for me if my budget is {{PRICE 1}} and I need a usage limit higher than {{USAGE LIMIT 1}}?",
+      "question": "Which configuration of Buffer is more worthwhile for me if my budget is $43 and I need a usage limit higher than 100 ideas?",
+      "structure": {
+        "p_act": 0.5,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 0.75,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 0.8571428571428571
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 108,
+      "template": "Which configuration of {{SAAS 1}} is more worthwhile for me if my budget is {{PRICE 1}} and I need a usage limit higher than {{USAGE LIMIT 1}}?",
+      "question": "Which configuration of Zenhub is more worthwhile for me if my budget is $145 and I need a usage limit higher than 250 github issues?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 1.0,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 1.0
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 109,
+      "template": "Which configuration of {{SAAS 1}} is more worthwhile for me if my budget is {{PRICE 1}} and I need a usage limit higher than {{USAGE LIMIT 1}}?",
+      "question": "Which configuration of Pumble is more worthwhile for me if my budget is $142 and I need a usage limit higher than 1 user in the same voicecall?",
+      "structure": {
+        "p_act": 0.5,
+        "r_act": 1.0,
+        "p_par": 0.8,
+        "r_par": 1.0,
+        "hierarchical_precision": 0.65,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 0.787878787878788
+      },
+      "content": {
+        "accuracy": 0.75
+      }
+    },
+    {
+      "index": 110,
+      "template": "Between {{YEAR 1}} and {{YEAR 2}}, has {{SAAS 1}} introduced configuration changes that help users with a lower budget?",
+      "question": "Between 2020 and 2021, has Clockify introduced configuration changes that help users with a lower budget?",
+      "structure": {
+        "p_act": 0.5,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 0.75,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 0.8571428571428571
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 111,
+      "template": "Between {{YEAR 1}} and {{YEAR 2}}, has {{SAAS 1}} introduced configuration changes that help users with a lower budget?",
+      "question": "Between 2022 and 2023, has Deskera introduced configuration changes that help users with a lower budget?",
+      "structure": {
+        "p_act": 0.0,
+        "r_act": 0.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 0.5,
+        "hierarchical_recall": 0.5,
+        "hierarchical_f1": 0.5
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 112,
+      "template": "Between {{YEAR 1}} and {{YEAR 2}}, has {{SAAS 1}} introduced configuration changes that help users with a lower budget?",
+      "question": "Between 2022 and 2023, has CircleCI - Cloud introduced configuration changes that help users with a lower budget?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 1.0,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 1.0
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 113,
+      "template": "Between {{YEAR 1}} and {{YEAR 2}}, has {{SAAS 1}} introduced configuration changes that help users with a lower budget?",
+      "question": "Between 2019 and 2020, has ClickUp introduced configuration changes that help users with a lower budget?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 1.0,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 1.0
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 114,
+      "template": "Between {{YEAR 1}} and {{YEAR 2}}, has {{SAAS 1}} introduced configuration changes that help users with a lower budget?",
+      "question": "Between 2020 and 2021, has Shopify introduced configuration changes that help users with a lower budget?",
+      "structure": {
+        "p_act": 0.5,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 0.75,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 0.8571428571428571
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 115,
+      "template": "For {{ACTION 1}}, is the {{USAGE LIMIT 1}} of {{CONFIGURATION 1}} of {{SAAS 1}} sufficient?",
+      "question": "For improving business efficiency, is the max collaborators per project of Student plan of Overleaf - Individual sufficient?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 0.25,
+        "r_par": 1.0,
+        "hierarchical_precision": 0.625,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 0.7692307692307693
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 116,
+      "template": "For {{ACTION 1}}, is the {{USAGE LIMIT 1}} of {{CONFIGURATION 1}} of {{SAAS 1}} sufficient?",
+      "question": "For improving business efficiency, is the non renewable credits of Performance plan of CircleCI - Cloud sufficient?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 1.0,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 1.0
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 117,
+      "template": "For {{ACTION 1}}, is the {{USAGE LIMIT 1}} of {{CONFIGURATION 1}} of {{SAAS 1}} sufficient?",
+      "question": "For tracking agenda items, is the {{USAGE LIMIT 1}} of Enterprise plan of HyperContext sufficient?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 1.0,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 1.0
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 118,
+      "template": "For {{ACTION 1}}, is the {{USAGE LIMIT 1}} of {{CONFIGURATION 1}} of {{SAAS 1}} sufficient?",
+      "question": "For managing team tasks, is the min number of users of Enterprise plan of Wrike sufficient?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 0.3333333333333333,
+        "r_par": 1.0,
+        "hierarchical_precision": 0.6666666666666666,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 0.8
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 119,
+      "template": "For {{ACTION 1}}, is the {{USAGE LIMIT 1}} of {{CONFIGURATION 1}} of {{SAAS 1}} sufficient?",
+      "question": "For optimizing supply chain, is the invoice and bills limit of Essential plan of Deskera sufficient?",
+      "structure": {
+        "p_act": 0.0,
+        "r_act": 0.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 0.5,
+        "hierarchical_recall": 0.5,
+        "hierarchical_f1": 0.5
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 120,
+      "template": "Which SaaS products offer {{FEATURE 1}}, {{FEATURE 2}} and {{FEATURE 3}}?",
+      "question": "Which SaaS products offer message formatting, embedded media in meetings and create and publish new workbook from new data sources?",
+      "structure": {
+        "p_act": 0.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 0.5,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 0.6666666666666666
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 121,
+      "template": "Which SaaS products offer {{FEATURE 1}}, {{FEATURE 2}} and {{FEATURE 3}}?",
+      "question": "Which SaaS products offer microsoft excel mobile app, managed users dashboard and m1medium mac os vm?",
+      "structure": {
+        "p_act": 0.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 0.5,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 0.6666666666666666
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 122,
+      "template": "Which SaaS products offer {{FEATURE 1}}, {{FEATURE 2}} and {{FEATURE 3}}?",
+      "question": "Which SaaS products offer comment on dashboard, reports spreadsheet and attachments?",
+      "structure": {
+        "p_act": 0.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 0.5,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 0.6666666666666666
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 123,
+      "template": "Which SaaS products offer {{FEATURE 1}}, {{FEATURE 2}} and {{FEATURE 3}}?",
+      "question": "Which SaaS products offer two factor authentication, crowdcast expert services and dedicated qbr?",
+      "structure": {
+        "p_act": 0.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 0.5,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 0.6666666666666666
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 124,
+      "template": "Which SaaS products offer {{FEATURE 1}}, {{FEATURE 2}} and {{FEATURE 3}}?",
+      "question": "Which SaaS products offer print shipping labels, agile reporting and google apps sign on?",
+      "structure": {
+        "p_act": 0.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 0.5,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 0.6666666666666666
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 125,
+      "template": "What is the best configuration among all these SaaS products for {{ACTION 1}}?",
+      "question": "What is the best configuration among all these SaaS products for customization of reports?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 1.0,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 1.0
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 126,
+      "template": "What is the best configuration among all these SaaS products for {{ACTION 1}}?",
+      "question": "What is the best configuration among all these SaaS products for priority support?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 1.0,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 1.0
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 127,
+      "template": "What is the best configuration among all these SaaS products for {{ACTION 1}}?",
+      "question": "What is the best configuration among all these SaaS products for using the SaaS via API?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 1.0,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 1.0
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 128,
+      "template": "What is the best configuration among all these SaaS products for {{ACTION 1}}?",
+      "question": "What is the best configuration among all these SaaS products for managing at least 100 users?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 1.0,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 1.0
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 129,
+      "template": "What is the best configuration among all these SaaS products for {{ACTION 1}}?",
+      "question": "What is the best configuration among all these SaaS products for having access to the app for iOS and Android?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 1.0,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 1.0
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 130,
+      "template": "For a team that needs the features {{FEATURE 1}} and {{FEATURE 2}} and with a a size of {{USAGE LIMIT 1}}, which configuration offers the best price?",
+      "question": "For a team that needs the features shareable links and surveys and with a a size 300 surveys, which configuration offers the best price?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 1.0,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 1.0
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 131,
+      "template": "For a team that needs the features {{FEATURE 1}} and {{FEATURE 2}} and with a a size of {{USAGE LIMIT 1}}, which configuration offers the best price?",
+      "question": "For a team that needs the features transfer analytics and pdf editing and with a a size of 10 templates, which configuration offers the best price?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 1.0,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 1.0
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 132,
+      "template": "For a team that needs the features {{FEATURE 1}} and {{FEATURE 2}} and with a a size of {{USAGE LIMIT 1}}, which configuration offers the best price?",
+      "question": "For a team that needs the features no code editor and premium apps and with a a size of 10 zaps, which configuration offers the best price?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 1.0,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 1.0
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 133,
+      "template": "For a team that needs the features {{FEATURE 1}} and {{FEATURE 2}} and with a a size of {{USAGE LIMIT 1}}, which configuration offers the best price?",
+      "question": "For a team that needs the features decimal format and unlimited projects and with a a size of 1000 reports, which configuration offers the best price?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 1.0,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 1.0
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 134,
+      "template": "For a team that needs the features {{FEATURE 1}} and {{FEATURE 2}} and with a a size of {{USAGE LIMIT 1}}, which configuration offers the best price?",
+      "question": "For a team that needs the features see data quality warnings and create new workbooks based on pre built dashboard starters and with a a size of 1 flow, which configuration offers the best price?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 1.0,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 1.0
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 135,
+      "template": "I have a maximum budget of {{PRICE 1}} per month. Which configuration provides the best features without exceeding this limit?",
+      "question": "I have a maximum budget of $38 per month. Which configuration provides the best features without exceeding this limit?",
+      "structure": {
+        "p_act": 0.5,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 0.75,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 0.8571428571428571
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 136,
+      "template": "I have a maximum budget of {{PRICE 1}} per month. Which configuration provides the best features without exceeding this limit?",
+      "question": "I have a maximum budget of $168 per month. Which configuration provides the best features without exceeding this limit?",
+      "structure": {
+        "p_act": 0.5,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 0.75,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 0.8571428571428571
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 137,
+      "template": "I have a maximum budget of {{PRICE 1}} per month. Which configuration provides the best features without exceeding this limit?",
+      "question": "I have a maximum budget of $193 per month. Which configuration provides the best features without exceeding this limit?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 1.0,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 1.0
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 138,
+      "template": "I have a maximum budget of {{PRICE 1}} per month. Which configuration provides the best features without exceeding this limit?",
+      "question": "I have a maximum budget of $81 per month. Which configuration provides the best features without exceeding this limit?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 1.0,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 1.0
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 139,
+      "template": "I have a maximum budget of {{PRICE 1}} per month. Which configuration provides the best features without exceeding this limit?",
+      "question": "I have a maximum budget of $152 per month. Which configuration provides the best features without exceeding this limit?",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 0.75,
+        "r_par": 1.0,
+        "hierarchical_precision": 0.875,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 0.9333333333333333
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 140,
+      "template": "I need to perform {{ACTION 1}}. Compare the prices of {{SAAS 1}} and {{SAAS 2}} to determine which is cheaper for this specific use.",
+      "question": "I need to perform contacting customer support via email. Compare the prices of Pumble and Crowdcast to determine which is cheaper for this specific use.",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 1.0,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 1.0
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 141,
+      "template": "I need to perform {{ACTION 1}}. Compare the prices of {{SAAS 1}} and {{SAAS 2}} to determine which is cheaper for this specific use.",
+      "question": "I need to perform the storage of 5 GB of data. Compare the prices of Jira and CircleCI - Cloud to determine which is cheaper for this specific use.",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 1.0,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 1.0
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 142,
+      "template": "I need to perform {{ACTION 1}}. Compare the prices of {{SAAS 1}} and {{SAAS 2}} to determine which is cheaper for this specific use.",
+      "question": "I need to perform real time collaboration between team members. Compare the prices of Overleaf and Notion to determine which is cheaper for this specific use.",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 1.0,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 1.0
+      },
+      "content": {
+        "accuracy": 0.75
+      }
+    },
+    {
+      "index": 143,
+      "template": "I need to perform {{ACTION 1}}. Compare the prices of {{SAAS 1}} and {{SAAS 2}} to determine which is cheaper for this specific use.",
+      "question": "I need to perform two factor authentication. Compare the prices of Wrike and Trello to determine which is cheaper for this specific use.",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 1.0,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 1.0
+      },
+      "content": {
+        "accuracy": 0.3333333333333333
+      }
+    },
+    {
+      "index": 144,
+      "template": "I need to perform {{ACTION 1}}. Compare the prices of {{SAAS 1}} and {{SAAS 2}} to determine which is cheaper for this specific use.",
+      "question": "I need to perform priority support for issues. Compare the prices of ClickUp and Trello to determine which is cheaper for this specific use.",
+      "structure": {
+        "p_act": 1.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 1.0,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 1.0
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 145,
+      "template": "What has been the price increase (in percentage or absolute terms) of {{CONFIGURATION 1}} from {{SAAS 1}} over the past 5 years ({{YEAR 1}}, {{YEAR 2}}, {{YEAR 3}}, {{YEAR 4}} and {{YEAR 5}})?",
+      "question": "What has been the price increase (in percentage or absolute terms) of Server plan from Pumble over the past 5 years (2021, 2022, 2023, 2024 and 2025)?",
+      "structure": {
+        "p_act": 0.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 0.5,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 0.6666666666666666
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 146,
+      "template": "What has been the price increase (in percentage or absolute terms) of {{CONFIGURATION 1}} from {{SAAS 1}} over the past 5 years ({{YEAR 1}}, {{YEAR 2}}, {{YEAR 3}}, {{YEAR 4}} and {{YEAR 5}})?",
+      "question": "What has been the price increase (in percentage or absolute terms) of Business plus plan from Box over the past 5 years (2019, 2020, 2021, 2022 and 2023)?",
+      "structure": {
+        "p_act": 0.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 0.5,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 0.6666666666666666
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 147,
+      "template": "What has been the price increase (in percentage or absolute terms) of {{CONFIGURATION 1}} from {{SAAS 1}} over the past 5 years ({{YEAR 1}}, {{YEAR 2}}, {{YEAR 3}}, {{YEAR 4}} and {{YEAR 5}})?",
+      "question": "What has been the price increase (in percentage or absolute terms) of Performance plan from CircleCI over the past 5 years (2019, 2020, 2021, 2022 and 2023)?",
+      "structure": {
+        "p_act": 0.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 0.5,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 0.6666666666666666
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 148,
+      "template": "What has been the price increase (in percentage or absolute terms) of {{CONFIGURATION 1}} from {{SAAS 1}} over the past 5 years ({{YEAR 1}}, {{YEAR 2}}, {{YEAR 3}}, {{YEAR 4}} and {{YEAR 5}})?",
+      "question": "What has been the price increase (in percentage or absolute terms) of Free plan from Canva over the past 5 years (2019, 2020, 2021, 2022 and 2023)?",
+      "structure": {
+        "p_act": 0.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 0.5,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 0.6666666666666666
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    },
+    {
+      "index": 149,
+      "template": "What has been the price increase (in percentage or absolute terms) of {{CONFIGURATION 1}} from {{SAAS 1}} over the past 5 years ({{YEAR 1}}, {{YEAR 2}}, {{YEAR 3}}, {{YEAR 4}} and {{YEAR 5}})?",
+      "question": "What has been the price increase (in percentage or absolute terms) of Viewer plan from Tableau over the past 5 years (2021, 2022, 2023, 2024 and 2025)?",
+      "structure": {
+        "p_act": 0.0,
+        "r_act": 1.0,
+        "p_par": 1.0,
+        "r_par": 1.0,
+        "hierarchical_precision": 0.5,
+        "hierarchical_recall": 1.0,
+        "hierarchical_f1": 0.6666666666666666
+      },
+      "content": {
+        "accuracy": 1.0
+      }
+    }
+  ]
+}

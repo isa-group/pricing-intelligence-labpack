@@ -1,0 +1,231 @@
+syntaxVersion: '2.1'
+saasName: Crowdcast
+createdAt: '2025-03-03'
+version: '2025'
+billing:
+  monthly: 1.0
+  annually: 0.7
+currency: USD
+url: https://web.archive.org/web/20250303191425/https://www.crowdcast.io/pricing
+features:
+  liveStreaming:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  transactionFee:
+    description: Charge a ticket price for your events. Choose a fixed price or sliding.
+      Create coupons to give discounts. For every ticket sold there is a 5% transaction
+      fee plus Stripe's processing fee of 2.9% + 30¢.
+    valueType: TEXT
+    defaultValue: 5%
+    type: DOMAIN
+  hdLiveVideoWithRecording:
+    description: Your event has the option to be recorded and the recording will
+      be available instantly for replay and download.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  multiSessionEvents:
+    description: Create events that have multiple sessions at different times.
+      This is great for creating live courses or online summits. Click here to
+      learn more about live courses on crowdcast.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  rtmpMode:
+    description: Broadcast from OBS, Wirecast, Ecamm Live & more. RTMP Mode lets you send
+      HD video from OBS, Wirecast, Ecamm Live and more to your crowdcast.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: MARKETPLACE
+  emailSupport:
+    description: Our general support hours are Monday to Friday, 9am to 5pm (PST, or UTC-8).
+      We will do our best to respond within 24 hours although our actual response times may
+      vary and take longer for more advanced or technical inquiries.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: SUPPORT
+  chatSupport:
+    description: Our general support hours are Monday to Friday, 9am to 5pm (PST, or UTC-8).
+      We will do our best to respond within 24 hours although our actual response times may
+      vary and take longer for more advanced or technical inquiries.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: SUPPORT
+  stripeIntegration:
+    description: Connect Stripe to your account to accept payment for paid events and in-event contributions.
+    valueType: TEXT
+    defaultValue:
+    - GATEWAY
+    type: PAYMENT
+  eventAnalytics:
+    description: See detailed conversion rates, referral info, performance metrics and
+      engagement metrics about your crowdcast.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INFORMATION
+  sessionAnalytics:
+    description: See detailed conversion rates, referral info, performance metrics and
+      engagement metrics about your crowdcast.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INFORMATION
+  zapierIntegration:
+    description: Connect to over 1,500 apps and CRM systems through Zapier.
+      Click here to a list of all the apps we support.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+    pricingUrls:
+    - https://zapier.com/pricing
+  exportEmailAddresses:
+    description: Export all emails, chat messages and data from attendees into a CSV.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  exportChat:
+    description: Export all emails, chat messages and data from attendees into a CSV.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  exportData:
+    description: Export all emails, chat messages and data from attendees into a CSV.
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  multistreaming:
+    description: Multistream your crowdcast stage to 3rd party sites like Facebook, Youtube, Twitch & more.
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  customRegistrationFields:
+    description: Add custom inputs to the registration form to collect additional data like phone numbers,
+      URLs, multiple choice questions, dates, and more.
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+usageLimits:
+  liveAttendeesLimit:
+    valueType: NUMERIC
+    defaultValue: 100
+    unit: attendee
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - liveStreaming
+  liveHoursPerMonthLimit:
+    valueType: NUMERIC
+    defaultValue: 10
+    unit: hour/month
+    type: RENEWABLE
+    linkedFeatures:
+    - liveStreaming
+  hostSeatsLimit:
+    valueType: NUMERIC
+    defaultValue: 1
+    unit: seat
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - liveStreaming
+  sessionsLimit:
+    valueType: NUMERIC
+    defaultValue: 2
+    unit: hour/session
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - liveStreaming
+  multistreamLocationsLimit:
+    valueType: NUMERIC
+    defaultValue: 0
+    unit: location
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - multistreaming
+plans:
+  LITE:
+    description: For creators and small businesses looking to grow their audience
+    price: 49
+    unit: /month
+    features: null
+    usageLimits: null
+  PRO:
+    description: For professional creators and businesses to consistently host live
+      video events
+    price: 89
+    unit: /month
+    features:
+      multistreaming:
+        value: true
+      customRegistrationFields:
+        value: true
+    usageLimits:
+      liveAttendeesLimit:
+        value: 250
+      liveHoursPerMonthLimit:
+        value: 20
+      hostSeatsLimit:
+        value: 2
+      multistreamLocationsLimit:
+        value: 1
+  BUSINESS:
+    description: For startups and companies looking to engage their customers
+    price: 195
+    unit: /month
+    features:
+      transactionFee:
+        value: 2%
+      multistreaming:
+        value: true
+      customRegistrationFields:
+        value: true
+    usageLimits:
+      liveAttendeesLimit:
+        value: 1000
+      liveHoursPerMonthLimit:
+        value: 40
+      hostSeatsLimit:
+        value: 4
+      sessionsLimit:
+        value: 6
+      multistreamLocationsLimit:
+        value: 3
+addOns:
+  LIVE_ATTENDEES_ADDON:
+    description: Live attendees are users who show up live during the event. You can have
+      unlimited users register for your event, you only pay for those who show up live.
+      You’ll be charged 15¢ per extra live attendee after your plan's attendee limit.
+      Need a custom plan? Schedule a demo below.
+    availableFor:
+    - LITE
+    - PRO
+    - BUSINESS
+    price: 0.15
+    unit: attendee
+    usageLimitsExtensions:
+      liveAttendeesLimit:
+        value: 1
+  STREAM_HOURS_ADDON:
+    description: Stream for up to 10 hours per month. Add extra hours as needed if you
+      use up all the hours in a month — $20 per extra 5 hrs.
+    availableFor:
+    - LITE
+    - PRO
+    - BUSINESS
+    price: 20
+    unit: hour/month
+    usageLimitsExtensions:
+      liveHoursPerMonthLimit:
+        value: 5
+  HOST_SEATS_ADDON:
+    description: Teammates added to your channel are able to manage and
+      produce your events. Add more seats for $29/seat.
+    availableFor:
+    - LITE
+    - PRO
+    - BUSINESS
+    price: 29
+    unit: host seat
+    usageLimitsExtensions:
+      hostSeatsLimit:
+        value: 1

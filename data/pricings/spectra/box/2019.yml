@@ -1,0 +1,535 @@
+syntaxVersion: '2.1'
+saasName: Box
+createdAt: '2019-11-14'
+version: '2019-11-14'
+billing:
+  monthly: 1.0
+currency: USD
+url: https://web.archive.org/web/20191114113543/https://www.box.com/pricing
+features:
+  secureStorage:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  accessAndDetailedControls:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  desktopAccessToBoxFiles:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  mobileAccess:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  versionHistory:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  sslEncryption:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  atRestEncryption:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  twoFactorAuthentication:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: MANAGEMENT
+  standardEnterpriseSupport:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: true
+    type: SUPPORT
+  userManagement:
+    description: User management
+    valueType: BOOLEAN
+    defaultValue: true
+    type: MANAGEMENT
+  boxApi:
+    description: API
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: API
+  advancedSecurityReporting:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: INFORMATION
+  advancedUserReporting:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: INFORMATION
+  activeDirectoryIntegration:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+  singleSignOn:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: INTEGRATION
+    integrationType: IDENTITY_PROVIDER
+  customBranding:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  mobileSecurityControls:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  emmIntegrations:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: INTEGRATION
+    integrationType: MARKETPLACE
+  dataLossPrevention:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: GUARANTEE
+  unlimitedExternalCollaborators:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  completeContentVisibility:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  completeContentManagement:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  userActivityTracking:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: AUTOMATION
+    automationType: TRACKING
+  adminRoleDelegation:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: MANAGEMENT
+  customMetadata:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  customTemplates:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  customTermsOfService:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  pciDssCompliance:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: GUARANTEE
+  boxGovernance:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: MANAGEMENT
+  boxKeySafe:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: GUARANTEE
+  boxZones:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  hipaaCompliance:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: GUARANTEE
+  hitechCompliance:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: GUARANTEE
+  fedrampCompliance:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: GUARANTEE
+  unlimitedIntegrations:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: INTEGRATION
+    integrationType: MARKETPLACE
+  usersGroup:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: MANAGEMENT
+  workAutomation:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: AUTOMATION
+    automationType: TASK_AUTOMATION
+  deviceTrust:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: INTEGRATION
+    integrationType: EXTERNAL_DEVICE
+  passwordPolicy:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: MANAGEMENT
+  documentWatermark:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  extraSupport:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: SUPPORT
+  boxEla:
+    description: ''
+    valueType: BOOLEAN
+    defaultValue: false
+    type: GUARANTEE
+usageLimits:
+  secureStorageLimit:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 100
+    unit: GB
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - secureStorage
+  uploadSizeLimit:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 2
+    unit: GB
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - secureStorage
+  minUsers:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 3
+    type: NON_RENEWABLE
+  maxUsers:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 10
+    type: NON_RENEWABLE
+  apiCallsLimit:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 25000
+    unit: calls/month
+    type: RENEWABLE
+    linkedFeatures:
+    - boxApi
+  usersPerAccount:
+    description: ''
+    valueType: NUMERIC
+    defaultValue: 3
+    type: NON_RENEWABLE
+plans:
+  STARTER:
+    description: ''
+    price: 15
+    unit: 3 users/month
+    features: null
+    usageLimits: null
+  BUSINESS:
+    description: ''
+    price: 45
+    unit: 3 users/month
+    features:
+      advancedSecurityReporting:
+        value: true
+      advancedUserReporting:
+        value: true
+      activeDirectoryIntegration:
+        value: true
+      singleSignOn:
+        value: true
+      customBranding:
+        value: true
+      mobileSecurityControls:
+        value: true
+      emmIntegrations:
+        value: true
+      dataLossPrevention:
+        value: true
+    usageLimits:
+      secureStorageLimit:
+        value: .inf
+      uploadSizeLimit:
+        value: 5
+      maxUsers:
+        value: .inf
+      apiCallsLimit:
+        value: 50000
+  BUSINESS_PLUS:
+    description: ''
+    price: 75
+    unit: 3 users/month
+    features:
+      advancedSecurityReporting:
+        value: true
+      advancedUserReporting:
+        value: true
+      activeDirectoryIntegration:
+        value: true
+      singleSignOn:
+        value: true
+      customBranding:
+        value: true
+      mobileSecurityControls:
+        value: true
+      emmIntegrations:
+        value: true
+      dataLossPrevention:
+        value: true
+      unlimitedExternalCollaborators:
+        value: true
+      completeContentVisibility:
+        value: true
+      completeContentManagement:
+        value: true
+      userActivityTracking:
+        value: true
+      adminRoleDelegation:
+        value: true
+      customMetadata:
+        value: true
+      customTemplates:
+        value: true
+      customTermsOfService:
+        value: true
+      pciDssCompliance:
+        value: true
+    usageLimits:
+      secureStorageLimit:
+        value: .inf
+      uploadSizeLimit:
+        value: 5
+      maxUsers:
+        value: .inf
+      apiCallsLimit:
+        value: 50000
+  ENTERPRISE:
+    description: ''
+    price: Contact Sales
+    unit: 3 users/month
+    features:
+      advancedSecurityReporting:
+        value: true
+      advancedUserReporting:
+        value: true
+      activeDirectoryIntegration:
+        value: true
+      singleSignOn:
+        value: true
+      customBranding:
+        value: true
+      mobileSecurityControls:
+        value: true
+      emmIntegrations:
+        value: true
+      dataLossPrevention:
+        value: true
+      unlimitedExternalCollaborators:
+        value: true
+      completeContentVisibility:
+        value: true
+      completeContentManagement:
+        value: true
+      customMetadata:
+        value: true
+      customTemplates:
+        value: true
+      hipaaCompliance:
+        value: true
+      hitechCompliance:
+        value: true
+      fedrampCompliance:
+        value: true
+      unlimitedIntegrations:
+        value: true
+      usersGroup:
+        value: true
+      workAutomation:
+        value: true
+      deviceTrust:
+        value: true
+      passwordPolicy:
+        value: true
+      documentWatermark:
+        value: true
+    usageLimits:
+      secureStorageLimit:
+        value: .inf
+      uploadSizeLimit:
+        value: 5
+      maxUsers:
+        value: .inf
+      apiCallsLimit:
+        value: 100000
+addOns:
+  boxGovernance:
+    description: Use Box Governance to implement data retention rules, support defensible
+      eDiscovery and enforce content security policies.
+    price: Contact Sales
+    unit: null
+    features:
+      boxGovernance:
+        value: true
+    usageLimits: null
+    availableFor:
+    - ENTERPRISE
+    dependsOn: []
+    excludes: []
+    usageLimitsExtensions: null
+  boxKeySafe:
+    description: Take independent control of encryption keys protecting your content
+      while preserving the usability and security capabilities of Box.
+    price: Contact Sales
+    unit: null
+    features:
+      boxKeySafe:
+        value: true
+    usageLimits: null
+    availableFor:
+    - ENTERPRISE
+    dependsOn: []
+    excludes: []
+    usageLimitsExtensions: null
+  boxZones:
+    description: Meet global regulatory requirements with in-region data storage options
+      with support for Europe, Asia, Australia, and Canada.
+    price: Contact Sales
+    unit: null
+    features:
+      boxZones:
+        value: true
+    usageLimits: null
+    availableFor:
+    - BUSINESS_PLUS
+    - ENTERPRISE
+    dependsOn: []
+    excludes: []
+    usageLimitsExtensions: null
+  extraSupport:
+    description: With expertise ranging from full-service support to custom implementations, we're dedicated to improving your Box experience and setting you up for long-term success.
+    price: Contact Sales
+    unit: null
+    features:
+      extraSupport:
+        value: true
+    usageLimits: null
+    availableFor:
+    - STARTER
+    - BUSINESS
+    - BUSINESS_PLUS
+    - ENTERPRISE
+    dependsOn: []
+    excludes: []
+    usageLimitsExtensions: null
+  boxEla:
+    description: A Box Enterprise License Agreement (ELA) can improve the security of your company's content and maximize the productivity of your workforce. Contact us to learn more about how your company can take full advantage of Box's reach and features.
+    price: Contact Sales
+    unit: null
+    features:
+      boxEla:
+        value: true
+    usageLimits: null
+    availableFor:
+    - ENTERPRISE
+    dependsOn: []
+    excludes: []
+    usageLimitsExtensions: null
+  extraUserStarter:
+    description: ''
+    price: 5
+    unit: user/month
+    features: null
+    usageLimits: null
+    usageLimitsExtensions:
+      usersPerAccount:
+        value: 1
+    availableFor:
+    - STARTER
+    dependsOn: []
+    excludes: []
+  extraUserBusiness:
+    description: ''
+    price: 15
+    unit: user/month
+    features: null
+    usageLimits: null
+    usageLimitsExtensions:
+      usersPerAccount:
+        value: 1
+    availableFor:
+    - BUSINESS
+    dependsOn: []
+    excludes: []
+  extraUserBusinessPlus:
+    description: ''
+    price: 25
+    unit: user/month
+    features: null
+    usageLimits: null
+    usageLimitsExtensions:
+      usersPerAccount: 
+        value: 1
+    availableFor:
+    - BUSINESS_PLUS
+    dependsOn: []
+    excludes: []
+  extraUserEnterprise:
+    description: ''
+    price: Contact Sales
+    unit: user/month
+    features: null
+    usageLimits: null
+    usageLimitsExtensions:
+      usersPerAccount:
+        value: 1
+    availableFor:
+    - ENTERPRISE
+    dependsOn: []
+    excludes: []

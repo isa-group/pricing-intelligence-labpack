@@ -1,0 +1,675 @@
+syntaxVersion: '2.1'
+saasName: Box - Businesses
+createdAt: '2025-02-26'
+version: '2025'
+billing:
+  monthly: 1.0
+  annual: 1.0
+currency: USD
+url: https://web.archive.org/web/20250226131158/https://www.box.com/pricing/
+features:
+  storage:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  enterpriseAppsIntegration:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: MARKETPLACE
+  versionHistory:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  unlimitedExternalCollaborators:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  boxApi:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: API
+  boxSign:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  boxSignViaWebApp:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  boxSignVia3rdParty:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  boxSignViaCustomApps:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  boxAIQ&ASingleDoc/Image:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: AUTOMATION
+    automationType: BOT
+  boxAITextGeneration:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: AUTOMATION
+    automationType: BOT
+  granularSharedPermissions:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: MANAGEMENT
+  accessControls:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: MANAGEMENT
+  microsoft365Integration:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+    pricingUrls:
+    - https://www.microsoft.com/en-us/microsoft-365/buy/compare-all-microsoft-365-products
+  googleWorkspaceIntegration:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+    pricingUrls:
+    - https://workspace.google.com/pricing
+  slackIntegration:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+    pricingUrls:
+    - https://slack.com/pricing
+  desktopAccess:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  mobileAccess:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  sslEncryption:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  atRestEncryption:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  twoFactorAuthentication:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: MANAGEMENT
+  standardBusinessSupport:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: SUPPORT
+  userManagement:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: MANAGEMENT
+  dataLossProtection:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: GUARANTEE
+  advancedUserReporting:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INFORMATION
+  advancedSecurityReporting:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INFORMATION
+  activeDirectoryIntegration:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+  singleSignOn:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: IDENTITY_PROVIDER
+  customBranding:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  mobileSecurityControls:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: DOMAIN
+  boxSignBoxRelayIntegration:
+    valueType: BOOLEAN
+    defaultValue: true
+    type: INTEGRATION
+    integrationType: WEB_SAAS
+  advancedAdmin:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: MANAGEMENT
+  advancedControls:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: MANAGEMENT
+  fullContentVisibility:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  fullContentManagement:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  fullUserActivityTracking:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: AUTOMATION
+    automationType: TRACKING
+  adminRoleDelegation:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: MANAGEMENT
+  metadata:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  customTemplates:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  customTermsOfService:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  pciDssCompliance:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: GUARANTEE
+  boxGovernance:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: MANAGEMENT
+  boxZones:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  boxKeySafe:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: GUARANTEE
+  boxShield:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: GUARANTEE
+  hipaaCompliance:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: GUARANTEE
+  hitechCompliance:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: GUARANTEE
+  fedrampCompliance:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: GUARANTEE
+  gxPComplianceWith21CfrPart11:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: GUARANTEE
+  unlimitedDLPintegrations:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: INTEGRATION
+    integrationType: MARKETPLACE
+  unlimitedeDiscovery:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: INTEGRATION
+    integrationType: MARKETPLACE
+  deviceTrust:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: INTEGRATION
+    integrationType: EXTERNAL_DEVICE
+  passwordPolicyEnforcement:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: MANAGEMENT
+  documentWatermark:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  boxHubs:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  boxAIQ&AforHubs:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  boxAIUnits:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  boxFormsWeb:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  boxFormsMobile:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  generateDocumentsNatively:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  generateDocumentsInSalesforce:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  docGenAPI:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: INTEGRATION
+    integrationType: API
+  noCodeAppsWithCustomDashboards:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: AUTOMATION
+    automationType: TASK_AUTOMATION
+  customBoxAIAgents:
+    valueType: BOOLEAN
+    defaultValue: false
+    type: AUTOMATION
+    automationType: BOT
+usageLimits:
+  storageLimit:
+    valueType: NUMERIC
+    defaultValue: .inf
+    unit: GB
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - storage
+  singleFileUploadLimit:
+    valueType: NUMERIC
+    defaultValue: 5
+    unit: GB
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - storage
+  enterpriseAppsIntegrationLimit:
+    valueType: NUMERIC
+    defaultValue: 1
+    unit: integration
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - enterpriseAppsIntegration
+  versionHistoryThreshold:
+    valueType: NUMERIC
+    defaultValue: 50
+    unit: day
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - versionHistory
+  minUsers:
+    valueType: NUMERIC
+    defaultValue: 3
+    type: NON_RENEWABLE
+  maxUsers:
+    valueType: NUMERIC
+    defaultValue: .inf
+    type: NON_RENEWABLE
+  apiCallsLimit:
+    valueType: NUMERIC
+    defaultValue: 50000
+    unit: calls/month
+    type: RENEWABLE
+    linkedFeatures:
+    - boxApi
+  boxSignLimit:
+    valueType: NUMERIC
+    defaultValue: .inf
+    unit: document/user/month
+    type: RENEWABLE
+    linkedFeatures:
+    - boxSignViaWebApp
+  includedDocumentsFor3rdParty:
+    valueType: NUMERIC
+    defaultValue: 100
+    unit: document
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - boxSignVia3rdParty
+  includedDocumentsForCustomApps:
+    valueType: NUMERIC
+    defaultValue: 100
+    unit: document
+    type: NON_RENEWABLE
+    linkedFeatures:
+    - boxSignViaCustomApps
+  boxAIUnitsLimit:
+    valueType: NUMERIC
+    defaultValue: 0
+    unit: unit/month
+    type: RENEWABLE
+    linkedFeatures:
+      - boxAIUnits
+  documentsGenerationLimit:
+    valueType: NUMERIC
+    defaultValue: 0
+    unit: document/call
+    type: NON_RENEWABLE
+    linkedFeatures:
+      - docGenAPI
+  customBoxAIAgentsLimit:
+    valueType: NUMERIC
+    defaultValue: 0
+    unit: document/call
+    type: NON_RENEWABLE
+    linkedFeatures:
+      - customBoxAIAgents
+plans:
+  BUSINESS:
+    price: 15
+    unit: user/month
+    features: null
+    usageLimits: null
+  BUSINESS_PLUS:
+    description: ''
+    price: 30
+    unit: user/month
+    features:
+      unlimitedExternalCollaborators:
+        value: true
+      advancedAdmin:
+        value: true
+      advancedControls:
+        value: true
+      fullContentVisibility:
+        value: true
+      fullContentManagement:
+        value: true
+      fullUserActivityTracking:
+        value: true
+      adminRoleDelegation:
+        value: true
+      metadata:
+        value: true
+      customTemplates:
+        value: true
+      customTermsOfService:
+        value: true
+      pciDssCompliance:
+        value: true
+    usageLimits:
+      singleFileUploadLimit:
+        value: 15
+      enterpriseAppsIntegrationLimit:
+        value: 10
+      includedDocumentsFor3rdParty:
+        value: 150
+      includedDocumentsForCustomApps:
+        value: 150
+  ENTERPRISE:
+    description: ''
+    price: 42
+    unit: user/month
+    features:
+      unlimitedExternalCollaborators:
+        value: true
+      advancedAdmin:
+        value: true
+      advancedControls:
+        value: true
+      fullContentVisibility:
+        value: true
+      fullContentManagement:
+        value: true
+      fullUserActivityTracking:
+        value: true
+      adminRoleDelegation:
+        value: true
+      metadata:
+        value: true
+      customTemplates:
+        value: true
+      customTermsOfService:
+        value: true
+      pciDssCompliance:
+        value: true
+      hipaaCompliance:
+        value: true
+      hitechCompliance:
+        value: true
+      fedrampCompliance:
+        value: true
+      unlimitedDLPintegrations:
+        value: true
+      unlimitedeDiscovery:
+        value: true
+      deviceTrust:
+        value: true
+      passwordPolicyEnforcement:
+        value: true
+      documentWatermark:
+        value: true
+      boxHubs:
+        value: true
+    usageLimits:
+      singleFileUploadLimit:
+        value: 50
+      enterpriseAppsIntegrationLimit:
+        value: .inf
+      versionHistoryThreshold:
+        value: 100
+      apiCallsLimit:
+        value: 100000
+      includedDocumentsFor3rdParty:
+        value: 250
+      includedDocumentsForCustomApps:
+        value: 250
+  ENTERPRISE_PLUS:
+    description: ''
+    price: Contact Sales
+    unit: user/month
+    features:
+      unlimitedExternalCollaborators:
+        value: true
+      advancedAdmin:
+        value: true
+      advancedControls:
+        value: true
+      fullContentVisibility:
+        value: true
+      fullContentManagement:
+        value: true
+      fullUserActivityTracking:
+        value: true
+      adminRoleDelegation:
+        value: true
+      metadata:
+        value: true
+      customTemplates:
+        value: true
+      customTermsOfService:
+        value: true
+      pciDssCompliance:
+        value: true
+      boxGovernance:
+        value: true
+      boxZones:
+        value: true
+      boxShield:
+        value: true
+      hipaaCompliance:
+        value: true
+      hitechCompliance:
+        value: true
+      fedrampCompliance:
+        value: true
+      unlimitedDLPintegrations:
+        value: true
+      unlimitedeDiscovery:
+        value: true
+      deviceTrust:
+        value: true
+      passwordPolicyEnforcement:
+        value: true
+      documentWatermark:
+        value: true
+      boxHubs:
+        value: true
+      boxAIQ&AforHubs:
+        value: true
+      boxAIUnits:
+        value: true
+    usageLimits:
+      singleFileUploadLimit:
+        value: 150
+      enterpriseAppsIntegrationLimit:
+        value: .inf
+      versionHistoryThreshold:
+        value: .inf
+      apiCallsLimit:
+        value: 100000
+      includedDocumentsFor3rdParty:
+        value: .inf
+      includedDocumentsForCustomApps:
+        value: 1000
+      boxAIUnitsLimit:
+        value: 2000
+  ENTERPRISE_ADVANCED:
+    price: Contact sales
+    features:
+      unlimitedExternalCollaborators:
+        value: true
+      advancedAdmin:
+        value: true
+      advancedControls:
+        value: true
+      fullContentVisibility:
+        value: true
+      fullContentManagement:
+        value: true
+      fullUserActivityTracking:
+        value: true
+      adminRoleDelegation:
+        value: true
+      metadata:
+        value: true
+      customTemplates:
+        value: true
+      customTermsOfService:
+        value: true
+      pciDssCompliance:
+        value: true
+      boxGovernance:
+        value: true
+      boxZones:
+        value: true
+      boxShield:
+        value: true
+      hipaaCompliance:
+        value: true
+      hitechCompliance:
+        value: true
+      fedrampCompliance:
+        value: true
+      unlimitedDLPintegrations:
+        value: true
+      unlimitedeDiscovery:
+        value: true
+      deviceTrust:
+        value: true
+      passwordPolicyEnforcement:
+        value: true
+      documentWatermark:
+        value: true
+      boxHubs:
+        value: true
+      boxAIQ&AforHubs:
+        value: true
+      boxAIUnits:
+        value: true
+      boxFormsWeb:
+        value: true
+      boxFormsMobile:
+        value: true
+      generateDocumentsNatively:
+        value: true
+      generateDocumentsInSalesforce:
+        value: true
+      docGenAPI:
+        value: true
+      noCodeAppsWithCustomDashboards:
+        value: true
+      customBoxAIAgents:
+        value: true
+    usageLimits:
+      singleFileUploadLimit:
+        value: 500
+      enterpriseAppsIntegrationLimit:
+        value: .inf
+      versionHistoryThreshold:
+        value: .inf
+      minUsers:
+        value: 35
+      apiCallsLimit:
+        value: 200000
+      includedDocumentsFor3rdParty:
+        value: .inf
+      includedDocumentsForCustomApps:
+        value: 2000
+      boxAIUnitsLimit:
+        value: 20000
+      documentsGenerationLimit:
+        value: 2000
+      customBoxAIAgentsLimit:
+        value: 100
+addOns:
+  BOX_GOVERNANCE:
+    availableFor:
+      - BUSINESS_PLUS
+      - ENTERPRISE
+    price: Contact Sales
+    features:
+      boxGovernance:
+        value: true
+  BOX_ZONES:
+    availableFor:
+      - BUSINESS_PLUS
+      - ENTERPRISE
+    price: Contact Sales
+    features:
+      boxZones:
+        value: true
+  BOX_KEYSAFE:
+    availableFor:
+      - BUSINESS_PLUS
+      - ENTERPRISE
+      - ENTERPRISE_PLUS
+      - ENTERPRISE_ADVANCED
+    price: Contact Sales
+    features:
+      boxKeySafe:
+        value: true
+  BOX_SHIELD:
+    availableFor:
+      - ENTERPRISE
+    price: Contact Sales
+    features:
+      boxShield:
+        value: true
+  GxP_Compliance_With_21_CFR_Part11:
+    price: Contact Sales
+    availableFor:
+      - ENTERPRISE_PLUS
+      - ENTERPRISE_ADVANCED
+    features:
+      gxPComplianceWith21CfrPart11:
+        value: true
